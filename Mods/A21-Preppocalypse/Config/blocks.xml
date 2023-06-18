@@ -14,7 +14,6 @@
 		<property name="Group" value="Building,advBuilding,Decor/Miscellaneous"/>
 	</append>
  	<append xpath="/blocks/block[@name='crushedCars01White']">
-		<property name="Group" value="Building,advBuilding,Decor/Miscellaneous"/>
 	<property class="RepairItems">
 		<property name="resourceScrapIron" value="70"/>
 	</property>
@@ -158,6 +157,18 @@
 	</append>
 
 	<append xpath="/blocks">
+	
+<block name="crushedCars01WhiteVariantHelper">
+	<property name="Extends" value="crushedCars01White"/>		
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="Basics,Food/Cooking,Building,advBuilding"/>
+	<property name="CustomIcon" value="crushedCars01White"/>
+	<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true"/>
+	<property name="Group" value="Building,advBuilding,Decor/Miscellaneous"/>
+	<property name="PlaceAltBlockValue" value="crushedCars01White,crushedCars01Brown,crushedCars01Red,crushedCars01Orange,crushedCars01Yellow,crushedCars01Green,crushedCars01Blue,crushedCars01Purple,crushedCars01Grey,crushedCars01Black,crushedCars01Pink,crushedCars02White,crushedCars02Brown,crushedCars02Red,crushedCars02Orange,crushedCars02Yellow,crushedCars02Green,crushedCars02Blue,crushedCars02Purple,crushedCars02Grey,crushedCars02Black,crushedCars02Pink"/>
+</block>
 	
 	<!-- Wood Burning Player Stove -->
 	
@@ -1062,7 +1073,7 @@
 	<property name="Shape" value="ModelEntity" />
 	<property name="OnlySimpleRotations" value="true"/>
 	<property name="Model" value="#@modfolder:Resources/OakTraps.unity3d?CactisTrap"/>
-	<property name="Group" value="Tools/Traps"/>	
+	<property name="Group" value="Building,advBuilding,Decor/Miscellaneous"/>
 	<property name="BuffsWhenWalkedOn" value="triggerBleeding"/>
 	<property name="CanPickup" value="true"/>
 	<property class="RepairItems">
@@ -1076,7 +1087,7 @@
 	<property name="Shape" value="ModelEntity" />
 	<property name="OnlySimpleRotations" value="true"/>
 	<property name="Model" value="#@modfolder:Resources/OakTraps.unity3d?TarTrap"/>
-	<property name="Group" value="Tools/Traps"/>	
+	<property name="Group" value="Building,advBuilding,Decor/Miscellaneous"/>	
 	<property name="BuffsWhenWalkedOn" value="buffTar"/>
 	<property name="CanPickup" value="true"/>
 	<property class="RepairItems">

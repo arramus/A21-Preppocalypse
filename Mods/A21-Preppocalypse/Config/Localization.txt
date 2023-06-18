@@ -228,6 +228,7 @@ glassClearBulletproofBlock,blocks,block,,,Clear Bulletproof Glass Block,,,,,,,,,
 glassClearBulletproofRamp,blocks,block,,,Clear Bulletproof Glass Ramp,,,,,,,,,,,,,
 glassClearBulletproofPlateCurved,blocks,block,,,Clear Bulletproof Glass Curved Plate,,,,,,,,,,,,,
 
+crushedCars01WhiteVariantHelper,blocks,Block,,,Prepper Crushed Car Defences,,,,,,,,,,,,,
 playerWoodBurningPrepperStove,blocks,Block,,,Wood Burning Prepper Stove,,,,,,,,,,,,,
 playerWoodBurningPrepperStoveDesc,blocks,Block,,,"This Wood Burning Prepper Stove provides an alternative cooking source to the campfire.",,,,,,,,,,,,,
 resourceCementMixerConcreteBundle,items,Item,,,Stack of Concrete Mix (1000),,,,,,,,,,,,,

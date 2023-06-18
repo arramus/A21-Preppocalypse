@@ -59,7 +59,7 @@
 		<ingredient name="resourceNail" count="6"/>
 	</recipe>
 	
-	<recipe name="crushedCars01White" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<recipe name="crushedCars01WhiteVariantHelper" count="1" craft_area="workbench" tags="workbenchCrafting">
 		<ingredient name="resourceScrapIron" count="250"/>
 	</recipe>
 	
