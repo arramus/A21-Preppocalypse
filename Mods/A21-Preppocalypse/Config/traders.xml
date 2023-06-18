@@ -1,0 +1,60 @@
+<Preppocalypse>
+
+	<!-- TRADERS -->
+
+	<setattribute xpath="//trader_info[@id='1']" name="open_time">4:05</setattribute>	<!-- Joel -->
+	<setattribute xpath="//trader_info[@id='2']" name="open_time">4:05</setattribute>	<!-- Jen -->
+	<setattribute xpath="//trader_info[@id='6']" name="open_time">4:05</setattribute>	<!-- Bob -->
+	<setattribute xpath="//trader_info[@id='7']" name="open_time">4:05</setattribute>	<!-- Hugh -->
+	<setattribute xpath="//trader_info[@id='8']" name="open_time">4:05</setattribute>	<!-- Rekt -->
+
+	<!-- farmingCookingRecipes -->
+	
+	<!--append xpath="/traders/trader_item_groups/trader_item_group[@name='farmingCookingRecipes']">
+		<item name="foodBaconAndEggsAndAcornBiscuitsSchematic"/>
+		<item name="foodPineConeJamGriddleCakesSchematic"/>
+		<item name="foodFriedCatfishSchematic"/>
+		<item name="foodCatfishNuggetsOnRiceSchematic"/>
+		<item name="foodMisoYakiOnigiriSchematic"/>
+		<item name="foodChickenStewSchematic"/>
+		<item name="foodMushroomRiceSchematic"/>
+		<item name="foodGritsAndBitsSchematic"/>		
+	</append-->
+	
+	<!-- preparedFood -->
+	
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='preparedFood']">
+		<item name="foodBaconAndEggsAndAcornBiscuits" count="1,2"/>
+		<item name="foodPineConeJamGriddleCakes" count="1,2"/>
+		<item name="foodFriedCatfish" count="1,2"/>
+		<item name="foodCatfishNuggetsOnRice" count="1,2"/>
+		<item name="foodMisoYakiOnigiri" count="1,2"/>
+		<item name="foodChickenStew" count="1,2"/>
+		<item name="foodMushroomRice" count="1,2"/>
+		<item name="foodGritsAndBits" count="1,2"/>		
+	</append>
+	
+	<!-- Group Ranged Mods -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupRangedMods']">
+		<item name="modWeaponMaintenance"/>	
+		<item name="modGunBowArrowGrip"/>		
+	</append>
+	
+	<!-- Group Armor Mods -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorMods']">
+		<item name="modArmorRunningShoesHP"/>		
+	</append>
+	
+	<!-- schematicsModsCommon -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsModsCommon']">
+		<item name="modWeaponMaintenanceSchematic"/>
+		<item name="modGunBowArrowGripSchematic"/>
+		<item name="modArmorRunningShoesHPSchematic"/>		
+	</append>
+	
+	<!-- *** Ranged_Weapons -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupRangedAll']">
+		<item name="gunRifleT2LeverActionRifleSwissVetterli" quality="3,6"/>		
+	</append>
+
+</Preppocalypse>

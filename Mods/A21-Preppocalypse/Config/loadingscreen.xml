@@ -1,0 +1,18 @@
+﻿<Preppocalypse>
+
+	<append xpath="/doc/tips">
+		<tip key="loadingTipPrepperVehicles"/>	
+		<tip key="loadingTipPrepperPOIs"/>
+		<tip key="loadingTipPrepperInvisibleDye"/>
+		<tip key="loadingTipPrepperOakMods"/>
+		<tip key="loadingTipPrepperRecipes"/>
+		<tip key="loadingTipPrepperCommunityMods"/>
+		<tip key="loadingTipPrepperWanderingHordes"/>
+		<tip key="loadingTipPrepperCustomMods"/>
+		<tip key="loadingTipPrepperToolsWeapons"/>
+		<tip key="loadingTipPrepperUltraTriathlete"/>
+		<tip key="loadingTipPrepperKnowledge"/>
+		<tip key="loadingTipPrepperTraps"/>		
+	</append>
+
+</Preppocalypse>

@@ -1,0 +1,1053 @@
+<Preppocalypse>
+
+<!-- *** BASIC_QUESTS -->
+
+	<set xpath="/quests/quest[@id='quest_BasicSurvival3']/objective[@type='FetchKeep']/@value">30</set>
+
+	<insertAfter xpath="/quests/quest[@id='quest_BasicSurvival3']/objective[@id='apparelPlantFiberPants']" >
+		<objective type="Craft" id="apparelPlantFiberShirt" value="1" phase="2"/>
+		<objective type="Craft" id="apparelPlantFiberHood" value="1" phase="2"/>
+		<objective type="Craft" id="apparelPlantFiberShoes" value="1" phase="2"/>
+		<objective type="Craft" id="apparelPlantFiberGloves" value="1" phase="2"/>
+	</insertAfter>
+
+	<insertAfter xpath="/quests/quest[@id='quest_BasicSurvival4']/objective[@id='apparelPlantFiberPants']" >
+		<objective type="Wear" id="apparelPlantFiberShirt"/>
+		<objective type="Wear" id="apparelPlantFiberHood"/>
+		<objective type="Wear" id="apparelPlantFiberHood"/>
+		<objective type="Wear" id="apparelPlantFiberShoes"/>
+		<objective type="Wear" id="apparelPlantFiberGloves"/>
+	</insertAfter>
+	
+	<set xpath="/quests/quest[@id='quest_BasicSurvival6']">
+		<property name="group_name_key" value="quest_BasicSurvival"/>
+		<property name="name_key" value="quest_BasicSurvival6"/>
+		<property name="subtitle_key" value="quest_BasicSurvival6_subtitle"/>
+		<property name="description_key" value="quest_BasicSurvival6_description"/>
+		<property name="icon" value="ui_game_symbol_archery"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="resourceWood" value="15" phase="1">
+			<modifier type="TrackBlocks">
+				<property name="block_index_name" value="quest_wood"/>
+				<property name="nav_object" value="quest_resource"/>
+				<property name="track_distance" value="20"/>
+			</modifier>
+		</objective>
+		<objective type="FetchKeep" id="resourceYuccaFibers" value="3" phase="1"/>
+		<objective type="FetchKeep" id="resourceFeather" value="5" phase="1">
+			<modifier type="TrackBlocks">
+				<property name="block_index_name" value="quest_feather"/>
+				<property name="nav_object" value="quest_resource"/>
+				<property name="track_distance" value="20"/>
+			</modifier>
+		</objective>
+		<objective type="FetchKeep" id="resourceRockSmall" value="5" phase="1">
+			<modifier type="TrackBlocks">
+				<property name="block_index_name" value="quest_stone"/>
+				<property name="nav_object" value="quest_resource"/>
+				<property name="track_distance" value="20"/>
+			</modifier>
+		</objective>
+		<objective type="Craft" id="gunBowT0PrimitiveBow" value="1" phase="2"/>
+		<objective type="Craft" id="ammoArrowStone" value="5" phase="2"/>
+
+		<reward type="Quest" id="quest_whiteRiverCitizen1">
+			<property name="chainquest" value="false"/>
+		</reward>
+		<reward type="SkillPoints" value="7" chainreward="true"/>
+	</set>
+	
+ 	<append xpath="/quests">
+	
+	<!-- CUSTOM QUESTS -->
+	
+	<!-- Prepper Stockpile Part 1 -->
+	<!-- Cooking Basics 1 -->	
+	<quest id="quest_prepperstockpile01">
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 1. Begin by getting some cooking basics in place." />
+		<property name="name_key" value="Campfire"/>
+		<property name="subtitle_key" value="Prepper Stockpile Part 1"/>
+		<property name="description_key" value="Collect some stone, craft a Campfire, and place it for use."/>
+		<property name="icon" value="ui_game_symbol_food"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="resourceRockSmall" value="5" phase="1"/>
+		<objective type="Craft">
+			<property name="phase" value="2"/>
+			<property name="item" value="campfire"/>
+			<property name="count" value="1"/>
+		</objective>
+		
+		<objective type="BlockPlace" id="campfire" value="1" phase="2"/>
+
+		<reward type="Exp" value="500"/>
+		<reward type="Quest" id="quest_prepperstockpile02"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 1 -->
+	<!-- Cooking Basics 2 -->	
+	<quest id="quest_prepperstockpile02">
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 1. Begin by getting some cooking basics in place." />
+		<property name="name_key" value="Cooking Pot Party"/>
+		<property name="subtitle_key" value="Prepper Stockpile Part 1"/>
+		<property name="description_key" value="Acquire a Cooking Pot for your Campfire, and ingredients to make Bacon and Eggs with Biscuits."/>
+		<property name="icon" value="ui_game_symbol_food"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="toolCookingPot" value="1" phase="1"/>
+		<objective type="FetchKeep" id="foodRawMeat" value="25" phase="1"/>		
+		<objective type="FetchKeep" id="foodEgg" value="15" phase="1"/>
+		
+		<reward type="Exp" value="500"/>
+		<reward type="Quest" id="quest_prepperstockpile03"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 1 -->
+	<!-- Cooking Basics 3 -->	
+	<quest id="quest_prepperstockpile03">
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 1. Begin by getting some cooking basics in place." />
+		<property name="name_key" value="Acorn Flour"/>
+		<property name="subtitle_key" value="Prepper Stockpile Part 1"/>
+		<property name="description_key" value="Make 5 Acorn Flour in preparation for Acorn Biscuits."/>
+		<property name="icon" value="ui_game_symbol_food"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="treePlantedOak1m" value="25" phase="1"/>		
+		<objective type="Craft">
+			<property name="phase" value="2"/>
+			<property name="item" value="foodAcornFlour"/>
+			<property name="count" value="5"/>
+		</objective>
+		
+		<reward type="Exp" value="500"/>
+		<reward type="Quest" id="quest_prepperstockpile04"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 1 -->
+	<!-- Cooking Basics 4 -->	
+	<quest id="quest_prepperstockpile04">
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 1. Begin by getting some cooking basics in place." />
+		<property name="name_key" value="Acorn Biscuits"/>
+		<property name="subtitle_key" value="Prepper Stockpile Part 1"/>
+		<property name="description_key" value="Make 5 Acorn Biscuits in preparation for Bacon and Eggs with Biscuits."/>
+		<property name="icon" value="ui_game_symbol_food"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="shareable" value="false"/>
+	
+		<objective type="FetchKeep" id="foodAcornBiscuits" value="5" phase="1"/>
+		
+		<reward type="Exp" value="500"/>
+		<reward type="Quest" id="quest_prepperstockpile05"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 1 -->
+	<!-- Cooking Basics 5 -->	
+	<quest id="quest_prepperstockpile05">
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 1. Begin by getting some cooking basics in place." />
+		<property name="name_key" value="Bacon and Eggs with Biscuits"/>
+		<property name="subtitle_key" value="Prepper Stockpile Part 1"/>
+		<property name="description_key" value="Unlock and cook Bacon and Eggs with Biscuits. Place 5 Bacon and Eggs with Biscuits into your inventory. This preparation task gives you some surplus while you loot, shoot, and continue your preparation tasks. Receive XP, 1 Skill Point and a Cooking Grill for your efforts. Continue to Part 2."/>
+		<property name="icon" value="ui_game_symbol_food"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="foodBaconAndEggsAndAcornBiscuits" value="5" phase="1"/>
+
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+		<reward type="Item" id="toolCookingGrill" value="1"/>		
+		<reward type="Exp" value="1000"/>
+		<reward type="Quest" id="quest_prepperstockpile06"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 2 -->
+	<!-- Weapons 1 -->	
+	<quest id="quest_prepperstockpile06">
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 2. Collect a Wrench, some Pipe weapons, and Ammo resources." />
+		<property name="name_key" value="Wrench"/>
+		<property name="subtitle_key" value="Prepper Stockpile Part 2"/>
+		<property name="description_key" value="Unlock and craft a Wrench. You may also loot or purchase one. Place a Wrench into your inventory."/>
+		<property name="icon" value="ui_game_symbol_gunslinger"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="meleeToolSalvageT1Wrench" value="1" phase="1"/>
+
+		<reward type="Exp" value="750"/>
+		<reward type="Quest" id="quest_prepperstockpile07"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 2 -->
+	<!-- Weapons 2 -->	
+	<quest id="quest_prepperstockpile07">
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 2. Collect a Wrench, some Pipe weapons, and Ammo resources." />
+		<property name="name_key" value="Pipe Weapons"/>
+		<property name="subtitle_key" value="Prepper Stockpile Part 2"/>
+		<property name="description_key" value="Craft, loot, or purchase a Pipe Pistol, Pipe Machine Gun, Pipe Rifle, and Pipe Shotgun and place into your inventory. The Wrench will assist in collecting recipe resources."/>
+		<property name="icon" value="ui_game_symbol_gunslinger"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="gunHandgunT0PipePistol" value="1" phase="1"/>
+		<objective type="FetchKeep" id="gunMGT0PipeMachineGun" value="1" phase="1"/>
+		<objective type="FetchKeep" id="gunRifleT0PipeRifle" value="1" phase="1"/>
+		<objective type="FetchKeep" id="gunShotgunT0PipeShotgun" value="1" phase="1"/>
+
+		<reward type="Exp" value="750"/>
+		<reward type="Quest" id="quest_prepperstockpile08"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 2 -->
+	<!-- Weapons 3 -->	
+	<quest id="quest_prepperstockpile08">
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 2. Collect a Wrench, some Pipe weapons, and Ammo resources." />
+		<property name="name_key" value="Gunpowder"/>
+		<property name="subtitle_key" value="Prepper Stockpile Part 2"/>
+		<property name="description_key" value="Collect some Coal and Potassium Nitrate Powder to make 50 Gunpowder on your person."/>
+		<property name="icon" value="ui_game_symbol_gunslinger"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="resourceCoal" value="100" phase="1"/>
+		<objective type="FetchKeep" id="resourcePotassiumNitratePowder" value="100" phase="1"/>		
+		<objective type="Craft">
+			<property name="phase" value="2"/>
+			<property name="item" value="resourceGunPowder"/>
+			<property name="count" value="50"/>
+		</objective>
+		
+		<reward type="Exp" value="750"/>
+		<reward type="Quest" id="quest_prepperstockpile09"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 2 -->
+	<!-- Weapons 4 -->	
+	<quest id="quest_prepperstockpile09">
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 2. Collect a Wrench, some Pipe weapons, and Ammo resources." />
+		<property name="name_key" value="Iron Arrows"/>
+		<property name="subtitle_key" value="Prepper Stockpile Part 2"/>
+		<property name="description_key" value="Unlock a Forge to craft 50 Iron Arrowheads. You may also loot or purchase them. Use 50 Iron Arrowheads, Wood, and Feathers to make 50 Iron Arrows on your person."/>
+		<property name="icon" value="ui_game_symbol_gunslinger"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="resourceArrowHeadIron" value="50" phase="1"/>
+		<objective type="FetchKeep" id="resourceWood" value="50" phase="1"/>
+		<objective type="FetchKeep" id="resourceFeather" value="50" phase="1"/>		
+		<objective type="Craft">
+			<property name="phase" value="2"/>
+			<property name="item" value="ammoArrowIron"/>
+			<property name="count" value="50"/>
+		</objective>
+	
+		<reward type="Exp" value="750"/>
+		<reward type="Quest" id="quest_prepperstockpile10"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 2 -->
+	<!-- Weapons 5 -->	
+	<quest id="quest_prepperstockpile10">
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 2. Collect a Wrench, some Pipe weapons, and Ammo resources." />
+		<property name="name_key" value="Stone Spear"/>
+		<property name="subtitle_key" value="Prepper Stockpile Part 2"/>
+		<property name="description_key" value="Craft a Stone Spear. It helps to keep hostiles at a distance, especially when health is low. Receive XP, 1 Skill Point, and a Weapon Maintenance Mod as a reward. Continue to Part 3."/>
+		<property name="icon" value="ui_game_symbol_gunslinger"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="resourceRockSmall" value="5" phase="1"/>
+		<objective type="FetchKeep" id="resourceYuccaFibers" value="3" phase="1"/>
+		<objective type="FetchKeep" id="resourceWood" value="3" phase="1"/>		
+		<objective type="Craft">
+			<property name="phase" value="2"/>
+			<property name="item" value="meleeWpnSpearT0StoneSpear"/>
+			<property name="count" value="1"/>
+		</objective>
+
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+		<reward type="Item" id="modWeaponMaintenance" value="1"/>		
+		<reward type="Exp" value="1500"/>
+		<reward type="Quest" id="quest_prepperstockpile11"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 3 -->
+	<!-- Tools and Traps 1 -->
+	<quest id="quest_prepperstockpile11">
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 3. Craft and place a Workbench, followed by Farm Plots, a Coop and Hive, and then Traps." />
+		<property name="name_key" value="Workbench"/>
+		<property name="subtitle_key" value="Prepper Stockpile Part 3"/>
+		<property name="description_key" value="Unlock a Workbench. Craft and place it."/>
+		<property name="icon" value="ui_game_symbol_workbench"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="resourceForgedIron" value="25" phase="1"/>
+		<objective type="FetchKeep" id="resourceMechanicalParts" value="20" phase="1"/>
+		<objective type="FetchKeep" id="resourceDuctTape" value="5" phase="1"/>
+		<objective type="FetchKeep" id="resourceNail" value="100" phase="1"/>
+		<objective type="FetchKeep" id="resourceWood" value="100" phase="1"/>		
+		<objective type="Craft">
+			<property name="phase" value="2"/>
+			<property name="item" value="workbench"/>
+			<property name="count" value="1"/>
+		</objective>
+		
+		<objective type="BlockPlace" id="workbench" value="1" phase="2"/>
+
+		<reward type="Exp" value="1000"/>
+		<reward type="Quest" id="quest_prepperstockpile12"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 3 -->
+	<!-- Tools and Traps 2 -->	
+	<quest id="quest_prepperstockpile12">
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 3. Craft and place a Workbench, followed by Farm Plots, a Coop and Hive, and then Traps." />
+		<property name="name_key" value="Quality of Life"/>
+		<property name="subtitle_key" value="Prepper Stockpile Part 3"/>
+		<property name="description_key" value="Craft and place a Chicken Coop, Bee Hive, 4 Farm Plots, Wood Burning Prepper Stove, and Fish Trap. Ensure you place the correct types."/>
+		<property name="icon" value="ui_game_symbol_workbench"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="BlockPlace" id="WoodCoopEmpty" value="1" phase="1"/>
+		<objective type="BlockPlace" id="SquareHiveEmpty" value="1" phase="1"/>
+		<objective type="BlockPlace" id="farmPlotBlockPlayer" value="4" phase="1"/>
+		<objective type="BlockPlace" id="playerWoodBurningPrepperStove" value="1" phase="1"/>
+		<objective type="BlockPlace" id="FishTrapEmpty" value="1" phase="1"/>
+
+		<reward type="Exp" value="1000"/>
+		<reward type="Quest" id="quest_prepperstockpile13"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 3 -->
+	<!-- Tools and Traps 3 -->
+	<quest id="quest_prepperstockpile13">
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 3. Craft and place a Workbench, followed by Farm Plots, a Coop and Hive, and then Traps." />
+		<property name="name_key" value="Chicks, Queens, and Bait"/>
+		<property name="subtitle_key" value="Prepper Stockpile Part 3"/>
+		<property name="description_key" value="Find 2 Caught Chicks from Birds' Nests, and 1 Queen Bee from a Tree. Craft Bait for the Fish Trap. Add them to the Coop, Hive, and Fish Trap when ready."/>
+		<property name="icon" value="ui_game_symbol_workbench"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="CaughtChick" value="2" phase="1"/>
+		<objective type="FetchKeep" id="QueenBee" value="1" phase="1"/>
+		<objective type="FetchKeep" id="resourceFishBait" value="1" phase="1"/>
+
+
+		<reward type="Exp" value="1000"/>
+		<reward type="Quest" id="quest_prepperstockpile14"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 3 -->
+	<!-- Tools and Traps 4 -->	
+	<quest id="quest_prepperstockpile14">
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 3. Craft and place a Workbench, followed by Farm Plots, a Coop and Hive, and then Traps." />
+		<property name="name_key" value="Traps"/>
+		<property name="subtitle_key" value="Prepper Stockpile Part 3"/>
+		<property name="description_key" value="Craft and place 2 Tar Traps and 1 Cactus Trap with the Workbench."/>
+		<property name="icon" value="ui_game_symbol_workbench"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="BlockPlace" id="TarTrap" value="2" phase="1"/>
+		<objective type="BlockPlace" id="CactusTrap" value="1" phase="1"/>
+
+		<reward type="Exp" value="1000"/>
+		<reward type="Quest" id="quest_prepperstockpile15"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 3 -->
+	<!-- Tools and Traps 5 -->
+	<quest id="quest_prepperstockpile15">
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 3. Craft and place a Workbench, followed by Farm Plots, a Coop and Hive, and then Traps." />
+		<property name="name_key" value="Chicken, Honey Comb, and Catfish"/>
+		<property name="subtitle_key" value="Prepper Stockpile Part 3"/>
+		<property name="description_key" value="Farm 3 Grown Domestic Chickens, 15 Honey Comb, and 1 Catfish. Receive XP, 1 Skill Point, and a Bunker Buster Mod as a reward. Continue to Part 4."/>
+		<property name="icon" value="ui_game_symbol_workbench"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="GrownChicken" value="3" phase="1"/>
+		<objective type="FetchKeep" id="foodHoneyComb" value="15" phase="1"/>
+		<objective type="FetchKeep" id="resourceCatfish" value="1" phase="1"/>
+
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+		<reward type="Item" id="modMeleeBunkerBuster" value="1"/>
+		<reward type="Exp" value="2000"/>
+		<reward type="Quest" id="quest_prepperstockpile16"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 4 -->
+	<!-- Fuel 1 -->
+	<quest id="quest_prepperstockpile16">
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 4. Mine for Oil Shale, and convert to Gas Cans and Drill Gas Cans on the Chemistry Station. Craft, place, and power up a Prepper Rock Drill to collect additional mining resources." />
+		<property name="name_key" value="Oil Shale"/>
+		<property name="subtitle_key" value="Prepper Stockpile Part 4"/>
+		<property name="description_key" value="Mine 1000 Oil Shale from the Desert Biome in preparation for converting to fuel."/>
+		<property name="icon" value="ui_game_symbol_gas"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="resourceOilShale" value="1000" phase="1"/>
+
+		<reward type="Exp" value="1250"/>
+		<reward type="Quest" id="quest_prepperstockpile17"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 4 -->
+	<!-- Fuel 2 -->	
+	<quest id="quest_prepperstockpile17">
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 4. Mine for Oil Shale, and convert to Gas Cans and Drill Gas Cans on the Chemistry Station. Craft, place, and power up a Prepper Rock Drill to collect additional mining resources." />
+		<property name="name_key" value="Chemistry Table"/>
+		<property name="subtitle_key" value="Prepper Stockpile Part 4"/>
+		<property name="description_key" value="Unlock, procure, or be rewarded a Chemistry Station and place it for the next stage."/>
+		<property name="icon" value="ui_game_symbol_gas"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="BlockPlace" id="chemistryStation" value="1" phase="1"/>
+
+		<reward type="Exp" value="1250"/>
+		<reward type="Quest" id="quest_prepperstockpile18"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 4 -->
+	<!-- Fuel 3 -->
+	<quest id="quest_prepperstockpile18">
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 4. Mine for Oil Shale, and convert to Gas Cans and Drill Gas Cans on the Chemistry Station. Craft, place, and power up a Prepper Rock Drill to collect additional mining resources." />
+		<property name="name_key" value="Gas"/>
+		<property name="subtitle_key" value="Prepper Stockpile Part 4"/>
+		<property name="description_key" value="Craft 10000 Gas Cans and 5 Drill Gas Cans from Shale Oil on the Chemistry Station."/>
+		<property name="icon" value="ui_game_symbol_gas"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="ammoGasCan" value="10000" phase="1"/>
+		<objective type="FetchKeep" id="DrillGasCan" value="5" phase="1"/>
+
+		<reward type="Exp" value="1250"/>
+		<reward type="Quest" id="quest_prepperstockpile19"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 4 -->
+	<!-- Fuel 4 -->
+	<quest id="quest_prepperstockpile19">
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 4. Mine for Oil Shale, and convert to Gas Cans and Drill Gas Cans on the Chemistry Station. Craft, place, and power up a Prepper Rock Drill to collect additional mining resources." />
+		<property name="name_key" value="Rock Drill"/>
+		<property name="subtitle_key" value="Prepper Stockpile Part 4"/>
+		<property name="description_key" value="Unlock and craft a Prepper Rock Drill on the Workbench and place it. Use a Drill Gas Can to power it."/>
+		<property name="icon" value="ui_game_symbol_gas"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="BlockPlace" id="RockDrillEmpty" value="1" phase="1"/>
+
+		<reward type="Exp" value="1250"/>
+		<reward type="Quest" id="quest_prepperstockpile20"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 4 -->
+	<!-- Fuel 5 -->
+	<quest id="quest_prepperstockpile20">
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 4. Mine for Oil Shale, and convert to Gas Cans and Drill Gas Cans on the Chemistry Station. Craft, place, and power up a Prepper Rock Drill to collect additional mining resources." />
+		<property name="name_key" value="Mining"/>
+		<property name="subtitle_key" value="Prepper Stockpile Part 4"/>
+		<property name="description_key" value="Drill for the requested resources. Receive XP, 1 Skill Point, and a Diamond Blade Tip Mod as a reward. This concludes the Prepper Stockpile Challenges."/>
+		<property name="icon" value="ui_game_symbol_gas"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="resourcePotassiumNitratePowder" value="3000" phase="1"/>
+		<objective type="FetchKeep" id="resourceCoal" value="3000" phase="1"/>
+		<objective type="FetchKeep" id="resourceScrapLead" value="3000" phase="1"/>
+		<objective type="FetchKeep" id="resourceCrushedSand" value="6000" phase="1"/>
+		<objective type="FetchKeep" id="resourceRockSmall" value="6000" phase="1"/>
+		
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+		<reward type="Item" id="modMeleeDiamondTip" value="1"/>
+		<reward type="Exp" value="2500"/>
+	</quest>
+	
+	<!-- Looping Zombie Elimination Quest -->
+	<quest id="quest_eliminatezombies10">
+	<property name="offer_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 1 Skill. This Quest repeats in an endless loop." />       
+    <property name="name_key" value="10 Zombies" />
+	<property name="subtitle_key" value="10 Zombies" />
+	<property name="description_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 1 Skill. This Quest repeats in an endless loop." />
+	<property name="icon" value="ui_game_symbol_zombie"/>
+	<property name="repeatable" value="true"/>
+	<property name="category_key" value="Quest"/>
+	<property name="difficulty" value="easy"/>
+	<property name="shareable" value="false"/>
+		
+			<objective type="EntityKill" value="10"/>
+
+	<reward type="Item" id="casinoCoin" value="500"/>
+	<reward type="Quest" id="quest_eliminatezombies15">
+			<property name="chainquest" value="false"/>
+	</reward>	
+	</quest>
+	
+	<quest id="quest_eliminatezombies15">
+	<property name="offer_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 1 Skill. This Quest repeats in an endless loop." />       
+    <property name="name_key" value="15 Zombies" />
+	<property name="subtitle_key" value="15 Zombies" />
+	<property name="description_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 1 Skill. This Quest repeats in an endless loop." />
+	<property name="icon" value="ui_game_symbol_zombie"/>
+	<property name="repeatable" value="true"/>
+	<property name="category_key" value="Quest"/>
+	<property name="difficulty" value="easy"/>
+	<property name="shareable" value="false"/>
+		
+			<objective type="EntityKill" value="15"/>
+
+	<reward type="Exp" value="1500"/>
+	<reward type="Quest" id="quest_eliminatezombies25">
+			<property name="chainquest" value="false"/>
+	</reward>	
+	</quest>
+	
+	<quest id="quest_eliminatezombies25">
+	<property name="offer_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 1 Skill. This Quest repeats in an endless loop." />       
+    <property name="name_key" value="25 Zombies" />
+	<property name="subtitle_key" value="25 Zombies" />
+	<property name="description_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 1 Skill. This Quest repeats in an endless loop." />
+	<property name="icon" value="ui_game_symbol_zombie"/>
+	<property name="repeatable" value="true"/>
+	<property name="category_key" value="Quest"/>
+	<property name="difficulty" value="easy"/>
+	<property name="shareable" value="false"/>
+		
+			<objective type="EntityKill" value="25"/>
+	
+	<reward type="Item" id="casinoCoin" value="1250"/>
+	<reward type="Quest" id="quest_eliminatezombies50">
+			<property name="chainquest" value="false"/>
+	</reward>	
+	</quest>
+	
+	<quest id="quest_eliminatezombies50">
+	<property name="offer_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 1 Skill. This Quest repeats in an endless loop." />       
+    <property name="name_key" value="50 Zombies" />
+	<property name="subtitle_key" value="50 Zombies" />
+	<property name="description_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 1 Skill. This Quest repeats in an endless loop." />
+	<property name="icon" value="ui_game_symbol_zombie"/>
+	<property name="repeatable" value="true"/>
+	<property name="category_key" value="Quest"/>
+	<property name="difficulty" value="easy"/>
+	<property name="shareable" value="false"/>
+		
+			<objective type="EntityKill" value="50"/>
+	
+	<reward type="Exp" value="5000"/>
+	<reward type="Quest" id="quest_eliminatezombies75">
+			<property name="chainquest" value="false"/>
+	</reward>	
+	</quest>
+	
+	<quest id="quest_eliminatezombies75">
+	<property name="offer_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 1 Skill. This Quest repeats in an endless loop." />       
+    <property name="name_key" value="75 Zombies" />
+	<property name="subtitle_key" value="75 Zombies" />
+	<property name="description_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 1 Skill. This Quest repeats in an endless loop." />
+	<property name="icon" value="ui_game_symbol_zombie"/>
+	<property name="repeatable" value="true"/>
+	<property name="category_key" value="Quest"/>
+	<property name="difficulty" value="easy"/>
+	<property name="shareable" value="false"/>
+		
+			<objective type="EntityKill" value="75"/>
+	
+	<reward type="Item" id="casinoCoin" value="3750"/>
+	<reward type="Quest" id="quest_eliminatezombies125">
+			<property name="chainquest" value="false"/>
+	</reward>	
+	</quest>
+	
+	<quest id="quest_eliminatezombies125">
+	<property name="offer_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 1 Skill. This Quest repeats in an endless loop." />       
+    <property name="name_key" value="125 Zombies" />
+	<property name="subtitle_key" value="125 Zombies" />
+	<property name="description_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 1 Skill. This Quest repeats in an endless loop." />
+	<property name="icon" value="ui_game_symbol_zombie"/>
+	<property name="repeatable" value="true"/>
+	<property name="category_key" value="Quest"/>
+	<property name="difficulty" value="easy"/>
+	<property name="shareable" value="false"/>
+		
+			<objective type="EntityKill" value="125"/>
+	
+	<reward type="Exp" value="12500"/>
+	<reward type="Quest" id="quest_eliminatezombies200">
+			<property name="chainquest" value="false"/>
+	</reward>	
+	</quest>
+	
+	<quest id="quest_eliminatezombies200">
+	<property name="offer_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 1 Skill. This Quest repeats in an endless loop." />       
+    <property name="name_key" value="200 Zombies" />
+	<property name="subtitle_key" value="200 Zombies" />
+	<property name="description_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 1 Skill. This Quest repeats in an endless loop." />
+	<property name="icon" value="ui_game_symbol_zombie"/>
+	<property name="repeatable" value="true"/>
+	<property name="category_key" value="Quest"/>
+	<property name="difficulty" value="easy"/>
+	<property name="shareable" value="false"/>
+		
+			<objective type="EntityKill" value="200"/>
+	
+	<reward type="SkillPoints" value="1" chainreward="false"/>	
+	<reward type="Quest" id="quest_eliminatezombies10">
+			<property name="chainquest" value="false"/>
+	</reward>	
+	</quest>
+	
+	<!-- Looping Animal Elimination Quest - Influenced by TMB's Animals Hunting Quest -->
+	
+    <!-- Animals Part 1 -->
+	<quest id="quest_eliminateanimals01">
+	<property name="offer_key" value="Accept this quest to hunt a variety of animals through multiple smaller stages. You will receive Dukes and XP for completing each stage, and 2 Skill for the final stage. This Quest repeats in an endless loop." />       
+    <property name="name_key" value="Chickens and Rabbits" />
+	<property name="subtitle_key" value="Chickens and Rabbits" />
+	<property name="description_key" value="Hunt 4 Chickens and 4 Rabbits to receive a reward and move to the next animal stage." />
+	<property name="icon" value="ui_game_symbol_animal_tracker"/>
+	<property name="repeatable" value="true"/>
+	<property name="category_key" value="Quest"/>
+	<property name="difficulty" value="medium"/>
+	<property name="shareable" value="false"/>
+	
+			<objective type="EntityKill" id="animalChicken" value="4"/>			
+			<objective type="EntityKill" id="animalRabbit" value="4"/>			
+		
+	<reward type="Exp" value="2000"/>
+	<reward type="Item" id="casinoCoin" value="750"/>
+	<reward type="Quest" id="quest_eliminateanimals02">
+			<property name="chainquest" value="false"/>
+	</reward>
+	</quest>
+	
+    <!-- Animals Part 2 -->
+	<quest id="quest_eliminateanimals02">
+	<property name="offer_key" value="Accept this quest to hunt a variety of animals through multiple smaller stages. You will receive Dukes and XP for completing each stage, and 2 Skill for the final stage. This Quest repeats in an endless loop." />       
+    <property name="name_key" value="Does, Boars, Wolves, and Coyotes" />
+	<property name="subtitle_key" value="Does, Boars, Wolves, and Coyotes" />
+	<property name="description_key" value="Hunt 3 Does, 3 Boars, 3 Wolves, and 3 Coyotes to receive a reward and move to the next animal stage." />
+	<property name="icon" value="ui_game_symbol_animal_tracker"/>
+	<property name="repeatable" value="true"/>
+	<property name="category_key" value="Quest"/>
+	<property name="difficulty" value="medium"/>
+	<property name="shareable" value="false"/>
+
+			<objective type="EntityKill" id="animalDoe" value="3"/>
+			<objective type="EntityKill" id="animalBoar" value="3"/>
+			<objective type="EntityKill" id="animalWolf" value="3"/>
+			<objective type="EntityKill" id="animalCoyote" value="3"/>			
+		
+	<reward type="Exp" value="4000"/>
+	<reward type="Item" id="casinoCoin" value="1500"/>
+	<reward type="Quest" id="quest_eliminateanimals03">
+			<property name="chainquest" value="false"/>
+	</reward>
+	</quest>
+
+    <!-- Animals Part 3 -->
+	<quest id="quest_eliminateanimals03">
+	<property name="offer_key" value="Accept this quest to hunt a variety of animals through multiple smaller stages. You will receive Dukes and XP for completing each stage, and 2 Skill for the final stage. This Quest repeats in an endless loop." />       
+    <property name="name_key" value="Bears, Mountain Lions, and Stags" />
+	<property name="subtitle_key" value="Bears, Mountain Lions, and Stags" />
+	<property name="description_key" value="Hunt 2 Bears, 2 Mountain Lions, and 2 Stags to receive a reward and move to the next animal stage." />
+	<property name="icon" value="ui_game_symbol_animal_tracker"/>
+	<property name="repeatable" value="true"/>
+	<property name="category_key" value="Quest"/>
+	<property name="difficulty" value="medium"/>
+	<property name="shareable" value="false"/>
+
+			<objective type="EntityKill" id="animalBear" value="2"/>
+			<objective type="EntityKill" id="animalMountainLion" value="2"/>
+			<objective type="EntityKill" id="animalStag" value="2"/>			
+		
+	<reward type="Exp" value="8000"/>
+	<reward type="Item" id="casinoCoin" value="3000"/>
+	<reward type="Quest" id="quest_eliminateanimals04">
+			<property name="chainquest" value="false"/>
+	</reward>
+	</quest>
+
+    <!-- Animals Part 4 -->
+	<quest id="quest_eliminateanimals04">
+	<property name="offer_key" value="Accept this quest to hunt a variety of animals through multiple smaller stages. You will receive Dukes and XP for completing each stage, and 2 Skill for the final stage. This Quest repeats in an endless loop." />       
+    <property name="name_key" value="Z Bear, BM Z Bunny, BM Z Chicken, Dire Wolf, and Z Grace" />
+	<property name="subtitle_key" value="Z Bear, BM Z Bunny, BM Z Chicken, Dire Wolf, and Z Grace" />
+	<property name="description_key" value="Hunt a Zombie Bear, Blood Moon Zombie Bunny, Blood Moon Zombie Chicken, Dire Wolf, and Zombie Grace Boar to receive a reward and restart the animal stages." />
+	<property name="icon" value="ui_game_symbol_animal_tracker"/>
+	<property name="repeatable" value="true"/>
+	<property name="category_key" value="Quest"/>
+	<property name="difficulty" value="medium"/>
+	<property name="shareable" value="false"/>
+			
+			<objective type="EntityKill" id="animalZombieBear" value="1"/>
+			<objective type="EntityKill" id="animalZombieBunnyPREPPER" value="1"/>
+			<objective type="EntityKill" id="animalZombieChickenPREPPER" value="1"/>
+			<objective type="EntityKill" id="animalDireWolf" value="1"/>
+			<objective type="EntityKill" id="animalBossZombieGracePREPPER" value="1"/>			
+		
+	<reward type="Exp" value="16000"/>
+	<reward type="Item" id="casinoCoin" value="6000"/>
+	<reward type="SkillPoints" value="2" chainreward="false"/>
+	<reward type="Quest" id="quest_eliminateanimals01">
+				<property name="chainquest" value="false"/>
+	</reward>
+	</quest>
+	
+	<!-- Nailgun Run - Utility Workers -->
+	<quest id="quest_nailgunutilityworkers">
+		<property name="offer_key" value="Accept this quest to eliminate 50 Nailgun Utility Workers. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="name_key" value="50 Nailgun Utility Workers"/>
+		<property name="subtitle_key" value="50 Nailgun Utility Workers"/>
+		<property name="description_key" value="Accept this quest to eliminate 50 Nailgun Utility Workers. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="Quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieNailgunUtilityWorkerPREPPER" value="50" phase="1"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Stun Baton - Hazmat Entity -->
+	<quest id="quest_stunbatonhazmat">
+		<property name="offer_key" value="Accept this quest to eliminate 50 Stun Baton Hazmat Entities. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="name_key" value="50 Hazmat Entities"/>
+		<property name="subtitle_key" value="50 Hazmat Entities"/>
+		<property name="description_key" value="Accept this quest to eliminate 50 Stun Baton Hazmat Entities. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="Quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieBatonHazmatPREPPER" value="50" phase="1"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- SMG - Arlene -->
+	<quest id="quest_smgarlene">
+		<property name="offer_key" value="Accept this quest to eliminate 50 SMG Arlenes. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="name_key" value="50 SMG Arlenes"/>
+		<property name="subtitle_key" value="50 SMG Arlenes"/>
+		<property name="description_key" value="Accept this quest to eliminate 50 SMG Arlenes. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="Quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieSMGArlenePREPPER" value="50" phase="1"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- M60 - Demolition -->
+	<quest id="quest_m60demolition">
+		<property name="offer_key" value="Accept this quest to eliminate 50 M60 Demolition Entities. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="name_key" value="50 M60 Demolition Entities"/>
+		<property name="subtitle_key" value="50 M60 Demolition Entities"/>
+		<property name="description_key" value="Accept this quest to eliminate 50 M60 Demolition Entities. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="Quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieM60DemolitionPREPPER" value="50" phase="1"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Tactical Assault Rifle Soldier -->
+	<quest id="quest_tariflesoldier">
+		<property name="offer_key" value="Accept this quest to eliminate 50 Tactical Assault Rifle Soldiers. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="name_key" value="50 T.A. Rifle Soldiers"/>
+		<property name="subtitle_key" value="50 T.A. Rifle Soldiers"/>
+		<property name="description_key" value="Accept this quest to eliminate 50 Tactical Assault Rifle Soldiers. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="Quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieTARifleSoldierPREPPER" value="50" phase="1"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Steel Axe Lumberjack -->
+	<quest id="quest_steelaxelumberjack">
+		<property name="offer_key" value="Accept this quest to eliminate 50 Steel Axe Lumberjacks. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="name_key" value="50 Lumberjacks"/>
+		<property name="subtitle_key" value="50 Lumberjacks"/>
+		<property name="description_key" value="Accept this quest to eliminate 50 Steel Axe Lumberjacks. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="Quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieSteelAxeLumberjackPREPPER" value="50" phase="1"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Machete Part Girl -->
+	<quest id="quest_machetepartygirl">
+		<property name="offer_key" value="Accept this quest to eliminate 50 Machete Party Girls. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="name_key" value="50 Machete Party Girls"/>
+		<property name="subtitle_key" value="50 Machete Party Girls"/>
+		<property name="description_key" value="Accept this quest to eliminate 50 Machete Party Girls. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="Quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieMachetePartyGirlPREPPER" value="50" phase="1"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Pistol Business Man -->
+	<quest id="quest_pistolbusinessman">
+		<property name="offer_key" value="Accept this quest to eliminate 50 Pistol Businessmen. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="name_key" value="50 Businessmen"/>
+		<property name="subtitle_key" value="50 Businessmen"/>
+		<property name="description_key" value="Accept this quest to eliminate 50 Pistol Businessmen. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="Quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombiePistolBusinessManPREPPER" value="50" phase="1"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Compound Spiders -->
+	<quest id="quest_compoundspider">
+		<property name="offer_key" value="Accept this quest to eliminate 50 Glider/Bomber Spiders. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="name_key" value="50 Glider/Bomber Spiders"/>
+		<property name="subtitle_key" value="50 Glider/Bomber Spiders"/>
+		<property name="description_key" value="Accept this quest to eliminate 50 Glider/Bomber Spiders. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="Quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieSpiderFeralGliderPREPPER,zombieSpiderFeralBomberPREPPER" value="50" phase="1"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Swiss Vetterli Boe -->
+	<quest id="quest_swissvetterliboe">
+		<property name="offer_key" value="Accept this quest to eliminate 50 Swiss Vetterli Rifle Boes. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="name_key" value="50 Swiss Vetterli Rifle Boes"/>
+		<property name="subtitle_key" value="50 Swiss Vetterli Rifle Boes"/>
+		<property name="description_key" value="Accept this quest to eliminate 50 Swiss Vetterli Rifle Boes. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="Quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieSwissVetterliBoePREPPER" value="50" phase="1"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Chainsaw Moe -->
+	<quest id="quest_chainsawmoe">
+		<property name="offer_key" value="Accept this quest to eliminate 50 Chainsaw Moes. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="name_key" value="50 Chainsaw Moes"/>
+		<property name="subtitle_key" value="50 Chainsaw Moes"/>
+		<property name="description_key" value="Accept this quest to eliminate 50 Chainsaw Moes. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="Quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieChainsawMoePREPPER" value="50" phase="1"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Desert Vulture Tom Clark -->
+	<quest id="quest_desertvulturetomclark">
+		<property name="offer_key" value="Accept this quest to eliminate 50 Desert Vulture Tom Clarks. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="name_key" value="50 Desert Vulture Tom Clarks"/>
+		<property name="subtitle_key" value="50 Desert Vulture Tom Clarks"/>
+		<property name="description_key" value="Accept this quest to eliminate 50 Desert Vulture Tom Clarks. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="Quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieDesertVultureTomClarkPREPPER" value="50" phase="1"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Pump Shotgun Biker -->
+	<quest id="quest_pumpshotgunbiker">
+		<property name="offer_key" value="Accept this quest to eliminate 50 Pump Shotgun Bikers. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="name_key" value="50 Pump Shotgun Bikers"/>
+		<property name="subtitle_key" value="50 Pump Shotgun Bikers"/>
+		<property name="description_key" value="Accept this quest to eliminate 50 Pump Shotgun Bikers. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="Quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombiePumpShotgunBikerPREPPER" value="50" phase="1"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Pipe Baton Fat Cop -->
+	<quest id="quest_batonfatcop">
+		<property name="offer_key" value="Accept this quest to eliminate 50 Pipe Baton Fat Cops. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="name_key" value="50 Pipe Baton Fat Cops"/>
+		<property name="subtitle_key" value="50 Pipe Baton Fat Cops"/>
+		<property name="description_key" value="Accept this quest to eliminate 50 Pipe Baton Fat Cops. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="Quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieBatonFatCopPREPPER" value="50" phase="1"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Steel Club Big Momma -->
+	<quest id="quest_steelclubfemalefat">
+		<property name="offer_key" value="Accept this quest to eliminate 50 Steel Club Big Mommas. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="name_key" value="50 Steel Club Big Mommas"/>
+		<property name="subtitle_key" value="50 Steel Club Big Mommas"/>
+		<property name="description_key" value="Accept this quest to eliminate 50 Steel Club Big Mommas. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="Quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieSteelClubFemaleFatPREPPER" value="50" phase="1"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Bolt Nurse -->
+	<quest id="quest_boltnurse">
+		<property name="offer_key" value="Accept this quest to eliminate 50 Bolt Nurses. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="name_key" value="50 Bolt Nurses"/>
+		<property name="subtitle_key" value="50 Bolt Nurses"/>
+		<property name="description_key" value="Accept this quest to eliminate 50 Bolt Nurses. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="Quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieBoltNursePREPPER" value="50" phase="1"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	<!-- Steel Sledgehammer Fat Hawaiian -->
+	<quest id="quest_steelsledgehammerfathawaiian">
+		<property name="offer_key" value="Accept this quest to eliminate 50 Steel Sledgehammer Tourists. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="name_key" value="50 Steel Sledgehammer Tourists"/>
+		<property name="subtitle_key" value="50 Steel Sledgehammer Tourists"/>
+		<property name="description_key" value="Accept this quest to eliminate 50 Steel Sledgehammer Tourists. XP, Dukes, and 1 Skill for your troubles."/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="Quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieSteelSledgehammerFatHawaiianPREPPER" value="50" phase="1"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+	
+	</append>
+
+</Preppocalypse>
