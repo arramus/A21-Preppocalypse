@@ -187,7 +187,7 @@
 	
 	<!-- Oakraven Chicken Coops -->
 
-	<recipe name="WoodCoopVariantHelper" count="1" craft_time="180" craft_area="workbench" tags="workbenchCrafting,learnable">
+	<recipe name="WoodCoopVariantHelper" count="1" craft_time="180" craft_area="workbench" tags="workbenchCrafting">
 	<ingredient name="resourceForgedIron" count="15"/>
 	<ingredient name="resourceRockSmall" count="100"/>
 	<ingredient name="resourceLeather" count="10"/>
@@ -232,7 +232,7 @@
 	
 	<!-- Oakraven Bee Hives -->
 
-	<recipe name="BeeHiveVariantHelper" count="1" craft_time="180" craft_area="workbench" tags="workbenchCrafting,learnable">
+	<recipe name="BeeHiveVariantHelper" count="1" craft_time="180" craft_area="workbench" tags="workbenchCrafting">
 	<ingredient name="resourceForgedIron" count="5"/>
 	<ingredient name="resourceSpring" count="2"/>
 	<ingredient name="resourceLeather" count="10"/>
