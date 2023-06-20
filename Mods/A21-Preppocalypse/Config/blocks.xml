@@ -283,7 +283,7 @@
 <block name="WoodCoopVariantHelper">
 	<property name="Extends" value="WoodCoopEmpty"/>		
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<!--property name="UnlockedBy" value="perkLivingOffTheLand"/--> <!-- No longer used -->
 	<property name="Group" value="Basics,Food/Cooking,Building,advBuilding"/>
 	<property name="CustomIcon" value="woodcoop"/>
 	<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
@@ -667,7 +667,7 @@
 
 <block name="BeeHiveVariantHelper">
 	<property name="Extends" value="SquareHiveEmpty"/>	
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<!--property name="UnlockedBy" value="perkLivingOffTheLand"/--> <!-- No longer used -->
 	<property name="Group" value="Basics,Food/Cooking,Building,advBuilding"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="squarebeehive3Gold"/>
