@@ -747,8 +747,8 @@
 	<!-- Stun Baton - Hazmat Entity -->
 	<quest id="quest_stunbatonhazmat">
 		<property name="offer_key" value="Accept this quest to eliminate 50 Stun Baton Hazmat Entities. XP, Dukes, and 1 Skill for your troubles."/>
-		<property name="name_key" value="50 Hazmat Entities"/>
-		<property name="subtitle_key" value="50 Hazmat Entities"/>
+		<property name="name_key" value="50 Stun Baton Hazmats"/>
+		<property name="subtitle_key" value="50 Stun Baton Hazmats"/>
 		<property name="description_key" value="Accept this quest to eliminate 50 Stun Baton Hazmat Entities. XP, Dukes, and 1 Skill for your troubles."/>
 		<property name="icon" value="ui_game_symbol_zombie"/>
 		<property name="repeatable" value="true"/>
@@ -823,8 +823,8 @@
 	<!-- Steel Axe Lumberjack -->
 	<quest id="quest_steelaxelumberjack">
 		<property name="offer_key" value="Accept this quest to eliminate 50 Steel Axe Lumberjacks. XP, Dukes, and 1 Skill for your troubles."/>
-		<property name="name_key" value="50 Lumberjacks"/>
-		<property name="subtitle_key" value="50 Lumberjacks"/>
+		<property name="name_key" value="50 Steel Axe Lumberjacks"/>
+		<property name="subtitle_key" value="50 Steel Axe Lumberjacks"/>
 		<property name="description_key" value="Accept this quest to eliminate 50 Steel Axe Lumberjacks. XP, Dukes, and 1 Skill for your troubles."/>
 		<property name="icon" value="ui_game_symbol_zombie"/>
 		<property name="repeatable" value="true"/>
@@ -861,8 +861,8 @@
 	<!-- Pistol Business Man -->
 	<quest id="quest_pistolbusinessman">
 		<property name="offer_key" value="Accept this quest to eliminate 50 Pistol Businessmen. XP, Dukes, and 1 Skill for your troubles."/>
-		<property name="name_key" value="50 Businessmen"/>
-		<property name="subtitle_key" value="50 Businessmen"/>
+		<property name="name_key" value="50 Pistol Businessmen"/>
+		<property name="subtitle_key" value="50 Pistol Businessmen"/>
 		<property name="description_key" value="Accept this quest to eliminate 50 Pistol Businessmen. XP, Dukes, and 1 Skill for your troubles."/>
 		<property name="icon" value="ui_game_symbol_zombie"/>
 		<property name="repeatable" value="true"/>

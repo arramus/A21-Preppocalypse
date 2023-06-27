@@ -155,12 +155,12 @@
 		<ingredient name="treePlantedMountainPine1m" count="5"/>
 	</recipe>
 	
-	<recipe name="foodMisoYakiOnigiri" count="1" craft_time="120" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef">
+	<recipe name="foodMisoYakiOnigiri" count="1" craft_time="60" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef">
 		<ingredient name="foodWildRice" count="10"/>		
 		<ingredient name="foodCanMiso" count="1"/>
 	</recipe>
 	
-	<recipe name="foodPrepperPot" count="1" craft_time="50" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+	<recipe name="foodPrepperPot" count="1" craft_time="60" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
 		<ingredient name="foodCanChicken" count="1"/> <!-- Food 15 / Health 7 -->
 		<ingredient name="foodCanCatfood" count="1"/> <!-- Food 10 / Health 5 -->
 		<ingredient name="foodCanMiso" count="1"/> <!-- Food 10 / Health 5 / Water 10 -->
@@ -168,7 +168,7 @@
 		<ingredient name="foodCanPears" count="1"/> <!-- Food 10 / Health 5 / Water 5 -->	
 	</recipe>
 	
-	<recipe name="foodBlueberryBars" count="3" craft_time="240" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef">
+	<recipe name="foodBlueberryBars" count="3" craft_time="180" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef">
 		<ingredient name="foodCropBlueberries" count="6"/>
 		<ingredient name="resourceAnimalFat" count="3"/>
 		<ingredient name="foodPineNuts" count="3"/>
@@ -216,7 +216,7 @@
 	<ingredient name="foodCropPumpkin" count="1"/>
 	</recipe>
 	
-	<recipe name="foodMushroomRice" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<recipe name="foodMushroomRice" count="1" craft_time="120" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
 	<ingredient name="foodCanChicken" count="1"/>
 	<ingredient name="foodWildRice" count="20"/>
 	<ingredient name="foodCropPotato" count="1"/>
