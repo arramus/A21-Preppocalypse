@@ -48,9 +48,11 @@
 	<drop event="Harvest" name="drinkJarRiverWater" count="1" prob="0.3" tag="salvageHarvest"/>
 	<drop event="Destroy" name="resourceScrapIron" count="1,2"/>
 	</append>
-
+	<!-- Deco Block Repairing -->
+ 	<set xpath="/blocks/block[@name='glassBulletproofMaster']/property[@class='RepairItems']/property/@name">resourceBrokenGlass</set>
+ 	<set xpath="/blocks/block[@name='glassBulletproofMaster']/property[@class='RepairItems']/property/@value">25</set>
+	
 	<!-- A19 Farming For A20 by Syco54645 -->
-
 	<append xpath="/blocks/block[@name='plantedMushroom3HarvestPlayer']">
 		<property name="DowngradeBlock" value="plantedMushroom1"/>
 	</append>
