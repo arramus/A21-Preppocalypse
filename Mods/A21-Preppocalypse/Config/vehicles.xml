@@ -1,14 +1,14 @@
 <Preppocalypse>
 
-	<set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='velocityMax']/@value">6, 12</set> <!-- Bicycle Default 5, 10 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='velocityMax']/@value">7.33, 4</set> <!-- Bicycle Default 6, 4 -->
 	<set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='waterDrag_y_velScale_velMaxScale']/@value">1.0, 0.5, .3</set> <!-- 1.7, .9, .2 -->
-	<set xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='velocityMax']/@value">8, 12</set> <!-- Minibike 7, 10 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='velocityMax']/@value">8.5, 4</set> <!-- Minibike 7, 4 -->
 	<set xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='waterDrag_y_velScale_velMaxScale']/@value">1.0, 0.5, .3</set> <!-- 1.5, .9, .15 -->
 	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='tiltAngleMax']/@value">5</set> <!-- Motorcycle 20 -->
 	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='hopForce']/@value">5.5, .025</set> <!-- Motorcycle 1, .8 -->
-	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='velocityMax']/@value">11, 16</set> <!-- Motorcycle 9, 14 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='velocityMax']/@value">11.33, 6</set> <!-- Motorcycle 9.33, 6 -->
 	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='waterDrag_y_velScale_velMaxScale']/@value">1.0, 0.5, .3</set> <!-- 1.7, .9, .1 -->
-	<set xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@name='velocityMax']/@value">11, 16</set> <!-- 4x4 Truck 9, 14 -->
+	<set xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@name='velocityMax']/@value">11.33, 9</set> <!-- 4x4 Truck 9.33, 9 -->
 	<set xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@name='waterDrag_y_velScale_velMaxScale']/@value">1.0, 0.5, .3</set> <!-- 1.8, .9, .1 -->
 	
 	<append xpath="/vehicles/vehicle[@name='vehicleBicycle']">
@@ -23,8 +23,9 @@
 
 		<property name="cameraDistance" value="6, 8"/>
 		<property name="cameraTurnRate" value=".2, .35"/>
-		<property name="motorTorqueMinQ" value="100"/> <!-- MD 500 settings -->
-		<property name="motorTorqueMaxQ" value="1000"/> <!-- MD 500 settings -->
+		<property name="motorTorque" value="1000, 100"/> <!-- MD 500 settings -->
+		<property name="turboScale" value="1.5, 1.3"/>
+		<property name="velocityMax" value="20, 20"/>
 		<property name="brakeTorque" value="10"/>
 		<property name="steerRate" value="130"/>
 		<property name="steerCenteringRate" value="90"/>
@@ -38,7 +39,6 @@
 		<property name="upForce" value=".5"/>
 
 		<property name="unstickForce" value="1"/>
-		<property name="velocityMax" value="19, 23"/>
 		<property name="airDrag_velScale_angVelScale" value=".997, .97"/>
 		<property name="waterDrag_y_velScale_velMaxScale" value="1.5, .9, 1"/>
 		<property name="waterLift_y_depth_force" value="1, .5, .1"/>
