@@ -298,29 +298,39 @@
 <!-- *** INTEGRATION FOR ANIMALS -->
 	
 <!-- *** SNOW ANIMALS -->
-	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']/text()" delim="\n" op="remove" >animalMountainLion</csv> <!-- Default 25 -->
-	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']/text()" delim="\n" op="remove" >animalBear</csv> <!-- Default 10 -->
 	
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']/text()" delim="\n" op="add" >
 		animalWolf, 12
-		animalMountainLion, 9
-		animalBear, 7
 	</csv>
 	
-<!-- *** FOREST ANIMALS -->
-	<csv xpath="/entitygroups/entitygroup[@name='WildGameForest']/text()" delim="\n" op="remove" >animalRabbit</csv> <!-- Default 48 -->
-	<csv xpath="/entitygroups/entitygroup[@name='WildGameForest']/text()" delim="\n" op="remove" >animalChicken</csv> <!-- Default 48 -->
-	<csv xpath="/entitygroups/entitygroup[@name='WildGameForest']/text()" delim="\n" op="remove" >animalBoar</csv> <!-- Default 1 -->
-	<csv xpath="/entitygroups/entitygroup[@name='WildGameForest']/text()" delim="\n" op="remove" >animalStag</csv> <!-- Default 1 -->
-	<csv xpath="/entitygroups/entitygroup[@name='WildGameForest']/text()" delim="\n" op="remove" >animalDoe</csv> <!-- Default 1 -->
-	
-	<csv xpath="/entitygroups/entitygroup[@name='WildGameForest']/text()" delim="\n" op="add" >
-		animalRabbit, 30
-		animalChicken, 30
-		animalBoar, 2
+<!-- *** FOREST ANIMALS -->	<!-- Expanding from only rabbits and chickens -->
+	<set xpath="/entitygroups/entitygroup[@name='WildGameForest']">
+		animalRabbit, 22
+		animalChicken, 22
+		animalBoar, 3
 		animalStag, 3
 		animalDoe, 4
-	</csv>
+		none, 40
+	</set>
+	
+<!-- *** FOREST ANIMALS NIGHT -->	<!-- Expanding from only doe -->
+	<set xpath="/entitygroups/entitygroup[@name='WildGameForestNight']">
+		animalRabbit, 22
+		animalChicken, 22
+		animalBoar, 3
+		animalStag, 3
+		animalDoe, 4
+		none, 40
+	</set>
+	
+<!-- *** FOREST ENEMY ANIMALS -->	<!-- Expanding from only snake -->
+	<set xpath="/entitygroups/entitygroup[@name='WildGameForestNight']">
+		animalSnake, 15
+		animalWolf, 2
+		animalBear, 1
+		animalDireWolf, .05
+		none, 50
+	</set>
 	
 <!-- *** INTEGRATION FOR SLEEPERS -->
 
