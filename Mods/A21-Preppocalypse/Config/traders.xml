@@ -7,6 +7,9 @@
 	<setattribute xpath="//trader_info[@id='6']" name="open_time">4:05</setattribute>	<!-- Bob -->
 	<setattribute xpath="//trader_info[@id='7']" name="open_time">4:05</setattribute>	<!-- Hugh -->
 	<setattribute xpath="//trader_info[@id='8']" name="open_time">4:05</setattribute>	<!-- Rekt -->
+	
+	<!-- *** Trader_Bob_Magazines -->
+	<set xpath="/traders/trader_item_groups/trader_item_group[@name='skillMagazinesTraderBob']/item[@name='vehiclesSkillMagazine']/@count">2,6</set>
 
 	<!-- farmingCookingRecipes -->
 	
