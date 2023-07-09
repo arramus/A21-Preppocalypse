@@ -4,9 +4,9 @@
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='CarryCapacity'][@value='27']/@value">40</set>
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='BagSize'][@value='45']/@value">60</set>
 	<!-- Load out kit with Preppocalypse influence -->
-	<set xpath="/entity_classes/entity_class[contains(@name,'playerMale')]/property[contains(@name,'GameModeSurvival')]/@value">drinkJarRedTea=2,foodBaconAndEggsAndAcornBiscuits,medicalFirstAidBandage,meleeToolTorch,keystoneBlock,quest_stunbatonhazmat,quest_eliminatezombies10,quest_eliminateanimals01,quest_prepperstockpile01</set>	
-	<set xpath="/entity_classes/entity_class[contains(@name,'playerMale')]/property[contains(@name,'GameModeSurvivalSP')]/@value">drinkJarRedTea=2,foodBaconAndEggsAndAcornBiscuits,medicalFirstAidBandage,meleeToolTorch,keystoneBlock,quest_stunbatonhazmat,quest_eliminatezombies10,quest_eliminateanimals01,quest_prepperstockpile01</set>	
-	<set xpath="/entity_classes/entity_class[contains(@name,'playerMale')]/property[contains(@name,'GameModeSurvivalMP')]/@value">drinkJarRedTea=2,foodBaconAndEggsAndAcornBiscuits,medicalFirstAidBandage,meleeToolTorch,keystoneBlock,quest_stunbatonhazmat,quest_eliminatezombies10,quest_eliminateanimals01,quest_prepperstockpile01</set>
+	<set xpath="/entity_classes/entity_class[contains(@name,'playerMale')]/property[contains(@name,'GameModeSurvival')]/@value">PreppocalypseStarterKit,medicalFirstAidBandage,meleeToolTorch,keystoneBlock,quest_stunbatonhazmat,quest_eliminatezombies10,quest_eliminateanimals01,quest_prepperstockpile01</set>	
+	<set xpath="/entity_classes/entity_class[contains(@name,'playerMale')]/property[contains(@name,'GameModeSurvivalSP')]/@value">PreppocalypseStarterKit,medicalFirstAidBandage,meleeToolTorch,keystoneBlock,quest_stunbatonhazmat,quest_eliminatezombies10,quest_eliminateanimals01,quest_prepperstockpile01</set>	
+	<set xpath="/entity_classes/entity_class[contains(@name,'playerMale')]/property[contains(@name,'GameModeSurvivalMP')]/@value">PreppocalypseStarterKit,medicalFirstAidBandage,meleeToolTorch,keystoneBlock,quest_stunbatonhazmat,quest_eliminatezombies10,quest_eliminateanimals01,quest_prepperstockpile01</set>
 
 	<!-- Gyrocopter Tags -->
 	<append xpath="/entity_classes/entity_class[@name='vehicleGyrocopter']/property[@name='Tags']/@value">,vehiclepreppergyro</append><!-- Adding the buff deco tag -->

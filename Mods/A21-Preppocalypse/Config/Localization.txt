@@ -8,6 +8,8 @@ quest_BasicSurvival4,Quest,Quest Info,,,Basic Survival 4/6,,Das 1x1 des Überleb
 quest_BasicSurvival5,Quest,Quest Info,,,Basic Survival 5/6,,Das 1x1 des Überlebens 5/6,Supervivencia básica 5/6,Les bases de la survie 5/6,Basi della sopravvivenza 5/6,生き残るための基礎知識 5/6,기본 생존 5/6,Podstawy przetrwania 5/6,Sobrevivência Básica 5/6,Основы выживания 5/6,Temel Hayatta Kalma 5/6,基础生存 5/6,基本生存 5/6,Supervivencia básica 5/6
 quest_BasicSurvival6,Quest,Quest Info,,,Basic Survival 6/6,,Das 1x1 des Überlebens 6/6,Supervivencia básica 6/6,Les bases de la survie 6/6,Basi della sopravvivenza 6/6,生き残るための基礎知識 6/6,기본 생존 6/6,Podstawy przetrwania 6/6,Sobrevivência Básica 6/6,Основы выживания 6/6,Temel Hayatta Kalma 6/6,基础生存 6/6,基本生存 6/6,Supervivencia básica 6/6
 quest_WhiteRiverCitizen1_description,Quest,Quest Info,,,"Nicely done Prepper. We expected no less.\n\nWe have marked your map with the location of a Trader where you can begin again. A Prepper Party provides safety in numbers, but there are also plenty of ways to go it alone.\n\nWelcome to the Preppocalypse.",,,,,,,,,,,,,
+PreppocalypseStarterKit,items,item,,,Preppocalypse Starter Kit,,,,,,,,,,,,,
+PreppocalypseStarterKitDesc,items,item,,,"This will ease you back into the Preppocalypse, and set you back on your path.",,,,,,,,,,,,,
 
 perkPackMuleRank1LongDesc,progression,perk Str,,,"Who has time to organize their stuff perfectly? Carry four more items without being encumbered.",,,,,,,,,,,,,
 perkPackMuleRank2LongDesc,progression,perk Str,,,"You know it's in there somewhere. Carry an additional four more items without being encumbered.",,,,,,,,,,,,,

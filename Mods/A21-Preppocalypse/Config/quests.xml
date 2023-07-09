@@ -404,13 +404,13 @@
 		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 4. Mine for Oil Shale, and convert to Gas Cans and Drill Gas Cans on the Chemistry Station. Craft, place, and power up a Prepper Rock Drill to collect additional mining resources." />
 		<property name="name_key" value="Oil Shale"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 4"/>
-		<property name="description_key" value="Mine 1000 Oil Shale from the Desert Biome in preparation for converting to fuel."/>
+		<property name="description_key" value="Mine 2000 Oil Shale from the Desert Biome in preparation for converting to fuel."/>
 		<property name="icon" value="ui_game_symbol_gas"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="easy"/>
 		<property name="shareable" value="false"/>
 
-		<objective type="FetchKeep" id="resourceOilShale" value="1000" phase="1"/>
+		<objective type="FetchKeep" id="resourceOilShale" value="2000" phase="1"/>
 
 		<reward type="Exp" value="1250"/>
 		<reward type="Quest" id="quest_prepperstockpile17"/>
