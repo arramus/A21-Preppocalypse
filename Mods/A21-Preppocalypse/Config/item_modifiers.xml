@@ -2,6 +2,38 @@
 
 <append xpath="/item_modifiers">
 
+	<!-- Oakraven's T1 POT and T3 PAN -->	
+   <append xpath="/item_modifiers/item_modifier[@name='modMeleeClubMetalSpikes']">
+        <item_property_overrides name="meleeWpnClubT3Pan">
+            <property name="HandMeshfile" value="#@modfolder:Resources/ArramusPans.unity3d?OakPanSpike"/>
+        </item_property_overrides>
+        
+        <item_property_overrides name="meleeWpnClubT1Pot">
+            <property name="HandMeshfile" value="#@modfolder:Resources/ArramusPans.unity3d?OakPotSpike"/>
+        </item_property_overrides>              
+    </append>
+    
+    <append xpath="/item_modifiers/item_modifier[@name='modMeleeClubBarbedWire']">
+        <item_property_overrides name="meleeWpnClubT3Pan">
+            <property name="HandMeshfile" value="#@modfolder:Resources/ArramusPans.unity3d?OakPanWire"/>
+        </item_property_overrides>
+        
+        <item_property_overrides name="meleeWpnClubT1Pot">
+            <property name="HandMeshfile" value="#@modfolder:Resources/ArramusPans.unity3d?OakPotWire"/>
+        </item_property_overrides>
+               
+    </append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubMetalChain']">
+        <item_property_overrides name="meleeWpnClubT3Pan">
+            <property name="HandMeshfile" value="#@modfolder:Resources/ArramusPans.unity3d?OakPanChain"/>
+        </item_property_overrides>
+        
+        <item_property_overrides name="meleeWpnClubT1Pot">
+            <property name="HandMeshfile" value="#@modfolder:Resources/ArramusPans.unity3d?OakPotChain"/>
+        </item_property_overrides>              
+    </append>
+
 <!-- Gazz Muffler Mod -->
 
 	<item_modifier name="modGazzMuffler" installable_tags="armorHead" modifier_tags="muffler" blocked_tags="noMods,clothing" type="attachment">

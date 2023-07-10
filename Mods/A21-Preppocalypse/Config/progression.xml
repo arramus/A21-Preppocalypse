@@ -176,6 +176,36 @@
 		</effect_group>
 	</crafting_skill>
 	</insertAfter>
+	
+	<!-- *** CLUB_SKILLS -->
+	<!-- Oak T1 Pot and T3 Pan -->
+
+	<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingClubs']"/>	
+
+	<insertAfter xpath="/progression/crafting_skills/crafting_skill[@name='craftingBlades']">		
+	<crafting_skill name="craftingClubs" max_level="75" parent="attCrafting" name_key="craftingClubsName" desc_key="craftingClubsDesc" long_desc_key="craftingClubsLongDesc" icon="ui_game_symbol_club">
+
+		<display_entry item="meleeWpnClubT0WoodenClub" unlock_level="1,3,5,7,10" />
+		<display_entry item="meleeWpnClubT1BaseballBat" unlock_level="11,17,24,31,38" />
+		<display_entry item="meleeWpnClubT1Pot" unlock_level="13,19,26,33,40" />
+		<display_entry item="meleeWpnClubT3SteelClub" unlock_level="39,48,57,66,75" />
+		<display_entry item="meleeWpnClubT3Pan" unlock_level="41,50,59,68,75" />
+
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,75" value="1" tags="meleeWpnClubT0WoodenClub"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="11,75" value="1" tags="meleeWpnClubT1BaseballBat"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="11,75" value="1" tags="meleeWpnClubT1Pot"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="39,75" value="1" tags="meleeWpnClubT3SteelClub"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="39,75" value="1" tags="meleeWpnClubT3Pan"/>
+
+			<passive_effect name="CraftingTier" operation="base_add" level="3,5,7,10,75" value="1,2,3,4,4" tags="meleeWpnClubT0WoodenClub"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="17,24,31,38,75" value="1,2,3,4,4" tags="meleeWpnClubT1BaseballBat"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="19,26,33,40,75" value="1,2,3,4,4" tags="meleeWpnClubT1Pot"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="48,57,66,75" value="1,2,3,4" tags="meleeWpnClubT3SteelClub"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="50,59,68,75" value="1,2,3,4" tags="meleeWpnClubT3Pan"/>
+		</effect_group>
+	</crafting_skill>
+	</insertAfter>
 
 	<!-- *** RIFLE_SKILLS -->	
 	<!-- Swiss Vetterli Rifle -->

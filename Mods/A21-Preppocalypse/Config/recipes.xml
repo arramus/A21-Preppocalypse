@@ -340,6 +340,29 @@
 		</effect_group>
 	</recipe>
 	
+	<!-- Oaks T1 Pot and T3 Pan -->
+	
+	<recipe name="meleeWpnClubT1Pot" count="1" tags="learnable,perkPummelPete">
+		<ingredient name="resourceForgedIron" count="20"/>
+		<ingredient name="resourceWood" count="10"/>
+		<ingredient name="resourceLeather" count="1"/>
+		<ingredient name="resourceDuctTape" count="1"/>
+		<effect_group>
+			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceForgedIron,resourceWood,resourceLeather,resourceDuctTape"/>
+		</effect_group>
+	</recipe>
+	
+	<recipe name="meleeWpnClubT3Pan" count="1" craft_area="workbench" tags="learnable,perkPummelPete">
+		<ingredient name="resourceForgedIron" count="20"/>
+		<ingredient name="resourceForgedSteel" count="10"/>
+		<ingredient name="resourceWood" count="10"/>
+		<ingredient name="resourceLeather" count="3"/>
+		<ingredient name="resourceDuctTape" count="3"/>
+		<effect_group>
+			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value="1,5" tags="resourceForgedIron,resourceForgedSteel,resourceWood,resourceLeather,resourceDuctTape"/>
+		</effect_group>
+	</recipe>
+	
 	<!-- Swiss Vetterli Rifle -->
 	
 	<recipe name="gunRifleT2LeverActionRifleSwissVetterli" count="1" craft_area="workbench" tags="learnable,perkDeadEye">
