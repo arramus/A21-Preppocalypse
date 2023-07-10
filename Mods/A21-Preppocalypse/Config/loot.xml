@@ -111,7 +111,7 @@
 		<item name="foodCanSalmon" count="1" prob="0.1"/>
 		<item name="foodCanPeas" count="1" prob="0.1"/>
 		<item name="foodCanStock" count="1" prob="0.1"/>
-		<item name="resourceCatfish" count="1" prob="0.075"/>		
+		<item name="resourceCatfish" count="1" prob="0.1"/>		
 		<item name="apparelCowboyBoots" count="1" prob="0.035"/>
 		<item name="apparelWornBoots" count="1" prob="0.035"/>
 		<item name="apparelGothBoots" count="1" prob="0.035"/>		
