@@ -1,7 +1,5 @@
 ﻿<Preppocalypse>
 
-<append xpath="/item_modifiers">
-
 	<!-- Oakraven's T1 POT and T3 PAN -->	
    <append xpath="/item_modifiers/item_modifier[@name='modMeleeClubMetalSpikes']">
         <item_property_overrides name="meleeWpnClubT3Pan">
@@ -33,6 +31,8 @@
             <property name="HandMeshfile" value="#@modfolder:Resources/ArramusPans.unity3d?OakPotChain"/>
         </item_property_overrides>              
     </append>
+	
+<append xpath="/item_modifiers">
 
 <!-- Gazz Muffler Mod -->
 
