@@ -30,6 +30,13 @@
  	<append xpath="/blocks/block[@name='barbedFence']">
 		<property name="CanPickup" value="true"/>
 	</append>
+ 	<append xpath="/blocks/block[@name='helipad']">
+	<property name="Group" value="Building,advBuilding,Decor/Miscellaneous"/>
+	<property name="MaxDamage" value="5000"/>
+	<property class="RepairItems">
+		<property name="resourceConcreteMix" value="20"/>
+	</property>
+	</append>
 	<!-- Deco Block Harvesting -->
  	<append xpath="/blocks/block[@name='decoWildWestWagon']">
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>	
