@@ -37,6 +37,13 @@
 		<property name="resourceConcreteMix" value="20"/>
 	</property>
 	</append>
+<!-- Decorative Logs Walls and Door -->
+	<set xpath="/blocks/block[@name='doorWoodLargeGate']/property[@name='MaxDamage']/@value">2500</set>
+ 	<append xpath="/blocks/block[@name='doorWoodLargeGate']/property[@name='Group']/@value">,Decor/Miscellaneous</append>
+	<append xpath="/blocks/block[@name='logWallLeft']">
+		<property name="MaxDamage" value="1500"/>
+		<property name="Group" value="Building,advBuilding,Decor/Miscellaneous"/>
+	</append>
 	<!-- Deco Block Harvesting -->
  	<append xpath="/blocks/block[@name='decoWildWestWagon']">
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>	
@@ -166,6 +173,21 @@
 	</append>
 
 	<append xpath="/blocks">
+	
+<!-- Wooden Fortifications -->
+	
+<block name="LogWallsVariantHelper">
+	<property name="Extends" value="logWallLeft"/>		
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="logWallLeft"/>
+	<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	<property name="Group" value="Building,advBuilding,Decor/Miscellaneous"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true"/>
+	<property name="PlaceAltBlockValue" value="logWallLeft,logWallLeft2,logWallRight,logWallRight2,logWallLeftSpikes,logWallLeftSpikes2,logWallRightSpikes,logWallRightSpikes2,logWallPillar,logWallPillarCap,logWallPillarCap2"/>
+</block>
+
+<!-- Car Barricades -->
 	
 <block name="crushedCars01WhiteVariantHelper">
 	<property name="Extends" value="crushedCars01White"/>		
@@ -338,6 +360,7 @@
 			<property name="PlantGrowing.IsRandom" value="false"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.Next" value="WoodCoopWithEggs"/>
+	<drop event="Destroy" name="WoodCoopVariantHelper" count="1"/>
 	<property name="Group" value="Food/Cooking"/>
 </block>
 
@@ -425,6 +448,7 @@
 			<property name="PlantGrowing.IsRandom" value="false"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.Next" value="ChickenCoopWithEggs"/>
+	<drop event="Destroy" name="WoodCoopVariantHelper" count="1"/>
 	<property name="Group" value="Food/Cooking"/>
 </block>
 
@@ -538,6 +562,7 @@
 			<property name="PlantGrowing.IsRandom" value="false"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.Next" value="TinCoopWithEggs"/>
+	<drop event="Destroy" name="WoodCoopVariantHelper" count="1"/>
 	<property name="Group" value="Food/Cooking"/>
 </block>
 
@@ -625,6 +650,7 @@
 			<property name="PlantGrowing.IsRandom" value="false"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.Next" value="HouseCoopWithEggs"/>
+	<drop event="Destroy" name="WoodCoopVariantHelper" count="1"/>
 	<property name="Group" value="Food/Cooking"/>
 </block>
 
@@ -700,6 +726,7 @@
 			<property name="PlantGrowing.IsRandom" value="false"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.Next" value="SquareHiveWithHoney"/>
+	<drop event="Destroy" name="BeeHiveVariantHelper" count="1"/>
 	<property name="Group" value="Food/Cooking"/>
 </block>
 
@@ -758,6 +785,7 @@
 			<property name="PlantGrowing.IsRandom" value="false"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.Next" value="BeeHiveWithHoney"/>
+	<drop event="Destroy" name="BeeHiveVariantHelper" count="1"/>
 	<property name="Group" value="Food/Cooking"/>
 </block>
 
@@ -816,6 +844,7 @@
 			<property name="PlantGrowing.IsRandom" value="false"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.Next" value="WoodBeeHiveWithHoney"/>
+	<drop event="Destroy" name="BeeHiveVariantHelper" count="1"/>
 	<property name="Group" value="Food/Cooking"/>
 </block>
 
