@@ -106,6 +106,12 @@ modWeaponMaintenanceDesc,item_modifiers,mod,,,"The Weapon Maintenance Mod lowers
 modWeaponMaintenanceSchematic,item_modifiers,Mod,,,Weapon Maintenance Mod Schematic,,,,,,,,,,,,,
 modGazzMuffler,item_modifiers,Mod,,,Gazz Muffler Mod,,,,,,,,,,,,,
 modGazzMufflerDesc,item_modifiers,Mod,,,"This Gazz Muffler Mod can be added to Head Armor and drastically reduces all volume when using an Auger or Chainsaw.",,,,,,,,,,,,,
+modArmorPrepperFittings,item_modifiers,mod,,,Prepper Fittings Mod,,,,,,,,,,,,,
+modArmorPrepperFittingsDesc,item_modifiers,mod,,,"Gold plated bulletproof glass fittings decrease movement and stamina penalties from armor.",,,,,,,,,,,,,
+modArmorPrepperFittingsSchematic,item_modifiers,Mod,,,Prepper Fittings Mod Schematic,,,,,,,,,,,,,
+modArmorPrepperPlatingReinforced,item_modifiers,mod,,,Prepper Banded Armor Plating Mod,,,,,,,,,,,,,
+modArmorPrepperPlatingReinforcedDesc,item_modifiers,mod,,,"Improve your armor rating further with these additional diamond armor plates. Can be installed in any armor.",,,,,,,,,,,,,
+modArmorPrepperPlatingReinforcedSchematic,item_modifiers,Mod,,,Prepper Banded Armor Plating Mod Schematic,,,,,,,,,,,,,
 
 foodAcornFlour,items,Food,,,Acorn Flour,,,,,,,,,,,,,
 foodAcornFlourDesc,items,Food,,,"Acorn Flour can be ground and processed on the player for adding to recipes. Cures 1% infection.",,,,,,,,,,,,,

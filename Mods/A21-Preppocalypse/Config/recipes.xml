@@ -421,6 +421,26 @@
 			<ingredient name="resourceGlue" count="2"/>
 			<ingredient name="resourceScrapPolymers" count="10"/>		
 		</recipe>
+		
+	<!-- Prepper Fittings Mod -->
+	
+		<recipe name="modArmorPrepperFittings" count="1" craft_area="workbench" tags="learnable">
+			<ingredient name="resourceGoldNugget" count="2"/>
+			<ingredient name="glassClearBulletproofBlockVariantHelper" count="1"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="4"/>
+			<ingredient name="resourceSewingKit" count="1"/>		
+		</recipe>
+		
+	<!-- Prepper Banded Armor Plating Mod -->
+	
+		<recipe name="modArmorPrepperPlatingReinforced" count="1" craft_area="workbench" tags="learnable">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceRawDiamond" count="2"/>
+			<ingredient name="resourceDuctTape" count="2"/>
+			<ingredient name="resourceMechanicalParts" count="4"/>
+			<ingredient name="resourceSewingKit" count="1"/>		
+		</recipe>
 	
 	<!-- Bow Grip Mod -->
 	

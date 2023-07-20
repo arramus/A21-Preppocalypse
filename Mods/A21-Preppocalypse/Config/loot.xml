@@ -71,6 +71,12 @@
 		<item name="modArmorRunningShoesHP"/>
 	</append>
 	
+	<!-- *** T3_Armor_Mods -->
+	<append xpath="/lootcontainers/lootgroup[@name='modArmorT3']">
+		<item name="modArmorPrepperFittings"/>
+		<item name="modArmorPrepperPlatingReinforced"/>
+	</append>
+	
 	<!-- *** T1_Ranged_Mods -->
 	<append xpath="/lootcontainers/lootgroup[@name='modGunT1']">
 		<item name="modWeaponMaintenance"/>
@@ -90,6 +96,8 @@
 	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT2']">
 		<item name="modGunBowArrowGripSchematic"/>
 		<item name="modArmorRunningShoesHPSchematic"/>
+		<item name="modArmorPrepperFittingsSchematic"/>
+		<item name="modArmorPrepperPlatingReinforcedSchematic"/>
 	</append>
 	
 	<append xpath="/lootcontainers">

@@ -44,6 +44,36 @@
 	
 <append xpath="/item_modifiers">
 
+<!-- Prepper Fittings Mod -->
+
+	<item_modifier name="modArmorPrepperFittings" installable_tags="armor" modifier_tags="movement" blocked_tags="noMods,padded" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="modArmorPrepperFittings"/>
+		<property name="UnlockedBy" value="modArmorPrepperFittingsSchematic"/>
+		<property name="TraderStageTemplate" value="modsTier3"/>
+		<property name="DisplayType" value="modArmorMobility"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="Mobility" operation="perc_add" value=".035"/> <!--.03 for Customized --> 
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value=".0245" tags="walking"/> <!--.021 for Customized --> 
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value=".0655" tags="running"/> <!--.0562 for Customized -->
+			<display_value name="dStaminaChangeOT" value=".0655"/>
+		</effect_group>
+	</item_modifier>
+
+<!-- Prepper Banded Armor Plating Mod -->
+
+	<item_modifier name="modArmorPrepperPlatingReinforced" installable_tags="armor" modifier_tags="resistance" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="modArmorPrepperPlatingReinforced"/>
+		<property name="UnlockedBy" value="modArmorPrepperPlatingReinforcedSchematic"/>
+		<property name="TraderStageTemplate" value="modsTier3"/>
+		<property name="DisplayType" value="modArmor"/>
+		<effect_group tiered="false">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="2.5"/> <!--2 for Reinforced Plating -->
+		</effect_group>
+	</item_modifier>
+
 <!-- Gazz Muffler Mod -->
 
 	<item_modifier name="modGazzMuffler" installable_tags="armorHead" modifier_tags="muffler" blocked_tags="noMods,clothing" type="attachment">

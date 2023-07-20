@@ -1140,6 +1140,30 @@
 			</effect_group>
 		</item>
 		
+<!-- Prepper Fittings Mod -->		
+		<item name="modArmorPrepperFittingsSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="modArmorPrepperFittings"/>
+			<property name="Unlocks" value="modArmorPrepperFittings"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorPrepperFittings" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+		
+<!-- Prepper Banded Armor Plating Mod -->		
+		<item name="modArmorPrepperPlatingReinforcedSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="modArmorPrepperPlatingReinforced"/>
+			<property name="Unlocks" value="modArmorPrepperPlatingReinforced"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorPrepperPlatingReinforced" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+		
 <!-- Bow Grip Mod Schematic -->		
 		<item name="modGunBowArrowGripSchematic">
 			<property name="Extends" value="schematicNoQualityMaster"/>
