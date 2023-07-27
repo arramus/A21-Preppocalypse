@@ -95,16 +95,16 @@
 			</effect_group>
 		</perk>
 	</insertAfter>
-
-	<!-- Oakraven Rock Drill with craftingWorkstations Skill -->
-
-	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry[4]/@icon">,rockdrill</append>
-	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry[4]/@name_key">,workstationsT4-2</append>
-	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry[4]/@unlock_level">,60</append>
 	
-	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry[4]">
+	<!-- Oakraven Rock Drill with craftingWorkstations Skill -->	
+	
+	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[@icon='chemistryStation']">
 			<unlock_entry item="RockDrillEmpty" unlock_tier="2" />
 	</append>
+	
+	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[@icon='chemistryStation']">,rockdrill</append>
+	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[@icon='chemistryStation']/@name_key">,workstationsT4-2</append>
+	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[@icon='chemistryStation']/@unlock_level">,60</append>
 	
 	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']">
 		<effect_group>
