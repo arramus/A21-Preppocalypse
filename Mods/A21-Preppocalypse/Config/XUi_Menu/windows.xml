@@ -3,6 +3,6 @@
 	<remove xpath="//window[@name='newsWindow']"/>
 	<set xpath="/windows/window[@name='menuBackground']/texture/@texture">@modfolder(A21-Preppocalypse):Textures/background.png</set>	
 	<set xpath="/windows/window[@name='mainMenuLogo']/texture/@texture">@modfolder(A21-Preppocalypse):Textures/7DTD_logo.png</set>
-	<set xpath="/windows/window[@name='loadingScreen']/texture[@name='loading_image']/@texture">@modfolder(A21-Preppocalypse):Textures/loadingimage.jpg</set>
+	<set xpath="/windows/window[@name='loadingScreen']/texture[@name='loading_image']/@texture">@modfolder(A21-Preppocalypse):Textures/loadingimage.png</set>
 	
 </Preppocalypse>
