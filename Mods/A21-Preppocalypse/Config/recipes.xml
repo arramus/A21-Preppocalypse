@@ -132,7 +132,7 @@
 		<ingredient name="treePlantedOak1m" count="5"/>
 	</recipe>
 
-    <recipe name="foodAcornBiscuits" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+    <recipe name="foodAcornBiscuits" count="1" craft_time="12" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
 	    <ingredient name="foodAcornFlour" count="1"/>
 	    <ingredient name="foodEgg" count="1"/>
     </recipe>
@@ -173,7 +173,7 @@
 		<ingredient name="treePlantedMountainPine1m" count="5"/>
 	</recipe>
 	
-	<recipe name="foodMisoYakiOnigiri" count="1" craft_time="60" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef">
+	<recipe name="foodMisoYakiOnigiri" count="1" craft_time="12" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef">
 		<ingredient name="foodWildRice" count="10"/>		
 		<ingredient name="foodCanMiso" count="1"/>
 	</recipe>
@@ -186,7 +186,7 @@
 		<ingredient name="foodCanPears" count="1"/> <!-- Food 10 / Health 5 / Water 5 -->	
 	</recipe>
 	
-	<recipe name="foodBlueberryBars" count="3" craft_time="180" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef">
+	<recipe name="foodBlueberryBars" count="3" craft_time="18" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef">
 		<ingredient name="foodCropBlueberries" count="6"/>
 		<ingredient name="resourceAnimalFat" count="3"/>
 		<ingredient name="foodPineNuts" count="3"/>
@@ -194,12 +194,12 @@
 		<ingredient name="foodRawMeat" count="6"/>
 	</recipe>
 	
-	<recipe name="foodPrepperJerky" count="1" craft_time="60" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef">
+	<recipe name="foodPrepperJerky" count="1" craft_time="18" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef">
 		<ingredient name="foodHoneyComb" count="1"/>		
 		<ingredient name="foodRawMeat" count="10"/>
 	</recipe>
 	
-	<recipe name="foodBlueberryFruitRoller" count="1" craft_time="60" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef">
+	<recipe name="foodBlueberryFruitRoller" count="1" craft_time="12" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef">
 		<ingredient name="foodCropBlueberries" count="10"/>
 	</recipe>
 	
@@ -213,7 +213,7 @@
 	<ingredient name="resourceWood" count="50"/>
 	</recipe>	
 	
-	<recipe name="foodEggQuiche" count="1" craft_area="campfire" craft_tool="toolCookingPot">
+	<recipe name="foodEggQuiche" count="1" craft_time="90" craft_area="campfire" craft_tool="toolCookingPot">
 	<ingredient name="foodEgg" count="3"/>
 	<ingredient name="foodCornMeal" count="5"/>
 	<ingredient name="foodRawMeat" count="1"/>
@@ -221,9 +221,9 @@
 	<ingredient name="foodCropMushrooms" count="1"/>		
 	</recipe>
 	
-	<recipe name="foodEggSandwich" count="1" craft_area="campfire" craft_tool="toolCookingPot">
+	<recipe name="foodEggSandwich" count="1" craft_time="60" craft_area="campfire" craft_tool="toolCookingPot">
 	<ingredient name="foodEggBoiled" count="2"/>
-	<ingredient name="foodPumpkinBread" count="1"/>		
+	<ingredient name="foodPumpkinBread" count="1"/>	
 	</recipe>
 	
 	<recipe name="foodChickenStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
@@ -234,7 +234,7 @@
 	<ingredient name="foodCropPumpkin" count="1"/>
 	</recipe>
 	
-	<recipe name="foodMushroomRice" count="1" craft_time="120" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<recipe name="foodMushroomRice" count="1" craft_time="36" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
 	<ingredient name="foodCanChicken" count="1"/>
 	<ingredient name="foodWildRice" count="20"/>
 	<ingredient name="foodCropPotato" count="1"/>
@@ -242,7 +242,7 @@
 	<ingredient name="foodCornMeal" count="4"/>
 	</recipe>
 	
-	<recipe name="foodCanChicken" count="1" craft_area="campfire" craft_tool="toolCookingPot">
+	<recipe name="foodCanChicken" count="1" craft_time="60" craft_area="campfire" craft_tool="toolCookingPot">
 	<ingredient name="GrownChicken" count="1"/>
 	<ingredient name="drinkJarBoiledWater" count="1"/>
 	<ingredient name="resourceScrapIron" count="5"/>
@@ -266,14 +266,14 @@
 	<ingredient name="resourceGlue" count="1"/>
 	</recipe>
 
-	<recipe name="foodHoneyBread" count="1" craft_area="campfire" craft_tool="toolCookingPot">
+	<recipe name="foodHoneyBread" count="1" craft_time="60" craft_area="campfire" craft_tool="toolCookingPot">
 	<ingredient name="foodHoneyComb" count="5"/>
 	<ingredient name="foodCornMeal" count="2"/>
 	<ingredient name="drinkJarBoiledWater" count="1"/>
 	<ingredient name="foodEgg" count="1"/>
 	</recipe>
 
-	<recipe name="foodHoneyPumpkinPie" count="1" craft_area="campfire" craft_tool="toolCookingPot">
+	<recipe name="foodHoneyPumpkinPie" count="1" craft_time="60" craft_area="campfire" craft_tool="toolCookingPot">
 	<ingredient name="foodHoneyComb" count="5"/>
 	<ingredient name="foodCropPumpkin" count="2"/>
 	<ingredient name="foodEgg" count="1"/>
@@ -315,7 +315,7 @@
 		<ingredient name="resourceHook" count="2"/>
 	</recipe>
 	
-	<recipe name="foodFriedCatfish" count="2" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<recipe name="foodFriedCatfish" count="2" craft_time="36" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
 		<ingredient name="resourceCatfish" count="1"/>
 		<ingredient name="foodCropPotato" count="3"/>
 		<ingredient name="resourceAnimalFat" count="2"/>
@@ -323,7 +323,7 @@
 		<ingredient name="foodEgg" count="2"/>	
 	</recipe>
 	
-	<recipe name="foodCatfishNuggetsOnRice" count="2" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<recipe name="foodCatfishNuggetsOnRice" count="2" craft_time="36" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
 		<ingredient name="resourceCatfish" count="1"/>
 	    <ingredient name="foodAcornFlour" count="2"/>
 		<ingredient name="resourceAnimalFat" count="2"/>
