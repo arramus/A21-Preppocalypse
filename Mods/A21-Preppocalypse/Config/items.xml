@@ -2661,6 +2661,17 @@
 				<property name="QuestGiven" value="quest_eliminateanimals01"/>
 			</property>
 		</item>
+		
+	<!-- Looping Screamer Elimination Quest - Influenced by Screamer Beacon Mods through the ages -->
+		<item name="quest_prepperivstandscreamer01">
+			<property name="Extends" value="challengeQuestMaster"/>
+			<property name="DescriptionKey" value="quest_prepperivstandscreamer01Desc"/>
+			<property name="CustomIcon" value="standIV"/>
+			<property class="Action0">
+				<property name="UseAnimation" value="false"/>
+				<property name="QuestGiven" value="quest_prepperivstandscreamer01"/>
+			</property>
+		</item>
 	
 	<!-- Nailgun Run - Utility Workers -->	
 		<item name="quest_nailgunutilityworkers">

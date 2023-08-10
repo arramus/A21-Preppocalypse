@@ -725,6 +725,45 @@
 	</reward>
 	</quest>
 	
+	<!-- Adds the "I.V. Stand Challenge with the Screamers" -->	
+	<!-- I.V. Stand Craft and Place -->
+		<quest id="quest_prepperivstandscreamer01">
+		<property name="offer_key" value="Accept this Quest to begin the I.V. Stand Challenge. Unlock and Craft an I.V. A Screamer Scout will smell the delightful aroma and visit the location. Eliminate her before she invites her friends. Pick up the I.V. Stand to stop any more Screamer Scouts from appearing. Receive 1 Skill Point for eliminating 100 Screamer Scouts. This quest continually loops." />
+		<property name="name_key" value="I.V. Stand"/>
+		<property name="subtitle_key" value="I.V. Stand"/>
+		<property name="description_key" value="Unlock and Craft an I.V. A Screamer Scout will smell the delightful aroma and visit the location. Eliminate her before she invites her friends. Pick up the I.V. Stand to stop any more Screamer Scouts from appearing."/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="BlockPlace" id="screamQueenPrepperstandIV" value="1" phase="1"/>
+
+		<reward type="Exp" value="2500"/>		
+		<reward type="Quest" id="quest_prepperivstandscreamer02"/>
+	</quest>
+	
+	<!-- Adds the "Looping Screamer" Challenge -->
+	<quest id="quest_prepperivstandscreamer02">
+	<property name="offer_key" value="Accept this Quest to begin the I.V. Stand Challenge. Unlock and Craft an I.V. A Screamer Scout will smell the delightful aroma and visit the location. Eliminate her before she invites her friends. Pick up the I.V. Stand to stop any more Screamer Scouts from appearing. Receive 1 Skill Point for eliminating 100 Screamer Scouts. This quest continually loops." />       
+    <property name="name_key" value="Screamer Scouts" />
+	<property name="subtitle_key" value="Screamer Scouts" />
+	<property name="description_key" value="Unlock and Craft an I.V. A Screamer Scout will smell the delightful aroma and visit the location. Eliminate her before she invites her friends. Pick up the I.V. Stand to stop any more Screamer Scouts from appearing." />
+	<property name="icon" value="ui_game_symbol_zombie"/>
+	<property name="repeatable" value="true"/>
+	<property name="category_key" value="quest"/>
+	<property name="difficulty" value="easy"/>
+	<property name="shareable" value="false"/>
+		
+			<objective type="EntityKill" id="zombieScreamer,zombieScreamerFeral,zombieScreamerRadiated" value="100"/>
+
+	<reward type="Exp" value="5000"/>
+	<reward type="SkillPoints" value="1" chainreward="false"/>
+	<reward type="Quest" id="quest_ivstandscreamer02">
+			<property name="chainquest" value="false"/>
+	</reward>	
+	</quest>
+	
 	<!-- Nailgun Run - Utility Workers -->
 	<quest id="quest_nailgunutilityworkers">
 		<property name="offer_key" value="Accept this quest to eliminate 25 Nailgun Utility Workers with a Nail Gun. XP, Dukes, and 1 Skill for your troubles."/>

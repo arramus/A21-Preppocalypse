@@ -96,14 +96,26 @@
 		</perk>
 	</insertAfter>
 	
-	<!-- Oakraven Rock Drill with craftingWorkstations Skill -->	
+	<!-- Prepper Screamer I.V. Stand and Rock Drill -->
 	
 	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[@icon='chemistryStation']">
-			<unlock_entry item="RockDrillEmpty" unlock_tier="2" />
+			<unlock_entry item="screamQueenPrepperstandIV" unlock_tier="2" />			
+	</append>
+	
+	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[@icon='chemistryStation']">,standIV</append>
+	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[@icon='chemistryStation']/@unlock_level">,50</append>
+	
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,100" value="1" tags="screamQueenPrepperstandIV"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[@icon='chemistryStation']">
+			<unlock_entry item="RockDrillEmpty" unlock_tier="3" />			
 	</append>
 	
 	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[@icon='chemistryStation']">,rockdrill</append>
-	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[@icon='chemistryStation']/@name_key">,workstationsT4-2</append>
 	<append xpath="//crafting_skill[@name='craftingWorkstations']/display_entry[@icon='chemistryStation']/@unlock_level">,60</append>
 	
 	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']">

@@ -174,6 +174,35 @@
 
 	<append xpath="/blocks">
 	
+<block name="screamQueenPrepperstandIV">
+	<property name="Material" value="Mplastics"/>
+	<property name="CustomIcon" value="standIV"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="MaxDamage" value="5000"/>
+    <property name="Path" value="solid"/>	
+	<property name="StabilitySupport" value="false"/>
+    <property name="Model" value="Entities/Furniture/standIVPrefab"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="EconomicValue" value="0"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Group" value="Building,Science,TCScience,advBuilding"/>
+	<property name="UnlockedBy" value="craftingWorkstations"/>
+	<property name="Tags" value="workstationSkill,twitch_workstation"/>	
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="Stacknumber" value="1"/>
+    <property name="Place" value="TowardsPlacerInverted"/>
+	<property name="HeatMapStrength" value="1000"/>
+	<property name="HeatMapTime" value="1000000"/> <!-- 1000 per world hour. str1, t6000, f5 = 2.5; str1, t9000, f5 = 4; str4.05, t12000, f15 = 4.05-8.1; -->
+	<!--property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
+	<property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/-->
+	<property name="Class" value="TorchHeatMap"/> <!-- HeatMapFrequency is not used. 1 min realtime updates that scale to match world time rate -->
+	<property name="CanPickup" value="true"/>
+	<property class="RepairItems"> <property name="resourceScrapPolymers" value="25"/> </property>
+	<drop event="Destroy" name="resourceScrapPolymers" count="10"/>
+</block>
+	
 <!-- Wooden Fortifications -->
 	
 <block name="LogWallsVariantHelper">

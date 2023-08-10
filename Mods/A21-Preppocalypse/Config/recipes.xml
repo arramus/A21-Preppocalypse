@@ -102,6 +102,16 @@
 		<ingredient name="resourceRockSmall" count="800"/>
 		<ingredient name="resourceCement" count="800"/>
 	</recipe>
+
+	<!-- Prepper Screamer I.V. Stand -->
+	
+	<recipe name="screamQueenPrepperstandIV" count="1" craft_time="300" craft_area="workbench" tags="learnable" >
+		<ingredient name="resourceScrapPolymers" count="100"/>
+		<ingredient name="foodRottingFlesh" count="100"/>
+		<ingredient name="resourceForgedSteel" count="50"/>
+		<ingredient name="resourceElectricParts" count="10"/>
+		<ingredient name="medicalBloodBag" count="10"/>
+	</recipe>
 	
 	<!-- Gazz Muffler Mod -->
 	
