@@ -19,12 +19,22 @@
 	<!-- Country Town Tiling -->
 	<set xpath="/rwgmixer/world[@name='small']/property[@class='countrytown']/property[@name='mintiles']/@value">10</set> <!-- 6 -->
 	<set xpath="/rwgmixer/world[@name='small']/property[@class='countrytown']/property[@name='maxtiles']/@value">12</set> <!-- 8 -->
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='countrytown']/property[@name='mintiles']/@value">10</set> <!-- 6 -->
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='countrytown']/property[@name='maxtiles']/@value">12</set> <!-- 8 -->
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='countrytown']/property[@name='mintiles']/@value">10</set> <!-- 6 -->
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='countrytown']/property[@name='maxtiles']/@value">12</set> <!-- 8 -->
 	<!-- Town Placement Count -->
 	<set xpath="/rwgmixer/world[@name='small']/property[@class='town']/property[@name='default']/@value">3</set> <!-- 2 -->
 	<set xpath="/rwgmixer/world[@name='small']/property[@class='town']/property[@name='many']/@value">4</set> <!-- 3 -->
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='town']/property[@name='default']/@value">3</set> <!-- 2 -->
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='town']/property[@name='many']/@value">4</set> <!-- 3 -->
 	<!-- Town Tiling -->
 	<set xpath="/rwgmixer/world[@name='small']/property[@class='town']/property[@name='mintiles']/@value">10</set> <!-- 6 -->
 	<set xpath="/rwgmixer/world[@name='small']/property[@class='town']/property[@name='maxtiles']/@value">12</set> <!-- 8 -->
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='town']/property[@name='mintiles']/@value">10</set> <!-- 6 -->
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='town']/property[@name='maxtiles']/@value">12</set> <!-- 8 -->
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='town']/property[@name='mintiles']/@value">10</set> <!-- 6 -->
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='town']/property[@name='maxtiles']/@value">12</set> <!-- 8 -->
 
 	<append xpath="/rwgmixer">		
 	
