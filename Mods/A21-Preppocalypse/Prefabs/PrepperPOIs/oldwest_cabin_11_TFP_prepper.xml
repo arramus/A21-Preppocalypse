@@ -22,7 +22,7 @@
   <property name="SleeperVolumeFlags" value="0,0,0,0,0,2,0,0" />
   <property name="ShowQuestClearCount" value="2" />
   <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False" />
-  <property name="Tags" value="oldwest,oldwestoutskirt" />
+  <property name="Tags" value="oldwest" />
   <property name="PrefabSize" value="42, 26, 42" />
   <property name="SleeperVolumeTriggeredBy" value=" # # # # # # # " />
   <property class="Stats">

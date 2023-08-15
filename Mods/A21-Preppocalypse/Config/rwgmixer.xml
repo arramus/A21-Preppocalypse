@@ -4,18 +4,27 @@
 	<set xpath="/rwgmixer/township[@name='oldwest']/property[@name='spawn_gateway']/@value">true</set>
 	<!-- Tiny World Old West Town Count / Few 2 / Default 2 / Many 3 -->	
 	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='oldwest']/property[@name='mintiles']/@value">6</set>
-	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='oldwest']/property[@name='maxtiles']/@value">12</set>
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='oldwest']/property[@name='maxtiles']/@value">10</set>
 	<!-- Small World Old West Town Count / Few 2 / Default 2 / Many 3 -->
 	<set xpath="/rwgmixer/world[@name='small']/property[@class='oldwest']/property[@name='default']/@value">3</set>
 	<set xpath="/rwgmixer/world[@name='small']/property[@class='oldwest']/property[@name='many']/@value">4</set>	
 	<set xpath="/rwgmixer/world[@name='small']/property[@class='oldwest']/property[@name='mintiles']/@value">6</set>
-	<set xpath="/rwgmixer/world[@name='small']/property[@class='oldwest']/property[@name='maxtiles']/@value">16</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='oldwest']/property[@name='maxtiles']/@value">12</set>
 	<!-- Medium World Old West Town Count / Few 2 / Default 3 / Many 4 -->	
 	<set xpath="/rwgmixer/world[@name='medium']/property[@class='oldwest']/property[@name='mintiles']/@value">6</set>
-	<set xpath="/rwgmixer/world[@name='medium']/property[@class='oldwest']/property[@name='maxtiles']/@value">16</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='oldwest']/property[@name='maxtiles']/@value">12</set>
 	<!-- Medium World Old West Town Count / Few 3 / Default 4 / Many 5 -->
 	<set xpath="/rwgmixer/world[@name='large']/property[@class='oldwest']/property[@name='mintiles']/@value">6</set>
-	<set xpath="/rwgmixer/world[@name='large']/property[@class='oldwest']/property[@name='maxtiles']/@value">16</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='oldwest']/property[@name='maxtiles']/@value">12</set>
+	<!-- Country Town Tiling -->
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='countrytown']/property[@name='mintiles']/@value">10</set> <!-- 6 -->
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='countrytown']/property[@name='maxtiles']/@value">12</set> <!-- 8 -->
+	<!-- Town Placement Count -->
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='town']/property[@name='default']/@value">3</set> <!-- 2 -->
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='town']/property[@name='many']/@value">4</set> <!-- 3 -->
+	<!-- Town Tiling -->
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='town']/property[@name='mintiles']/@value">10</set> <!-- 6 -->
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='town']/property[@name='maxtiles']/@value">12</set> <!-- 8 -->
 
 	<append xpath="/rwgmixer">		
 	
