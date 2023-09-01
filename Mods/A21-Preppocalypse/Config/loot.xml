@@ -26,6 +26,7 @@
 		<item name="quest_steelclubfemalefat"/>
 		<item name="quest_boltnurse"/>
 		<item name="quest_steelsledgehammerfathawaiian"/>
+		<item name="quest_radiatedpreppers"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootgroup[@name='groupGunSafeSecure']"> <!-- Gun Safe drops two possible passes for books/quests notes -->
