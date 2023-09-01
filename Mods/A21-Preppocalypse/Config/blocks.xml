@@ -37,6 +37,21 @@
 		<property name="resourceConcreteMix" value="20"/>
 	</property>
 	</append>
+ 	<append xpath="/blocks/block[@name='chainLinkFencePOIVariantHelper']">
+	<property name="Group" value="Building,advBuilding,Decor/Miscellaneous"/>
+	</append>
+ 	<append xpath="/blocks/block[@name='chainlinkFencePolePOI']">
+	<property name="MaxDamage" value="1000"/>
+	</append>
+ 	<append xpath="/blocks/block[@name='woodenBear']">
+	<property name="Group" value="Building,advBuilding,Decor/Miscellaneous"/>
+	</append>
+ 	<append xpath="/blocks/block[@name='rugBear']">
+	<property name="Group" value="Building,advBuilding,Decor/Miscellaneous"/>
+	<property class="RepairItems">
+		<property name="resourceLeather" value="2"/>
+	</property>
+	</append>
 <!-- Decorative Logs Walls and Door -->
 	<set xpath="/blocks/block[@name='doorWoodLargeGate']/property[@name='MaxDamage']/@value">2500</set>
  	<append xpath="/blocks/block[@name='doorWoodLargeGate']/property[@name='Group']/@value">,Decor/Miscellaneous</append>
@@ -201,6 +216,19 @@
 	<property name="CanPickup" value="true"/>
 	<property class="RepairItems"> <property name="resourceScrapPolymers" value="25"/> </property>
 	<drop event="Destroy" name="resourceScrapPolymers" count="10"/>
+</block>
+
+<!-- Bandit Barbed Wire Spindles -->
+	
+<block name="barbedWireSpindleVariantHelper">
+	<property name="Extends" value="barbedWireSpindle"/>		
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="barbedWireSpindle"/>
+	<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	<property name="Group" value="Building,advBuilding,Decor/Miscellaneous"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true"/>
+	<property name="PlaceAltBlockValue" value="barbedWireSpindle,barbedWireSpindle1m,barbedWireSpindleDiagonal1m,barbedWireSpindle2,barbedWireSpindle3,barbedWireSpindle4"/>
 </block>
 	
 <!-- Wooden Fortifications -->

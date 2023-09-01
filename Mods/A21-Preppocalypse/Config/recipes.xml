@@ -97,6 +97,27 @@
 		<ingredient name="resourceScrapIron" count="10"/>
 	</recipe>
 	
+	<recipe name="chainLinkFencePOIVariantHelper" count="1" craft_time="10" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceForgedIron" count="1"/>
+		<ingredient name="resourceMetalPipe" count="1"/>
+		<ingredient name="resourceSpring" count="1"/>
+		<ingredient name="resourceScrapIron" count="100"/>
+	</recipe>
+	
+	<recipe name="woodenBear" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="woodLogPillar100" count="10"/>
+	</recipe>
+	
+	<recipe name="rugBear" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceSewingKit" count="1"/>
+		<ingredient name="resourceCloth" count="10"/>
+		<ingredient name="resourceLeather" count="10"/>
+	</recipe>
+	
+	<recipe name="barbedWireSpindleVariantHelper" count="1"> <!-- trap -->
+		<ingredient name="resourceScrapIron" count="50"/>
+	</recipe>
+	
 	<recipe name="resourceCementMixerConcreteBundle" count="1" craft_time="1760" craft_area="cementMixer" tags="cementMixerCrafting">
 		<ingredient name="resourceCrushedSand" count="800"/>
 		<ingredient name="resourceRockSmall" count="800"/>
