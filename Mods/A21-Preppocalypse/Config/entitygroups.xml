@@ -150,20 +150,35 @@
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']/text()" delim="\n" op="add" >
 		animalZombieSnakePREPPER, .75
 		zombieSMGArlenePREPPER, .75
+		zombieSMGArleneRadiatedPREPPER, .75
 		zombieTARifleSoldierPREPPER, .75
+		zombieTARifleSoldierRadiatedPREPPER, .75
 		zombieBatonHazmatPREPPER, .75
+		zombieBatonHazmatRadiatedPREPPER, .75
 		zombieSteelAxeLumberjackPREPPER, .75
+		zombieSteelAxeLumberjackRadiatedPREPPER, .75
 		zombieMachetePartyGirlPREPPER, .75
+		zombieMachetePartyGirlRadiatedPREPPER, .75
 		zombiePistolBusinessManPREPPER, .75
+		zombiePistolBusinessManRadiatedPREPPER, .75
 		zombieNailgunUtilityWorkerPREPPER, .75
+		zombieNailgunUtilityWorkerRadiatedPREPPER, .75
 		zombieSwissVetterliBoePREPPER, .75
+		zombieSwissVetterliBoeRadiatedPREPPER, .75
 		zombieChainsawMoePREPPER, .75
+		zombieChainsawMoeRadiatedPREPPER, .75
 		zombieDesertVultureTomClarkPREPPER, .75
+		zombieDesertVultureTomClarkRadiatedPREPPER, .75
 		zombiePumpShotgunBikerPREPPER, .75
+		zombiePumpShotgunBikerRadiatedPREPPER, .75
 		zombieBatonFatCopPREPPER, .75
+		zombieBatonFatCopRadiatedPREPPER, .75
 		zombieSteelClubFemaleFatPREPPER, .75
+		zombieSteelClubFemaleFatRadiatedPREPPER, .75
 		zombieBoltNursePREPPER, .75
+		zombieBoltNurseRadiatedPREPPER, .75
 		zombieSteelSledgehammerFatHawaiianPREPPER, .75
+		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .75
 		animalZombieLargePlasmaVulturePREPPER, .75		
 		zombieSpiderFeralBomberPREPPER, .75
 		zombieSpiderFeralGliderPREPPER, .75
@@ -179,20 +194,35 @@
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']/text()" delim="\n" op="add" >
 		animalZombieSnakePREPPER, 1.25
 		zombieSMGArlenePREPPER, 1.25
+		zombieSMGArleneRadiatedPREPPER, 1.25
 		zombieTARifleSoldierPREPPER, 1.25
+		zombieTARifleSoldierRadiatedPREPPER, 1.25
 		zombieBatonHazmatPREPPER, 1.25
+		zombieBatonHazmatRadiatedPREPPER, 1.25
 		zombieSteelAxeLumberjackPREPPER, 1.25
+		zombieSteelAxeLumberjackRadiatedPREPPER, 1.25
 		zombieMachetePartyGirlPREPPER, 1.25
+		zombieMachetePartyGirlRadiatedPREPPER, 1.25
 		zombiePistolBusinessManPREPPER, 1.25
+		zombiePistolBusinessManRadiatedPREPPER, 1.25
 		zombieNailgunUtilityWorkerPREPPER, 1.25
+		zombieNailgunUtilityWorkerRadiatedPREPPER, 1.25
 		zombieSwissVetterliBoePREPPER, 1.25
+		zombieSwissVetterliBoeRadiatedPREPPER, 1.25
 		zombieChainsawMoePREPPER, 1.25
+		zombieChainsawMoeRadiatedPREPPER, 1.25
 		zombieDesertVultureTomClarkPREPPER, 1.25
+		zombieDesertVultureTomClarkRadiatedPREPPER, 1.25
 		zombiePumpShotgunBikerPREPPER, 1.25
+		zombiePumpShotgunBikerRadiatedPREPPER, 1.25
 		zombieBatonFatCopPREPPER, 1.25
+		zombieBatonFatCopRadiatedPREPPER, 1.25
 		zombieSteelClubFemaleFatPREPPER, 1.25
+		zombieSteelClubFemaleFatRadiatedPREPPER, 1.25
 		zombieBoltNursePREPPER, 1.25
+		zombieBoltNurseRadiatedPREPPER, 1.25
 		zombieSteelSledgehammerFatHawaiianPREPPER, 1.25
+		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, 1.25
 		animalZombieLargePlasmaVulturePREPPER, 1.25		
 		zombieSpiderFeralBomberPREPPER, 1.25
 		zombieSpiderFeralGliderPREPPER, 1.25
@@ -208,20 +238,35 @@
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWastelandDowntown']/text()" delim="\n" op="add" >
 		animalZombieSnakePREPPER, .025
 		zombieSMGArlenePREPPER, .025
+		zombieSMGArleneRadiatedPREPPER, .025
 		zombieTARifleSoldierPREPPER, .025
+		zombieTARifleSoldierRadiatedPREPPER, .025		
 		zombieBatonHazmatPREPPER, .025
+		zombieBatonHazmatRadiatedPREPPER, .025		
 		zombieSteelAxeLumberjackPREPPER, .025
+		zombieSteelAxeLumberjackRadiatedPREPPER, .025		
 		zombieMachetePartyGirlPREPPER, .025
+		zombieMachetePartyGirlRadiatedPREPPER, .025		
 		zombiePistolBusinessManPREPPER, .025
+		zombiePistolBusinessManRadiatedPREPPER, .025		
 		zombieNailgunUtilityWorkerPREPPER, .025
+		zombieNailgunUtilityWorkerRadiatedPREPPER, .025		
 		zombieSwissVetterliBoePREPPER, .025
+		zombieSwissVetterliBoeRadiatedPREPPER, .025		
 		zombieChainsawMoePREPPER, .025
+		zombieChainsawMoeRadiatedPREPPER, .025		
 		zombieDesertVultureTomClarkPREPPER, .025
+		zombieDesertVultureTomClarkRadiatedPREPPER, .025		
 		zombiePumpShotgunBikerPREPPER, .025
+		zombiePumpShotgunBikerRadiatedPREPPER, .025		
 		zombieBatonFatCopPREPPER, .025
+		zombieBatonFatCopRadiatedPREPPER, .025		
 		zombieSteelClubFemaleFatPREPPER, .025
+		zombieSteelClubFemaleFatRadiatedPREPPER, .025		
 		zombieBoltNursePREPPER, .025
+		zombieBoltNurseRadiatedPREPPER, .025		
 		zombieSteelSledgehammerFatHawaiianPREPPER, .025
+		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .025		
 		animalZombieLargePlasmaVulturePREPPER, .0125		
 		zombieSpiderFeralBomberPREPPER, .0125
 		zombieSpiderFeralGliderPREPPER, .0125
@@ -241,20 +286,35 @@
 		zombieScorcherPREPPER, .035
 		animalZombieSnakePREPPER, .025
 		zombieSMGArlenePREPPER, .025
+		zombieSMGArleneRadiatedPREPPER, .025
 		zombieTARifleSoldierPREPPER, .025
+		zombieTARifleSoldierRadiatedPREPPER, .025		
 		zombieBatonHazmatPREPPER, .025
+		zombieBatonHazmatRadiatedPREPPER, .025		
 		zombieSteelAxeLumberjackPREPPER, .025
+		zombieSteelAxeLumberjackRadiatedPREPPER, .025		
 		zombieMachetePartyGirlPREPPER, .025
+		zombieMachetePartyGirlRadiatedPREPPER, .025		
 		zombiePistolBusinessManPREPPER, .025
+		zombiePistolBusinessManRadiatedPREPPER, .025		
 		zombieNailgunUtilityWorkerPREPPER, .025
+		zombieNailgunUtilityWorkerRadiatedPREPPER, .025		
 		zombieSwissVetterliBoePREPPER, .025
+		zombieSwissVetterliBoeRadiatedPREPPER, .025		
 		zombieChainsawMoePREPPER, .025
+		zombieChainsawMoeRadiatedPREPPER, .025		
 		zombieDesertVultureTomClarkPREPPER, .025
+		zombieDesertVultureTomClarkRadiatedPREPPER, .025		
 		zombiePumpShotgunBikerPREPPER, .025
+		zombiePumpShotgunBikerRadiatedPREPPER, .025		
 		zombieBatonFatCopPREPPER, .025
+		zombieBatonFatCopRadiatedPREPPER, .025		
 		zombieSteelClubFemaleFatPREPPER, .025
+		zombieSteelClubFemaleFatRadiatedPREPPER, .025		
 		zombieBoltNursePREPPER, .025
+		zombieBoltNurseRadiatedPREPPER, .025		
 		zombieSteelSledgehammerFatHawaiianPREPPER, .025
+		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .025
 		animalZombieLargePlasmaVulturePREPPER, .0125		
 		zombieSpiderFeralBomberPREPPER, .0125
 		zombieSpiderFeralGliderPREPPER, .0125
