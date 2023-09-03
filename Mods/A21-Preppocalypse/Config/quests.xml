@@ -320,7 +320,7 @@
 		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 3. Craft and place a Workbench, followed by Farm Plots, a Coop and Hive, and then Traps." />
 		<property name="name_key" value="Quality of Life"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 3"/>
-		<property name="description_key" value="Craft and place a Chicken Coop, Bee Hive, 4 Farm Plots, Wood Burning Prepper Stove, and Fish Trap. Ensure you place the correct types."/>
+		<property name="description_key" value="Craft and place a Chicken Coop, Bee Hive, 4 Farm Plots, Wood Burning Prepper Stove, and Fish Trap. Ensure you place the correct types. Caution! Do not add any Caught Chicks, Queen Bees, or Bait yet. The objective information is the recipe name only, and not an instruction for this Quest stage. That comes in the next stage of Part 3."/>
 		<property name="icon" value="ui_game_symbol_workbench"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="easy"/>
