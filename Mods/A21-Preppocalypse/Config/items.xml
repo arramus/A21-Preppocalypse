@@ -1245,7 +1245,7 @@
 
 	<effect_group name="gunRifleT2LeverActionRifleSwissVetterli">
 		<passive_effect name="MaxRange" operation="base_set" value="150" tags="perkDeadEye"/>
-		<passive_effect name="DamageFalloffRange" operation="base_set" value="60" tags="perkDeadEye"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="70" tags="perkDeadEye"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="perkDeadEye"/> <!-- random effective rng -->
 		<passive_effect name="EntityDamage" operation="base_add" value="12" tags="perkDeadEye"/> <!-- damage offset -->
 		<passive_effect name="BlockDamage" operation="base_add" value="-1" tags="perkDeadEye"/> <!-- damage offset -->
