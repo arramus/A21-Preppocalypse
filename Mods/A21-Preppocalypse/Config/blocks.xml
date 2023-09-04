@@ -59,6 +59,10 @@
 		<property name="MaxDamage" value="1500"/>
 		<property name="Group" value="Building,advBuilding,Decor/Miscellaneous"/>
 	</append>
+	<set xpath="/blocks/block[@name='chainlinkGateDoubleWide']/property[@name='MaxDamage']/@value">2500</set>
+	<set xpath="/blocks/block[@name='chainlinkGateDouble']/property[@name='MaxDamage']/@value">2500</set>
+	<set xpath="/blocks/block[@name='chainlinkFenceDoor']/property[@name='MaxDamage']/@value">2500</set>
+	<set xpath="/blocks/block[@name='chainlinkFenceDoorDouble']/property[@name='MaxDamage']/@value">2500</set>
 	<!-- Deco Block Harvesting -->
  	<append xpath="/blocks/block[@name='decoWildWestWagon']">
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>	
@@ -216,6 +220,19 @@
 	<property name="CanPickup" value="true"/>
 	<property class="RepairItems"> <property name="resourceScrapPolymers" value="25"/> </property>
 	<drop event="Destroy" name="resourceScrapPolymers" count="10"/>
+</block>
+
+<!-- Chain Link Doors and Gates -->
+	
+<block name="chainlinkDoorGateVariantHelper">
+	<property name="Extends" value="chainlinkGateDoubleWide"/>		
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="chainlinkGateDoubleWide"/>
+	<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	<property name="Group" value="Building,advBuilding,Decor/Miscellaneous"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true"/>
+	<property name="PlaceAltBlockValue" value="chainlinkGateDoubleWide,chainlinkGateDouble,chainlinkFenceDoor,chainlinkFenceDoorDouble"/>
 </block>
 
 <!-- Bandit Barbed Wire Spindles -->

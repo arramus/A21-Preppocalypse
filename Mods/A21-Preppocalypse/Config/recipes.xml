@@ -118,6 +118,13 @@
 		<ingredient name="resourceScrapIron" count="50"/>
 	</recipe>
 	
+	<recipe name="chainlinkDoorGateVariantHelper" count="1" craft_time="60" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceForgedIron" count="5"/>
+		<ingredient name="resourceMetalPipe" count="5"/>
+		<ingredient name="resourceSpring" count="5"/>
+		<ingredient name="resourceScrapIron" count="200"/>
+	</recipe>
+	
 	<recipe name="resourceCementMixerConcreteBundle" count="1" craft_time="1760" craft_area="cementMixer" tags="cementMixerCrafting">
 		<ingredient name="resourceCrushedSand" count="800"/>
 		<ingredient name="resourceRockSmall" count="800"/>
