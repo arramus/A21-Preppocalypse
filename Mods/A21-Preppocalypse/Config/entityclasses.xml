@@ -1491,6 +1491,181 @@
 			</effect_group>
 		</entity_class>
 		
+<!-- TOY SOLDIERS -->
+
+		<!-- *** MINI ZOMBIE_SOLDIER -->
+<entity_class name="zombieMiniSoldier" extends="zombieSoldier">
+	<property name="SizeScale" value="0.8"/>
+	<property name="Tags" value="entity,zombie,walker,zombieSoldier"/>
+	<property name="Mass" value="150"/>
+	<!-- Gameplay zombieSoldier -->
+	<property name="MoveSpeedAggro" value="0.6, 1.45"/> <!-- fit, feral -->
+	<property name="HandItem" value="meleeHandZombieShortFeral"/>
+	<property name="TimeStayAfterDeath" value="10"/>
+	<property name="ExperienceGain" value="300"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="300"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="35"/>
+	</effect_group>
+</entity_class>
+
+		<!-- *** MINI ZOMBIE_SOLDIER_FERAL -->
+<entity_class name="zombieMiniSoldierFeral" extends="zombieSoldier">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="SizeScale" value="0.8"/>
+	<property name="Tags" value="entity,zombie,walker,feral,zombieSoldier"/>
+	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZSoldierFeral.prefab"/>
+	<property name="Mass" value="150"/>
+	
+	<!-- Gameplay zombieSoldierFeral -->
+	<property name="DismemberMultiplierHead" value=".7"/><property name="DismemberMultiplierArms" value=".7"/><property name="DismemberMultiplierLegs" value=".7"/><!-- Feral -->
+	<property name="PainResistPerHit" value=".7"/><!-- Feral -->
+	<property name="MoveSpeedAggro" value="0.6, 1.45"/> <!-- fit, feral -->
+	<property name="JumpMaxDistance" value="5, 7"/>
+	<property name="HandItem" value="meleeHandZombieShortFeral"/>
+	<property name="TimeStayAfterDeath" value="10"/>	
+	<property name="ExperienceGain" value="330"/>
+	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="330"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="40"/>
+		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
+	</effect_group>
+</entity_class>
+
+		<!-- *** MINI ZOMBIE_SOLDIER_RADIATED -->
+<entity_class name="zombieMiniSoldierRadiated" extends="zombieSoldierFeral">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="SizeScale" value="0.8"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,zombieSoldier"/>
+	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZSoldierRadiated.prefab"/>
+
+	<!-- Gameplay zombieSoldierRadiated -->
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="TimeStayAfterDeath" value="10"/>
+	<property name="ExperienceGain" value="360"/><!-- XP grunt radiated -->
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="360"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="45"/>
+		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	</effect_group>
+</entity_class>
+
+		<!-- *** MINI TACTICAL ASSAULT RIFLE SOLDIER -->
+<entity_class name="zombieMiniTARifleSoldierPREPPER" extends="zombieSoldierRadiated">
+	<property name="SizeScale" value="0.8"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZSoldierFeral.prefab"/>
+	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
+	<property name="Class" value="EntityZombieCop"/> <!-- Required to activate melee audio for gunfire -->
+
+	<property name="AITask-1" value="BreakBlock"/>
+	<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=5"/>
+	<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityNPC,0,EntityEnemyAnimal,0,EntityPlayer,0"/>
+	<property name="AITask-4" value="ApproachSpot"/>
+	<property name="AITask-5" value="Look"/>
+	<property name="AITask-6" value="Wander"/>
+	<property name="AITask-7" value=""/><!-- Marks end, so we don't inheirit -->
+
+	<!-- Gameplay zombieSoldierRadiated -->
+	<property name="ExplodeHealthThreshold" value="0"/>
+	<property name="HandItem" value="meleeHandZombieMiniTARifleSoldierPREPPER"/>
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="TimeStayAfterDeath" value="10"/>
+	<property name="ExperienceGain" value="450"/>
+	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
+	<property name="LootDropProb" value=".03"/>
+
+	<effect_group name="Base Effects">
+			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieTARifleSoldierPREPPERDeco"/>
+		<passive_effect name="HealthMax" operation="base_set" value="450"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="50"/>
+		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	</effect_group>
+</entity_class>
+
+		<!-- *** MINI DEMOLITION -->		
+<entity_class name="zombieMiniDemolition" extends="zombieDemolition">
+	<property name="SizeScale" value="0.8"/>
+	<property name="Class" value="EntityZombieCop"/>
+	<property name="Tags" value="entity,zombie,walker,boss"/>
+	<property name="Mass" value="180"/>
+
+	<!-- Gameplay zombieDemolition -->
+	<property name="ExplodeHealthThreshold" value="0"/>
+	<property name="HandItem" value="meleeHandZombieShortFeral"/>
+	<property name="JumpMaxDistance" value="5, 7"/>
+	<property name="MoveSpeedAggro" value="0.6, 1.45"/> <!-- fit, feral -->
+	<property name="PainResistPerHit" value=".5"/>
+	<property name="Explosion.ParticleIndex" value="2"/>
+	<property name="Explosion.RadiusBlocks" value="3"/>
+	<property name="Explosion.RadiusEntities" value="4"/>
+	<property name="Explosion.BlockDamage" value="200"/>
+	<property name="Explosion.EntityDamage" value="50"/>
+	<property name="Explosion.DamageBonus.earth" value=".01"/><!-- .1 -->
+	<property name="StompsSpikes" value="true"/>
+	<property name="ExplodeDelay" value="8"/><!-- 2 -->
+	<property name="ExplodeHealthThreshold" value="0"/> <!-- Disable Health explosion -->
+	<property name="SoundExplodeWarn" value="demolitionzexplodewarning"/>
+	<property name="SoundTick" value="demolitionz_beep,.125,.9"/><!-- .5,.9 -->
+
+	<property name="TimeStayAfterDeath" value="10"/>
+	<property name="ExperienceGain" value="500"/>
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+	<property name="LootDropProb" value=".03"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="500"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="1" tags="head"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="50"/>
+		<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
+	</effect_group>
+</entity_class>
+
+		<!-- *** MINI TACTICAL ASSAULT RIFLE RADIATED SOLDIER -->
+<entity_class name="zombieMiniTARifleSoldierRadiatedPREPPER" extends="zombieSoldierRadiated">
+	<property name="SizeScale" value="0.8"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZSoldierRadiated.prefab"/>
+	<property name="Class" value="EntityZombieCop"/> <!-- Required to activate melee audio for gunfire -->
+
+	<property name="AITask-1" value="BreakBlock"/>
+	<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=5"/>
+	<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityNPC,0,EntityEnemyAnimal,0,EntityPlayer,0"/>
+	<property name="AITask-4" value="ApproachSpot"/>
+	<property name="AITask-5" value="Look"/>
+	<property name="AITask-6" value="Wander"/>
+	<property name="AITask-7" value=""/><!-- Marks end, so we don't inheirit -->
+
+	<!-- Gameplay zombieSoldierRadiated -->
+	<property name="ExplodeHealthThreshold" value="0"/>
+	<property name="HandItem" value="meleeHandZombieMiniTARifleSoldierPREPPER"/>
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="TimeStayAfterDeath" value="10"/>
+	<property name="ExperienceGain" value="600"/>
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+	<property name="LootDropProb" value=".03"/>
+
+	<effect_group name="Base Effects">
+			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieTARifleSoldierPREPPERDeco"/>
+		<passive_effect name="HealthMax" operation="base_set" value="600"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="50"/>
+		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	</effect_group>
+</entity_class>
+		
 	</append>
 
 </Preppocalypse>

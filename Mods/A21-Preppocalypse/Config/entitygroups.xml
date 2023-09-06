@@ -1029,17 +1029,13 @@
 		zombieSteelSledgehammerFatHawaiianPREPPER, .05
 	</csv>
 	
-	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS54']/text()" delim="\n" op="add" >
-		animalZombieBunnyPREPPER, .05
-		animalZombieSnakePREPPER, .05
-		animalZombieChickenPREPPER, .05
-		zombieBatonHazmatPREPPER, .05
-		zombieSteelAxeLumberjackPREPPER, .05
-		zombieMachetePartyGirlPREPPER, .05
-		zombieChainsawMoePREPPER, .05
-		zombieSteelClubFemaleFatPREPPER, .05
-		zombieSteelSledgehammerFatHawaiianPREPPER, .05
-	</csv>
+	<!-- MINI SOLDIERS WAVE LIGHT VANGUARD -->
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS54']">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral, .5
+		zombieMiniSoldierRadiated, .25
+		zombieMiniDemolition, .1
+	</set>
 
 <!-- The whole family -->	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS59']/text()" delim="\n" op="add" >
@@ -1282,35 +1278,15 @@
 		zombieScorcherPREPPER, .025
 	</csv>
 	
-	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS103']/text()" delim="\n" op="add" >
-		animalZombieBunnyPREPPER, .05
-		animalZombieSnakePREPPER, .05
-		animalZombieChickenPREPPER, .05
-		zombieSMGArlenePREPPER, .05
-		zombieTARifleSoldierPREPPER, .05
-		zombieBatonHazmatPREPPER, .05
-		zombieSteelAxeLumberjackPREPPER, .05
-		zombieMachetePartyGirlPREPPER, .05
-		zombiePistolBusinessManPREPPER, .05
-		zombieNailgunUtilityWorkerPREPPER, .05
-		zombieSwissVetterliBoePREPPER, .05
-		zombieChainsawMoePREPPER, .05
-		zombieDesertVultureTomClarkPREPPER, .05
-		zombiePumpShotgunBikerPREPPER, .05
-		zombieBatonFatCopPREPPER, .05
-		zombieSteelClubFemaleFatPREPPER, .05
-		zombieBoltNursePREPPER, .05
-		zombieSteelSledgehammerFatHawaiianPREPPER, .05
-		animalZombieLargePlasmaVulturePREPPER, .025		
-		zombieSpiderFeralBomberPREPPER, .025
-		zombieSpiderFeralGliderPREPPER, .025
-		zombieM60DemolitionPREPPER, .025
-		animalBossZombieGracePREPPER, .025
-		zombieWightRadiationShowerPREPPER, .025
-		zombieBogeymanPREPPER, .025
-		zombieCrispyPREPPER, .025
-		zombieScorcherPREPPER, .025
-	</csv>
+	<!-- MINI SOLDIERS WAVE -->
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS103']">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral, .75
+		zombieMiniSoldierRadiated, .5
+		zombieMiniDemolition, .25
+		zombieMiniTARifleSoldierPREPPER, .05
+		zombieMiniTARifleSoldierRadiatedPREPPER, .05
+	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS109']/text()" delim="\n" op="add" >
 		animalZombieBunnyPREPPER, .05
@@ -1524,35 +1500,15 @@
 		zombieScorcherPREPPER, .05
 	</csv>
 	
-	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS153']/text()" delim="\n" op="add" >
-		animalZombieBunnyPREPPER, .075
-		animalZombieSnakePREPPER, .075
-		animalZombieChickenPREPPER, .075
-		zombieSMGArlenePREPPER, .075
-		zombieTARifleSoldierPREPPER, .075
-		zombieBatonHazmatPREPPER, .075
-		zombieSteelAxeLumberjackPREPPER, .075
-		zombieMachetePartyGirlPREPPER, .075
-		zombiePistolBusinessManPREPPER, .075
-		zombieNailgunUtilityWorkerPREPPER, .075
-		zombieSwissVetterliBoePREPPER, .075
-		zombieChainsawMoePREPPER, .075
-		zombieDesertVultureTomClarkPREPPER, .075
-		zombiePumpShotgunBikerPREPPER, .075
-		zombieBatonFatCopPREPPER, .075
-		zombieSteelClubFemaleFatPREPPER, .075
-		zombieBoltNursePREPPER, .075
-		zombieSteelSledgehammerFatHawaiianPREPPER, .075
-		animalZombieLargePlasmaVulturePREPPER, .05		
-		zombieSpiderFeralBomberPREPPER, .05
-		zombieSpiderFeralGliderPREPPER, .05
-		zombieM60DemolitionPREPPER, .05
-		animalBossZombieGracePREPPER, .05
-		zombieWightRadiationShowerPREPPER, .05
-		zombieBogeymanPREPPER, .05
-		zombieCrispyPREPPER, .05
-		zombieScorcherPREPPER, .05
-	</csv>
+	<!-- MINI SOLDIERS WAVE -->
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS153']">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated, .5
+		zombieMiniDemolition, .25
+		zombieMiniTARifleSoldierPREPPER, .15
+		zombieMiniTARifleSoldierRadiatedPREPPER, .1
+	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS160']/text()" delim="\n" op="add" >
 		animalZombieBunnyPREPPER, .075
@@ -1735,35 +1691,15 @@
 		zombieScorcherPREPPER, .075
 	</csv>
 	
-	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS202']/text()" delim="\n" op="add" >
-		animalZombieBunnyPREPPER, .1
-		animalZombieSnakePREPPER, .1
-		animalZombieChickenPREPPER, .1
-		zombieSMGArlenePREPPER, .1
-		zombieTARifleSoldierPREPPER, .1
-		zombieBatonHazmatPREPPER, .1
-		zombieSteelAxeLumberjackPREPPER, .1
-		zombieMachetePartyGirlPREPPER, .1
-		zombiePistolBusinessManPREPPER, .1
-		zombieNailgunUtilityWorkerPREPPER, .1
-		zombieSwissVetterliBoePREPPER, .1
-		zombieChainsawMoePREPPER, .1
-		zombieDesertVultureTomClarkPREPPER, .1
-		zombiePumpShotgunBikerPREPPER, .1
-		zombieBatonFatCopPREPPER, .1
-		zombieSteelClubFemaleFatPREPPER, .1
-		zombieBoltNursePREPPER, .1
-		zombieSteelSledgehammerFatHawaiianPREPPER, .1
-		animalZombieLargePlasmaVulturePREPPER, .075		
-		zombieSpiderFeralBomberPREPPER, .075
-		zombieSpiderFeralGliderPREPPER, .075
-		zombieM60DemolitionPREPPER, .075
-		animalBossZombieGracePREPPER, .075
-		zombieWightRadiationShowerPREPPER, .075
-		zombieBogeymanPREPPER, .075
-		zombieCrispyPREPPER, .075
-		zombieScorcherPREPPER, .075
-	</csv>
+	<!-- MINI SOLDIERS WAVE -->
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS202']">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated, .5
+		zombieMiniDemolition, .25
+		zombieMiniTARifleSoldierPREPPER, .15
+		zombieMiniTARifleSoldierRadiatedPREPPER, .1
+	</set>
 
 <!-- Radiated Zombie at 1.0 becomes the norm except for special type -->	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS210']/text()" delim="\n" op="add" >
@@ -1916,35 +1852,15 @@
 		zombieScorcherPREPPER, .1
 	</csv>
 	
-	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS247']/text()" delim="\n" op="add" >
-		animalZombieBunnyPREPPER, .15
-		animalZombieSnakePREPPER, .15
-		animalZombieChickenPREPPER, .15
-		zombieSMGArlenePREPPER, .15
-		zombieTARifleSoldierPREPPER, .15
-		zombieBatonHazmatPREPPER, .15
-		zombieSteelAxeLumberjackPREPPER, .15
-		zombieMachetePartyGirlPREPPER, .15
-		zombiePistolBusinessManPREPPER, .15
-		zombieNailgunUtilityWorkerPREPPER, .15
-		zombieSwissVetterliBoePREPPER, .15
-		zombieChainsawMoePREPPER, .15
-		zombieDesertVultureTomClarkPREPPER, .15
-		zombiePumpShotgunBikerPREPPER, .15
-		zombieBatonFatCopPREPPER, .15
-		zombieSteelClubFemaleFatPREPPER, .15
-		zombieBoltNursePREPPER, .15
-		zombieSteelSledgehammerFatHawaiianPREPPER, .15
-		animalZombieLargePlasmaVulturePREPPER, .1		
-		zombieSpiderFeralBomberPREPPER, .1
-		zombieSpiderFeralGliderPREPPER, .1
-		zombieM60DemolitionPREPPER, .1
-		animalBossZombieGracePREPPER, .1
-		zombieWightRadiationShowerPREPPER, .1
-		zombieBogeymanPREPPER, .1
-		zombieCrispyPREPPER, .1
-		zombieScorcherPREPPER, .1
-	</csv>
+	<!-- MINI SOLDIERS WAVE -->
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS247']">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated
+		zombieMiniDemolition, .5
+		zombieMiniTARifleSoldierPREPPER, .25
+		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+	</set>
 
 <!-- Increase for Custom Zombies based on Pre A21 values -->	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS255']/text()" delim="\n" op="add" >
@@ -2308,35 +2224,15 @@
 		zombieScorcherPREPPER, .15
 	</csv>
 	
-	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS354']/text()" delim="\n" op="add" >
-		animalZombieBunnyPREPPER, .2
-		animalZombieSnakePREPPER, .2
-		animalZombieChickenPREPPER, .2
-		zombieSMGArlenePREPPER, .2
-		zombieTARifleSoldierPREPPER, .2
-		zombieBatonHazmatPREPPER, .2
-		zombieSteelAxeLumberjackPREPPER, .2
-		zombieMachetePartyGirlPREPPER, .2
-		zombiePistolBusinessManPREPPER, .2
-		zombieNailgunUtilityWorkerPREPPER, .2
-		zombieSwissVetterliBoePREPPER, .2
-		zombieChainsawMoePREPPER, .2
-		zombieDesertVultureTomClarkPREPPER, .2
-		zombiePumpShotgunBikerPREPPER, .2
-		zombieBatonFatCopPREPPER, .2
-		zombieSteelClubFemaleFatPREPPER, .2
-		zombieBoltNursePREPPER, .2
-		zombieSteelSledgehammerFatHawaiianPREPPER, .2
-		animalZombieLargePlasmaVulturePREPPER, .15		
-		zombieSpiderFeralBomberPREPPER, .15
-		zombieSpiderFeralGliderPREPPER, .15
-		zombieM60DemolitionPREPPER, .15
-		animalBossZombieGracePREPPER, .15
-		zombieWightRadiationShowerPREPPER, .15
-		zombieBogeymanPREPPER, .15
-		zombieCrispyPREPPER, .15
-		zombieScorcherPREPPER, .15
-	</csv>
+	<!-- MINI SOLDIERS WAVE -->
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS354']">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated
+		zombieMiniDemolition, .5
+		zombieMiniTARifleSoldierPREPPER, .25
+		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS363']/text()" delim="\n" op="add" >
 		animalZombieBunnyPREPPER, .2
@@ -2488,35 +2384,15 @@
 		zombieScorcherPREPPER, .15
 	</csv>
 	
-	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS407']/text()" delim="\n" op="add" >
-		animalZombieBunnyPREPPER, .2
-		animalZombieSnakePREPPER, .2
-		animalZombieChickenPREPPER, .2
-		zombieSMGArlenePREPPER, .2
-		zombieTARifleSoldierPREPPER, .2
-		zombieBatonHazmatPREPPER, .2
-		zombieSteelAxeLumberjackPREPPER, .2
-		zombieMachetePartyGirlPREPPER, .2
-		zombiePistolBusinessManPREPPER, .2
-		zombieNailgunUtilityWorkerPREPPER, .2
-		zombieSwissVetterliBoePREPPER, .2
-		zombieChainsawMoePREPPER, .2
-		zombieDesertVultureTomClarkPREPPER, .2
-		zombiePumpShotgunBikerPREPPER, .2
-		zombieBatonFatCopPREPPER, .2
-		zombieSteelClubFemaleFatPREPPER, .2
-		zombieBoltNursePREPPER, .2
-		zombieSteelSledgehammerFatHawaiianPREPPER, .2
-		animalZombieLargePlasmaVulturePREPPER, .15		
-		zombieSpiderFeralBomberPREPPER, .15
-		zombieSpiderFeralGliderPREPPER, .15
-		zombieM60DemolitionPREPPER, .15
-		animalBossZombieGracePREPPER, .15
-		zombieWightRadiationShowerPREPPER, .15
-		zombieBogeymanPREPPER, .15
-		zombieCrispyPREPPER, .15
-		zombieScorcherPREPPER, .15
-	</csv>
+	<!-- MINI SOLDIERS WAVE -->
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS407']">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated
+		zombieMiniDemolition
+		zombieMiniTARifleSoldierPREPPER, .25
+		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS417']/text()" delim="\n" op="add" >
 		animalZombieBunnyPREPPER, .2
@@ -2758,35 +2634,15 @@
 		zombieScorcherPREPPER, .15
 	</csv>
 	
-	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS491']/text()" delim="\n" op="add" >
-		animalZombieBunnyPREPPER, .2
-		animalZombieSnakePREPPER, .2
-		animalZombieChickenPREPPER, .2
-		zombieSMGArlenePREPPER, .2
-		zombieTARifleSoldierPREPPER, .2
-		zombieBatonHazmatPREPPER, .2
-		zombieSteelAxeLumberjackPREPPER, .2
-		zombieMachetePartyGirlPREPPER, .2
-		zombiePistolBusinessManPREPPER, .2
-		zombieNailgunUtilityWorkerPREPPER, .2
-		zombieSwissVetterliBoePREPPER, .2
-		zombieChainsawMoePREPPER, .2
-		zombieDesertVultureTomClarkPREPPER, .2
-		zombiePumpShotgunBikerPREPPER, .2
-		zombieBatonFatCopPREPPER, .2
-		zombieSteelClubFemaleFatPREPPER, .2
-		zombieBoltNursePREPPER, .2
-		zombieSteelSledgehammerFatHawaiianPREPPER, .2
-		animalZombieLargePlasmaVulturePREPPER, .15		
-		zombieSpiderFeralBomberPREPPER, .15
-		zombieSpiderFeralGliderPREPPER, .15
-		zombieM60DemolitionPREPPER, .15
-		animalBossZombieGracePREPPER, .15
-		zombieWightRadiationShowerPREPPER, .15
-		zombieBogeymanPREPPER, .15
-		zombieCrispyPREPPER, .15
-		zombieScorcherPREPPER, .15
-	</csv>
+	<!-- MINI SOLDIERS WAVE -->
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS491']">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated
+		zombieMiniDemolition
+		zombieMiniTARifleSoldierPREPPER, .25
+		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+	</set>
 
 <!-- Increase for GS 500 -->	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS501']/text()" delim="\n" op="add" >
@@ -3089,35 +2945,15 @@
 		zombieScorcherPREPPER, .175
 	</csv>
 	
-	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS600']/text()" delim="\n" op="add" >
-		animalZombieBunnyPREPPER, .225
-		animalZombieSnakePREPPER, .225
-		animalZombieChickenPREPPER, .225
-		zombieSMGArlenePREPPER, .225
-		zombieTARifleSoldierPREPPER, .225
-		zombieBatonHazmatPREPPER, .225
-		zombieSteelAxeLumberjackPREPPER, .225
-		zombieMachetePartyGirlPREPPER, .225
-		zombiePistolBusinessManPREPPER, .225
-		zombieNailgunUtilityWorkerPREPPER, .225
-		zombieSwissVetterliBoePREPPER, .225
-		zombieChainsawMoePREPPER, .225
-		zombieDesertVultureTomClarkPREPPER, .225
-		zombiePumpShotgunBikerPREPPER, .225
-		zombieBatonFatCopPREPPER, .225
-		zombieSteelClubFemaleFatPREPPER, .225
-		zombieBoltNursePREPPER, .225
-		zombieSteelSledgehammerFatHawaiianPREPPER, .225
-		animalZombieLargePlasmaVulturePREPPER, .175		
-		zombieSpiderFeralBomberPREPPER, .175
-		zombieSpiderFeralGliderPREPPER, .175
-		zombieM60DemolitionPREPPER, .175
-		animalBossZombieGracePREPPER, .175
-		zombieWightRadiationShowerPREPPER, .175
-		zombieBogeymanPREPPER, .175
-		zombieCrispyPREPPER, .175
-		zombieScorcherPREPPER, .175
-	</csv>
+	<!-- MINI SOLDIERS WAVE -->
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS600']">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated
+		zombieMiniDemolition
+		zombieMiniTARifleSoldierPREPPER, .25
+		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS610']/text()" delim="\n" op="add" >
 		animalZombieBunnyPREPPER, .225
@@ -3359,35 +3195,15 @@
 		zombieScorcherPREPPER, .175
 	</csv>
 	
-	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS693']/text()" delim="\n" op="add" >
-		animalZombieBunnyPREPPER, .225
-		animalZombieSnakePREPPER, .225
-		animalZombieChickenPREPPER, .225
-		zombieSMGArlenePREPPER, .225
-		zombieTARifleSoldierPREPPER, .225
-		zombieBatonHazmatPREPPER, .225
-		zombieSteelAxeLumberjackPREPPER, .225
-		zombieMachetePartyGirlPREPPER, .225
-		zombiePistolBusinessManPREPPER, .225
-		zombieNailgunUtilityWorkerPREPPER, .225
-		zombieSwissVetterliBoePREPPER, .225
-		zombieChainsawMoePREPPER, .225
-		zombieDesertVultureTomClarkPREPPER, .225
-		zombiePumpShotgunBikerPREPPER, .225
-		zombieBatonFatCopPREPPER, .225
-		zombieSteelClubFemaleFatPREPPER, .225
-		zombieBoltNursePREPPER, .225
-		zombieSteelSledgehammerFatHawaiianPREPPER, .225
-		animalZombieLargePlasmaVulturePREPPER, .175		
-		zombieSpiderFeralBomberPREPPER, .175
-		zombieSpiderFeralGliderPREPPER, .175
-		zombieM60DemolitionPREPPER, .175
-		animalBossZombieGracePREPPER, .175
-		zombieWightRadiationShowerPREPPER, .175
-		zombieBogeymanPREPPER, .175
-		zombieCrispyPREPPER, .175
-		zombieScorcherPREPPER, .175
-	</csv>
+	<!-- MINI SOLDIERS WAVE -->
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS693']">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated
+		zombieMiniDemolition
+		zombieMiniTARifleSoldierPREPPER, .25
+		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+	</set>
 
 <!-- Pretty much peaked for default entities and anything goes -->	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS704']/text()" delim="\n" op="add" >
@@ -3630,35 +3446,15 @@
 		zombieScorcherPREPPER, .2
 	</csv>
 	
-	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS791']/text()" delim="\n" op="add" >
-		animalZombieBunnyPREPPER, .25
-		animalZombieSnakePREPPER, .25
-		animalZombieChickenPREPPER, .25
-		zombieSMGArlenePREPPER, .25
-		zombieTARifleSoldierPREPPER, .25
-		zombieBatonHazmatPREPPER, .25
-		zombieSteelAxeLumberjackPREPPER, .25
-		zombieMachetePartyGirlPREPPER, .25
-		zombiePistolBusinessManPREPPER, .25
-		zombieNailgunUtilityWorkerPREPPER, .25
-		zombieSwissVetterliBoePREPPER, .25
-		zombieChainsawMoePREPPER, .25
-		zombieDesertVultureTomClarkPREPPER, .25
-		zombiePumpShotgunBikerPREPPER, .25
-		zombieBatonFatCopPREPPER, .25
-		zombieSteelClubFemaleFatPREPPER, .25
-		zombieBoltNursePREPPER, .25
-		zombieSteelSledgehammerFatHawaiianPREPPER, .25
-		animalZombieLargePlasmaVulturePREPPER, .2		
-		zombieSpiderFeralBomberPREPPER, .2
-		zombieSpiderFeralGliderPREPPER, .2
-		zombieM60DemolitionPREPPER, .2
-		animalBossZombieGracePREPPER, .2
-		zombieWightRadiationShowerPREPPER, .2
-		zombieBogeymanPREPPER, .2
-		zombieCrispyPREPPER, .2
-		zombieScorcherPREPPER, .2
-	</csv>
+	<!-- MINI SOLDIERS WAVE -->
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS791']">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated
+		zombieMiniDemolition
+		zombieMiniTARifleSoldierPREPPER, .25
+		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+	</set>
 
 <!-- Increase in probabilities for GS 800 -->	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS802']/text()" delim="\n" op="add" >
@@ -3931,35 +3727,15 @@
 		zombieScorcherPREPPER, .225
 	</csv>
 	
-	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS904']/text()" delim="\n" op="add" >
-		animalZombieBunnyPREPPER, .275
-		animalZombieSnakePREPPER, .275
-		animalZombieChickenPREPPER, .275
-		zombieSMGArlenePREPPER, .275
-		zombieTARifleSoldierPREPPER, .275
-		zombieBatonHazmatPREPPER, .275
-		zombieSteelAxeLumberjackPREPPER, .275
-		zombieMachetePartyGirlPREPPER, .275
-		zombiePistolBusinessManPREPPER, .275
-		zombieNailgunUtilityWorkerPREPPER, .275
-		zombieSwissVetterliBoePREPPER, .275
-		zombieChainsawMoePREPPER, .275
-		zombieDesertVultureTomClarkPREPPER, .275
-		zombiePumpShotgunBikerPREPPER, .275
-		zombieBatonFatCopPREPPER, .275
-		zombieSteelClubFemaleFatPREPPER, .275
-		zombieBoltNursePREPPER, .275
-		zombieSteelSledgehammerFatHawaiianPREPPER, .275
-		animalZombieLargePlasmaVulturePREPPER, .225		
-		zombieSpiderFeralBomberPREPPER, .225
-		zombieSpiderFeralGliderPREPPER, .225
-		zombieM60DemolitionPREPPER, .225
-		animalBossZombieGracePREPPER, .225
-		zombieWightRadiationShowerPREPPER, .225
-		zombieBogeymanPREPPER, .225
-		zombieCrispyPREPPER, .225
-		zombieScorcherPREPPER, .225
-	</csv>
+	<!-- MINI SOLDIERS WAVE -->
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS904']">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated
+		zombieMiniDemolition
+		zombieMiniTARifleSoldierPREPPER, .25
+		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS916']/text()" delim="\n" op="add" >
 		animalZombieBunnyPREPPER, .275
@@ -4171,35 +3947,15 @@
 		zombieScorcherPREPPER, .225
 	</csv>
 	
-	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS998']/text()" delim="\n" op="add" >
-		animalZombieBunnyPREPPER, .275
-		animalZombieSnakePREPPER, .275
-		animalZombieChickenPREPPER, .275
-		zombieSMGArlenePREPPER, .275
-		zombieTARifleSoldierPREPPER, .275
-		zombieBatonHazmatPREPPER, .275
-		zombieSteelAxeLumberjackPREPPER, .275
-		zombieMachetePartyGirlPREPPER, .275
-		zombiePistolBusinessManPREPPER, .275
-		zombieNailgunUtilityWorkerPREPPER, .275
-		zombieSwissVetterliBoePREPPER, .275
-		zombieChainsawMoePREPPER, .275
-		zombieDesertVultureTomClarkPREPPER, .275
-		zombiePumpShotgunBikerPREPPER, .275
-		zombieBatonFatCopPREPPER, .275
-		zombieSteelClubFemaleFatPREPPER, .275
-		zombieBoltNursePREPPER, .275
-		zombieSteelSledgehammerFatHawaiianPREPPER, .275
-		animalZombieLargePlasmaVulturePREPPER, .225		
-		zombieSpiderFeralBomberPREPPER, .225
-		zombieSpiderFeralGliderPREPPER, .225
-		zombieM60DemolitionPREPPER, .225
-		animalBossZombieGracePREPPER, .225
-		zombieWightRadiationShowerPREPPER, .225
-		zombieBogeymanPREPPER, .225
-		zombieCrispyPREPPER, .225
-		zombieScorcherPREPPER, .225
-	</csv>
+	<!-- MINI SOLDIERS WAVE -->
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS998']">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated
+		zombieMiniDemolition
+		zombieMiniTARifleSoldierPREPPER, .25
+		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+	</set>
 
 <!-- Increase in probabilities for GS 1000 -->	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1010']/text()" delim="\n" op="add" >
@@ -4682,35 +4438,15 @@
 		zombieScorcherPREPPER, .25
 	</csv>
 	
-	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1206']/text()" delim="\n" op="add" >
-		animalZombieBunnyPREPPER, .3
-		animalZombieSnakePREPPER, .3
-		animalZombieChickenPREPPER, .3
-		zombieSMGArlenePREPPER, .3
-		zombieTARifleSoldierPREPPER, .3
-		zombieBatonHazmatPREPPER, .3
-		zombieSteelAxeLumberjackPREPPER, .3
-		zombieMachetePartyGirlPREPPER, .3
-		zombiePistolBusinessManPREPPER, .3
-		zombieNailgunUtilityWorkerPREPPER, .3
-		zombieSwissVetterliBoePREPPER, .3
-		zombieChainsawMoePREPPER, .3
-		zombieDesertVultureTomClarkPREPPER, .3
-		zombiePumpShotgunBikerPREPPER, .3
-		zombieBatonFatCopPREPPER, .3
-		zombieSteelClubFemaleFatPREPPER, .3
-		zombieBoltNursePREPPER, .3
-		zombieSteelSledgehammerFatHawaiianPREPPER, .3
-		animalZombieLargePlasmaVulturePREPPER, .25		
-		zombieSpiderFeralBomberPREPPER, .25
-		zombieSpiderFeralGliderPREPPER, .25
-		zombieM60DemolitionPREPPER, .25
-		animalBossZombieGracePREPPER, .25
-		zombieWightRadiationShowerPREPPER, .25
-		zombieBogeymanPREPPER, .25
-		zombieCrispyPREPPER, .25
-		zombieScorcherPREPPER, .25
-	</csv>
+	<!-- MINI SOLDIERS WAVE -->
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1206']">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated
+		zombieMiniDemolition
+		zombieMiniTARifleSoldierPREPPER, .25
+		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1218']/text()" delim="\n" op="add" >
 		animalZombieBunnyPREPPER, .3
@@ -5162,35 +4898,15 @@
 		zombieScorcherPREPPER, .25
 	</csv>
 	
-	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1412']/text()" delim="\n" op="add" >
-		animalZombieBunnyPREPPER, .3
-		animalZombieSnakePREPPER, .3
-		animalZombieChickenPREPPER, .3
-		zombieSMGArlenePREPPER, .3
-		zombieTARifleSoldierPREPPER, .3
-		zombieBatonHazmatPREPPER, .3
-		zombieSteelAxeLumberjackPREPPER, .3
-		zombieMachetePartyGirlPREPPER, .3
-		zombiePistolBusinessManPREPPER, .3
-		zombieNailgunUtilityWorkerPREPPER, .3
-		zombieSwissVetterliBoePREPPER, .3
-		zombieChainsawMoePREPPER, .3
-		zombieDesertVultureTomClarkPREPPER, .3
-		zombiePumpShotgunBikerPREPPER, .3
-		zombieBatonFatCopPREPPER, .3
-		zombieSteelClubFemaleFatPREPPER, .3
-		zombieBoltNursePREPPER, .3
-		zombieSteelSledgehammerFatHawaiianPREPPER, .3
-		animalZombieLargePlasmaVulturePREPPER, .25		
-		zombieSpiderFeralBomberPREPPER, .25
-		zombieSpiderFeralGliderPREPPER, .25
-		zombieM60DemolitionPREPPER, .25
-		animalBossZombieGracePREPPER, .25
-		zombieWightRadiationShowerPREPPER, .25
-		zombieBogeymanPREPPER, .25
-		zombieCrispyPREPPER, .25
-		zombieScorcherPREPPER, .25
-	</csv>
+	<!-- MINI SOLDIERS WAVE -->
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1412']">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated
+		zombieMiniDemolition
+		zombieMiniTARifleSoldierPREPPER, .25
+		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1425']/text()" delim="\n" op="add" >
 		animalZombieBunnyPREPPER, .3
@@ -5583,35 +5299,15 @@
 		zombieScorcherPREPPER, .3
 	</csv>
 	
-	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1601']/text()" delim="\n" op="add" >
-		animalZombieBunnyPREPPER, .35
-		animalZombieSnakePREPPER, .35
-		animalZombieChickenPREPPER, .35
-		zombieSMGArlenePREPPER, .35
-		zombieTARifleSoldierPREPPER, .35
-		zombieBatonHazmatPREPPER, .35
-		zombieSteelAxeLumberjackPREPPER, .35
-		zombieMachetePartyGirlPREPPER, .35
-		zombiePistolBusinessManPREPPER, .35
-		zombieNailgunUtilityWorkerPREPPER, .35
-		zombieSwissVetterliBoePREPPER, .35
-		zombieChainsawMoePREPPER, .35
-		zombieDesertVultureTomClarkPREPPER, .35
-		zombiePumpShotgunBikerPREPPER, .35
-		zombieBatonFatCopPREPPER, .35
-		zombieSteelClubFemaleFatPREPPER, .35
-		zombieBoltNursePREPPER, .35
-		zombieSteelSledgehammerFatHawaiianPREPPER, .35
-		animalZombieLargePlasmaVulturePREPPER, .3		
-		zombieSpiderFeralBomberPREPPER, .3
-		zombieSpiderFeralGliderPREPPER, .3
-		zombieM60DemolitionPREPPER, .3
-		animalBossZombieGracePREPPER, .3
-		zombieWightRadiationShowerPREPPER, .3
-		zombieBogeymanPREPPER, .3
-		zombieCrispyPREPPER, .3
-		zombieScorcherPREPPER, .3
-	</csv>
+	<!-- MINI SOLDIERS WAVE -->
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1601']">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated
+		zombieMiniDemolition
+		zombieMiniTARifleSoldierPREPPER, .25
+		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1614']/text()" delim="\n" op="add" >
 		animalZombieBunnyPREPPER, .35
@@ -6033,35 +5729,15 @@
 		zombieScorcherPREPPER, .3
 	</csv>
 	
-	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1811']/text()" delim="\n" op="add" >
-		animalZombieBunnyPREPPER, .35
-		animalZombieSnakePREPPER, .35
-		animalZombieChickenPREPPER, .35
-		zombieSMGArlenePREPPER, .35
-		zombieTARifleSoldierPREPPER, .35
-		zombieBatonHazmatPREPPER, .35
-		zombieSteelAxeLumberjackPREPPER, .35
-		zombieMachetePartyGirlPREPPER, .35
-		zombiePistolBusinessManPREPPER, .35
-		zombieNailgunUtilityWorkerPREPPER, .35
-		zombieSwissVetterliBoePREPPER, .35
-		zombieChainsawMoePREPPER, .35
-		zombieDesertVultureTomClarkPREPPER, .35
-		zombiePumpShotgunBikerPREPPER, .35
-		zombieBatonFatCopPREPPER, .35
-		zombieSteelClubFemaleFatPREPPER, .35
-		zombieBoltNursePREPPER, .35
-		zombieSteelSledgehammerFatHawaiianPREPPER, .35
-		animalZombieLargePlasmaVulturePREPPER, .3		
-		zombieSpiderFeralBomberPREPPER, .3
-		zombieSpiderFeralGliderPREPPER, .3
-		zombieM60DemolitionPREPPER, .3
-		animalBossZombieGracePREPPER, .3
-		zombieWightRadiationShowerPREPPER, .3
-		zombieBogeymanPREPPER, .3
-		zombieCrispyPREPPER, .3
-		zombieScorcherPREPPER, .3
-	</csv>
+	<!-- MINI SOLDIERS WAVE -->
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1811']">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated
+		zombieMiniDemolition
+		zombieMiniTARifleSoldierPREPPER, .25
+		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1825']/text()" delim="\n" op="add" >
 		animalZombieBunnyPREPPER, .35
@@ -6423,35 +6099,15 @@
 		zombieScorcherPREPPER, .3
 	</csv>
 	
-	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1999']/text()" delim="\n" op="add" >
-		animalZombieBunnyPREPPER, .35
-		animalZombieSnakePREPPER, .35
-		animalZombieChickenPREPPER, .35
-		zombieSMGArlenePREPPER, .35
-		zombieTARifleSoldierPREPPER, .35
-		zombieBatonHazmatPREPPER, .35
-		zombieSteelAxeLumberjackPREPPER, .35
-		zombieMachetePartyGirlPREPPER, .35
-		zombiePistolBusinessManPREPPER, .35
-		zombieNailgunUtilityWorkerPREPPER, .35
-		zombieSwissVetterliBoePREPPER, .35
-		zombieChainsawMoePREPPER, .35
-		zombieDesertVultureTomClarkPREPPER, .35
-		zombiePumpShotgunBikerPREPPER, .35
-		zombieBatonFatCopPREPPER, .35
-		zombieSteelClubFemaleFatPREPPER, .35
-		zombieBoltNursePREPPER, .35
-		zombieSteelSledgehammerFatHawaiianPREPPER, .35
-		animalZombieLargePlasmaVulturePREPPER, .3		
-		zombieSpiderFeralBomberPREPPER, .3
-		zombieSpiderFeralGliderPREPPER, .3
-		zombieM60DemolitionPREPPER, .3
-		animalBossZombieGracePREPPER, .3
-		zombieWightRadiationShowerPREPPER, .3
-		zombieBogeymanPREPPER, .3
-		zombieCrispyPREPPER, .3
-		zombieScorcherPREPPER, .3
-	</csv>
+	<!-- MINI SOLDIERS WAVE -->
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1999']">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated
+		zombieMiniDemolition
+		zombieMiniTARifleSoldierPREPPER, .25
+		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+	</set>
 
 <!-- Increase in probabilities for GS 2000 -->	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2013']/text()" delim="\n" op="add" >
@@ -7084,35 +6740,15 @@
 		zombieScorcherPREPPER, .325
 	</csv>
 	
-	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2330']/text()" delim="\n" op="add" >
-		animalZombieBunnyPREPPER, .375
-		animalZombieSnakePREPPER, .375
-		animalZombieChickenPREPPER, .375
-		zombieSMGArlenePREPPER, .375
-		zombieTARifleSoldierPREPPER, .375
-		zombieBatonHazmatPREPPER, .375
-		zombieSteelAxeLumberjackPREPPER, .375
-		zombieMachetePartyGirlPREPPER, .375
-		zombiePistolBusinessManPREPPER, .375
-		zombieNailgunUtilityWorkerPREPPER, .375
-		zombieSwissVetterliBoePREPPER, .375
-		zombieChainsawMoePREPPER, .375
-		zombieDesertVultureTomClarkPREPPER, .375
-		zombiePumpShotgunBikerPREPPER, .375
-		zombieBatonFatCopPREPPER, .375
-		zombieSteelClubFemaleFatPREPPER, .375
-		zombieBoltNursePREPPER, .375
-		zombieSteelSledgehammerFatHawaiianPREPPER, .375
-		animalZombieLargePlasmaVulturePREPPER, .325		
-		zombieSpiderFeralBomberPREPPER, .325
-		zombieSpiderFeralGliderPREPPER, .325
-		zombieM60DemolitionPREPPER, .325
-		animalBossZombieGracePREPPER, .325
-		zombieWightRadiationShowerPREPPER, .325
-		zombieBogeymanPREPPER, .325
-		zombieCrispyPREPPER, .325
-		zombieScorcherPREPPER, .325
-	</csv>
+	<!-- MINI SOLDIERS WAVE -->
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2330']">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated
+		zombieMiniDemolition
+		zombieMiniTARifleSoldierPREPPER, .25
+		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2345']/text()" delim="\n" op="add" >
 		animalZombieBunnyPREPPER, .375
@@ -7715,35 +7351,15 @@
 		zombieScorcherPREPPER, .35
 	</csv>
 	
-	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2660']/text()" delim="\n" op="add" >
-		animalZombieBunnyPREPPER, .4
-		animalZombieSnakePREPPER, .4
-		animalZombieChickenPREPPER, .4
-		zombieSMGArlenePREPPER, .4
-		zombieTARifleSoldierPREPPER, .4
-		zombieBatonHazmatPREPPER, .4
-		zombieSteelAxeLumberjackPREPPER, .4
-		zombieMachetePartyGirlPREPPER, .4
-		zombiePistolBusinessManPREPPER, .4
-		zombieNailgunUtilityWorkerPREPPER, .4
-		zombieSwissVetterliBoePREPPER, .4
-		zombieChainsawMoePREPPER, .4
-		zombieDesertVultureTomClarkPREPPER, .4
-		zombiePumpShotgunBikerPREPPER, .4
-		zombieBatonFatCopPREPPER, .4
-		zombieSteelClubFemaleFatPREPPER, .4
-		zombieBoltNursePREPPER, .4
-		zombieSteelSledgehammerFatHawaiianPREPPER, .4
-		animalZombieLargePlasmaVulturePREPPER, .35		
-		zombieSpiderFeralBomberPREPPER, .35
-		zombieSpiderFeralGliderPREPPER, .35
-		zombieM60DemolitionPREPPER, .35
-		animalBossZombieGracePREPPER, .35
-		zombieWightRadiationShowerPREPPER, .35
-		zombieBogeymanPREPPER, .35
-		zombieCrispyPREPPER, .35
-		zombieScorcherPREPPER, .35
-	</csv>
+	<!-- MINI SOLDIERS WAVE -->
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2660']">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated
+		zombieMiniDemolition
+		zombieMiniTARifleSoldierPREPPER, .25
+		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2676']/text()" delim="\n" op="add" >
 		animalZombieBunnyPREPPER, .4
@@ -8315,35 +7931,15 @@
 		zombieScorcherPREPPER, .35
 	</csv>
 	
-	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2986']/text()" delim="\n" op="add" >
-		animalZombieBunnyPREPPER, .4
-		animalZombieSnakePREPPER, .4
-		animalZombieChickenPREPPER, .4
-		zombieSMGArlenePREPPER, .4
-		zombieTARifleSoldierPREPPER, .4
-		zombieBatonHazmatPREPPER, .4
-		zombieSteelAxeLumberjackPREPPER, .4
-		zombieMachetePartyGirlPREPPER, .4
-		zombiePistolBusinessManPREPPER, .4
-		zombieNailgunUtilityWorkerPREPPER, .4
-		zombieSwissVetterliBoePREPPER, .4
-		zombieChainsawMoePREPPER, .4
-		zombieDesertVultureTomClarkPREPPER, .4
-		zombiePumpShotgunBikerPREPPER, .4
-		zombieBatonFatCopPREPPER, .4
-		zombieSteelClubFemaleFatPREPPER, .4
-		zombieBoltNursePREPPER, .4
-		zombieSteelSledgehammerFatHawaiianPREPPER, .4
-		animalZombieLargePlasmaVulturePREPPER, .35		
-		zombieSpiderFeralBomberPREPPER, .35
-		zombieSpiderFeralGliderPREPPER, .35
-		zombieM60DemolitionPREPPER, .35
-		animalBossZombieGracePREPPER, .35
-		zombieWightRadiationShowerPREPPER, .35
-		zombieBogeymanPREPPER, .35
-		zombieCrispyPREPPER, .35
-		zombieScorcherPREPPER, .35
-	</csv>
+	<!-- MINI SOLDIERS WAVE -->
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2986']">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated
+		zombieMiniDemolition
+		zombieMiniTARifleSoldierPREPPER, .25
+		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+	</set>
 
 <!-- Increase in probabilities for GS 3000 -->	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3003']/text()" delim="\n" op="add" >
@@ -8976,35 +8572,15 @@
 		zombieScorcherPREPPER, .375
 	</csv>
 	
-	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3358']/text()" delim="\n" op="add" >
-		animalZombieBunnyPREPPER, .425
-		animalZombieSnakePREPPER, .425
-		animalZombieChickenPREPPER, .425
-		zombieSMGArlenePREPPER, .425
-		zombieTARifleSoldierPREPPER, .425
-		zombieBatonHazmatPREPPER, .425
-		zombieSteelAxeLumberjackPREPPER, .425
-		zombieMachetePartyGirlPREPPER, .425
-		zombiePistolBusinessManPREPPER, .425
-		zombieNailgunUtilityWorkerPREPPER, .425
-		zombieSwissVetterliBoePREPPER, .425
-		zombieChainsawMoePREPPER, .425
-		zombieDesertVultureTomClarkPREPPER, .425
-		zombiePumpShotgunBikerPREPPER, .425
-		zombieBatonFatCopPREPPER, .425
-		zombieSteelClubFemaleFatPREPPER, .425
-		zombieBoltNursePREPPER, .425
-		zombieSteelSledgehammerFatHawaiianPREPPER, .425
-		animalZombieLargePlasmaVulturePREPPER, .375		
-		zombieSpiderFeralBomberPREPPER, .375
-		zombieSpiderFeralGliderPREPPER, .375
-		zombieM60DemolitionPREPPER, .375
-		animalBossZombieGracePREPPER, .375
-		zombieWightRadiationShowerPREPPER, .375
-		zombieBogeymanPREPPER, .375
-		zombieCrispyPREPPER, .375
-		zombieScorcherPREPPER, .375
-	</csv>
+	<!-- MINI SOLDIERS WAVE -->
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3358']">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated
+		zombieMiniDemolition
+		zombieMiniTARifleSoldierPREPPER, .25
+		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3375']/text()" delim="\n" op="add" >
 		animalZombieBunnyPREPPER, .425
@@ -9487,35 +9063,15 @@
 		zombieScorcherPREPPER, .4
 	</csv>
 	
-	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3654']/text()" delim="\n" op="add" >
-		animalZombieBunnyPREPPER, .45
-		animalZombieSnakePREPPER, .45
-		animalZombieChickenPREPPER, .45
-		zombieSMGArlenePREPPER, .45
-		zombieTARifleSoldierPREPPER, .45
-		zombieBatonHazmatPREPPER, .45
-		zombieSteelAxeLumberjackPREPPER, .45
-		zombieMachetePartyGirlPREPPER, .45
-		zombiePistolBusinessManPREPPER, .45
-		zombieNailgunUtilityWorkerPREPPER, .45
-		zombieSwissVetterliBoePREPPER, .45
-		zombieChainsawMoePREPPER, .45
-		zombieDesertVultureTomClarkPREPPER, .45
-		zombiePumpShotgunBikerPREPPER, .45
-		zombieBatonFatCopPREPPER, .45
-		zombieSteelClubFemaleFatPREPPER, .45
-		zombieBoltNursePREPPER, .45
-		zombieSteelSledgehammerFatHawaiianPREPPER, .45
-		animalZombieLargePlasmaVulturePREPPER, .4		
-		zombieSpiderFeralBomberPREPPER, .4
-		zombieSpiderFeralGliderPREPPER, .4
-		zombieM60DemolitionPREPPER, .4
-		animalBossZombieGracePREPPER, .4
-		zombieWightRadiationShowerPREPPER, .4
-		zombieBogeymanPREPPER, .4
-		zombieCrispyPREPPER, .4
-		zombieScorcherPREPPER, .4
-	</csv>
+	<!-- MINI SOLDIERS WAVE -->
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3654']">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated
+		zombieMiniDemolition
+		zombieMiniTARifleSoldierPREPPER, .25
+		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3672']/text()" delim="\n" op="add" >
 		animalZombieBunnyPREPPER, .45
@@ -10057,35 +9613,15 @@
 		zombieScorcherPREPPER, .4
 	</csv>
 	
-	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3995']/text()" delim="\n" op="add" >
-		animalZombieBunnyPREPPER, .45
-		animalZombieSnakePREPPER, .45
-		animalZombieChickenPREPPER, .45
-		zombieSMGArlenePREPPER, .45
-		zombieTARifleSoldierPREPPER, .45
-		zombieBatonHazmatPREPPER, .45
-		zombieSteelAxeLumberjackPREPPER, .45
-		zombieMachetePartyGirlPREPPER, .45
-		zombiePistolBusinessManPREPPER, .45
-		zombieNailgunUtilityWorkerPREPPER, .45
-		zombieSwissVetterliBoePREPPER, .45
-		zombieChainsawMoePREPPER, .45
-		zombieDesertVultureTomClarkPREPPER, .45
-		zombiePumpShotgunBikerPREPPER, .45
-		zombieBatonFatCopPREPPER, .45
-		zombieSteelClubFemaleFatPREPPER, .45
-		zombieBoltNursePREPPER, .45
-		zombieSteelSledgehammerFatHawaiianPREPPER, .45
-		animalZombieLargePlasmaVulturePREPPER, .4		
-		zombieSpiderFeralBomberPREPPER, .4
-		zombieSpiderFeralGliderPREPPER, .4
-		zombieM60DemolitionPREPPER, .4
-		animalBossZombieGracePREPPER, .4
-		zombieWightRadiationShowerPREPPER, .4
-		zombieBogeymanPREPPER, .4
-		zombieCrispyPREPPER, .4
-		zombieScorcherPREPPER, .4
-	</csv>
+	<!-- MINI SOLDIERS WAVE -->
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3995']">
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated
+		zombieMiniDemolition
+		zombieMiniTARifleSoldierPREPPER, .25
+		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+	</set>
 
 <!-- Increase in probabilities for GS 4000 -->	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS4013']/text()" delim="\n" op="add" >
@@ -10236,6 +9772,12 @@
 		zombieBogeymanPREPPER, .5
 		zombieCrispyPREPPER, .5
 		zombieScorcherPREPPER, .5
+		zombieMiniSoldier
+		zombieMiniSoldierFeral
+		zombieMiniSoldierRadiated
+		zombieMiniDemolition
+		zombieMiniTARifleSoldierPREPPER, .5
+		zombieMiniTARifleSoldierRadiatedPREPPER, .5
 	</csv>
 
 </Preppocalypse>
