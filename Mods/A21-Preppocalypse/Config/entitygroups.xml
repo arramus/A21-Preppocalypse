@@ -1286,6 +1286,9 @@
 		zombieMiniDemolition, .25
 		zombieMiniTARifleSoldierPREPPER, .05
 		zombieMiniTARifleSoldierRadiatedPREPPER, .05
+		animalZombieLargePlasmaVulturePREPPER, .025		
+		zombieSpiderFeralBomberPREPPER, .025
+		zombieSpiderFeralGliderPREPPER, .025
 	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS109']/text()" delim="\n" op="add" >
@@ -1508,6 +1511,9 @@
 		zombieMiniDemolition, .25
 		zombieMiniTARifleSoldierPREPPER, .15
 		zombieMiniTARifleSoldierRadiatedPREPPER, .1
+		animalZombieLargePlasmaVulturePREPPER, .05		
+		zombieSpiderFeralBomberPREPPER, .05
+		zombieSpiderFeralGliderPREPPER, .05
 	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS160']/text()" delim="\n" op="add" >
@@ -1699,6 +1705,9 @@
 		zombieMiniDemolition, .25
 		zombieMiniTARifleSoldierPREPPER, .15
 		zombieMiniTARifleSoldierRadiatedPREPPER, .1
+		animalZombieLargePlasmaVulturePREPPER, .05		
+		zombieSpiderFeralBomberPREPPER, .05
+		zombieSpiderFeralGliderPREPPER, .05
 	</set>
 
 <!-- Radiated Zombie at 1.0 becomes the norm except for special type -->	
@@ -1860,6 +1869,9 @@
 		zombieMiniDemolition, .5
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+		animalZombieLargePlasmaVulturePREPPER, .1		
+		zombieSpiderFeralBomberPREPPER, .1
+		zombieSpiderFeralGliderPREPPER, .1
 	</set>
 
 <!-- Increase for Custom Zombies based on Pre A21 values -->	
@@ -2232,6 +2244,9 @@
 		zombieMiniDemolition, .5
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+		animalZombieLargePlasmaVulturePREPPER, .1		
+		zombieSpiderFeralBomberPREPPER, .1
+		zombieSpiderFeralGliderPREPPER, .1
 	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS363']/text()" delim="\n" op="add" >
@@ -2392,6 +2407,9 @@
 		zombieMiniDemolition
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+		animalZombieLargePlasmaVulturePREPPER, .1		
+		zombieSpiderFeralBomberPREPPER, .1
+		zombieSpiderFeralGliderPREPPER, .1
 	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS417']/text()" delim="\n" op="add" >
@@ -2642,6 +2660,9 @@
 		zombieMiniDemolition
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+		animalZombieLargePlasmaVulturePREPPER, .1		
+		zombieSpiderFeralBomberPREPPER, .1
+		zombieSpiderFeralGliderPREPPER, .1
 	</set>
 
 <!-- Increase for GS 500 -->	
@@ -2953,6 +2974,9 @@
 		zombieMiniDemolition
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+		animalZombieLargePlasmaVulturePREPPER, .1		
+		zombieSpiderFeralBomberPREPPER, .1
+		zombieSpiderFeralGliderPREPPER, .1
 	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS610']/text()" delim="\n" op="add" >
@@ -3203,6 +3227,9 @@
 		zombieMiniDemolition
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+		animalZombieLargePlasmaVulturePREPPER, .1		
+		zombieSpiderFeralBomberPREPPER, .1
+		zombieSpiderFeralGliderPREPPER, .1
 	</set>
 
 <!-- Pretty much peaked for default entities and anything goes -->	
@@ -3454,6 +3481,9 @@
 		zombieMiniDemolition
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+		animalZombieLargePlasmaVulturePREPPER, .1		
+		zombieSpiderFeralBomberPREPPER, .1
+		zombieSpiderFeralGliderPREPPER, .1
 	</set>
 
 <!-- Increase in probabilities for GS 800 -->	
@@ -3735,6 +3765,9 @@
 		zombieMiniDemolition
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+		animalZombieLargePlasmaVulturePREPPER, .1		
+		zombieSpiderFeralBomberPREPPER, .1
+		zombieSpiderFeralGliderPREPPER, .1
 	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS916']/text()" delim="\n" op="add" >
@@ -3955,6 +3988,9 @@
 		zombieMiniDemolition
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+		animalZombieLargePlasmaVulturePREPPER, .1		
+		zombieSpiderFeralBomberPREPPER, .1
+		zombieSpiderFeralGliderPREPPER, .1
 	</set>
 
 <!-- Increase in probabilities for GS 1000 -->	
@@ -4446,6 +4482,9 @@
 		zombieMiniDemolition
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+		animalZombieLargePlasmaVulturePREPPER, .1		
+		zombieSpiderFeralBomberPREPPER, .1
+		zombieSpiderFeralGliderPREPPER, .1
 	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1218']/text()" delim="\n" op="add" >
@@ -4906,6 +4945,9 @@
 		zombieMiniDemolition
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+		animalZombieLargePlasmaVulturePREPPER, .1		
+		zombieSpiderFeralBomberPREPPER, .1
+		zombieSpiderFeralGliderPREPPER, .1
 	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1425']/text()" delim="\n" op="add" >
@@ -5307,6 +5349,9 @@
 		zombieMiniDemolition
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+		animalZombieLargePlasmaVulturePREPPER, .1		
+		zombieSpiderFeralBomberPREPPER, .1
+		zombieSpiderFeralGliderPREPPER, .1
 	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1614']/text()" delim="\n" op="add" >
@@ -5737,6 +5782,9 @@
 		zombieMiniDemolition
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+		animalZombieLargePlasmaVulturePREPPER, .1		
+		zombieSpiderFeralBomberPREPPER, .1
+		zombieSpiderFeralGliderPREPPER, .1
 	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1825']/text()" delim="\n" op="add" >
@@ -6107,6 +6155,9 @@
 		zombieMiniDemolition
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+		animalZombieLargePlasmaVulturePREPPER, .1		
+		zombieSpiderFeralBomberPREPPER, .1
+		zombieSpiderFeralGliderPREPPER, .1
 	</set>
 
 <!-- Increase in probabilities for GS 2000 -->	
@@ -6748,6 +6799,9 @@
 		zombieMiniDemolition
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+		animalZombieLargePlasmaVulturePREPPER, .1		
+		zombieSpiderFeralBomberPREPPER, .1
+		zombieSpiderFeralGliderPREPPER, .1
 	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2345']/text()" delim="\n" op="add" >
@@ -7359,6 +7413,9 @@
 		zombieMiniDemolition
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+		animalZombieLargePlasmaVulturePREPPER, .1		
+		zombieSpiderFeralBomberPREPPER, .1
+		zombieSpiderFeralGliderPREPPER, .1
 	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2676']/text()" delim="\n" op="add" >
@@ -7939,6 +7996,9 @@
 		zombieMiniDemolition
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+		animalZombieLargePlasmaVulturePREPPER, .1		
+		zombieSpiderFeralBomberPREPPER, .1
+		zombieSpiderFeralGliderPREPPER, .1		
 	</set>
 
 <!-- Increase in probabilities for GS 3000 -->	
@@ -8580,6 +8640,9 @@
 		zombieMiniDemolition
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+		animalZombieLargePlasmaVulturePREPPER, .1		
+		zombieSpiderFeralBomberPREPPER, .1
+		zombieSpiderFeralGliderPREPPER, .1
 	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3375']/text()" delim="\n" op="add" >
@@ -9071,6 +9134,9 @@
 		zombieMiniDemolition
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+		animalZombieLargePlasmaVulturePREPPER, .1		
+		zombieSpiderFeralBomberPREPPER, .1
+		zombieSpiderFeralGliderPREPPER, .1
 	</set>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3672']/text()" delim="\n" op="add" >
@@ -9621,6 +9687,9 @@
 		zombieMiniDemolition
 		zombieMiniTARifleSoldierPREPPER, .25
 		zombieMiniTARifleSoldierRadiatedPREPPER, .25
+		animalZombieLargePlasmaVulturePREPPER, .1		
+		zombieSpiderFeralBomberPREPPER, .1
+		zombieSpiderFeralGliderPREPPER, .1
 	</set>
 
 <!-- Increase in probabilities for GS 4000 -->	
