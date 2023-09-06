@@ -22,7 +22,7 @@
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="7" desc_key="reqFortitudeLevel07"/></level_requirements>
 		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="10" desc_key="reqFortitudeLevel10"/></level_requirements>
 		<effect_group>
-			<passive_effect name="StaminaChangeOT" operation="perc_add" level="1,4" value="0.1,0.4" tags="running"/>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" level="1,4" value="0.1,0.4" tags="running,swimmingRun"/>
 
 			<effect_description level="1" desc_key="perkRuleOneCardioNameRank1Desc" long_desc_key="perkRuleOneCardioNameRank1LongDesc"/>
 			<effect_description level="2" desc_key="perkRuleOneCardioNameRank2Desc" long_desc_key="perkRuleOneCardioNameRank2LongDesc"/>
@@ -32,7 +32,7 @@
 	</perk>
 	</insertBefore>
 
-	<insertBefore xpath="/progression/perks/perk[@name='perkFlurryOfIntellect']">	
+	<insertBefore xpath="/progression/perks/perk[@name='perkFlurryOfIntellect']">
 	<perk name="perkTurrets" parent="skillIntellectCombat" name_key="perkTurretsName" desc_key="perkTurretsDesc" icon="ui_game_symbol_electric_turret">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="3" desc_key="reqIntellectLevel03"/></level_requirements>
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="5" desc_key="reqIntellectLevel05"/></level_requirements>
@@ -41,15 +41,11 @@
 		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="10" desc_key="reqIntellectLevel10"/></level_requirements>
 
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="2,3,4,5,5" tags="perkTurrets"/>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunBotT1JunkSledge,gunBotT2JunkTurret"/>
-			<!-- <passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1" tags="gunBotT2JunkTurret"/> -->
-
 			<passive_effect name="RoundsPerMinute" operation="perc_add" level="1,2,3,4,5" value=".125,.25,.375,.5,.5" tags="turretMelee"/>
 			<!-- <passive_effect name="RoundsPerMinute" operation="perc_add" level="1,2,3,4,5" value=".125,.25,.375,.5,.5" tags="turretMelee,deployed"/> -->
 
 			<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" level="4,5" value="0.1,0.2" tags="perkTurrets"/>
-			<passive_effect name="MagazineSize" operation="base_add" level="1,5" value="15,75" tags="perkTurrets">
+			<passive_effect name="MagazineSize" operation="base_add" level="1,5" value="20,100" tags="perkTurrets">
 				<requirement name="!ItemHasTags" tags="turretMelee"/>
 			</passive_effect>
 
@@ -66,6 +62,29 @@
 			<passive_effect name="JunkTurretActiveCount" operation="base_add" level="5" value="2"/>
 				<!-- JunkTurretActiveCount,  default=1,  A value of 0 means that 1 turret can be active. Value of 2 means 3 turrets will be active. -->
 			<passive_effect name="JunkTurretActiveRange" operation="base_set" level="0,1,2,3,4,5" value="10,12,14,16,18,20"/>
+
+			<!-- Increase the chance to find batons and turrets with each perk rank -->
+			<passive_effect name="LootProb" operation="perc_add" level="1,5" value="2,10" tags="roboticsSkill"/>
+
+			<!-- Increase the chance to find robotic crafting skill magazines with each perk rank up to crafting skill 100 -->
+			<passive_effect name="LootProb" operation="perc_add" level="1,5" value="2,10" tags="roboticsCSM">
+				<requirement name="ProgressionLevel" progression_name="craftingRobotics" operation="LT" value="100"/>
+			</passive_effect>
+
+			<!-- Once robotic crafting skill reaches 100, set the probability bonus of finding robotic crafting skill magazines to 0 -->
+			<passive_effect name="LootProb" operation="base_set" level="1,5" value="0,0" tags="roboticsCSM">
+				<requirement name="ProgressionLevel" progression_name="craftingRobotics" operation="Equals" value="100"/>
+			</passive_effect>
+
+			<!-- Increase the chance to find Tech Junkie books until each book is read -->
+			<passive_effect name="LootProb" operation="perc_add" level="1,5" value="2,10" tags="techJunkieProb">
+				<requirement name="ProgressionLevel" progression_name="perkTechJunkie8Complete" operation="LT" value="1"/>
+			</passive_effect>
+
+			<!-- When all Tech Junkie books have been read, set the probability bonus of finding them to 0 -->
+			<passive_effect name="LootProb" operation="perc_add" level="1,5" value="0,0" tags="techJunkieProb">
+				<requirement name="ProgressionLevel" progression_name="perkTechJunkie8Complete" operation="Equals" value="1"/>
+			</passive_effect>
 
 			<effect_description level="1" desc_key="perkTurretsRank1Desc" long_desc_key="perkTurretsRank1LongDesc"/>
 			<effect_description level="2" desc_key="perkTurretsRank2Desc" long_desc_key="perkTurretsRank2LongDesc"/>
