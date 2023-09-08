@@ -154,7 +154,7 @@
 	<!-- Oakraven Rock Drill -->
 
 	<append xpath="/lootcontainers">	
-		<lootcontainer name="RockDrill" count="2,4" size="6,2" destroy_on_close="true" sound_open="UseActions/open_cooler" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
+		<lootcontainer name="RockDrill" count="3,4" size="6,2" destroy_on_close="true" sound_open="UseActions/open_cooler" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
 		<item name="resourceRockSmall" count="250,500" prob="1"/>
 		<item name="resourceCrushedSand" count="250,500" prob="1"/>
 		<item name="resourceScrapIron" count="250,500" prob="0.5"/>

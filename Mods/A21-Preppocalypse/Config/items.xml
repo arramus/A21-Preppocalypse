@@ -20,6 +20,9 @@
 	<set xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/property[@class='Action1']/property[@name='Repair_amount']/@value">850</set><!-- 400 Default -->
 	<set xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/effect_group/display_value[@name='dBlockRepairAmount']/@value">850</set><!-- 400 Default -->	
 	<set xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/property[@class='Action1']/property[@name='Upgrade_hit_offset']/@value">-5</set><!-- 1 Hit Upgrade -->
+	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Delay']/@value">.35</set><!-- .5 Default -->
+	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Repair_amount']/@value">2000</set><!-- 1000 Default -->
+	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/effect_group/display_value[@name='dBlockRepairAmount']/@value">2000</set><!-- 1000 Default -->
 	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/effect_group/passive_effect[@name='MagazineSize']/@value">25</set><!-- Mag Size -->
 	<append xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action0']/property[@name='Magazine_items']/@value">,resourceSteelNail</append><!-- Adding Steel Nail for the Nailgun -->	
 	<set xpath="/items/item[@name='gunRifleT1HuntingRifle']/effect_group/passive_effect[@name='MagazineSize']/@value">3</set><!-- 3 Shots per mag -->
@@ -225,8 +228,8 @@
 		<property name="LifeTime" value=".75"/>
 	</property>
 	<effect_group name="resourceNail" tiered="false"> <!-- nail -->
-		<passive_effect name="EntityDamage" operation="base_set" value="20"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="20"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="30"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="30"/>
 		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth,metal,cloth"/>
 		<passive_effect name="DamageModifier" operation="perc_set" value=".1" tags="wood"/>
 		<passive_effect name="ProjectileVelocity" operation="base_set" value="20"/>
