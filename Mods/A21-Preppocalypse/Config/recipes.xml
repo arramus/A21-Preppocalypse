@@ -241,6 +241,17 @@
 		<ingredient name="foodCropBlueberries" count="10"/>
 	</recipe>
 	
+	<recipe name="foodBoneBrothStew" count="1" craft_time="12" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+		<ingredient name="foodRottingFlesh" count="10"/>
+	    <ingredient name="foodAcornBiscuits" count="1"/>		
+		<ingredient name="drinkJarBoneBroth" count="1"/>
+	</recipe>
+	
+	<recipe name="drinkJarBoneBroth" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+		<ingredient name="resourceBone" count="4"/>
+		<ingredient name="drinkJarBoiledWater" count="1"/>
+	</recipe>
+	
 	<!-- Oakraven Chicken Coops -->
 
 	<recipe name="WoodCoopVariantHelper" count="1" craft_time="180" craft_area="workbench" tags="workbenchCrafting">
