@@ -95,6 +95,7 @@ oldwest_sweeney_01_arramus,POI,POIName,,x,Todd 'n' Lovett,,,,,,,,,,,,,
 oldwest_woodpecker_01_arramus,POI,POIName,,x,Woodpecker Planks,,Specht Bretter,,,,,,,,,,,
 prepper_countryresidentialbunker01,POI,POIName,,x,Good Neighbor,,,,,,,,,,,,,
 prepper_preppo_bunker42_01,POI,POIName,,x,Preppo Bunkerlands,,,,,,,,,,,,,
+prepper_wildernesscabin01,POI,POIName,,x,Hirnsturz Cabin,,,,,,,,,,,,,
 store_book_01_prepper,POI,POIName,,x,Preppo Crack-A-Book,,,,,,,,,,,,,
 trader_prepper_bob,POI,POIName,,x,Trader Prepper Bob,,Händler Prepper Bob,,,,,,,,,,,
 
