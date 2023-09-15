@@ -241,6 +241,14 @@
 		<ingredient name="foodCropBlueberries" count="10"/>
 	</recipe>
 	
+	<recipe name="foodBoneBrothSpruceStew" count="1" craft_time="18" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+		<ingredient name="foodRottingFlesh" count="10"/>
+	    <ingredient name="treePlantedWinterPine1m" count="1"/>
+	    <ingredient name="foodAcornBiscuits" count="1"/>		
+		<ingredient name="drinkJarBoneBroth" count="1"/>
+	    <ingredient name="foodCropMushrooms" count="1"/>
+	</recipe>
+	
 	<recipe name="foodBoneBrothStew" count="1" craft_time="12" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
 		<ingredient name="foodRottingFlesh" count="10"/>
 	    <ingredient name="foodAcornBiscuits" count="1"/>		

@@ -1128,7 +1128,7 @@
 	</effect_group>
 </item>
 
-<item name="foodBoneBrothStew">
+<item name="foodBoneBrothSpruceStew">
 	<property name="Tags" value="food"/>
 	<property name="HoldType" value="31"/>
 	<property name="DisplayType" value="foodWater"/>	
@@ -1137,6 +1137,37 @@
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="250"/> <!-- STK food -->
 	<property name="EconomicValue" value="134"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+	</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+	<effect_group tiered="false" name="Food Tier 0">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="38"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="18"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="25"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		
+		<display_value name="dCureInfection" value=".02"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="2"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>
+	</effect_group>
+</item>
+
+<item name="foodBoneBrothStew">
+	<property name="Tags" value="food"/>
+	<property name="HoldType" value="31"/>
+	<property name="DisplayType" value="foodWater"/>	
+	<property name="Meshfile" value="@:Other/Items/Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="250"/> <!-- STK food -->
+	<property name="EconomicValue" value="72"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
