@@ -1358,7 +1358,7 @@
 
 		<passive_effect name="MagazineSize" operation="base_set" value="13" tags="perkDeadEye"/><!-- Default 5 -->
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkDeadEye"/> <!-- 2.7s -->
-		<passive_effect name="ModSlots" operation="base_set" value="3,3,3,4,4,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="3,3,3,4,4,5" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkDeadEye"/> <!-- random EntityDmg -->
@@ -1544,7 +1544,7 @@
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkPummelPete"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.4" tags="perkPummelPete"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3" tags="perkPummelPete"/>
-		<passive_effect name="ModSlots" operation="base_set" value="3,3,3,4,4,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="3,3,3,4,4,5" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="base_set" value="28.8" tags="perkPummelPete"/> <!-- meleeWpnClubT3SteelClub -->

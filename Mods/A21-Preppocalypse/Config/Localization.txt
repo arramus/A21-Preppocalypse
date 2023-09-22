@@ -97,6 +97,7 @@ prepper_countryresidentialbunker01,POI,POIName,,x,Good Neighbor,,,,,,,,,,,,,
 prepper_preppo_bunker42_01,POI,POIName,,x,Preppo Bunkerlands,,,,,,,,,,,,,
 prepper_wildernesscabin01,POI,POIName,,x,Hirnsturz Cabin,,,,,,,,,,,,,
 store_book_01_prepper,POI,POIName,,x,Preppo Crack-A-Book,,,,,,,,,,,,,
+store_clothing_02_prepper,POI,POIName,,x,Misha Bunny Clothing,,,,,,,,,,,,,
 trader_prepper_bob,POI,POIName,,x,Trader Prepper Bob,,Händler Prepper Bob,,,,,,,,,,,
 
 modArmorRunningShoesHP,item_modifiers,mod,,,Speedy Running Shoes Mod,,Speedy Laufschuhe Mod,,,,,,,,,,,
