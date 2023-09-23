@@ -1426,7 +1426,7 @@
 		<property name="SwingDegrees" value="65"/>
 		<property name="SwingAngle" value="180"/>
 		<property class="HitSounds">
-			<property name="Override0" value="organic" param1="metalhitorganic"/>
+			<property name="Override0" value="organic" param1="pot_pan_metalhitorganic"/>
 		</property>
 		<property class="GrazeSounds">
 			<property name="Override0" value="organic" param1="metalgrazeorganic"/>
@@ -1445,7 +1445,7 @@
 		<property name="SwingDegrees" value="120"/>
 		<property name="SwingAngle" value="90"/>
 		<property class="HitSounds">
-			<property name="Override0" value="organic" param1="metalhitorganic"/>
+			<property name="Override0" value="organic" param1="pot_pan_metalhitorganic"/>
 		</property>
 		<property class="GrazeSounds">
 			<property name="Override0" value="organic" param1="metalgrazeorganic"/>
@@ -1512,7 +1512,7 @@
 		<property name="SwingDegrees" value="65"/>
 		<property name="SwingAngle" value="120"/>
 	<property class="HitSounds">
-		<property name="Override0" value="organic" param1="metalhitorganic"/>
+		<property name="Override0" value="organic" param1="pot_pan_metalhitorganic"/>
 	</property>
 	<property class="GrazeSounds">
 		<property name="Override0" value="organic" param1="metalgrazeorganic"/>
@@ -1531,7 +1531,7 @@
 		<property name="SwingDegrees" value="120"/>
 		<property name="SwingAngle" value="90"/>
 	<property class="HitSounds">
-		<property name="Override0" value="organic" param1="metalhitorganic"/>
+		<property name="Override0" value="organic" param1="pot_pan_metalhitorganic"/>
 	</property>
 	<property class="GrazeSounds">
 		<property name="Override0" value="organic" param1="metalgrazeorganic"/>

@@ -258,6 +258,8 @@ playerWoodBurningPrepperStoveDesc,blocks,Block,,,"This Wood Burning Prepper Stov
 resourceCementMixerConcreteBundle,items,Item,,,Stack of Concrete Mix (1000),,Stapel Betonmischung (1000),,,,,,,,,,,
 resourceCementMixerConcreteBundleDesc,items,Item,,,"This is a compact stack of concrete mix. 'Open' this item to open and unpack it. This stack of concrete uses 20% less resources than the same amount in single units.",,"Dies ist ein kompakter Stapel Betonmischung. „Öffnen“ Sie diesen Artikel, um ihn zu öffnen und auszupacken. Dieser Betonstapel verbraucht 20 % weniger Ressourcen als die gleiche Menge in einzelnen Einheiten.",,,,,,,,,,,
 LogWallsVariantHelper,blocks,block,,,Large Wood Walls,,Große Holzwände,,,,,,,,,,,
+banditWallCorrugatedVariantHelper,blocks,Block,,,Bandit - Corrugated Wall,,Bandit - Wellwand,,,,,,,,,
+banditPlatformVariantHelper,blocks,Block,,,Bandit - Ramps and Platforms,,Bandit – Rampen und Plattformen,,,,,,,,,
 chainLinkFencePOIVariantHelper,blocks,Block,,,Chain Link Fence,,Maschendraht – Zaun,,,,,,,,,
 barbedWireSpindleVariantHelper,blocks,Block,,,Barbed Wire Spindle,,Stacheldrahtspindel,,,,,,,,,
 chainlinkDoorGateVariantHelper,blocks,Block,,,Chain Link Doors,,Türen mit Kettengliedern,,,,,,,,,

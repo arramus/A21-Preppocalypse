@@ -52,7 +52,7 @@
 		<property name="resourceLeather" value="2"/>
 	</property>
 	</append>
-<!-- Decorative Logs Walls and Door -->
+<!-- Decorative Logs, Walls, Door, Ramps, and Supports -->
 	<set xpath="/blocks/block[@name='doorWoodLargeGate']/property[@name='MaxDamage']/@value">2500</set>
  	<append xpath="/blocks/block[@name='doorWoodLargeGate']/property[@name='Group']/@value">,Decor/Miscellaneous</append>
 	<append xpath="/blocks/block[@name='logWallLeft']">
@@ -63,6 +63,9 @@
 	<set xpath="/blocks/block[@name='chainlinkGateDouble']/property[@name='MaxDamage']/@value">2500</set>
 	<set xpath="/blocks/block[@name='chainlinkFenceDoor']/property[@name='MaxDamage']/@value">2500</set>
 	<set xpath="/blocks/block[@name='chainlinkFenceDoorDouble']/property[@name='MaxDamage']/@value">2500</set>
+	<append xpath="/blocks/block[@name='banditPlatform2x2A']">
+		<property name="MaxDamage" value="750"/>
+	</append>
 	<!-- Deco Block Harvesting -->
  	<append xpath="/blocks/block[@name='decoWildWestWagon']">
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>	
@@ -220,6 +223,32 @@
 	<property name="CanPickup" value="true"/>
 	<property class="RepairItems"> <property name="resourceScrapPolymers" value="25"/> </property>
 	<drop event="Destroy" name="resourceScrapPolymers" count="10"/>
+</block>
+
+<!-- Bandit Walls - Corrugated Metal Sheets -->
+	
+<block name="banditWallCorrugatedVariantHelper">
+	<property name="Extends" value="banditWallCorrugated1x2.5"/>		
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="banditWallCorrugated1x2.5"/>
+	<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	<property name="Group" value="Building,advBuilding,Decor/Miscellaneous"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true"/>
+	<property name="PlaceAltBlockValue" value="banditWallCorrugated1x2.5,banditWallCorrugated1x3,banditWallCorrugated1x4,banditWallCorrugated2x3,banditWallCorrugatedDiagonal2x3,banditWallCorrugatedDiagonal1x3,banditWallCorrugatedDiagonal3x1,banditWallCorrugatedDiagonal1x2,banditWallCorrugatedDiagonal1x1,banditWallRibbed2x1White,banditWallRibbed2x1Brown,banditWallRibbed2x1Red,banditWallRibbed2x1Orange,banditWallRibbed2x1Yellow,banditWallRibbed2x1Green,banditWallRibbed2x1Blue,banditWallRibbed2x1Grey,banditWallRibbed3x2White,banditWallRibbed3x2Brown,banditWallRibbed3x2Red,banditWallRibbed3x2Orange,banditWallRibbed3x2Yellow,banditWallRibbed3x2Green,banditWallRibbed3x2Blue,banditWallRibbed3x2Grey,banditWallRibbedDiagonal2x1White,banditWallRibbedDiagonal2x1Brown,banditWallRibbedDiagonal2x1Red,banditWallRibbedDiagonal2x1Orange,banditWallRibbedDiagonal2x1Yellow,banditWallRibbedDiagonal2x1Green,banditWallRibbedDiagonal2x1Blue,banditWallRibbedDiagonal2x1Grey,banditWallSiding1x4White,banditWallSiding1x4Brown,banditWallSiding1x4Red,banditWallSiding1x4Orange,banditWallSiding1x4Yellow,banditWallSiding1x4Green,banditWallSiding1x4Blue,banditWallSiding1x4Grey,banditWallSiding2x2White,banditWallSiding2x2Brown,banditWallSiding2x2Red,banditWallSiding2x2Orange,banditWallSiding2x2Yellow,banditWallSiding2x2Green,banditWallSiding2x2Blue,banditWallSiding2x2Grey,banditWallSiding3x3White,banditWallSiding3x3Brown,banditWallSiding3x3Red,banditWallSiding3x3Orange,banditWallSiding3x3Yellow,banditWallSiding3x3Green,banditWallSiding3x3Blue,banditWallSiding3x3Grey,banditWallSidingDiagonal2x2White,banditWallSidingDiagonal2x2Brown,banditWallSidingDiagonal2x2Red,banditWallSidingDiagonal2x2Orange,banditWallSidingDiagonal2x2Yellow,banditWallSidingDiagonal2x2Green,banditWallSidingDiagonal2x2Blue,banditWallSidingDiagonal2x2Grey,banditWallStreetsign3x2"/>
+</block>
+
+<!-- Bandit Platforms, Ramps, and Supports -->
+	
+<block name="banditPlatformVariantHelper">
+	<property name="Extends" value="banditPlatform2x2A"/>		
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="banditPlatform2x2A"/>
+	<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	<property name="Group" value="Building,advBuilding,Decor/Miscellaneous"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true"/>
+	<property name="PlaceAltBlockValue" value="banditPlatform2x2A,banditPlatform3x2A,banditPlatform3x3A,banditPlatform3x3B,banditPlatform3x3BrokenA,banditPlatform3x3BrokenB,banditPlatform3x3BrokenC,banditPlatformSheet3x2A,banditPlatformSheet3x3A,banditPlatformSheet3x3B,banditRamp2x2A,banditRamp3x2A,banditRamp3x3A,banditRampSheet2x2A,banditRampSheet3x2A,banditRampSheet3x3A,banditSupport1m,banditSupport2m,banditSupport3m,banditSupportBroken1m,banditSupportBroken2m,banditSupportBroken3m,banditSupport3x1A,banditSupport3x1B,banditSupport2x2A,banditSupport3x2A,banditSupport3x3A"/>
 </block>
 
 <!-- Chain Link Doors and Gates -->

@@ -85,7 +85,7 @@
 		<ingredient name="resourceScrapIron" count="50"/>
 	</recipe>
 	
-	<recipe name="doorWoodLargeGate" count="1" craft_time="60" craft_area="workbench" tags="workbenchCrafting">
+	<recipe name="doorWoodLargeGate" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
 		<ingredient name="resourceWood" count="200"/>
 		<ingredient name="resourceNail" count="100"/>
 		<ingredient name="resourceScrapIron" count="50"/>
@@ -114,11 +114,22 @@
 		<ingredient name="resourceLeather" count="10"/>
 	</recipe>
 	
+	<recipe name="banditWallCorrugatedVariantHelper" count="1" craft_time="10" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceForgedIron" count="1"/>
+		<ingredient name="resourceScrapIron" count="50"/>
+	</recipe>
+	
+	<recipe name="banditPlatformVariantHelper" count="1" craft_time="10" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceWood" count="60"/>
+		<ingredient name="resourceNail" count="10"/>
+		<ingredient name="resourceScrapIron" count="10"/>
+	</recipe>
+	
 	<recipe name="barbedWireSpindleVariantHelper" count="1"> <!-- trap -->
 		<ingredient name="resourceScrapIron" count="50"/>
 	</recipe>
 	
-	<recipe name="chainlinkDoorGateVariantHelper" count="1" craft_time="60" craft_area="workbench" tags="workbenchCrafting">
+	<recipe name="chainlinkDoorGateVariantHelper" count="1" craft_time="10" craft_area="workbench" tags="workbenchCrafting">
 		<ingredient name="resourceForgedIron" count="5"/>
 		<ingredient name="resourceMetalPipe" count="5"/>
 		<ingredient name="resourceSpring" count="5"/>
