@@ -25,6 +25,16 @@
 	<append xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']">
        <kh60_backpack_item_stack name="0"/>
 	</append>
+	
+	<!-- KhaineGB's 12 Slot Crafting Queue - Much thanks -->	
+    <!-- update the overall backpack size -->
+    <set xpath="/windows/window[@name='windowCraftingQueue']">
+		<rect depth="0" pos="-52,-90" width="303" controller="CraftingQueue">
+			<grid name="queue" rows="2" cols="6" pos="73,82" cell_width="60" cell_height="60" repeat_content="true">
+				<kh12_craft_queue_stack name="0"/>
+			</grid>
+		</rect>
+	</set>
 
 	<!-- KhaineGB's 3 Slot Forge Mod - Much thanks -->
 	<append xpath="/windows">

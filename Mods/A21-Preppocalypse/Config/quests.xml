@@ -156,7 +156,7 @@
 		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 1. Begin by getting some cooking basics in place." />
 		<property name="name_key" value="Bacon and Eggs with Biscuits"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 1"/>
-		<property name="description_key" value="Unlock and cook Bacon and Eggs with Biscuits. Place 5 Bacon and Eggs with Biscuits into your inventory. This preparation task gives you some surplus while you loot, shoot, and continue your preparation tasks. Receive XP, 1 Skill Point and a Cooking Grill for your efforts. Continue to Part 2."/>
+		<property name="description_key" value="Unlock and cook Bacon and Eggs with Biscuits. Place 5 Bacon and Eggs with Biscuits into your inventory. This preparation task gives you some surplus while you loot, shoot, and continue your preparation tasks. Receive XP, 2 Skill Points and a Cooking Grill for your efforts. Continue to Part 2."/>
 		<property name="icon" value="ui_game_symbol_food"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="veryeasy"/>
@@ -164,7 +164,7 @@
 		
 		<objective type="FetchKeep" id="foodBaconAndEggsAndAcornBiscuits" value="5" phase="1"/>
 
-		<reward type="SkillPoints" value="1" chainreward="false"/>
+		<reward type="SkillPoints" value="2" chainreward="false"/>
 		<reward type="Item" id="toolCookingGrill" value="1"/>		
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_prepperstockpile06"/>
@@ -176,7 +176,7 @@
 		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 2. Collect a Wrench, some Pipe weapons, and Ammo resources." />
 		<property name="name_key" value="Wrench"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 2"/>
-		<property name="description_key" value="Unlock and craft a Wrench. You may also loot or purchase one. Place a Wrench into your inventory."/>
+		<property name="description_key" value="Unlock and craft a Wrench. You may also loot, purchase, or consider your Starter Kit. Place a Wrench into your inventory."/>
 		<property name="icon" value="ui_game_symbol_gunslinger"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="easy"/>
@@ -264,7 +264,7 @@
 		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 2. Collect a Wrench, some Pipe weapons, and Ammo resources." />
 		<property name="name_key" value="Stone Spear"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 2"/>
-		<property name="description_key" value="Craft a Stone Spear. It helps to keep hostiles at a distance, especially when health is low. Receive XP, 1 Skill Point, and a Weapon Maintenance Mod as a reward. Continue to Part 3."/>
+		<property name="description_key" value="Craft a Stone Spear. It helps to keep hostiles at a distance, especially when health is low. Receive XP, 2 Skill Points, and a Weapon Maintenance Mod as a reward. Continue to Part 3."/>
 		<property name="icon" value="ui_game_symbol_gunslinger"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="easy"/>
@@ -279,7 +279,7 @@
 			<property name="count" value="1"/>
 		</objective>
 
-		<reward type="SkillPoints" value="1" chainreward="false"/>
+		<reward type="SkillPoints" value="2" chainreward="false"/>
 		<reward type="Item" id="modWeaponMaintenance" value="1"/>		
 		<reward type="Exp" value="1500"/>
 		<reward type="Quest" id="quest_prepperstockpile11"/>
@@ -382,7 +382,7 @@
 		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 3. Craft and place a Workbench, followed by Farm Plots, a Coop and Hive, and then Traps." />
 		<property name="name_key" value="Chicken, Honey Comb, and Catfish"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 3"/>
-		<property name="description_key" value="Farm 3 Grown Domestic Chickens, 15 Honey Comb, and 1 Catfish. Receive XP, 1 Skill Point, and a Bunker Buster Mod as a reward. Continue to Part 4."/>
+		<property name="description_key" value="Farm 3 Grown Domestic Chickens, 15 Honey Comb, and 1 Catfish. Receive XP, 2 Skill Points, and a Bunker Buster Mod as a reward. Continue to Part 4."/>
 		<property name="icon" value="ui_game_symbol_workbench"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="easy"/>
@@ -392,7 +392,7 @@
 		<objective type="FetchKeep" id="foodHoneyComb" value="15" phase="1"/>
 		<objective type="FetchKeep" id="resourceCatfish" value="1" phase="1"/>
 
-		<reward type="SkillPoints" value="1" chainreward="false"/>
+		<reward type="SkillPoints" value="2" chainreward="false"/>
 		<reward type="Item" id="modMeleeBunkerBuster" value="1"/>
 		<reward type="Exp" value="2000"/>
 		<reward type="Quest" id="quest_prepperstockpile16"/>
@@ -477,7 +477,7 @@
 		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 4. Mine for Oil Shale, and convert to Gas Cans and Drill Gas Cans on the Chemistry Station. Craft, place, and power up a Prepper Rock Drill to collect additional mining resources." />
 		<property name="name_key" value="Mining"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 4"/>
-		<property name="description_key" value="Drill for the requested resources. Receive XP, 1 Skill Point, and a Diamond Blade Tip Mod as a reward. This concludes the Prepper Stockpile Challenges."/>
+		<property name="description_key" value="Drill for the requested resources. Receive XP, 2 Skill Points, and a Diamond Blade Tip Mod as a reward. This concludes the Prepper Stockpile Challenges."/>
 		<property name="icon" value="ui_game_symbol_gas"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="easy"/>
@@ -489,17 +489,17 @@
 		<objective type="FetchKeep" id="resourceCrushedSand" value="6000" phase="1"/>
 		<objective type="FetchKeep" id="resourceRockSmall" value="6000" phase="1"/>
 		
-		<reward type="SkillPoints" value="1" chainreward="false"/>
+		<reward type="SkillPoints" value="2" chainreward="false"/>
 		<reward type="Item" id="modMeleeDiamondTip" value="1"/>
 		<reward type="Exp" value="2500"/>
 	</quest>
 	
 	<!-- Looping Zombie Elimination Quest -->
 	<quest id="quest_eliminatezombies10">
-	<property name="offer_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 1 Skill. This Quest repeats in an endless loop." />       
+	<property name="offer_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 2 Skill Points. This Quest repeats in an endless loop." />       
     <property name="name_key" value="10 Zombies" />
 	<property name="subtitle_key" value="10 Zombies" />
-	<property name="description_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 1 Skill. This Quest repeats in an endless loop." />
+	<property name="description_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 2 Skill Points. This Quest repeats in an endless loop." />
 	<property name="icon" value="ui_game_symbol_zombie"/>
 	<property name="repeatable" value="true"/>
 	<property name="category_key" value="Quest"/>
@@ -515,10 +515,10 @@
 	</quest>
 	
 	<quest id="quest_eliminatezombies15">
-	<property name="offer_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 1 Skill. This Quest repeats in an endless loop." />       
+	<property name="offer_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 2 Skill Points. This Quest repeats in an endless loop." />       
     <property name="name_key" value="15 Zombies" />
 	<property name="subtitle_key" value="15 Zombies" />
-	<property name="description_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 1 Skill. This Quest repeats in an endless loop." />
+	<property name="description_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 2 Skill Points. This Quest repeats in an endless loop." />
 	<property name="icon" value="ui_game_symbol_zombie"/>
 	<property name="repeatable" value="true"/>
 	<property name="category_key" value="Quest"/>
@@ -534,10 +534,10 @@
 	</quest>
 	
 	<quest id="quest_eliminatezombies25">
-	<property name="offer_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 1 Skill. This Quest repeats in an endless loop." />       
+	<property name="offer_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 2 Skill Points. This Quest repeats in an endless loop." />       
     <property name="name_key" value="25 Zombies" />
 	<property name="subtitle_key" value="25 Zombies" />
-	<property name="description_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 1 Skill. This Quest repeats in an endless loop." />
+	<property name="description_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 2 Skill Points. This Quest repeats in an endless loop." />
 	<property name="icon" value="ui_game_symbol_zombie"/>
 	<property name="repeatable" value="true"/>
 	<property name="category_key" value="Quest"/>
@@ -553,10 +553,10 @@
 	</quest>
 	
 	<quest id="quest_eliminatezombies50">
-	<property name="offer_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 1 Skill. This Quest repeats in an endless loop." />       
+	<property name="offer_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 2 Skill Points. This Quest repeats in an endless loop." />       
     <property name="name_key" value="50 Zombies" />
 	<property name="subtitle_key" value="50 Zombies" />
-	<property name="description_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 1 Skill. This Quest repeats in an endless loop." />
+	<property name="description_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 2 Skill Points. This Quest repeats in an endless loop." />
 	<property name="icon" value="ui_game_symbol_zombie"/>
 	<property name="repeatable" value="true"/>
 	<property name="category_key" value="Quest"/>
@@ -572,10 +572,10 @@
 	</quest>
 	
 	<quest id="quest_eliminatezombies75">
-	<property name="offer_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 1 Skill. This Quest repeats in an endless loop." />       
+	<property name="offer_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 2 Skill Points. This Quest repeats in an endless loop." />       
     <property name="name_key" value="75 Zombies" />
 	<property name="subtitle_key" value="75 Zombies" />
-	<property name="description_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 1 Skill. This Quest repeats in an endless loop." />
+	<property name="description_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 2 Skill Points. This Quest repeats in an endless loop." />
 	<property name="icon" value="ui_game_symbol_zombie"/>
 	<property name="repeatable" value="true"/>
 	<property name="category_key" value="Quest"/>
@@ -591,10 +591,10 @@
 	</quest>
 	
 	<quest id="quest_eliminatezombies125">
-	<property name="offer_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 1 Skill. This Quest repeats in an endless loop." />       
+	<property name="offer_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 2 Skill Points. This Quest repeats in an endless loop." />       
     <property name="name_key" value="125 Zombies" />
 	<property name="subtitle_key" value="125 Zombies" />
-	<property name="description_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 1 Skill. This Quest repeats in an endless loop." />
+	<property name="description_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 2 Skill Points. This Quest repeats in an endless loop." />
 	<property name="icon" value="ui_game_symbol_zombie"/>
 	<property name="repeatable" value="true"/>
 	<property name="category_key" value="Quest"/>
@@ -610,10 +610,10 @@
 	</quest>
 	
 	<quest id="quest_eliminatezombies200">
-	<property name="offer_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 1 Skill. This Quest repeats in an endless loop." />       
+	<property name="offer_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 2 Skill Points. This Quest repeats in an endless loop." />       
     <property name="name_key" value="200 Zombies" />
 	<property name="subtitle_key" value="200 Zombies" />
-	<property name="description_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 1 Skill. This Quest repeats in an endless loop." />
+	<property name="description_key" value="Accept this quest to eliminate 500 Zombies through multiple smaller stages. Eliminate 10 in the first stage for 500 Dukes, 15 for 1500 XP, 25 for 1250 Dukes, 50 for 5000 XP, 75 for 3750 Dukes, 125 for 12500 XP, and 200 for 2 Skill Points. This Quest repeats in an endless loop." />
 	<property name="icon" value="ui_game_symbol_zombie"/>
 	<property name="repeatable" value="true"/>
 	<property name="category_key" value="Quest"/>
@@ -622,7 +622,7 @@
 		
 			<objective type="EntityKill" value="200"/>
 	
-	<reward type="SkillPoints" value="1" chainreward="false"/>	
+	<reward type="SkillPoints" value="2" chainreward="false"/>	
 	<reward type="Quest" id="quest_eliminatezombies10">
 			<property name="chainquest" value="false"/>
 	</reward>	
@@ -701,7 +701,7 @@
 
     <!-- Animals Part 4 -->
 	<quest id="quest_eliminateanimals04">
-	<property name="offer_key" value="Accept this quest to hunt a variety of animals through multiple smaller stages. You will receive Dukes and XP for completing each stage, and 2 Skill for the final stage. This Quest repeats in an endless loop." />       
+	<property name="offer_key" value="Accept this quest to hunt a variety of animals through multiple smaller stages. You will receive Dukes and XP for completing each stage, and 2 Skill Points for the final stage. This Quest repeats in an endless loop." />       
     <property name="name_key" value="Z Bear, BM Z Bunny, BM Z Chicken, Dire Wolf, and Z Grace" />
 	<property name="subtitle_key" value="Z Bear, BM Z Bunny, BM Z Chicken, Dire Wolf, and Z Grace" />
 	<property name="description_key" value="Hunt a Zombie Bear, Blood Moon Zombie Bunny, Blood Moon Zombie Chicken, Dire Wolf, and Zombie Grace Boar to receive a reward and restart the animal stages." />
