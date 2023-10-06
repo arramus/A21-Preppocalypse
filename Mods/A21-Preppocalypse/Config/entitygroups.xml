@@ -23,7 +23,8 @@
 		zombieSpiderFeralBomberPREPPER, .0125
 		zombieSpiderFeralGliderPREPPER, .0125
 		zombieM60DemolitionPREPPER, .0125
-		animalBossZombieGracePREPPER, .0125
+		animalBossZombieGracePREPPER, .0125		
+		animalPaindeerPREPPER, .0125
 		zombieWightRadiationShowerPREPPER, .0125
 		zombieBogeymanPREPPER, .0125
 		zombieCrispyPREPPER, .0125
@@ -53,6 +54,7 @@
 		zombieSpiderFeralGliderPREPPER, .0125
 		zombieM60DemolitionPREPPER, .0125
 		animalBossZombieGracePREPPER, .0125
+		animalPaindeerPREPPER, .0125
 		zombieWightRadiationShowerPREPPER, .0125
 		zombieBogeymanPREPPER, .0125
 		zombieCrispyPREPPER, .0125
@@ -82,6 +84,7 @@
 		zombieSpiderFeralGliderPREPPER, .0125
 		zombieM60DemolitionPREPPER, .0125
 		animalBossZombieGracePREPPER, .0125
+		animalPaindeerPREPPER, .0125
 		zombieWightRadiationShowerPREPPER, .0125
 		zombieBogeymanPREPPER, .0125
 		zombieCrispyPREPPER, .0125
@@ -111,6 +114,7 @@
 		zombieSpiderFeralGliderPREPPER, .0125
 		zombieM60DemolitionPREPPER, .0125
 		animalBossZombieGracePREPPER, .0125
+		animalPaindeerPREPPER, .0125
 		zombieWightRadiationShowerPREPPER, .0125
 		zombieBogeymanPREPPER, .0125
 		zombieCrispyPREPPER, .0125
@@ -140,6 +144,7 @@
 		zombieSpiderFeralGliderPREPPER, .0125
 		zombieM60DemolitionPREPPER, .0125
 		animalBossZombieGracePREPPER, .0125
+		animalPaindeerPREPPER, .0125
 		zombieWightRadiationShowerPREPPER, .0125
 		zombieBogeymanPREPPER, .0125
 		zombieCrispyPREPPER, .0125
@@ -184,6 +189,7 @@
 		zombieSpiderFeralGliderPREPPER, .75
 		zombieM60DemolitionPREPPER, .75
 		animalBossZombieGracePREPPER, .75
+		animalPaindeerPREPPER, .75
 		zombieWightRadiationShowerPREPPER, .75
 		zombieBogeymanPREPPER, .75
 		zombieCrispyPREPPER, .75
@@ -228,6 +234,7 @@
 		zombieSpiderFeralGliderPREPPER, 1.25
 		zombieM60DemolitionPREPPER, 1.25
 		animalBossZombieGracePREPPER, 1.25
+		animalPaindeerPREPPER, 1.25
 		zombieWightRadiationShowerPREPPER, 1.25
 		zombieBogeymanPREPPER, 1.25
 		zombieCrispyPREPPER, 1.25
@@ -272,6 +279,7 @@
 		zombieSpiderFeralGliderPREPPER, .0125
 		zombieM60DemolitionPREPPER, .0125
 		animalBossZombieGracePREPPER, .0125
+		animalPaindeerPREPPER, .0125
 		zombieWightRadiationShowerPREPPER, .0125
 		zombieBogeymanPREPPER, .0125
 		zombieCrispyPREPPER, .0125
@@ -320,6 +328,7 @@
 		zombieSpiderFeralGliderPREPPER, .0125
 		zombieM60DemolitionPREPPER, .0125
 		animalBossZombieGracePREPPER, .0125
+		animalPaindeerPREPPER, .0125
 		zombieWightRadiationShowerPREPPER, .0125
 		zombieBogeymanPREPPER, .0125	
 	</csv>
@@ -329,6 +338,7 @@
 		zombieLumberjackFeral, .35
 		zombieLumberjackRadiated, .2
 		zombieSteelAxeLumberjackPREPPER, .1
+		animalPaindeerPREPPER, .03
 		animalZombieSnakePREPPER, .025
 		zombieSMGArlenePREPPER, .025
 		zombieTARifleSoldierPREPPER, .025
@@ -1062,6 +1072,7 @@
 		zombieSpiderFeralGliderPREPPER, .025
 		zombieM60DemolitionPREPPER, .025
 		animalBossZombieGracePREPPER, .025
+		animalPaindeerPREPPER, .025		
 		zombieWightRadiationShowerPREPPER, .025
 		zombieBogeymanPREPPER, .025
 		zombieCrispyPREPPER, .025
@@ -1092,6 +1103,7 @@
 		zombieSpiderFeralGliderPREPPER, .025
 		zombieM60DemolitionPREPPER, .025
 		animalBossZombieGracePREPPER, .025
+		animalPaindeerPREPPER, .025
 		zombieWightRadiationShowerPREPPER, .025
 		zombieBogeymanPREPPER, .025
 		zombieCrispyPREPPER, .025
@@ -1122,6 +1134,7 @@
 		zombieSpiderFeralGliderPREPPER, .025
 		zombieM60DemolitionPREPPER, .025
 		animalBossZombieGracePREPPER, .025
+		animalPaindeerPREPPER, .025
 		zombieWightRadiationShowerPREPPER, .025
 		zombieBogeymanPREPPER, .025
 		zombieCrispyPREPPER, .025
@@ -1152,6 +1165,7 @@
 		zombieSpiderFeralGliderPREPPER, .025
 		zombieM60DemolitionPREPPER, .025
 		animalBossZombieGracePREPPER, .025
+		animalPaindeerPREPPER, .025
 		zombieWightRadiationShowerPREPPER, .025
 		zombieBogeymanPREPPER, .025
 		zombieCrispyPREPPER, .025
@@ -1182,6 +1196,7 @@
 		zombieSpiderFeralGliderPREPPER, .025
 		zombieM60DemolitionPREPPER, .025
 		animalBossZombieGracePREPPER, .025
+		animalPaindeerPREPPER, .025
 		zombieWightRadiationShowerPREPPER, .025
 		zombieBogeymanPREPPER, .025
 		zombieCrispyPREPPER, .025
@@ -1212,6 +1227,7 @@
 		zombieSpiderFeralGliderPREPPER, .025
 		zombieM60DemolitionPREPPER, .025
 		animalBossZombieGracePREPPER, .025
+		animalPaindeerPREPPER, .025
 		zombieWightRadiationShowerPREPPER, .025
 		zombieBogeymanPREPPER, .025
 		zombieCrispyPREPPER, .025
@@ -1242,6 +1258,7 @@
 		zombieSpiderFeralGliderPREPPER, .025
 		zombieM60DemolitionPREPPER, .025
 		animalBossZombieGracePREPPER, .025
+		animalPaindeerPREPPER, .025
 		zombieWightRadiationShowerPREPPER, .025
 		zombieBogeymanPREPPER, .025
 		zombieCrispyPREPPER, .025
@@ -1272,6 +1289,7 @@
 		zombieSpiderFeralGliderPREPPER, .025
 		zombieM60DemolitionPREPPER, .025
 		animalBossZombieGracePREPPER, .025
+		animalPaindeerPREPPER, .025
 		zombieWightRadiationShowerPREPPER, .025
 		zombieBogeymanPREPPER, .025
 		zombieCrispyPREPPER, .025
@@ -1315,6 +1333,7 @@
 		zombieSpiderFeralGliderPREPPER, .025
 		zombieM60DemolitionPREPPER, .025
 		animalBossZombieGracePREPPER, .025
+		animalPaindeerPREPPER, .025
 		zombieWightRadiationShowerPREPPER, .025
 		zombieBogeymanPREPPER, .025
 		zombieCrispyPREPPER, .025
@@ -1345,6 +1364,7 @@
 		zombieSpiderFeralGliderPREPPER, .025
 		zombieM60DemolitionPREPPER, .025
 		animalBossZombieGracePREPPER, .025
+		animalPaindeerPREPPER, .025
 		zombieWightRadiationShowerPREPPER, .025
 		zombieBogeymanPREPPER, .025
 		zombieCrispyPREPPER, .025
@@ -1375,6 +1395,7 @@
 		zombieSpiderFeralGliderPREPPER, .025
 		zombieM60DemolitionPREPPER, .025
 		animalBossZombieGracePREPPER, .025
+		animalPaindeerPREPPER, .025
 		zombieWightRadiationShowerPREPPER, .025
 		zombieBogeymanPREPPER, .025
 		zombieCrispyPREPPER, .025
@@ -1405,6 +1426,7 @@
 		zombieSpiderFeralGliderPREPPER, .025
 		zombieM60DemolitionPREPPER, .025
 		animalBossZombieGracePREPPER, .025
+		animalPaindeerPREPPER, .025
 		zombieWightRadiationShowerPREPPER, .025
 		zombieBogeymanPREPPER, .025
 		zombieCrispyPREPPER, .025
@@ -1436,6 +1458,7 @@
 		zombieSpiderFeralGliderPREPPER, .05
 		zombieM60DemolitionPREPPER, .05
 		animalBossZombieGracePREPPER, .05
+		animalPaindeerPREPPER, .05
 		zombieWightRadiationShowerPREPPER, .05
 		zombieBogeymanPREPPER, .05
 		zombieCrispyPREPPER, .05
@@ -1466,6 +1489,7 @@
 		zombieSpiderFeralGliderPREPPER, .05
 		zombieM60DemolitionPREPPER, .05
 		animalBossZombieGracePREPPER, .05
+		animalPaindeerPREPPER, .05
 		zombieWightRadiationShowerPREPPER, .05
 		zombieBogeymanPREPPER, .05
 		zombieCrispyPREPPER, .05
@@ -1497,6 +1521,7 @@
 		zombieSpiderFeralGliderPREPPER, .05
 		zombieM60DemolitionPREPPER, .05
 		animalBossZombieGracePREPPER, .05
+		animalPaindeerPREPPER, .05
 		zombieWightRadiationShowerPREPPER, .05
 		zombieBogeymanPREPPER, .05
 		zombieCrispyPREPPER, .05
@@ -1540,6 +1565,7 @@
 		zombieSpiderFeralGliderPREPPER, .05
 		zombieM60DemolitionPREPPER, .05
 		animalBossZombieGracePREPPER, .05
+		animalPaindeerPREPPER, .05
 		zombieWightRadiationShowerPREPPER, .05
 		zombieBogeymanPREPPER, .05
 		zombieCrispyPREPPER, .05
@@ -1570,6 +1596,7 @@
 		zombieSpiderFeralGliderPREPPER, .05
 		zombieM60DemolitionPREPPER, .05
 		animalBossZombieGracePREPPER, .05
+		animalPaindeerPREPPER, .05
 		zombieWightRadiationShowerPREPPER, .05
 		zombieBogeymanPREPPER, .05
 		zombieCrispyPREPPER, .05
@@ -1600,6 +1627,7 @@
 		zombieSpiderFeralGliderPREPPER, .05
 		zombieM60DemolitionPREPPER, .05
 		animalBossZombieGracePREPPER, .05
+		animalPaindeerPREPPER, .05
 		zombieWightRadiationShowerPREPPER, .05
 		zombieBogeymanPREPPER, .05
 		zombieCrispyPREPPER, .05
@@ -1630,6 +1658,7 @@
 		zombieSpiderFeralGliderPREPPER, .05
 		zombieM60DemolitionPREPPER, .05
 		animalBossZombieGracePREPPER, .05
+		animalPaindeerPREPPER, .05
 		zombieWightRadiationShowerPREPPER, .05
 		zombieBogeymanPREPPER, .05
 		zombieCrispyPREPPER, .05
@@ -1661,6 +1690,7 @@
 		zombieSpiderFeralGliderPREPPER, .075
 		zombieM60DemolitionPREPPER, .075
 		animalBossZombieGracePREPPER, .075
+		animalPaindeerPREPPER, .075
 		zombieWightRadiationShowerPREPPER, .075
 		zombieBogeymanPREPPER, .075
 		zombieCrispyPREPPER, .075
@@ -1691,6 +1721,7 @@
 		zombieSpiderFeralGliderPREPPER, .075
 		zombieM60DemolitionPREPPER, .075
 		animalBossZombieGracePREPPER, .075
+		animalPaindeerPREPPER, .075
 		zombieWightRadiationShowerPREPPER, .075
 		zombieBogeymanPREPPER, .075
 		zombieCrispyPREPPER, .075
@@ -1735,6 +1766,7 @@
 		zombieSpiderFeralGliderPREPPER, .1
 		zombieM60DemolitionPREPPER, .1
 		animalBossZombieGracePREPPER, .1
+		animalPaindeerPREPPER, .1
 		zombieWightRadiationShowerPREPPER, .1
 		zombieBogeymanPREPPER, .1
 		zombieCrispyPREPPER, .1
@@ -1765,6 +1797,7 @@
 		zombieSpiderFeralGliderPREPPER, .1
 		zombieM60DemolitionPREPPER, .1
 		animalBossZombieGracePREPPER, .1
+		animalPaindeerPREPPER, .1
 		zombieWightRadiationShowerPREPPER, .1
 		zombieBogeymanPREPPER, .1
 		zombieCrispyPREPPER, .1
@@ -1795,6 +1828,7 @@
 		zombieSpiderFeralGliderPREPPER, .1
 		zombieM60DemolitionPREPPER, .1
 		animalBossZombieGracePREPPER, .1
+		animalPaindeerPREPPER, .1
 		zombieWightRadiationShowerPREPPER, .1
 		zombieBogeymanPREPPER, .1
 		zombieCrispyPREPPER, .1
@@ -1825,6 +1859,7 @@
 		zombieSpiderFeralGliderPREPPER, .1
 		zombieM60DemolitionPREPPER, .1
 		animalBossZombieGracePREPPER, .1
+		animalPaindeerPREPPER, .1
 		zombieWightRadiationShowerPREPPER, .1
 		zombieBogeymanPREPPER, .1
 		zombieCrispyPREPPER, .1
@@ -1855,6 +1890,7 @@
 		zombieSpiderFeralGliderPREPPER, .1
 		zombieM60DemolitionPREPPER, .1
 		animalBossZombieGracePREPPER, .1
+		animalPaindeerPREPPER, .1
 		zombieWightRadiationShowerPREPPER, .1
 		zombieBogeymanPREPPER, .1
 		zombieCrispyPREPPER, .1
@@ -1899,6 +1935,7 @@
 		zombieSpiderFeralGliderPREPPER, .125
 		zombieM60DemolitionPREPPER, .125
 		animalBossZombieGracePREPPER, .125
+		animalPaindeerPREPPER, .125
 		zombieWightRadiationShowerPREPPER, .125
 		zombieBogeymanPREPPER, .125
 		zombieCrispyPREPPER, .125
@@ -1929,6 +1966,7 @@
 		zombieSpiderFeralGliderPREPPER, .125
 		zombieM60DemolitionPREPPER, .125
 		animalBossZombieGracePREPPER, .125
+		animalPaindeerPREPPER, .125
 		zombieWightRadiationShowerPREPPER, .125
 		zombieBogeymanPREPPER, .125
 		zombieCrispyPREPPER, .125
@@ -1959,6 +1997,7 @@
 		zombieSpiderFeralGliderPREPPER, .125
 		zombieM60DemolitionPREPPER, .125
 		animalBossZombieGracePREPPER, .125
+		animalPaindeerPREPPER, .125
 		zombieWightRadiationShowerPREPPER, .125
 		zombieBogeymanPREPPER, .125
 		zombieCrispyPREPPER, .125
@@ -1989,6 +2028,7 @@
 		zombieSpiderFeralGliderPREPPER, .125
 		zombieM60DemolitionPREPPER, .125
 		animalBossZombieGracePREPPER, .125
+		animalPaindeerPREPPER, .125
 		zombieWightRadiationShowerPREPPER, .125
 		zombieBogeymanPREPPER, .125
 		zombieCrispyPREPPER, .125
@@ -2019,6 +2059,7 @@
 		zombieSpiderFeralGliderPREPPER, .125
 		zombieM60DemolitionPREPPER, .125
 		animalBossZombieGracePREPPER, .125
+		animalPaindeerPREPPER, .125
 		zombieWightRadiationShowerPREPPER, .125
 		zombieBogeymanPREPPER, .125
 		zombieCrispyPREPPER, .125
@@ -2049,6 +2090,7 @@
 		zombieSpiderFeralGliderPREPPER, .125
 		zombieM60DemolitionPREPPER, .125
 		animalBossZombieGracePREPPER, .125
+		animalPaindeerPREPPER, .125
 		zombieWightRadiationShowerPREPPER, .125
 		zombieBogeymanPREPPER, .125
 		zombieCrispyPREPPER, .125
@@ -2080,6 +2122,7 @@
 		zombieSpiderFeralGliderPREPPER, .15
 		zombieM60DemolitionPREPPER, .15
 		animalBossZombieGracePREPPER, .15
+		animalPaindeerPREPPER, .15
 		zombieWightRadiationShowerPREPPER, .15
 		zombieBogeymanPREPPER, .15
 		zombieCrispyPREPPER, .15
@@ -2110,6 +2153,7 @@
 		zombieSpiderFeralGliderPREPPER, .15
 		zombieM60DemolitionPREPPER, .15
 		animalBossZombieGracePREPPER, .15
+		animalPaindeerPREPPER, .15
 		zombieWightRadiationShowerPREPPER, .15
 		zombieBogeymanPREPPER, .15
 		zombieCrispyPREPPER, .15
@@ -2140,6 +2184,7 @@
 		zombieSpiderFeralGliderPREPPER, .15
 		zombieM60DemolitionPREPPER, .15
 		animalBossZombieGracePREPPER, .15
+		animalPaindeerPREPPER, .15
 		zombieWightRadiationShowerPREPPER, .15
 		zombieBogeymanPREPPER, .15
 		zombieCrispyPREPPER, .15
@@ -2170,6 +2215,7 @@
 		zombieSpiderFeralGliderPREPPER, .15
 		zombieM60DemolitionPREPPER, .15
 		animalBossZombieGracePREPPER, .15
+		animalPaindeerPREPPER, .15
 		zombieWightRadiationShowerPREPPER, .15
 		zombieBogeymanPREPPER, .15
 		zombieCrispyPREPPER, .15
@@ -2200,6 +2246,7 @@
 		zombieSpiderFeralGliderPREPPER, .15
 		zombieM60DemolitionPREPPER, .15
 		animalBossZombieGracePREPPER, .15
+		animalPaindeerPREPPER, .15
 		zombieWightRadiationShowerPREPPER, .15
 		zombieBogeymanPREPPER, .15
 		zombieCrispyPREPPER, .15
@@ -2230,6 +2277,7 @@
 		zombieSpiderFeralGliderPREPPER, .15
 		zombieM60DemolitionPREPPER, .15
 		animalBossZombieGracePREPPER, .15
+		animalPaindeerPREPPER, .15
 		zombieWightRadiationShowerPREPPER, .15
 		zombieBogeymanPREPPER, .15
 		zombieCrispyPREPPER, .15
@@ -2273,6 +2321,7 @@
 		zombieSpiderFeralGliderPREPPER, .15
 		zombieM60DemolitionPREPPER, .15
 		animalBossZombieGracePREPPER, .15
+		animalPaindeerPREPPER, .15
 		zombieWightRadiationShowerPREPPER, .15
 		zombieBogeymanPREPPER, .15
 		zombieCrispyPREPPER, .15
@@ -2303,6 +2352,7 @@
 		zombieSpiderFeralGliderPREPPER, .15
 		zombieM60DemolitionPREPPER, .15
 		animalBossZombieGracePREPPER, .15
+		animalPaindeerPREPPER, .15
 		zombieWightRadiationShowerPREPPER, .15
 		zombieBogeymanPREPPER, .15
 		zombieCrispyPREPPER, .15
@@ -2333,6 +2383,7 @@
 		zombieSpiderFeralGliderPREPPER, .15
 		zombieM60DemolitionPREPPER, .15
 		animalBossZombieGracePREPPER, .15
+		animalPaindeerPREPPER, .15
 		zombieWightRadiationShowerPREPPER, .15
 		zombieBogeymanPREPPER, .15
 		zombieCrispyPREPPER, .15
@@ -2363,6 +2414,7 @@
 		zombieSpiderFeralGliderPREPPER, .15
 		zombieM60DemolitionPREPPER, .15
 		animalBossZombieGracePREPPER, .15
+		animalPaindeerPREPPER, .15
 		zombieWightRadiationShowerPREPPER, .15
 		zombieBogeymanPREPPER, .15
 		zombieCrispyPREPPER, .15
@@ -2393,6 +2445,7 @@
 		zombieSpiderFeralGliderPREPPER, .15
 		zombieM60DemolitionPREPPER, .15
 		animalBossZombieGracePREPPER, .15
+		animalPaindeerPREPPER, .15
 		zombieWightRadiationShowerPREPPER, .15
 		zombieBogeymanPREPPER, .15
 		zombieCrispyPREPPER, .15
@@ -2436,6 +2489,7 @@
 		zombieSpiderFeralGliderPREPPER, .15
 		zombieM60DemolitionPREPPER, .15
 		animalBossZombieGracePREPPER, .15
+		animalPaindeerPREPPER, .15
 		zombieWightRadiationShowerPREPPER, .15
 		zombieBogeymanPREPPER, .15
 		zombieCrispyPREPPER, .15
@@ -2466,6 +2520,7 @@
 		zombieSpiderFeralGliderPREPPER, .15
 		zombieM60DemolitionPREPPER, .15
 		animalBossZombieGracePREPPER, .15
+		animalPaindeerPREPPER, .15
 		zombieWightRadiationShowerPREPPER, .15
 		zombieBogeymanPREPPER, .15
 		zombieCrispyPREPPER, .15
@@ -2496,6 +2551,7 @@
 		zombieSpiderFeralGliderPREPPER, .15
 		zombieM60DemolitionPREPPER, .15
 		animalBossZombieGracePREPPER, .15
+		animalPaindeerPREPPER, .15
 		zombieWightRadiationShowerPREPPER, .15
 		zombieBogeymanPREPPER, .15
 		zombieCrispyPREPPER, .15
@@ -2526,6 +2582,7 @@
 		zombieSpiderFeralGliderPREPPER, .15
 		zombieM60DemolitionPREPPER, .15
 		animalBossZombieGracePREPPER, .15
+		animalPaindeerPREPPER, .15
 		zombieWightRadiationShowerPREPPER, .15
 		zombieBogeymanPREPPER, .15
 		zombieCrispyPREPPER, .15
@@ -2556,6 +2613,7 @@
 		zombieSpiderFeralGliderPREPPER, .15
 		zombieM60DemolitionPREPPER, .15
 		animalBossZombieGracePREPPER, .15
+		animalPaindeerPREPPER, .15
 		zombieWightRadiationShowerPREPPER, .15
 		zombieBogeymanPREPPER, .15
 		zombieCrispyPREPPER, .15
@@ -2586,6 +2644,7 @@
 		zombieSpiderFeralGliderPREPPER, .15
 		zombieM60DemolitionPREPPER, .15
 		animalBossZombieGracePREPPER, .15
+		animalPaindeerPREPPER, .15
 		zombieWightRadiationShowerPREPPER, .15
 		zombieBogeymanPREPPER, .15
 		zombieCrispyPREPPER, .15
@@ -2616,6 +2675,7 @@
 		zombieSpiderFeralGliderPREPPER, .15
 		zombieM60DemolitionPREPPER, .15
 		animalBossZombieGracePREPPER, .15
+		animalPaindeerPREPPER, .15
 		zombieWightRadiationShowerPREPPER, .15
 		zombieBogeymanPREPPER, .15
 		zombieCrispyPREPPER, .15
@@ -2646,6 +2706,7 @@
 		zombieSpiderFeralGliderPREPPER, .15
 		zombieM60DemolitionPREPPER, .15
 		animalBossZombieGracePREPPER, .15
+		animalPaindeerPREPPER, .15
 		zombieWightRadiationShowerPREPPER, .15
 		zombieBogeymanPREPPER, .15
 		zombieCrispyPREPPER, .15
@@ -2690,6 +2751,7 @@
 		zombieSpiderFeralGliderPREPPER, .175
 		zombieM60DemolitionPREPPER, .175
 		animalBossZombieGracePREPPER, .175
+		animalPaindeerPREPPER, .175
 		zombieWightRadiationShowerPREPPER, .175
 		zombieBogeymanPREPPER, .175
 		zombieCrispyPREPPER, .175
@@ -2720,6 +2782,7 @@
 		zombieSpiderFeralGliderPREPPER, .175
 		zombieM60DemolitionPREPPER, .175
 		animalBossZombieGracePREPPER, .175
+		animalPaindeerPREPPER, .175
 		zombieWightRadiationShowerPREPPER, .175
 		zombieBogeymanPREPPER, .175
 		zombieCrispyPREPPER, .175
@@ -2750,6 +2813,7 @@
 		zombieSpiderFeralGliderPREPPER, .175
 		zombieM60DemolitionPREPPER, .175
 		animalBossZombieGracePREPPER, .175
+		animalPaindeerPREPPER, .175
 		zombieWightRadiationShowerPREPPER, .175
 		zombieBogeymanPREPPER, .175
 		zombieCrispyPREPPER, .175
@@ -2780,6 +2844,7 @@
 		zombieSpiderFeralGliderPREPPER, .175
 		zombieM60DemolitionPREPPER, .175
 		animalBossZombieGracePREPPER, .175
+		animalPaindeerPREPPER, .175
 		zombieWightRadiationShowerPREPPER, .175
 		zombieBogeymanPREPPER, .175
 		zombieCrispyPREPPER, .175
@@ -2810,6 +2875,7 @@
 		zombieSpiderFeralGliderPREPPER, .175
 		zombieM60DemolitionPREPPER, .175
 		animalBossZombieGracePREPPER, .175
+		animalPaindeerPREPPER, .175
 		zombieWightRadiationShowerPREPPER, .175
 		zombieBogeymanPREPPER, .175
 		zombieCrispyPREPPER, .175
@@ -2840,6 +2906,7 @@
 		zombieSpiderFeralGliderPREPPER, .175
 		zombieM60DemolitionPREPPER, .175
 		animalBossZombieGracePREPPER, .175
+		animalPaindeerPREPPER, .175
 		zombieWightRadiationShowerPREPPER, .175
 		zombieBogeymanPREPPER, .175
 		zombieCrispyPREPPER, .175
@@ -2870,6 +2937,7 @@
 		zombieSpiderFeralGliderPREPPER, .175
 		zombieM60DemolitionPREPPER, .175
 		animalBossZombieGracePREPPER, .175
+		animalPaindeerPREPPER, .175
 		zombieWightRadiationShowerPREPPER, .175
 		zombieBogeymanPREPPER, .175
 		zombieCrispyPREPPER, .175
@@ -2900,6 +2968,7 @@
 		zombieSpiderFeralGliderPREPPER, .175
 		zombieM60DemolitionPREPPER, .175
 		animalBossZombieGracePREPPER, .175
+		animalPaindeerPREPPER, .175
 		zombieWightRadiationShowerPREPPER, .175
 		zombieBogeymanPREPPER, .175
 		zombieCrispyPREPPER, .175
@@ -2930,6 +2999,7 @@
 		zombieSpiderFeralGliderPREPPER, .175
 		zombieM60DemolitionPREPPER, .175
 		animalBossZombieGracePREPPER, .175
+		animalPaindeerPREPPER, .175
 		zombieWightRadiationShowerPREPPER, .175
 		zombieBogeymanPREPPER, .175
 		zombieCrispyPREPPER, .175
@@ -2960,6 +3030,7 @@
 		zombieSpiderFeralGliderPREPPER, .175
 		zombieM60DemolitionPREPPER, .175
 		animalBossZombieGracePREPPER, .175
+		animalPaindeerPREPPER, .175
 		zombieWightRadiationShowerPREPPER, .175
 		zombieBogeymanPREPPER, .175
 		zombieCrispyPREPPER, .175
@@ -3003,6 +3074,7 @@
 		zombieSpiderFeralGliderPREPPER, .175
 		zombieM60DemolitionPREPPER, .175
 		animalBossZombieGracePREPPER, .175
+		animalPaindeerPREPPER, .175
 		zombieWightRadiationShowerPREPPER, .175
 		zombieBogeymanPREPPER, .175
 		zombieCrispyPREPPER, .175
@@ -3033,6 +3105,7 @@
 		zombieSpiderFeralGliderPREPPER, .175
 		zombieM60DemolitionPREPPER, .175
 		animalBossZombieGracePREPPER, .175
+		animalPaindeerPREPPER, .175
 		zombieWightRadiationShowerPREPPER, .175
 		zombieBogeymanPREPPER, .175
 		zombieCrispyPREPPER, .175
@@ -3063,6 +3136,7 @@
 		zombieSpiderFeralGliderPREPPER, .175
 		zombieM60DemolitionPREPPER, .175
 		animalBossZombieGracePREPPER, .175
+		animalPaindeerPREPPER, .175
 		zombieWightRadiationShowerPREPPER, .175
 		zombieBogeymanPREPPER, .175
 		zombieCrispyPREPPER, .175
@@ -3093,6 +3167,7 @@
 		zombieSpiderFeralGliderPREPPER, .175
 		zombieM60DemolitionPREPPER, .175
 		animalBossZombieGracePREPPER, .175
+		animalPaindeerPREPPER, .175
 		zombieWightRadiationShowerPREPPER, .175
 		zombieBogeymanPREPPER, .175
 		zombieCrispyPREPPER, .175
@@ -3123,6 +3198,7 @@
 		zombieSpiderFeralGliderPREPPER, .175
 		zombieM60DemolitionPREPPER, .175
 		animalBossZombieGracePREPPER, .175
+		animalPaindeerPREPPER, .175
 		zombieWightRadiationShowerPREPPER, .175
 		zombieBogeymanPREPPER, .175
 		zombieCrispyPREPPER, .175
@@ -3153,6 +3229,7 @@
 		zombieSpiderFeralGliderPREPPER, .175
 		zombieM60DemolitionPREPPER, .175
 		animalBossZombieGracePREPPER, .175
+		animalPaindeerPREPPER, .175
 		zombieWightRadiationShowerPREPPER, .175
 		zombieBogeymanPREPPER, .175
 		zombieCrispyPREPPER, .175
@@ -3183,6 +3260,7 @@
 		zombieSpiderFeralGliderPREPPER, .175
 		zombieM60DemolitionPREPPER, .175
 		animalBossZombieGracePREPPER, .175
+		animalPaindeerPREPPER, .175
 		zombieWightRadiationShowerPREPPER, .175
 		zombieBogeymanPREPPER, .175
 		zombieCrispyPREPPER, .175
@@ -3213,6 +3291,7 @@
 		zombieSpiderFeralGliderPREPPER, .175
 		zombieM60DemolitionPREPPER, .175
 		animalBossZombieGracePREPPER, .175
+		animalPaindeerPREPPER, .175
 		zombieWightRadiationShowerPREPPER, .175
 		zombieBogeymanPREPPER, .175
 		zombieCrispyPREPPER, .175
@@ -3257,6 +3336,7 @@
 		zombieSpiderFeralGliderPREPPER, .2
 		zombieM60DemolitionPREPPER, .2
 		animalBossZombieGracePREPPER, .2
+		animalPaindeerPREPPER, .2
 		zombieWightRadiationShowerPREPPER, .2
 		zombieBogeymanPREPPER, .2
 		zombieCrispyPREPPER, .2
@@ -3287,6 +3367,7 @@
 		zombieSpiderFeralGliderPREPPER, .2
 		zombieM60DemolitionPREPPER, .2
 		animalBossZombieGracePREPPER, .2
+		animalPaindeerPREPPER, .2
 		zombieWightRadiationShowerPREPPER, .2
 		zombieBogeymanPREPPER, .2
 		zombieCrispyPREPPER, .2
@@ -3317,6 +3398,7 @@
 		zombieSpiderFeralGliderPREPPER, .2
 		zombieM60DemolitionPREPPER, .2
 		animalBossZombieGracePREPPER, .2
+		animalPaindeerPREPPER, .2
 		zombieWightRadiationShowerPREPPER, .2
 		zombieBogeymanPREPPER, .2
 		zombieCrispyPREPPER, .2
@@ -3347,6 +3429,7 @@
 		zombieSpiderFeralGliderPREPPER, .2
 		zombieM60DemolitionPREPPER, .2
 		animalBossZombieGracePREPPER, .2
+		animalPaindeerPREPPER, .2
 		zombieWightRadiationShowerPREPPER, .2
 		zombieBogeymanPREPPER, .2
 		zombieCrispyPREPPER, .2
@@ -3377,6 +3460,7 @@
 		zombieSpiderFeralGliderPREPPER, .2
 		zombieM60DemolitionPREPPER, .2
 		animalBossZombieGracePREPPER, .2
+		animalPaindeerPREPPER, .2
 		zombieWightRadiationShowerPREPPER, .2
 		zombieBogeymanPREPPER, .2
 		zombieCrispyPREPPER, .2
@@ -3407,6 +3491,7 @@
 		zombieSpiderFeralGliderPREPPER, .2
 		zombieM60DemolitionPREPPER, .2
 		animalBossZombieGracePREPPER, .2
+		animalPaindeerPREPPER, .2
 		zombieWightRadiationShowerPREPPER, .2
 		zombieBogeymanPREPPER, .2
 		zombieCrispyPREPPER, .2
@@ -3437,6 +3522,7 @@
 		zombieSpiderFeralGliderPREPPER, .2
 		zombieM60DemolitionPREPPER, .2
 		animalBossZombieGracePREPPER, .2
+		animalPaindeerPREPPER, .2
 		zombieWightRadiationShowerPREPPER, .2
 		zombieBogeymanPREPPER, .2
 		zombieCrispyPREPPER, .2
@@ -3467,6 +3553,7 @@
 		zombieSpiderFeralGliderPREPPER, .2
 		zombieM60DemolitionPREPPER, .2
 		animalBossZombieGracePREPPER, .2
+		animalPaindeerPREPPER, .2
 		zombieWightRadiationShowerPREPPER, .2
 		zombieBogeymanPREPPER, .2
 		zombieCrispyPREPPER, .2
@@ -3511,6 +3598,7 @@
 		zombieSpiderFeralGliderPREPPER, .225
 		zombieM60DemolitionPREPPER, .225
 		animalBossZombieGracePREPPER, .225
+		animalPaindeerPREPPER, .225
 		zombieWightRadiationShowerPREPPER, .225
 		zombieBogeymanPREPPER, .225
 		zombieCrispyPREPPER, .225
@@ -3541,6 +3629,7 @@
 		zombieSpiderFeralGliderPREPPER, .225
 		zombieM60DemolitionPREPPER, .225
 		animalBossZombieGracePREPPER, .225
+		animalPaindeerPREPPER, .225
 		zombieWightRadiationShowerPREPPER, .225
 		zombieBogeymanPREPPER, .225
 		zombieCrispyPREPPER, .225
@@ -3571,6 +3660,7 @@
 		zombieSpiderFeralGliderPREPPER, .225
 		zombieM60DemolitionPREPPER, .225
 		animalBossZombieGracePREPPER, .225
+		animalPaindeerPREPPER, .225
 		zombieWightRadiationShowerPREPPER, .225
 		zombieBogeymanPREPPER, .225
 		zombieCrispyPREPPER, .225
@@ -3601,6 +3691,7 @@
 		zombieSpiderFeralGliderPREPPER, .225
 		zombieM60DemolitionPREPPER, .225
 		animalBossZombieGracePREPPER, .225
+		animalPaindeerPREPPER, .225
 		zombieWightRadiationShowerPREPPER, .225
 		zombieBogeymanPREPPER, .225
 		zombieCrispyPREPPER, .225
@@ -3631,6 +3722,7 @@
 		zombieSpiderFeralGliderPREPPER, .225
 		zombieM60DemolitionPREPPER, .225
 		animalBossZombieGracePREPPER, .225
+		animalPaindeerPREPPER, .225
 		zombieWightRadiationShowerPREPPER, .225
 		zombieBogeymanPREPPER, .225
 		zombieCrispyPREPPER, .225
@@ -3661,6 +3753,7 @@
 		zombieSpiderFeralGliderPREPPER, .225
 		zombieM60DemolitionPREPPER, .225
 		animalBossZombieGracePREPPER, .225
+		animalPaindeerPREPPER, .225
 		zombieWightRadiationShowerPREPPER, .225
 		zombieBogeymanPREPPER, .225
 		zombieCrispyPREPPER, .225
@@ -3691,6 +3784,7 @@
 		zombieSpiderFeralGliderPREPPER, .225
 		zombieM60DemolitionPREPPER, .225
 		animalBossZombieGracePREPPER, .225
+		animalPaindeerPREPPER, .225
 		zombieWightRadiationShowerPREPPER, .225
 		zombieBogeymanPREPPER, .225
 		zombieCrispyPREPPER, .225
@@ -3721,6 +3815,7 @@
 		zombieSpiderFeralGliderPREPPER, .225
 		zombieM60DemolitionPREPPER, .225
 		animalBossZombieGracePREPPER, .225
+		animalPaindeerPREPPER, .225
 		zombieWightRadiationShowerPREPPER, .225
 		zombieBogeymanPREPPER, .225
 		zombieCrispyPREPPER, .225
@@ -3751,6 +3846,7 @@
 		zombieSpiderFeralGliderPREPPER, .225
 		zombieM60DemolitionPREPPER, .225
 		animalBossZombieGracePREPPER, .225
+		animalPaindeerPREPPER, .225
 		zombieWightRadiationShowerPREPPER, .225
 		zombieBogeymanPREPPER, .225
 		zombieCrispyPREPPER, .225
@@ -3794,6 +3890,7 @@
 		zombieSpiderFeralGliderPREPPER, .225
 		zombieM60DemolitionPREPPER, .225
 		animalBossZombieGracePREPPER, .225
+		animalPaindeerPREPPER, .225
 		zombieWightRadiationShowerPREPPER, .225
 		zombieBogeymanPREPPER, .225
 		zombieCrispyPREPPER, .225
@@ -3824,6 +3921,7 @@
 		zombieSpiderFeralGliderPREPPER, .225
 		zombieM60DemolitionPREPPER, .225
 		animalBossZombieGracePREPPER, .225
+		animalPaindeerPREPPER, .225
 		zombieWightRadiationShowerPREPPER, .225
 		zombieBogeymanPREPPER, .225
 		zombieCrispyPREPPER, .225
@@ -3854,6 +3952,7 @@
 		zombieSpiderFeralGliderPREPPER, .225
 		zombieM60DemolitionPREPPER, .225
 		animalBossZombieGracePREPPER, .225
+		animalPaindeerPREPPER, .225
 		zombieWightRadiationShowerPREPPER, .225
 		zombieBogeymanPREPPER, .225
 		zombieCrispyPREPPER, .225
@@ -3884,6 +3983,7 @@
 		zombieSpiderFeralGliderPREPPER, .225
 		zombieM60DemolitionPREPPER, .225
 		animalBossZombieGracePREPPER, .225
+		animalPaindeerPREPPER, .225
 		zombieWightRadiationShowerPREPPER, .225
 		zombieBogeymanPREPPER, .225
 		zombieCrispyPREPPER, .225
@@ -3914,6 +4014,7 @@
 		zombieSpiderFeralGliderPREPPER, .225
 		zombieM60DemolitionPREPPER, .225
 		animalBossZombieGracePREPPER, .225
+		animalPaindeerPREPPER, .225
 		zombieWightRadiationShowerPREPPER, .225
 		zombieBogeymanPREPPER, .225
 		zombieCrispyPREPPER, .225
@@ -3944,6 +4045,7 @@
 		zombieSpiderFeralGliderPREPPER, .225
 		zombieM60DemolitionPREPPER, .225
 		animalBossZombieGracePREPPER, .225
+		animalPaindeerPREPPER, .225
 		zombieWightRadiationShowerPREPPER, .225
 		zombieBogeymanPREPPER, .225
 		zombieCrispyPREPPER, .225
@@ -3974,6 +4076,7 @@
 		zombieSpiderFeralGliderPREPPER, .225
 		zombieM60DemolitionPREPPER, .225
 		animalBossZombieGracePREPPER, .225
+		animalPaindeerPREPPER, .225
 		zombieWightRadiationShowerPREPPER, .225
 		zombieBogeymanPREPPER, .225
 		zombieCrispyPREPPER, .225
@@ -4018,6 +4121,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4048,6 +4152,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4078,6 +4183,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4108,6 +4214,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4138,6 +4245,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4168,6 +4276,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4198,6 +4307,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4228,6 +4338,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4258,6 +4369,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4288,6 +4400,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4318,6 +4431,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4348,6 +4462,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4378,6 +4493,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4408,6 +4524,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4438,6 +4555,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4468,6 +4586,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4511,6 +4630,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4541,6 +4661,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4571,6 +4692,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4601,6 +4723,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4631,6 +4754,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4661,6 +4785,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4691,6 +4816,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4721,6 +4847,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4751,6 +4878,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4781,6 +4909,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4811,6 +4940,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4841,6 +4971,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4871,6 +5002,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4901,6 +5033,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4931,6 +5064,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -4974,6 +5108,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -5004,6 +5139,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -5034,6 +5170,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -5064,6 +5201,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -5094,6 +5232,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -5124,6 +5263,7 @@
 		zombieSpiderFeralGliderPREPPER, .25
 		zombieM60DemolitionPREPPER, .25
 		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
 		zombieWightRadiationShowerPREPPER, .25
 		zombieBogeymanPREPPER, .25
 		zombieCrispyPREPPER, .25
@@ -5155,6 +5295,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -5185,6 +5326,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -5215,6 +5357,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -5245,6 +5388,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -5275,6 +5419,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -5305,6 +5450,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -5335,6 +5481,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -5378,6 +5525,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -5408,6 +5556,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -5438,6 +5587,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -5468,6 +5618,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -5498,6 +5649,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -5528,6 +5680,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -5558,6 +5711,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -5588,6 +5742,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -5618,6 +5773,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -5648,6 +5804,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -5678,6 +5835,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -5708,6 +5866,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -5738,6 +5897,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -5768,6 +5928,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -5811,6 +5972,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -5841,6 +6003,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -5871,6 +6034,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -5901,6 +6065,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -5931,6 +6096,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -5961,6 +6127,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -5991,6 +6158,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -6021,6 +6189,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -6051,6 +6220,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -6081,6 +6251,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -6111,6 +6282,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -6141,6 +6313,7 @@
 		zombieSpiderFeralGliderPREPPER, .3
 		zombieM60DemolitionPREPPER, .3
 		animalBossZombieGracePREPPER, .3
+		animalPaindeerPREPPER, .3
 		zombieWightRadiationShowerPREPPER, .3
 		zombieBogeymanPREPPER, .3
 		zombieCrispyPREPPER, .3
@@ -6185,6 +6358,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -6215,6 +6389,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -6245,6 +6420,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -6275,6 +6451,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -6305,6 +6482,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -6335,6 +6513,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -6365,6 +6544,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -6395,6 +6575,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -6425,6 +6606,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -6455,6 +6637,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -6485,6 +6668,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -6515,6 +6699,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -6545,6 +6730,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -6575,6 +6761,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -6605,6 +6792,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -6635,6 +6823,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -6665,6 +6854,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -6695,6 +6885,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -6725,6 +6916,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -6755,6 +6947,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -6785,6 +6978,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -6828,6 +7022,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -6858,6 +7053,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -6888,6 +7084,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -6918,6 +7115,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -6948,6 +7146,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -6978,6 +7177,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -7008,6 +7208,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -7038,6 +7239,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -7068,6 +7270,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -7098,6 +7301,7 @@
 		zombieSpiderFeralGliderPREPPER, .325
 		zombieM60DemolitionPREPPER, .325
 		animalBossZombieGracePREPPER, .325
+		animalPaindeerPREPPER, .325
 		zombieWightRadiationShowerPREPPER, .325
 		zombieBogeymanPREPPER, .325
 		zombieCrispyPREPPER, .325
@@ -7129,6 +7333,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -7159,6 +7364,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -7189,6 +7395,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -7219,6 +7426,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -7249,6 +7457,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -7279,6 +7488,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -7309,6 +7519,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -7339,6 +7550,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -7369,6 +7581,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -7399,6 +7612,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -7442,6 +7656,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -7472,6 +7687,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -7502,6 +7718,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -7532,6 +7749,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -7562,6 +7780,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -7592,6 +7811,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -7622,6 +7842,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -7652,6 +7873,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -7682,6 +7904,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -7712,6 +7935,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -7742,6 +7966,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -7772,6 +7997,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -7802,6 +8028,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -7832,6 +8059,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -7862,6 +8090,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -7892,6 +8121,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -7922,6 +8152,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -7952,6 +8183,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -7982,6 +8214,7 @@
 		zombieSpiderFeralGliderPREPPER, .35
 		zombieM60DemolitionPREPPER, .35
 		animalBossZombieGracePREPPER, .35
+		animalPaindeerPREPPER, .35
 		zombieWightRadiationShowerPREPPER, .35
 		zombieBogeymanPREPPER, .35
 		zombieCrispyPREPPER, .35
@@ -8026,6 +8259,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8056,6 +8290,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8086,6 +8321,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8116,6 +8352,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8146,6 +8383,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8176,6 +8414,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8206,6 +8445,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8236,6 +8476,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8266,6 +8507,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8296,6 +8538,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8326,6 +8569,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8356,6 +8600,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8386,6 +8631,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8416,6 +8662,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8446,6 +8693,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8476,6 +8724,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8506,6 +8755,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8536,6 +8786,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8566,6 +8817,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8596,6 +8848,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8626,6 +8879,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8669,6 +8923,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8699,6 +8954,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8729,6 +8985,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8759,6 +9016,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8789,6 +9047,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8819,6 +9078,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8849,6 +9109,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8879,6 +9140,7 @@
 		zombieSpiderFeralGliderPREPPER, .375
 		zombieM60DemolitionPREPPER, .375
 		animalBossZombieGracePREPPER, .375
+		animalPaindeerPREPPER, .375
 		zombieWightRadiationShowerPREPPER, .375
 		zombieBogeymanPREPPER, .375
 		zombieCrispyPREPPER, .375
@@ -8910,6 +9172,7 @@
 		zombieSpiderFeralGliderPREPPER, .4
 		zombieM60DemolitionPREPPER, .4
 		animalBossZombieGracePREPPER, .4
+		animalPaindeerPREPPER, .4
 		zombieWightRadiationShowerPREPPER, .4
 		zombieBogeymanPREPPER, .4
 		zombieCrispyPREPPER, .4
@@ -8940,6 +9203,7 @@
 		zombieSpiderFeralGliderPREPPER, .4
 		zombieM60DemolitionPREPPER, .4
 		animalBossZombieGracePREPPER, .4
+		animalPaindeerPREPPER, .4
 		zombieWightRadiationShowerPREPPER, .4
 		zombieBogeymanPREPPER, .4
 		zombieCrispyPREPPER, .4
@@ -8970,6 +9234,7 @@
 		zombieSpiderFeralGliderPREPPER, .4
 		zombieM60DemolitionPREPPER, .4
 		animalBossZombieGracePREPPER, .4
+		animalPaindeerPREPPER, .4
 		zombieWightRadiationShowerPREPPER, .4
 		zombieBogeymanPREPPER, .4
 		zombieCrispyPREPPER, .4
@@ -9000,6 +9265,7 @@
 		zombieSpiderFeralGliderPREPPER, .4
 		zombieM60DemolitionPREPPER, .4
 		animalBossZombieGracePREPPER, .4
+		animalPaindeerPREPPER, .4
 		zombieWightRadiationShowerPREPPER, .4
 		zombieBogeymanPREPPER, .4
 		zombieCrispyPREPPER, .4
@@ -9030,6 +9296,7 @@
 		zombieSpiderFeralGliderPREPPER, .4
 		zombieM60DemolitionPREPPER, .4
 		animalBossZombieGracePREPPER, .4
+		animalPaindeerPREPPER, .4
 		zombieWightRadiationShowerPREPPER, .4
 		zombieBogeymanPREPPER, .4
 		zombieCrispyPREPPER, .4
@@ -9060,6 +9327,7 @@
 		zombieSpiderFeralGliderPREPPER, .4
 		zombieM60DemolitionPREPPER, .4
 		animalBossZombieGracePREPPER, .4
+		animalPaindeerPREPPER, .4
 		zombieWightRadiationShowerPREPPER, .4
 		zombieBogeymanPREPPER, .4
 		zombieCrispyPREPPER, .4
@@ -9090,6 +9358,7 @@
 		zombieSpiderFeralGliderPREPPER, .4
 		zombieM60DemolitionPREPPER, .4
 		animalBossZombieGracePREPPER, .4
+		animalPaindeerPREPPER, .4
 		zombieWightRadiationShowerPREPPER, .4
 		zombieBogeymanPREPPER, .4
 		zombieCrispyPREPPER, .4
@@ -9120,6 +9389,7 @@
 		zombieSpiderFeralGliderPREPPER, .4
 		zombieM60DemolitionPREPPER, .4
 		animalBossZombieGracePREPPER, .4
+		animalPaindeerPREPPER, .4
 		zombieWightRadiationShowerPREPPER, .4
 		zombieBogeymanPREPPER, .4
 		zombieCrispyPREPPER, .4
@@ -9163,6 +9433,7 @@
 		zombieSpiderFeralGliderPREPPER, .4
 		zombieM60DemolitionPREPPER, .4
 		animalBossZombieGracePREPPER, .4
+		animalPaindeerPREPPER, .4
 		zombieWightRadiationShowerPREPPER, .4
 		zombieBogeymanPREPPER, .4
 		zombieCrispyPREPPER, .4
@@ -9193,6 +9464,7 @@
 		zombieSpiderFeralGliderPREPPER, .4
 		zombieM60DemolitionPREPPER, .4
 		animalBossZombieGracePREPPER, .4
+		animalPaindeerPREPPER, .4
 		zombieWightRadiationShowerPREPPER, .4
 		zombieBogeymanPREPPER, .4
 		zombieCrispyPREPPER, .4
@@ -9223,6 +9495,7 @@
 		zombieSpiderFeralGliderPREPPER, .4
 		zombieM60DemolitionPREPPER, .4
 		animalBossZombieGracePREPPER, .4
+		animalPaindeerPREPPER, .4
 		zombieWightRadiationShowerPREPPER, .4
 		zombieBogeymanPREPPER, .4
 		zombieCrispyPREPPER, .4
@@ -9253,6 +9526,7 @@
 		zombieSpiderFeralGliderPREPPER, .4
 		zombieM60DemolitionPREPPER, .4
 		animalBossZombieGracePREPPER, .4
+		animalPaindeerPREPPER, .4
 		zombieWightRadiationShowerPREPPER, .4
 		zombieBogeymanPREPPER, .4
 		zombieCrispyPREPPER, .4
@@ -9283,6 +9557,7 @@
 		zombieSpiderFeralGliderPREPPER, .4
 		zombieM60DemolitionPREPPER, .4
 		animalBossZombieGracePREPPER, .4
+		animalPaindeerPREPPER, .4
 		zombieWightRadiationShowerPREPPER, .4
 		zombieBogeymanPREPPER, .4
 		zombieCrispyPREPPER, .4
@@ -9313,6 +9588,7 @@
 		zombieSpiderFeralGliderPREPPER, .4
 		zombieM60DemolitionPREPPER, .4
 		animalBossZombieGracePREPPER, .4
+		animalPaindeerPREPPER, .4
 		zombieWightRadiationShowerPREPPER, .4
 		zombieBogeymanPREPPER, .4
 		zombieCrispyPREPPER, .4
@@ -9343,6 +9619,7 @@
 		zombieSpiderFeralGliderPREPPER, .4
 		zombieM60DemolitionPREPPER, .4
 		animalBossZombieGracePREPPER, .4
+		animalPaindeerPREPPER, .4
 		zombieWightRadiationShowerPREPPER, .4
 		zombieBogeymanPREPPER, .4
 		zombieCrispyPREPPER, .4
@@ -9373,6 +9650,7 @@
 		zombieSpiderFeralGliderPREPPER, .4
 		zombieM60DemolitionPREPPER, .4
 		animalBossZombieGracePREPPER, .4
+		animalPaindeerPREPPER, .4
 		zombieWightRadiationShowerPREPPER, .4
 		zombieBogeymanPREPPER, .4
 		zombieCrispyPREPPER, .4
@@ -9403,6 +9681,7 @@
 		zombieSpiderFeralGliderPREPPER, .4
 		zombieM60DemolitionPREPPER, .4
 		animalBossZombieGracePREPPER, .4
+		animalPaindeerPREPPER, .4
 		zombieWightRadiationShowerPREPPER, .4
 		zombieBogeymanPREPPER, .4
 		zombieCrispyPREPPER, .4
@@ -9433,6 +9712,7 @@
 		zombieSpiderFeralGliderPREPPER, .4
 		zombieM60DemolitionPREPPER, .4
 		animalBossZombieGracePREPPER, .4
+		animalPaindeerPREPPER, .4
 		zombieWightRadiationShowerPREPPER, .4
 		zombieBogeymanPREPPER, .4
 		zombieCrispyPREPPER, .4
@@ -9463,6 +9743,7 @@
 		zombieSpiderFeralGliderPREPPER, .4
 		zombieM60DemolitionPREPPER, .4
 		animalBossZombieGracePREPPER, .4
+		animalPaindeerPREPPER, .4
 		zombieWightRadiationShowerPREPPER, .4
 		zombieBogeymanPREPPER, .4
 		zombieCrispyPREPPER, .4
@@ -9493,6 +9774,7 @@
 		zombieSpiderFeralGliderPREPPER, .4
 		zombieM60DemolitionPREPPER, .4
 		animalBossZombieGracePREPPER, .4
+		animalPaindeerPREPPER, .4
 		zombieWightRadiationShowerPREPPER, .4
 		zombieBogeymanPREPPER, .4
 		zombieCrispyPREPPER, .4
@@ -9523,6 +9805,7 @@
 		zombieSpiderFeralGliderPREPPER, .4
 		zombieM60DemolitionPREPPER, .4
 		animalBossZombieGracePREPPER, .4
+		animalPaindeerPREPPER, .4
 		zombieWightRadiationShowerPREPPER, .4
 		zombieBogeymanPREPPER, .4
 		zombieCrispyPREPPER, .4
@@ -9553,6 +9836,7 @@
 		zombieSpiderFeralGliderPREPPER, .4
 		zombieM60DemolitionPREPPER, .4
 		animalBossZombieGracePREPPER, .4
+		animalPaindeerPREPPER, .4
 		zombieWightRadiationShowerPREPPER, .4
 		zombieBogeymanPREPPER, .4
 		zombieCrispyPREPPER, .4
@@ -9583,6 +9867,7 @@
 		zombieSpiderFeralGliderPREPPER, .4
 		zombieM60DemolitionPREPPER, .4
 		animalBossZombieGracePREPPER, .4
+		animalPaindeerPREPPER, .4
 		zombieWightRadiationShowerPREPPER, .4
 		zombieBogeymanPREPPER, .4
 		zombieCrispyPREPPER, .4
@@ -9613,6 +9898,7 @@
 		zombieSpiderFeralGliderPREPPER, .4
 		zombieM60DemolitionPREPPER, .4
 		animalBossZombieGracePREPPER, .4
+		animalPaindeerPREPPER, .4
 		zombieWightRadiationShowerPREPPER, .4
 		zombieBogeymanPREPPER, .4
 		zombieCrispyPREPPER, .4
@@ -9643,6 +9929,7 @@
 		zombieSpiderFeralGliderPREPPER, .4
 		zombieM60DemolitionPREPPER, .4
 		animalBossZombieGracePREPPER, .4
+		animalPaindeerPREPPER, .4
 		zombieWightRadiationShowerPREPPER, .4
 		zombieBogeymanPREPPER, .4
 		zombieCrispyPREPPER, .4
@@ -9673,6 +9960,7 @@
 		zombieSpiderFeralGliderPREPPER, .4
 		zombieM60DemolitionPREPPER, .4
 		animalBossZombieGracePREPPER, .4
+		animalPaindeerPREPPER, .4
 		zombieWightRadiationShowerPREPPER, .4
 		zombieBogeymanPREPPER, .4
 		zombieCrispyPREPPER, .4
@@ -9717,6 +10005,7 @@
 		zombieSpiderFeralGliderPREPPER, .5
 		zombieM60DemolitionPREPPER, .5
 		animalBossZombieGracePREPPER, .5
+		animalPaindeerPREPPER, .5
 		zombieWightRadiationShowerPREPPER, .5
 		zombieBogeymanPREPPER, .5
 		zombieCrispyPREPPER, .5
@@ -9747,6 +10036,7 @@
 		zombieSpiderFeralGliderPREPPER, .5
 		zombieM60DemolitionPREPPER, .5
 		animalBossZombieGracePREPPER, .5
+		animalPaindeerPREPPER, .5
 		zombieWightRadiationShowerPREPPER, .5
 		zombieBogeymanPREPPER, .5
 		zombieCrispyPREPPER, .5
@@ -9777,6 +10067,7 @@
 		zombieSpiderFeralGliderPREPPER, .5
 		zombieM60DemolitionPREPPER, .5
 		animalBossZombieGracePREPPER, .5
+		animalPaindeerPREPPER, .5
 		zombieWightRadiationShowerPREPPER, .5
 		zombieBogeymanPREPPER, .5
 		zombieCrispyPREPPER, .5
@@ -9807,6 +10098,7 @@
 		zombieSpiderFeralGliderPREPPER, .5
 		zombieM60DemolitionPREPPER, .5
 		animalBossZombieGracePREPPER, .5
+		animalPaindeerPREPPER, .5
 		zombieWightRadiationShowerPREPPER, .5
 		zombieBogeymanPREPPER, .5
 		zombieCrispyPREPPER, .5
@@ -9837,6 +10129,7 @@
 		zombieSpiderFeralGliderPREPPER, .5
 		zombieM60DemolitionPREPPER, .5
 		animalBossZombieGracePREPPER, .5
+		animalPaindeerPREPPER, .5
 		zombieWightRadiationShowerPREPPER, .5
 		zombieBogeymanPREPPER, .5
 		zombieCrispyPREPPER, .5

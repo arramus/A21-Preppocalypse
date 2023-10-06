@@ -681,7 +681,7 @@
 	<property name="offer_key" value="Accept this quest to hunt a variety of animals through multiple smaller stages. You will receive Dukes and XP for completing each stage, and 2 Skill for the final stage. This Quest repeats in an endless loop." />       
     <property name="name_key" value="Bears, Mountain Lions, and Stags" />
 	<property name="subtitle_key" value="Bears, Mountain Lions, and Stags" />
-	<property name="description_key" value="Hunt 2 Bears, 2 Mountain Lions, and 2 Stags to receive a reward and move to the next animal stage." />
+	<property name="description_key" value="Hunt 2 Bears, 2 Mountain Lions, 2 Stags, and 2 Paindeer to receive a reward and move to the next animal stage." />
 	<property name="icon" value="ui_game_symbol_animal_tracker"/>
 	<property name="repeatable" value="true"/>
 	<property name="category_key" value="Quest"/>
@@ -690,7 +690,8 @@
 
 			<objective type="EntityKill" id="animalBear" value="2"/>
 			<objective type="EntityKill" id="animalMountainLion" value="2"/>
-			<objective type="EntityKill" id="animalStag" value="2"/>			
+			<objective type="EntityKill" id="animalStag" value="2"/>
+			<objective type="EntityKill" id="animalPaindeerPREPPER" value="2"/>			
 		
 	<reward type="Exp" value="8000"/>
 	<reward type="Item" id="casinoCoin" value="3000"/>
@@ -702,9 +703,9 @@
     <!-- Animals Part 4 -->
 	<quest id="quest_eliminateanimals04">
 	<property name="offer_key" value="Accept this quest to hunt a variety of animals through multiple smaller stages. You will receive Dukes and XP for completing each stage, and 2 Skill Points for the final stage. This Quest repeats in an endless loop." />       
-    <property name="name_key" value="Z Bear, BM Z Bunny, BM Z Chicken, Dire Wolf, and Z Grace" />
-	<property name="subtitle_key" value="Z Bear, BM Z Bunny, BM Z Chicken, Dire Wolf, and Z Grace" />
-	<property name="description_key" value="Hunt a Zombie Bear, Blood Moon Zombie Bunny, Blood Moon Zombie Chicken, Dire Wolf, and Zombie Grace Boar to receive a reward and restart the animal stages." />
+    <property name="name_key" value="Z Bear, BM B Bunny, BM B Chicken, Dire Wolf, and G Grace" />
+	<property name="subtitle_key" value="Z Bear, BM B Bunny, BM B Chicken, Dire Wolf, and G Grace" />
+	<property name="description_key" value="Hunt a Zombie Bear, Blood Moon Bad Bunny, Blood Moon Battle Chicken, Dire Wolf, and Gory Grace Boar to receive a reward and restart the animal stages." />
 	<property name="icon" value="ui_game_symbol_animal_tracker"/>
 	<property name="repeatable" value="true"/>
 	<property name="category_key" value="Quest"/>
