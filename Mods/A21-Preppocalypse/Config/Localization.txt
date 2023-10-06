@@ -322,6 +322,7 @@ zombieSteelSledgehammerFatHawaiianRadiatedPREPPER,entityclasses,Entity,,,Radiate
 zombieWightRadiationShowerPREPPER,entityclasses,Entity,,,Radiation Shower Wight,,,,,,,,,,,,,
 zombieBogeymanPREPPER,entityclasses,Entity,,,Radiation Shower Bogeyman,,,,,,,,,,,,,
 zombieCrispyPREPPER,entityclasses,Entity,,,Wood Stove Walker,,,,,,,,,,,,,
+zombieRocketPREPPER,entityclasses,Entity,,,Fragger,,,,,,,,,,,,,
 zombieScorcherPREPPER,entityclasses,Entity,,,Scorcher,,,,,,,,,,,,,
 zombieMiniSoldier,entityclasses,Entity,,,Mini Soldier,,,,,,,,,,,,,
 zombieMiniSoldierFeral,entityclasses,Entity,,,Mini Feral Soldier,,,,,,,,,,,,,
