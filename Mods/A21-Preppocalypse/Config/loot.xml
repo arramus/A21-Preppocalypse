@@ -5,6 +5,9 @@
     <!-- Make player dropped bags bigger to accomodate new size KhaineGB -->
 	<set xpath="/lootcontainers/lootcontainer[@name='playerBackpack']/@size">10,10</set>
 	
+    <!-- Boost the groupQuestRewardSkillMagazinesAll01 Allowance from 3 to 5 sets of magazines with 2 of each -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestRewardSkillMagazinesAll01']/@count">5</set>
+	
 	<remove xpath="/lootcontainers/lootcontainer[@name='birdNest']" />
 	
 	<!-- Safes for Quest Notes -->
