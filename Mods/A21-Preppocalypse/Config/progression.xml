@@ -5,6 +5,8 @@
 
 	<!-- Max player level -->
 	<set xpath="/progression/level/@max_level">1000</set> <!-- Default max level is 300 -->
+	<!-- Rifle reload speed -->
+	<set xpath="/progression/perks/perk[@name='perkDeadEye']/effect_group/passive_effect[@name='ReloadSpeedMultiplier'][@value='0.1,0.3']/@value">0.12,0.4</set>	
 	<!-- Shotgun reload speed -->
 	<set xpath="/progression/perks/perk[@name='perkBoomstick']/effect_group/passive_effect[@name='ReloadSpeedMultiplier'][@value='.1,.30']/@value">.2,.60</set>
 	<!-- Revolver reload speed -->	
