@@ -115,7 +115,7 @@
 		</effect_group>
 	</item_modifier>		
 
-<!-- Bow Handle Entity Damage Mod -->
+<!-- Bow Grip Entity Damage Mod -->
 
 	<item_modifier name="modGunBowArrowGrip" installable_tags="bow" modifier_tags="specialDamage" blocked_tags="noMods" type="attachment">
 		<property name="Extends" value="modGeneralMaster"/>
@@ -128,6 +128,23 @@
 			<passive_effect name="EntityDamage" operation="perc_add" value="0.1"/>
 		</effect_group>
 	</item_modifier>
+	
+<!-- Archery Reload Speed Mod -->
+
+	<item_modifier name="modArcheryReloadSpeed" installable_tags="perkArchery" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="modArcheryReloadSpeed"/>
+		<property name="UnlockedBy" value="modArcheryReloadSpeedSchematic"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<property name="Material" value="Mcloth"/>
+		
+		<!-- Reload archery weapons 15% faster -->
+		<effect_group tiered="false">
+			<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".15"/>
+		</effect_group>
+	</item_modifier>
+	
+<!-- Weapon Maintenance Mod -->
 	
 	<item_modifier name="modWeaponMaintenance" installable_tags="weapon" modifier_tags="durability" blocked_tags="noMods" type="attachment">
 		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>

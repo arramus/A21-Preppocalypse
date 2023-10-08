@@ -510,10 +510,20 @@
 			<ingredient name="resourceSewingKit" count="1"/>		
 		</recipe>
 	
-	<!-- Bow Grip Mod -->
+	<!-- Bow Grip Entity Damage Mod -->
 	
 		<recipe name="modGunBowArrowGrip" count="1" craft_area="workbench" tags="learnable">
 			<ingredient name="resourceWood" count="20"/>
+			<ingredient name="resourceLeather" count="3"/>
+			<ingredient name="resourceDuctTape" count="2"/>		
+			<ingredient name="resourceGlue" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="4"/>		
+		</recipe>
+		
+	<!-- Archery Reload Speed Mod -->
+	
+		<recipe name="modArcheryReloadSpeed" count="1" craft_area="workbench" tags="learnable">
+			<ingredient name="resourceSpring" count="3"/>
 			<ingredient name="resourceLeather" count="3"/>
 			<ingredient name="resourceDuctTape" count="2"/>		
 			<ingredient name="resourceGlue" count="1"/>

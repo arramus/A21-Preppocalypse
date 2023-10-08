@@ -40,7 +40,8 @@
 	<!-- Group Ranged Mods -->
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupRangedMods']">
 		<item name="modWeaponMaintenance"/>	
-		<item name="modGunBowArrowGrip"/>		
+		<item name="modGunBowArrowGrip"/>
+		<item name="modArcheryReloadSpeed"/>		
 	</append>
 	
 	<!-- Group Armor Mods -->
@@ -53,8 +54,9 @@
 	<!-- schematicsModsCommon -->
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsModsCommon']">
 		<item name="modWeaponMaintenanceSchematic"/>
-		<item name="modGunBowArrowGripSchematic"/>
-		<item name="modArmorRunningShoesHPSchematic"/>		
+		<item name="modGunBowArrowGripSchematic"/>		
+		<item name="modArcheryReloadSpeedSchematic"/>
+		<item name="modArmorRunningShoesHPSchematic"/>	
 	</append>
 	
 	<!-- *** Melee_Weapons -->
