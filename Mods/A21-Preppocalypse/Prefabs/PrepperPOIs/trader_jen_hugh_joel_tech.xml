@@ -14,11 +14,11 @@
   <property name="PrefabSize" value="60, 31, 60" />
   <property name="RotationToFaceNorth" value="2" />
   <property name="QuestTags" value="trader" />
-  <property name="ThemeRepeatDistance" value="1500" />
+  <property name="ThemeRepeatDistance" value="1200" />
   <property name="Zoning" value="none" />
   <property name="YOffset" value="-5" />
-  <property name="TeleportVolumeSize" value="34, 3, 31#36, 20, 33" />
-  <property name="TeleportVolumeStart" value="13, 5, 14#12, 8, 13" />
+  <property name="TeleportVolumeSize" value="34, 3, 31#36, 25, 33#9, 22, 9#5, 7, 22" />
+  <property name="TeleportVolumeStart" value="13, 5, 14#12, 8, 13#20, 5, 50#2, 5, 22" />
   <property class="Stats">
     <property name="TotalVertices" value="1671839" />
     <property name="TotalTriangles" value="623799" />
