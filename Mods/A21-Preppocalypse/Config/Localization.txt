@@ -106,6 +106,7 @@ prepper_stonecave_01_arramus,POI,POIName,,x,Edes Lets Plays Toy Store,,,,,,,,,,,
 prepper_wildernesscabin01,POI,POIName,,x,Hirnsturz Cabin,,,,,,,,,,,,,
 store_book_01_prepper,POI,POIName,,x,Preppo Crack-A-Book,,,,,,,,,,,,,
 store_clothing_02_prepper,POI,POIName,,x,Misha Bunny Clothing,,,,,,,,,,,,,
+trader_jen_hugh_joel_tech,POI,POIName,,x,Trader Preppo-Tech Trio,,,,,,,,,,,,,
 trader_prepper_bob,POI,POIName,,x,Trader Prepper Bob,,Händler Prepper Bob,,,,,,,,,,,
 
 modArmorRunningShoesHP,item_modifiers,mod,,,Speedy Running Shoes Mod,,Speedy Laufschuhe Mod,,,,,,,,,,,
