@@ -20,15 +20,15 @@
   <property name="TeleportVolumeSize" value="36, 27, 33#9, 22, 9#5, 7, 24" />
   <property name="TeleportVolumeStart" value="12, 5, 13#20, 5, 50#2, 5, 22" />
   <property class="Stats">
-    <property name="TotalVertices" value="1669181" />
-    <property name="TotalTriangles" value="623208" />
+    <property name="TotalVertices" value="1692535" />
+    <property name="TotalTriangles" value="636239" />
     <property class="BlockEntities">
-      <property name="Vertices" value="1517205" />
-      <property name="Triangles" value="510761" />
+      <property name="Vertices" value="1537663" />
+      <property name="Triangles" value="522086" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="131946" />
-      <property name="Triangles" value="89479" />
+      <property name="Vertices" value="134842" />
+      <property name="Triangles" value="91185" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="8832" />
@@ -56,6 +56,9 @@
     </property>
   </property>
   <property class="IndexedBlockOffsets">
+    <property class="quest_wood_trees">
+      <property name="0" value="43, 5, 5" />
+    </property>
     <property class="TraderOnOff">
       <property name="0" value="39, 10, 33" />
       <property name="1" value="39, 6, 34" />
