@@ -34,7 +34,8 @@
 		<item name="foodMisoYakiOnigiri" count="1,2"/>
 		<item name="foodChickenStew" count="1,2"/>
 		<item name="foodMushroomRice" count="1,2"/>
-		<item name="foodGritsAndBits" count="1,2"/>		
+		<item name="foodGritsAndBits" count="1,2"/>
+		<item name="foodBlueberryBreadPudding" count="1,2"/>		
 	</append>
 	
 	<!-- Group Ranged Mods -->

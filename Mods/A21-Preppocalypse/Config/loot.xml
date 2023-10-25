@@ -46,7 +46,8 @@
 		<item name="foodChickenStew"/>
 		<item name="foodMushroomRice"/>
 		<item name="foodGritsAndBits"/>
-		<item name="foodHoneyPumpkinPie"/>
+		<item name="foodHoneyPumpkinPie"/>		
+		<item name="foodBlueberryBreadPudding"/>
 	</append>
 	
 	<!-- *** twitch_foodT1 -->
@@ -64,6 +65,7 @@
 		<item name="foodMushroomRice" count="2,4"/>
 		<item name="foodGritsAndBits" count="2,4"/>
 		<item name="foodHoneyPumpkinPie" count="2,4"/>
+		<item name="foodBlueberryBreadPudding" count="2,4"/>
 	</append>
 	
 	<!-- *** twitch_foodT3 -->
@@ -72,6 +74,7 @@
 		<item name="foodMushroomRice" count="2,4"/>
 		<item name="foodGritsAndBits" count="2,4"/>
 		<item name="foodHoneyPumpkinPie" count="2,4"/>
+		<item name="foodBlueberryBreadPudding" count="2,4"/>
 	</append>
 	
 	<!-- Mod Schematics and Mod Appendages -->

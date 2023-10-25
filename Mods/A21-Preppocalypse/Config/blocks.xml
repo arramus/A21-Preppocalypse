@@ -1225,6 +1225,7 @@
 <!-- TRAPS -->
 <block name="CactusTrap">
 	<property name="Material" value="MbarbedWire"/>
+	<property name="MaxDamage" value="1000"/>
 	<property name="CustomIcon" value="cactustrap"/>
 	<property name="Shape" value="ModelEntity" />
 	<property name="OnlySimpleRotations" value="true"/>
@@ -1239,6 +1240,7 @@
 
 <block name="TarTrap">
 	<property name="Material" value="MbarbedWire"/>
+	<property name="MaxDamage" value="1000"/>
 	<property name="CustomIcon" value="tartrap"/>
 	<property name="Shape" value="ModelEntity" />
 	<property name="OnlySimpleRotations" value="true"/>
