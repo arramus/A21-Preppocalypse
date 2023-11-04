@@ -1,6 +1,8 @@
 <Preppocalypse>
 
 	<!-- Vanilla Updates -->
+	<!-- Trap damage buff to offset higher entity HP -->
+	<set xpath="/blocks/block[@name='electricfencepost']/property[@name='MaxDamage']/@value">500</set> <!-- Default 200 -->
 	<!-- Decor/Misc Group Switching for Compliance -->
  	<append xpath="/blocks/block[@name='cntWoodFurnitureBlockVariantHelper']/property[@name='Group']/@value">,Decor/Miscellaneous</append>
  	<append xpath="/blocks/block[@name='cntWoodFurnitureBlockVariantHelper2']/property[@name='Group']/@value">,Decor/Miscellaneous</append>	
