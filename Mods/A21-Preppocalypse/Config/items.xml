@@ -1,6 +1,6 @@
 <Preppocalypse>
 
-	<!-- VANILLA TWEAKS and TOGGLES -->	
+	<!-- VANILLA TWEAKS and TOGGLES -->
 	<!-- Zombie Reach Adjust KhaineGB -->
 	<set xpath="/items/item[@name='meleeHandMaster']/property[@class='Action0']/property[@name='Range']/@value">1.325</set>
 	<set xpath="/items/item[@name='meleeHandZombie01']/property[@class='Action0']/property[@name='Range']/@value">1.325</set>
@@ -180,6 +180,9 @@
 	
 	<!-- Bicycle Tags -->
 	<append xpath="/items/item[@name='vehicleBicyclePlaceable']/property[@name='Tags']/@value">,vseat</append><!-- Adding the seat tag -->
+	
+	<!-- Magazine Reward Bundle Colour -->
+	<set xpath="/items/item[@name='questRewardT1SkillMagazineBundle']/property[@name='CustomIconTint']/@value">FFFFFF</set><!-- FFFF00 yellow default -->
 
 	<append xpath="/items">
 	
