@@ -14,6 +14,13 @@
     <!-- Boost the groupQuestRewardSkillMagazinesAll01 Allowance from 3 to 5 sets of magazines with 2 of each -->
 	<set xpath="/lootcontainers/lootgroup[@name='groupQuestRewardSkillMagazinesAll01']/@count">5</set>
 	
+    <!-- Increase the storage space for player storage -->
+	<set xpath="/lootcontainers/lootcontainer[@name='beerCooler']/@size">8,9</set> <!-- Beer Cooler from 6,3 since Preppers are Preppers -->
+	<set xpath="/lootcontainers/lootcontainer[@name='playerCooler']/@size">8,9</set> <!-- Player Cooler from 6,2 as above -->
+	<set xpath="/lootcontainers/lootcontainer[@name='nightstandNOPOP']/@size">8,9</set> <!-- Player Night Stands from 6,2 as above -->	
+	<set xpath="/lootcontainers/lootcontainer[@name='lockersNOPOP']/@size">8,9</set> <!-- Player Lockers from 6,2 as above -->
+	<set xpath="/lootcontainers/lootcontainer[@name='refrigeratorNOPOP']/@size">8,9</set> <!-- Player Refrigerator from 6,4 as above -->	
+	
 	<remove xpath="/lootcontainers/lootcontainer[@name='birdNest']" />
 	
 	<!-- Safes for Quest Notes -->
