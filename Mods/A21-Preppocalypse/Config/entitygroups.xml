@@ -34,33 +34,34 @@
 
 	<!-- *** BIOME_ZOMBIES_NIGHT_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesNight']/text()" delim="\n" op="add" >
-		animalZombieSnakePREPPER, .025
-		zombieSMGArlenePREPPER, .025
-		zombieTARifleSoldierPREPPER, .025
-		zombieBatonHazmatPREPPER, .025
-		zombieSteelAxeLumberjackPREPPER, .025
-		zombieMachetePartyGirlPREPPER, .025
-		zombiePistolBusinessManPREPPER, .025
-		zombieNailgunUtilityWorkerPREPPER, .025
-		zombieSwissVetterliBoePREPPER, .025
-		zombieChainsawMoePREPPER, .025
-		zombieDesertVultureTomClarkPREPPER, .025
-		zombiePumpShotgunBikerPREPPER, .025
-		zombieBatonFatCopPREPPER, .025
-		zombieSteelClubFemaleFatPREPPER, .025
-		zombieBoltNursePREPPER, .025
-		zombieSteelSledgehammerFatHawaiianPREPPER, .025
-		animalZombieLargePlasmaVulturePREPPER, .0125		
-		zombieSpiderFeralBomberPREPPER, .0125
-		zombieSpiderFeralGliderPREPPER, .0125
-		zombieM60DemolitionPREPPER, .0125
-		animalBossZombieGracePREPPER, .0125
-		animalPaindeerPREPPER, .0125
-		zombieWightRadiationShowerPREPPER, .0125
-		zombieBogeymanPREPPER, .0125
-		zombieCrispyPREPPER, .0125
-		zombieScorcherPREPPER, .0125
-		zombieRocketPREPPER, .005		
+		zombieBigNightBikerRadiated, .1
+		animalZombieSnakePREPPER, .05
+		zombieSMGArlenePREPPER, .05
+		zombieTARifleSoldierPREPPER, .05
+		zombieBatonHazmatPREPPER, .05
+		zombieSteelAxeLumberjackPREPPER, .05
+		zombieMachetePartyGirlPREPPER, .05
+		zombiePistolBusinessManPREPPER, .05
+		zombieNailgunUtilityWorkerPREPPER, .05
+		zombieSwissVetterliBoePREPPER, .05
+		zombieChainsawMoePREPPER, .05
+		zombieDesertVultureTomClarkPREPPER, .05
+		zombiePumpShotgunBikerPREPPER, .05
+		zombieBatonFatCopPREPPER, .05
+		zombieSteelClubFemaleFatPREPPER, .05
+		zombieBoltNursePREPPER, .05
+		zombieSteelSledgehammerFatHawaiianPREPPER, .05
+		animalZombieLargePlasmaVulturePREPPER, .025		
+		zombieSpiderFeralBomberPREPPER, .025
+		zombieSpiderFeralGliderPREPPER, .025
+		zombieM60DemolitionPREPPER, .025
+		animalBossZombieGracePREPPER, .025
+		animalPaindeerPREPPER, .025
+		zombieWightRadiationShowerPREPPER, .025
+		zombieBogeymanPREPPER, .025
+		zombieCrispyPREPPER, .025
+		zombieScorcherPREPPER, .025
+		zombieRocketPREPPER, .01		
 	</csv>
 
 	<!-- *** BIOME_ZOMBIES_FOREST_DOWNTOWN_GROUP -->

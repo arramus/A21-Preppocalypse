@@ -343,6 +343,7 @@ zombieMiniSoldierRadiated,entityclasses,Entity,,,Mini Radiated Soldier,,,,,,,,,,
 zombieMiniDemolition,entityclasses,Entity,,,Mini Demolition,,,,,,,,,,,,,
 zombieMiniTARifleSoldierPREPPER,entityclasses,Entity,,,Tactical Assault Rifle Mini Soldier,,,,,,,,,,,,,
 zombieMiniTARifleSoldierRadiatedPREPPER,entityclasses,Entity,,,Tactical Assault Rifle Mini Radiated Soldier,,,,,,,,,,,,,
+zombieBigNightBikerRadiated,entityclasses,Entity,,,Big Radiated Night Biker,,,,,,,,,,,,,
 
 loadingTipPrepperVehicles,UI,Loading Screen,x,,"The vehicles in Preppocalypse are slightly enhanced, with a little extra speed and better passage through water.",,"Die Fahrzeuge in Preppocalypse sind leicht verbessert, mit etwas mehr Geschwindigkeit und besserer Wasserdurchfahrt.",,,,,,,,,,,
 loadingTipPrepperVehicles_title,UI,Loading Screen,x,,Vehicles,,Fahrzeuge,,,,,,,,,,,

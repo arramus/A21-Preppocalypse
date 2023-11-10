@@ -45,7 +45,8 @@
 		<item name="quest_radiatedpreppers"/>
 	</append>
 	
-	<append xpath="/lootcontainers/lootgroup[@name='groupGunSafeSecure']"> <!-- Gun Safe drops two possible passes for books/quests notes -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupGunSafeSecure']"> <!-- Gun Safe drops three possible passes for books/quests notes -->
+		<item group="groupSafeBooks" count="1"/>
 		<item group="groupSafeBooks" loot_prob_template="med" force_prob="true"/>
 	</append>
 	
@@ -129,10 +130,10 @@
 	<lootcontainer name="cntFishTrap" count="2,4" size="7,2" destroy_on_close="true" sound_open="bucketplace_water" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
 		<item name="resourceYuccaFibers" count="10,30" prob="0.3"/>
 		<item name="resourceCloth" count="2,6" prob="0.3"/>		
-		<item name="foodRottingFlesh" count="2,6" prob="0.3"/>		
+		<item name="foodRottingFlesh" count="2,6" prob="0.3"/>
+		<item name="resourceCatfish" count="1,2" prob="0.225"/>		
 		<item name="oldCash" count="10,20" prob="0.2"/>
 		<item name="resourceBone" count="2,6" prob="0.2"/>
-		<item name="resourceCatfish" count="1,2" prob="0.2"/>
 		<item name="foodCropPotato" count="2,3" prob="0.1"/>
 		<item name="foodCropCorn" count="2,3" prob="0.1"/>
 		<item name="foodCropMushrooms" count="2,3" prob="0.1"/>
