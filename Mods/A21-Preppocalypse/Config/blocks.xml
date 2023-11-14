@@ -1,6 +1,22 @@
 <Preppocalypse>
 
 	<!-- Vanilla Updates -->
+	<!-- Military Carton Pallets -->
+	<append xpath="/blocks/block[@name='palletCartonMilitaryCap']">
+		<property name="Class" value="Loot"/>
+		<property name="LootList" value="ammoPileSmallpalletCartonMilitary"/>
+		<property name="Path" value="solid"/>
+	</append>
+	<append xpath="/blocks/block[@name='palletCartonMilitaryTile']">
+		<property name="Class" value="Loot"/>
+		<property name="LootList" value="ammoPileSmallpalletCartonMilitary"/>
+		<property name="Path" value="solid"/>
+	</append>
+	<append xpath="/blocks/block[@name='palletCartonMilitaryTileCovered']">
+		<property name="Class" value="Loot"/>
+		<property name="LootList" value="ammoPileSmallpalletCartonMilitary"/>
+		<property name="Path" value="solid"/>
+	</append>	
 	<!-- Trap damage buff to offset higher entity HP -->
 	<set xpath="/blocks/block[@name='electricfencepost']/property[@name='MaxDamage']/@value">500</set> <!-- Default 200 -->
 	<!-- Decor/Misc Group Switching for Compliance -->

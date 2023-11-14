@@ -125,6 +125,11 @@
 	
 	<append xpath="/lootcontainers">
 	
+	<!-- cntAmmoPileSmall copy from default TFP small ammo as a token gesture for Relootable Military Cartons since they are in context -->
+	<lootcontainer name="ammoPileSmallpalletCartonMilitary" size="6,1" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
+		<item group="groupAmmoPileSmall"/>
+	</lootcontainer>
+	
 	<!-- Oakraven Fish Trap Loot -->
 	
 	<lootcontainer name="cntFishTrap" count="2,4" size="7,2" destroy_on_close="true" sound_open="bucketplace_water" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
