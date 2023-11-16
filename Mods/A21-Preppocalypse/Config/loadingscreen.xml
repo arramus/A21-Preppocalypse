@@ -12,7 +12,8 @@
 		<tip key="loadingTipPrepperToolsWeapons"/>
 		<tip key="loadingTipPrepperUltraTriathlete"/>
 		<tip key="loadingTipPrepperKnowledge"/>
-		<tip key="loadingTipPrepperTraps"/>		
+		<tip key="loadingTipPrepperTraps"/>
+		<tip key="loadingTipPrepperATM"/>		
 	</append>
 
 </Preppocalypse>

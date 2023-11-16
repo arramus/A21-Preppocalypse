@@ -1123,6 +1123,31 @@
 		<reward type="Item" id="casinoCoin" value="25000"/>
 		<reward type="SkillPoints" value="2" chainreward="false"/>
 	</quest>
+
+	<!-- ATM Skill Chance Drop -->	
+	<quest id="quest_1Skill">
+		<property name="name_key" value="1 Skill Point" />
+		<property name="subtitle_key" value="1 Skill Point" />
+		<property name="description_key" value="Bingo! Give yourself 1 Skill Point, Prepper." />
+		<property name="icon" value="ui_game_symbol_atm" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="offer_key" value="Bingo! Give yourself 1 Skill Point, Prepper." />
+		<property name="difficulty" value="medium" />
+		<reward type="SkillPoints" value="1" />
+	</quest>
+	
+	<quest id="quest_2Skill">
+		<property name="name_key" value="2 Skill Points" />
+		<property name="subtitle_key" value="2 Skill Points" />
+		<property name="description_key" value="Jackpot! Give yourself 2 Skill Points, Prepper." />
+		<property name="icon" value="ui_game_symbol_atm" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="offer_key" value="Jackpot! Give yourself 2 Skill Points, Prepper." />
+		<property name="difficulty" value="hard" />
+		<reward type="SkillPoints" value="2" />
+	</quest>
 	
 	</append>
 

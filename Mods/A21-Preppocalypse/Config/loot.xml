@@ -23,6 +23,12 @@
 	
 	<remove xpath="/lootcontainers/lootcontainer[@name='birdNest']" />
 	
+	<!-- ATM Skill Chance Drop -->	
+	<append xpath="/lootcontainers/lootcontainer[@name='atmLoot']"> <!-- ATM -->
+		<item name="qc_1Skill" prob=".15"/>
+		<item name="qc_2Skill" prob=".075"/>
+	</append>
+	
 	<!-- Safes for Quest Notes -->
 	<append xpath="/lootcontainers/lootgroup[@name='groupSafeBooks']"> <!-- groupSafeBooks for gun and wall/desk -->
 		<item name="quest_nailgunutilityworkers"/>

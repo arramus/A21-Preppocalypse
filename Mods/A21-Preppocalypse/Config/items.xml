@@ -3189,6 +3189,27 @@
 				<property name="QuestGiven" value="quest_radiatedpreppers"/>
 			</property>
 		</item>
+		
+	<!-- ATM Skill Chance Drop -->
+	<item name="qc_1Skill">
+		<property name="Extends" value="challengeQuestMaster"/>
+		<property name="DescriptionKey" value="qc_1SkillDesc"/>
+		<property name="CustomIcon" value="1Skill"/>
+		<property name="Stacknumber" value="5"/>
+		<property class="Action0">
+		<property name="QuestGiven" value="quest_1Skill"/>
+		</property>
+	</item>
+	
+	<item name="qc_2Skill">
+		<property name="Extends" value="challengeQuestMaster"/>
+		<property name="DescriptionKey" value="qc_2SkillDesc"/>
+		<property name="CustomIcon" value="2Skill"/>
+		<property name="Stacknumber" value="5"/>
+		<property class="Action0">
+		<property name="QuestGiven" value="quest_2Skill"/>
+		</property>
+	</item>
 
 	<!-- ADMIN TOOLS -->
 	
