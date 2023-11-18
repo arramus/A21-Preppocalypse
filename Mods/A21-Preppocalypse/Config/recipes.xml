@@ -178,7 +178,7 @@
 	<!-- PREPPER / SURVIVALIST / BUSHCRAFT BITES FOOD ITEMS -->
 	
 	<recipe name="foodAcornFlour" count="1">
-		<ingredient name="treePlantedOak1m" count="5"/>
+		<ingredient name="treePlantedOak1m" count="4"/>
 	</recipe>
 
     <recipe name="foodAcornBiscuits" count="1" craft_time="12" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">

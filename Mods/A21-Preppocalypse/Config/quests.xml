@@ -121,7 +121,7 @@
 		<property name="difficulty" value="veryeasy"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="FetchKeep" id="treePlantedOak1m" value="25" phase="1"/>		
+		<objective type="FetchKeep" id="treePlantedOak1m" value="20" phase="1"/>		
 		<objective type="Craft">
 			<property name="phase" value="2"/>
 			<property name="item" value="foodAcornFlour"/>
@@ -156,7 +156,7 @@
 		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 1. Begin by getting some cooking basics in place." />
 		<property name="name_key" value="Bacon and Eggs with Biscuits"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 1"/>
-		<property name="description_key" value="Unlock and cook Bacon and Eggs with Biscuits. Place 5 Bacon and Eggs with Biscuits into your inventory. This preparation task gives you some surplus while you loot, shoot, and continue your preparation tasks. Receive XP, 2 Skill Points and a Cooking Grill for your efforts. Continue to Part 2."/>
+		<property name="description_key" value="Unlock and cook Bacon and Eggs with Biscuits. Place 5 Bacon and Eggs with Biscuits into your inventory. This preparation task gives you some surplus while you loot, shoot, and continue your additional tasks. Receive XP, 2 Skill Points and a Cooking Grill for your efforts. Continue to Part 2."/>
 		<property name="icon" value="ui_game_symbol_food"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="veryeasy"/>
@@ -173,16 +173,16 @@
 	<!-- Prepper Stockpile Part 2 -->
 	<!-- Weapons 1 -->	
 	<quest id="quest_prepperstockpile06">
-		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 2. Collect a Wrench, some Pipe weapons, and Ammo resources." />
-		<property name="name_key" value="Wrench"/>
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 2. Collect a Claw Hammer, some Pipe weapons, and Ammo resources. Finally, make a Stone Spear." />
+		<property name="name_key" value="Claw Hammer"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 2"/>
-		<property name="description_key" value="Unlock and craft a Wrench. You may also loot, purchase, or consider your Starter Kit. Place a Wrench into your inventory."/>
+		<property name="description_key" value="Unlock and craft a Claw Hammer. You may also loot or purchase. Place a Claw Hammer into your inventory. Remove Mods on existing tools to count."/>
 		<property name="icon" value="ui_game_symbol_gunslinger"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="easy"/>
 		<property name="shareable" value="false"/>
 
-		<objective type="FetchKeep" id="meleeToolSalvageT1Wrench" value="1" phase="1"/>
+		<objective type="FetchKeep" id="meleeToolRepairT1ClawHammer" value="1" phase="1"/>
 
 		<reward type="Exp" value="750"/>
 		<reward type="Quest" id="quest_prepperstockpile07"/>
@@ -191,10 +191,10 @@
 	<!-- Prepper Stockpile Part 2 -->
 	<!-- Weapons 2 -->	
 	<quest id="quest_prepperstockpile07">
-		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 2. Collect a Wrench, some Pipe weapons, and Ammo resources." />
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 2. Collect a Claw Hammer, some Pipe weapons, and Ammo resources. Finally, make a Stone Spear." />
 		<property name="name_key" value="Pipe Weapons"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 2"/>
-		<property name="description_key" value="Craft, loot, or purchase a Pipe Pistol, Pipe Machine Gun, Pipe Rifle, and Pipe Shotgun and place into your inventory. The Wrench will assist in collecting recipe resources."/>
+		<property name="description_key" value="Craft, loot, or purchase a Pipe Pistol, Pipe Machine Gun, Pipe Rifle, and Pipe Shotgun and place into your inventory. Remove Mods on existing weapons to count."/>
 		<property name="icon" value="ui_game_symbol_gunslinger"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="easy"/>
@@ -212,7 +212,7 @@
 	<!-- Prepper Stockpile Part 2 -->
 	<!-- Weapons 3 -->	
 	<quest id="quest_prepperstockpile08">
-		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 2. Collect a Wrench, some Pipe weapons, and Ammo resources." />
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 2. Collect a Claw Hammer, some Pipe weapons, and Ammo resources. Finally, make a Stone Spear." />
 		<property name="name_key" value="Gunpowder"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 2"/>
 		<property name="description_key" value="Collect some Coal and Potassium Nitrate Powder to make 50 Gunpowder on your person."/>
@@ -236,7 +236,7 @@
 	<!-- Prepper Stockpile Part 2 -->
 	<!-- Weapons 4 -->	
 	<quest id="quest_prepperstockpile09">
-		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 2. Collect a Wrench, some Pipe weapons, and Ammo resources." />
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 2. Collect a Claw Hammer, some Pipe weapons, and Ammo resources. Finally, make a Stone Spear." />
 		<property name="name_key" value="Iron Arrows"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 2"/>
 		<property name="description_key" value="Unlock a Forge to craft 50 Iron Arrowheads. You may also loot or purchase them. Use 50 Iron Arrowheads, Wood, and Feathers to make 50 Iron Arrows on your person."/>
@@ -261,7 +261,7 @@
 	<!-- Prepper Stockpile Part 2 -->
 	<!-- Weapons 5 -->	
 	<quest id="quest_prepperstockpile10">
-		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 2. Collect a Wrench, some Pipe weapons, and Ammo resources." />
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 2. Collect a Wrench, some Pipe weapons, and Ammo resources. Finally, make a Stone Spear." />
 		<property name="name_key" value="Stone Spear"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 2"/>
 		<property name="description_key" value="Craft a Stone Spear. It helps to keep hostiles at a distance, especially when health is low. Receive XP, 2 Skill Points, and a Weapon Maintenance Mod as a reward. Continue to Part 3."/>
@@ -288,27 +288,16 @@
 	<!-- Prepper Stockpile Part 3 -->
 	<!-- Tools and Traps 1 -->
 	<quest id="quest_prepperstockpile11">
-		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 3. Craft and place a Workbench, followed by Farm Plots, a Coop and Hive, and then Traps." />
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 3. Place a Workbench, followed by Farm Plots, a Coop and Hive, and then Traps." />
 		<property name="name_key" value="Workbench"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 3"/>
-		<property name="description_key" value="Unlock a Workbench. Craft and place it."/>
+		<property name="description_key" value="Craft, loot, or purchase a Workbench. Place it."/>
 		<property name="icon" value="ui_game_symbol_workbench"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="easy"/>
 		<property name="shareable" value="false"/>
-
-		<objective type="FetchKeep" id="resourceForgedIron" value="25" phase="1"/>
-		<objective type="FetchKeep" id="resourceMechanicalParts" value="20" phase="1"/>
-		<objective type="FetchKeep" id="resourceDuctTape" value="5" phase="1"/>
-		<objective type="FetchKeep" id="resourceNail" value="100" phase="1"/>
-		<objective type="FetchKeep" id="resourceWood" value="100" phase="1"/>		
-		<objective type="Craft">
-			<property name="phase" value="2"/>
-			<property name="item" value="workbench"/>
-			<property name="count" value="1"/>
-		</objective>
 		
-		<objective type="BlockPlace" id="workbench" value="1" phase="2"/>
+		<objective type="BlockPlace" id="workbench" value="1" phase="1"/>
 
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_prepperstockpile12"/>
@@ -317,7 +306,7 @@
 	<!-- Prepper Stockpile Part 3 -->
 	<!-- Tools and Traps 2 -->	
 	<quest id="quest_prepperstockpile12">
-		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 3. Craft and place a Workbench, followed by Farm Plots, a Coop and Hive, and then Traps." />
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 3. Place a Workbench, followed by Farm Plots, a Coop and Hive, and then Traps." />
 		<property name="name_key" value="Quality of Life"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 3"/>
 		<property name="description_key" value="Craft and place a Chicken Coop, Bee Hive, 4 Farm Plots, Wood Burning Prepper Stove, and Fish Trap. Ensure you place the correct types. Caution! Do not add any Caught Chicks, Queen Bees, or Bait yet. The objective information is the recipe name only, and not an instruction for this Quest stage. That comes in the next stage of Part 3."/>
@@ -339,7 +328,7 @@
 	<!-- Prepper Stockpile Part 3 -->
 	<!-- Tools and Traps 3 -->
 	<quest id="quest_prepperstockpile13">
-		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 3. Craft and place a Workbench, followed by Farm Plots, a Coop and Hive, and then Traps." />
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 3. Place a Workbench, followed by Farm Plots, a Coop and Hive, and then Traps." />
 		<property name="name_key" value="Chicks, Queens, and Bait"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 3"/>
 		<property name="description_key" value="Find 2 Caught Chicks from Birds' Nests, and 1 Queen Bee from a Tree. Craft Bait for the Fish Trap. Add them to the Coop, Hive, and Fish Trap when ready."/>
@@ -360,7 +349,7 @@
 	<!-- Prepper Stockpile Part 3 -->
 	<!-- Tools and Traps 4 -->	
 	<quest id="quest_prepperstockpile14">
-		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 3. Craft and place a Workbench, followed by Farm Plots, a Coop and Hive, and then Traps." />
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 3. Place a Workbench, followed by Farm Plots, a Coop and Hive, and then Traps." />
 		<property name="name_key" value="Traps"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 3"/>
 		<property name="description_key" value="Craft and place 2 Tar Traps and 1 Cactus Trap with the Workbench."/>
@@ -379,7 +368,7 @@
 	<!-- Prepper Stockpile Part 3 -->
 	<!-- Tools and Traps 5 -->
 	<quest id="quest_prepperstockpile15">
-		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 3. Craft and place a Workbench, followed by Farm Plots, a Coop and Hive, and then Traps." />
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 3. Place a Workbench, followed by Farm Plots, a Coop and Hive, and then Traps." />
 		<property name="name_key" value="Chicken, Honey Comb, and Catfish"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 3"/>
 		<property name="description_key" value="Farm 3 Grown Domestic Chickens, 15 Honey Comb, and 1 Catfish. Receive XP, 2 Skill Points, and a Bunker Buster Mod as a reward. Continue to Part 4."/>
