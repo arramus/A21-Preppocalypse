@@ -173,16 +173,16 @@
 	<!-- Prepper Stockpile Part 2 -->
 	<!-- Weapons 1 -->	
 	<quest id="quest_prepperstockpile06">
-		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 2. Collect a Claw Hammer, some Pipe weapons, and Ammo resources. Finally, make a Stone Spear." />
-		<property name="name_key" value="Claw Hammer"/>
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 2. Place a Forge, and gather some resources for Pipe Weapons and Ammo. Finally, make a Stone Spear." />
+		<property name="name_key" value="Forge"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 2"/>
-		<property name="description_key" value="Unlock and craft a Claw Hammer. You may also loot or purchase. Place a Claw Hammer into your inventory. Remove Mods on existing tools to count."/>
+		<property name="description_key" value="Craft, loot, or purchase a Forge. Place it."/>
 		<property name="icon" value="ui_game_symbol_gunslinger"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="easy"/>
 		<property name="shareable" value="false"/>
 
-		<objective type="FetchKeep" id="meleeToolRepairT1ClawHammer" value="1" phase="1"/>
+		<objective type="BlockPlace" id="forge" value="1" phase="1"/>
 
 		<reward type="Exp" value="750"/>
 		<reward type="Quest" id="quest_prepperstockpile07"/>
@@ -191,7 +191,7 @@
 	<!-- Prepper Stockpile Part 2 -->
 	<!-- Weapons 2 -->	
 	<quest id="quest_prepperstockpile07">
-		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 2. Collect a Claw Hammer, some Pipe weapons, and Ammo resources. Finally, make a Stone Spear." />
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 2. Place a Forge, and gather some resources for Pipe Weapons and Ammo. Finally, make a Stone Spear." />
 		<property name="name_key" value="Pipe Weapons"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 2"/>
 		<property name="description_key" value="Craft, loot, or purchase a Pipe Pistol, Pipe Machine Gun, Pipe Rifle, and Pipe Shotgun and place into your inventory. Remove Mods on existing weapons to count."/>
@@ -212,7 +212,7 @@
 	<!-- Prepper Stockpile Part 2 -->
 	<!-- Weapons 3 -->	
 	<quest id="quest_prepperstockpile08">
-		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 2. Collect a Claw Hammer, some Pipe weapons, and Ammo resources. Finally, make a Stone Spear." />
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 2. Place a Forge, and gather some resources for Pipe Weapons and Ammo. Finally, make a Stone Spear." />
 		<property name="name_key" value="Gunpowder"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 2"/>
 		<property name="description_key" value="Collect some Coal and Potassium Nitrate Powder to make 50 Gunpowder on your person."/>
@@ -236,7 +236,7 @@
 	<!-- Prepper Stockpile Part 2 -->
 	<!-- Weapons 4 -->	
 	<quest id="quest_prepperstockpile09">
-		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 2. Collect a Claw Hammer, some Pipe weapons, and Ammo resources. Finally, make a Stone Spear." />
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 2. Place a Forge, and gather some resources for Pipe Weapons and Ammo. Finally, make a Stone Spear." />
 		<property name="name_key" value="Iron Arrows"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 2"/>
 		<property name="description_key" value="Unlock a Forge to craft 50 Iron Arrowheads. You may also loot or purchase them. Use 50 Iron Arrowheads, Wood, and Feathers to make 50 Iron Arrows on your person."/>
@@ -261,7 +261,7 @@
 	<!-- Prepper Stockpile Part 2 -->
 	<!-- Weapons 5 -->	
 	<quest id="quest_prepperstockpile10">
-		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 2. Collect a Wrench, some Pipe weapons, and Ammo resources. Finally, make a Stone Spear." />
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 2. Place a Forge, and gather some resources for Pipe Weapons and Ammo. Finally, make a Stone Spear." />
 		<property name="name_key" value="Stone Spear"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 2"/>
 		<property name="description_key" value="Craft a Stone Spear. It helps to keep hostiles at a distance, especially when health is low. Receive XP, 2 Skill Points, and a Weapon Maintenance Mod as a reward. Continue to Part 3."/>
@@ -379,7 +379,7 @@
 
 		<objective type="FetchKeep" id="GrownChicken" value="3" phase="1"/>
 		<objective type="FetchKeep" id="foodHoneyComb" value="15" phase="1"/>
-		<objective type="FetchKeep" id="resourceCatfish" value="1" phase="1"/>
+		<objective type="FetchKeep" id="resourceCatfish" value="2" phase="1"/>
 
 		<reward type="SkillPoints" value="2" chainreward="false"/>
 		<reward type="Item" id="modMeleeBunkerBuster" value="1"/>
@@ -429,13 +429,13 @@
 		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 4. Mine for Oil Shale, and convert to Gas Cans and Drill Gas Cans on the Chemistry Station. Craft, place, and power up a Prepper Rock Drill to collect additional mining resources." />
 		<property name="name_key" value="Gas"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 4"/>
-		<property name="description_key" value="Craft 10000 Gas Cans and 5 Drill Gas Cans from Shale Oil on the Chemistry Station."/>
+		<property name="description_key" value="Craft 8888 Gas Cans and 5 Drill Gas Cans from Shale Oil on the Chemistry Station. If you have already looted some Gas Cans, they will add to the total."/>
 		<property name="icon" value="ui_game_symbol_gas"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="easy"/>
 		<property name="shareable" value="false"/>
 
-		<objective type="FetchKeep" id="ammoGasCan" value="10000" phase="1"/>
+		<objective type="FetchKeep" id="ammoGasCan" value="8888" phase="1"/>
 		<objective type="FetchKeep" id="DrillGasCan" value="5" phase="1"/>
 
 		<reward type="Exp" value="1250"/>
