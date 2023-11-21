@@ -316,6 +316,13 @@
 	<ingredient name="resourceScrapIron" count="5"/>
 	</recipe>
 	
+	<recipe name="foodChickSticks" count="1" craft_time="18" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef">
+	<ingredient name="CaughtChick" count="3"/>
+	<ingredient name="foodAcornFlour" count="1"/>
+	<ingredient name="foodEgg" count="1"/>
+	<ingredient name="resourceWood" count="1"/>
+	</recipe>
+	
 	<!-- Oakraven Bee Hives -->
 
 	<recipe name="BeeHiveVariantHelper" count="1" craft_time="180" craft_area="workbench" tags="workbenchCrafting">

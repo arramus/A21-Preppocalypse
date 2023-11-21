@@ -1,10 +1,6 @@
 <Preppocalypse>
 
 	<!-- Vanilla Updates -->
-	<!-- Caught Chicks from Trees as loot is not appropriate for nests -->
-	<append xpath="/blocks/block[@name='treeMaster']" >
-		<drop event="Destroy" name="CaughtChick" prob=".075" count="1,2"/>
-	</append>
 	<!-- Military Carton Pallets -->
 	<append xpath="/blocks/block[@name='palletCartonMilitaryCap']">
 		<property name="Class" value="Loot"/>
@@ -221,6 +217,10 @@
 	<remove xpath="/blocks/block[@name='cntBirdnestCorner']" />
 	
 	<append xpath="/blocks/block[@name='treeMaster']" >
+		<drop event="Destroy" name="CaughtChick" prob=".05" count="1,2"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='treeMaster']" >
 		<drop event="Destroy" name="QueenBee" prob=".05" count="1"/>
 	</append>
 	<append xpath="/blocks/block[@name='treeStump']" >
@@ -228,7 +228,7 @@
 	</append>
 	<append xpath="/blocks/block[@name='treeStumpPOI']" >
 		<drop event="Destroy" name="QueenBee" prob=".05" count="1"/>
-	</append>	
+	</append>
 
 	<append xpath="/blocks">
 	
