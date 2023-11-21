@@ -173,7 +173,7 @@
 	</append>
 	
 	<append xpath="/lootcontainers/lootgroup[@name='groupBirdNest02']">
-		<item name="CaughtChick" loot_prob_template="low"/>
+		<item name="CaughtChick" loot_prob_template="veryLow"/>
 	</append>
 	
 	<!-- Oakraven Bee Hives -->
