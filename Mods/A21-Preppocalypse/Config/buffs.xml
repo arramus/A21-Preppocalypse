@@ -125,6 +125,12 @@
 			</effect_group>
 		</buff>
 		
+		<buff name="animalBossZombieGracePREPPERDeco" hidden="true">
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Electrical/motion_sensorPrefab" local_offset="0,-.0275,0.25" local_rotation="0,0,0" parent_transform="Head"/>			
+			</effect_group>
+		</buff>
+		
 		<buff name="animalPaindeerPREPPERDeco" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/Axe/steelAxePrefab.prefab" local_offset="0,0,0.3" local_rotation="90,0,0" parent_transform="Head"/>

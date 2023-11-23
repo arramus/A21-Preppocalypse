@@ -3,7 +3,9 @@
 <!-- *** BIOME_GROUPS -->
 	<!-- *** BIOME_ALL_ZOMBIES_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesAll']/text()" delim="\n" op="add" >
+		animalZombieBunnyPREPPER, .025
 		animalZombieSnakePREPPER, .025
+		animalZombieChickenPREPPER, .025
 		zombieSMGArlenePREPPER, .025
 		zombieTARifleSoldierPREPPER, .025
 		zombieBatonHazmatPREPPER, .025
@@ -35,7 +37,9 @@
 	<!-- *** BIOME_ZOMBIES_NIGHT_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesNight']/text()" delim="\n" op="add" >
 		zombieBigNightBikerRadiated, .1
+		animalZombieBunnyPREPPER, .05
 		animalZombieSnakePREPPER, .05
+		animalZombieChickenPREPPER, .05
 		zombieSMGArlenePREPPER, .05
 		zombieTARifleSoldierPREPPER, .05
 		zombieBatonHazmatPREPPER, .05
@@ -66,7 +70,9 @@
 
 	<!-- *** BIOME_ZOMBIES_FOREST_DOWNTOWN_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesForestDowntown']/text()" delim="\n" op="add" >
+		animalZombieBunnyPREPPER, .025
 		animalZombieSnakePREPPER, .025
+		animalZombieChickenPREPPER, .025
 		zombieSMGArlenePREPPER, .025
 		zombieTARifleSoldierPREPPER, .025
 		zombieBatonHazmatPREPPER, .025
@@ -97,7 +103,9 @@
 
 	<!-- *** BIOME_ZOMBIES_FOREST_DOWNTOWN_NIGHT_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesForestDowntownNight']/text()" delim="\n" op="add" >
+		animalZombieBunnyPREPPER, .025
 		animalZombieSnakePREPPER, .025
+		animalZombieChickenPREPPER, .025
 		zombieSMGArlenePREPPER, .025
 		zombieTARifleSoldierPREPPER, .025
 		zombieBatonHazmatPREPPER, .025
@@ -128,7 +136,9 @@
 
 <!-- *** BIOME_ZOMBIES_DOWNTOWN_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesDowntown']/text()" delim="\n" op="add" >
+		animalZombieBunnyPREPPER, .025
 		animalZombieSnakePREPPER, .025
+		animalZombieChickenPREPPER, .025
 		zombieSMGArlenePREPPER, .025
 		zombieTARifleSoldierPREPPER, .025
 		zombieBatonHazmatPREPPER, .025
@@ -159,7 +169,9 @@
 
 <!-- *** BIOME_ZOMBIES_WASTELAND_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']/text()" delim="\n" op="add" >
+		animalZombieBunnyPREPPER, .75
 		animalZombieSnakePREPPER, .75
+		animalZombieChickenPREPPER, .75
 		zombieSMGArlenePREPPER, .75
 		zombieSMGArleneRadiatedPREPPER, .75
 		zombieTARifleSoldierPREPPER, .75
@@ -205,7 +217,9 @@
 	
 <!-- *** BIOME_ZOMBIES_WASTELAND_NIGHT_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']/text()" delim="\n" op="add" >
+		animalZombieBunnyPREPPER, 1.25
 		animalZombieSnakePREPPER, 1.25
+		animalZombieChickenPREPPER, 1.25
 		zombieSMGArlenePREPPER, 1.25
 		zombieSMGArleneRadiatedPREPPER, 1.25
 		zombieTARifleSoldierPREPPER, 1.25
@@ -251,7 +265,9 @@
 
 <!-- *** BIOME_ZOMBIES_WASTELAND_DOWNTOWN_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWastelandDowntown']/text()" delim="\n" op="add" >
+		animalZombieBunnyPREPPER, .025
 		animalZombieSnakePREPPER, .025
+		animalZombieChickenPREPPER, .025
 		zombieSMGArlenePREPPER, .025
 		zombieSMGArleneRadiatedPREPPER, .025
 		zombieTARifleSoldierPREPPER, .025
@@ -301,7 +317,9 @@
 		zombieBurntRadiated, .05
 		zombieCrispyPREPPER, .035
 		zombieScorcherPREPPER, .035
+		animalZombieBunnyPREPPER, .025
 		animalZombieSnakePREPPER, .025
+		animalZombieChickenPREPPER, .025
 		zombieSMGArlenePREPPER, .025
 		zombieSMGArleneRadiatedPREPPER, .025
 		zombieTARifleSoldierPREPPER, .025
@@ -348,8 +366,10 @@
 		zombieLumberjackFeral, .35
 		zombieLumberjackRadiated, .2
 		zombieSteelAxeLumberjackPREPPER, .1
-		animalPaindeerPREPPER, .03
+		animalPaindeerPREPPER, .075
+		animalZombieBunnyPREPPER, .025
 		animalZombieSnakePREPPER, .025
+		animalZombieChickenPREPPER, .025
 		zombieSMGArlenePREPPER, .025
 		zombieTARifleSoldierPREPPER, .025
 		zombieBatonHazmatPREPPER, .025
@@ -363,7 +383,7 @@
 		zombieBatonFatCopPREPPER, .025
 		zombieSteelClubFemaleFatPREPPER, .025
 		zombieBoltNursePREPPER, .025
-		zombieSteelSledgehammerFatHawaiianPREPPER, .1
+		zombieSteelSledgehammerFatHawaiianPREPPER, .025
 		animalZombieLargePlasmaVulturePREPPER, .0125		
 		zombieSpiderFeralBomberPREPPER, .0125
 		zombieSpiderFeralGliderPREPPER, .0125
@@ -381,32 +401,35 @@
 <!-- *** SNOW ANIMALS -->
 	
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']/text()" delim="\n" op="add" >
-		animalWolf, 12
+		animalWolf, 11
 	</csv>
-	
-<!-- *** FOREST ANIMALS -->	<!-- Expanding from only rabbits and chickens -->
+
+	<!-- *** BIOME_ANIMAL_WILD_GAME_FOREST_GROUP -->
+	<!-- NONE must not be the first entry since first name determines if enemy group --> <!-- Expanding from only rabbits and chickens -->
 	<set xpath="/entitygroups/entitygroup[@name='WildGameForest']">
-		animalRabbit, 22
-		animalChicken, 22
+		animalRabbit, 21
+		animalChicken, 21
 		animalBoar, 3
 		animalStag, 3
 		animalDoe, 4
 		none, 40
 	</set>
-	
-<!-- *** FOREST ANIMALS NIGHT -->	<!-- Expanding from only doe -->
+
+	<!-- *** BIOME_ANIMAL_WILD_GAME_FOREST_NIGHT_GROUP -->
+	<!-- NONE must not be the first entry since first name determines if enemy group --> <!-- Expanding from only doe -->
 	<set xpath="/entitygroups/entitygroup[@name='WildGameForestNight']">
-		animalRabbit, 22
-		animalChicken, 22
+		animalRabbit, 21
+		animalChicken, 21
 		animalBoar, 3
 		animalStag, 3
 		animalDoe, 4
 		none, 40
 	</set>
-	
-<!-- *** FOREST ENEMY ANIMALS -->	<!-- Expanding from only snake -->
-	<set xpath="/entitygroups/entitygroup[@name='WildGameForestNight']">
-		animalSnake, 15
+
+	<!-- *** BIOME_ENEMY_ANIMAL_FOREST_GROUP -->
+	<!-- NONE must not be the first entry since first name determines if enemy group --> <!-- Expanding from only snake -->
+	<set xpath="/entitygroups/entitygroup[@name='EnemyAnimalsForest']">
+		animalSnake, 16
 		animalWolf, 2
 		animalBear, 1
 		animalDireWolf, .05

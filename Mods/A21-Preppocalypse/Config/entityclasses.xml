@@ -809,7 +809,7 @@
 	<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 
-	<property name="NavObject" value="animaltracking_rabbit" />
+	<property name="NavObject" value="animaltracking_hostile" />
 </entity_class>
 
 <!-- Slithering Mutant Snake -->
@@ -898,7 +898,7 @@
 			<property name="ExperienceGain" value="1000"/>
 			<property name="MapIcon" value="ui_game_symbol_tracking_chicken"/>
 			<property name="TrackerIcon" value="ui_game_symbol_tracking_chicken"/>
-			<property name="SizeScale" value="2.3"/>	
+			<property name="SizeScale" value="1.6"/>	
 			<property name="Prefab" value="/Entities/Animals/CHICKEN/chickenPrefab"/>		
 			<property name="Class" value="EntityEnemyAnimal"/>
 			<property name="Parent" value="Animals"/>
@@ -953,7 +953,7 @@
 				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
 			</effect_group>
 
-			<property name="NavObject" value="animaltracking_chicken" />
+			<property name="NavObject" value="animaltracking_hostile" />
 		</entity_class>
 		
 <!-- Gory Grace -->
@@ -1009,6 +1009,7 @@
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 
 	<effect_group name="Base Effects">
+		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="animalBossZombieGracePREPPERDeco"/>
 		<passive_effect name="HealthMax" operation="base_set" value="3000"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".5"/> <!-- Feral damage -->
 	</effect_group>
@@ -1020,6 +1021,8 @@
 <entity_class name="animalPaindeerPREPPER" extends="animalTemplateHostile">
 	<property name="UserSpawnType" value="Menu"/>
 	<property name="Tags" value="entity,animal,hostile,zombie,deer,perkAT02,perkAT03"/>
+	<property name="MapIcon" value="ui_game_symbol_tracking_deer"/>
+	<property name="TrackerIcon" value="ui_game_symbol_tracking_deer"/>
 	<property name="AvatarController" value="AvatarAnimalController"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="HasRagdoll" value="true"/>
@@ -1069,6 +1072,8 @@
 		<triggered_effect trigger="onSelfFirstSpawn" action="AttachPrefabToEntity"  local_offset="0,-0.21,0.24" local_rotation="45,0,180" prefab="@:Other/Items/Mods/Sides/side_attachment_flashlightPrefab.prefab" parent_transform="Head" />
 		<triggered_effect trigger="onSelfFirstSpawn" action="SetTransformActive" active="true"  parent_transform="Head" transform_path="lightSource"/>		
 	</effect_group>
+	
+			<property name="NavObject" value="animaltracking_hostile" />
 </entity_class>
 
 <!-- Large Plasma Vulture -->

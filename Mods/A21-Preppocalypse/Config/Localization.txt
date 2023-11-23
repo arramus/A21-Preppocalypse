@@ -304,10 +304,10 @@ CactusTrapDesc,blocks,Block,,,"This Cactus Trap can be placed on a surface. It w
 TarTrap,blocks,Block,,,Trap - Tar,,Falle - Teer,,,,,,,,,,,
 TarTrapDesc,blocks,Block,,,"This Tar Trap can be placed on a surface. It will slow both zombies and players. Can be repaired and picked up.",,"Diese Teerfalle kann auf einer Oberfläche platziert werden. Es wird sowohl Zombies als auch Spieler verlangsamen. Kann repariert und abgeholt werden.",,,,,,,,,,,
 
-animalZombieBunnyPREPPER,entityclasses,Entity,,,Blood Moon Bad Bunny,,,,,,,,,,,,,
+animalZombieBunnyPREPPER,entityclasses,Entity,,,Bad Bunny,,,,,,,,,,,,,
 animalZombieSnakePREPPER,entityclasses,Entity,,,Slithery Mutant Snake,,,,,,,,,,,,,
-animalZombieChickenPREPPER,entityclasses,Entity,,,Blood Moon Battle Chicken,,,,,,,,,,,,,
-animalBossZombieGracePREPPER,entityclasses,Entity,,,Gory Grace,,,,,,,,,,,,,
+animalZombieChickenPREPPER,entityclasses,Entity,,,Battle Chicken,,,,,,,,,,,,,
+animalBossZombieGracePREPPER,entityclasses,Entity,,,G.I. Grace,,,,,,,,,,,,,
 animalZombieLargePlasmaVulturePREPPER,entityclasses,Entity,,,Large Plasma Zombie Vulture,,,,,,,,,,,,,
 animalPaindeerPREPPER,entityclasses,Entity,,,Prepper Paindeer,,,,,,,,,,,,,
 zombieSpiderFeralBomberPREPPER,entityclasses,Entity,,,Spider Drone Pipe Bomber,,,,,,,,,,,,,
