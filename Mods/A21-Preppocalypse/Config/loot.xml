@@ -138,11 +138,11 @@
 	
 	<!-- Oakraven Fish Trap Loot -->
 	
-	<lootcontainer name="cntFishTrap" count="2,4" size="7,2" destroy_on_close="true" sound_open="bucketplace_water" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
+	<lootcontainer name="cntFishTrap" count="2,5" size="7,2" destroy_on_close="true" sound_open="bucketplace_water" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
 		<item name="resourceYuccaFibers" count="10,30" prob="0.3"/>
 		<item name="resourceCloth" count="2,6" prob="0.3"/>		
 		<item name="foodRottingFlesh" count="2,6" prob="0.3"/>
-		<item name="resourceCatfish" count="1,2" prob="0.225"/>		
+		<item name="resourceCatfish" count="1" prob="0.3"/>	
 		<item name="oldCash" count="10,20" prob="0.2"/>
 		<item name="resourceBone" count="2,6" prob="0.2"/>
 		<item name="foodCropPotato" count="2,3" prob="0.1"/>
