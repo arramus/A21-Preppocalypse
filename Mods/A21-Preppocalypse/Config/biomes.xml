@@ -57,7 +57,8 @@
 			<decoration type="prefab" name="deco_forestsmallcamp_02"  onslopes="false" prob=".00055" rotatemax="3"/>
 			<decoration type="prefab" name="deco_preppo_grave_01"  onslopes="false" prob=".0005" rotatemax="3"/>
 			<decoration type="prefab" name="deco_preppo_grave_02"  onslopes="false" prob=".0005" rotatemax="3"/>
-			<decoration type="prefab" name="deco_prepperstump_01"  onslopes="false" prob=".0005" rotatemax="3"/>			
+			<decoration type="prefab" name="deco_prepperstump_01"  onslopes="false" prob=".0005" rotatemax="3"/>
+			<decoration type="block" blockname="modularFireWoodStackC" onslopes="false" prob=".0001" rotatemax="7"/>			
 	</append>
 	<!-- *** Pine Forest: Sub Biome: Clustered Flowers and Boulders -->
 	<append xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.31']/decorations">
@@ -65,7 +66,8 @@
 			<decoration type="prefab" name="deco_forestsmallcamp_02"  onslopes="false" prob=".00055" rotatemax="3"/>
 			<decoration type="prefab" name="deco_preppo_grave_01"  onslopes="false" prob=".0005" rotatemax="3"/>
 			<decoration type="prefab" name="deco_preppo_grave_02"  onslopes="false" prob=".0005" rotatemax="3"/>
-			<decoration type="prefab" name="deco_prepperstump_01"  onslopes="false" prob=".0005" rotatemax="3"/>			
+			<decoration type="prefab" name="deco_prepperstump_01"  onslopes="false" prob=".0005" rotatemax="3"/>
+			<decoration type="block" blockname="modularFireWoodStackC" onslopes="false" prob=".0001" rotatemax="7"/>			
 	</append>
 	<!-- *** Pine Forest: Ore Sub Biome: coalOre -->
 	<append xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.392']/decorations">
@@ -73,7 +75,8 @@
 			<decoration type="prefab" name="deco_forestsmallcamp_02"  onslopes="false" prob=".00055" rotatemax="3"/>
 			<decoration type="prefab" name="deco_preppo_grave_01"  onslopes="false" prob=".0005" rotatemax="3"/>
 			<decoration type="prefab" name="deco_preppo_grave_02"  onslopes="false" prob=".0005" rotatemax="3"/>
-			<decoration type="prefab" name="deco_prepperstump_01"  onslopes="false" prob=".0005" rotatemax="3"/>	
+			<decoration type="prefab" name="deco_prepperstump_01"  onslopes="false" prob=".0005" rotatemax="3"/>
+			<decoration type="block" blockname="modularFireWoodStackC" onslopes="false" prob=".0001" rotatemax="7"/>	
 	</append>
 	<!-- *** Pine Forest: Ore Sub Biome: potassiumNitrate -->
 	<append xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.412']/decorations">
@@ -81,7 +84,8 @@
 			<decoration type="prefab" name="deco_forestsmallcamp_02"  onslopes="false" prob=".00055" rotatemax="3"/>
 			<decoration type="prefab" name="deco_preppo_grave_01"  onslopes="false" prob=".0005" rotatemax="3"/>
 			<decoration type="prefab" name="deco_preppo_grave_02"  onslopes="false" prob=".0005" rotatemax="3"/>
-			<decoration type="prefab" name="deco_prepperstump_01"  onslopes="false" prob=".0005" rotatemax="3"/>	
+			<decoration type="prefab" name="deco_prepperstump_01"  onslopes="false" prob=".0005" rotatemax="3"/>
+			<decoration type="block" blockname="modularFireWoodStackC" onslopes="false" prob=".0001" rotatemax="7"/>	
 	</append>
 	<!-- *** Pine Forest: Ore Sub Biome: leadOre -->
 	<append xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.442']/decorations">
@@ -89,7 +93,8 @@
 			<decoration type="prefab" name="deco_forestsmallcamp_02"  onslopes="false" prob=".00055" rotatemax="3"/>
 			<decoration type="prefab" name="deco_preppo_grave_01"  onslopes="false" prob=".0005" rotatemax="3"/>
 			<decoration type="prefab" name="deco_preppo_grave_02"  onslopes="false" prob=".0005" rotatemax="3"/>
-			<decoration type="prefab" name="deco_prepperstump_01"  onslopes="false" prob=".0005" rotatemax="3"/>	
+			<decoration type="prefab" name="deco_prepperstump_01"  onslopes="false" prob=".0005" rotatemax="3"/>
+			<decoration type="block" blockname="modularFireWoodStackC" onslopes="false" prob=".0001" rotatemax="7"/>	
 	</append>	
 	<!-- *** Pine Forest: Decorations Main  -->	
 	<append xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations">
@@ -98,6 +103,7 @@
 			<decoration type="prefab" name="deco_preppo_grave_01"  onslopes="false" prob=".0005" rotatemax="3"/>
 			<decoration type="prefab" name="deco_preppo_grave_02"  onslopes="false" prob=".0005" rotatemax="3"/>
 			<decoration type="prefab" name="deco_prepperstump_01"  onslopes="false" prob=".0005" rotatemax="3"/>
+			<decoration type="block" blockname="modularFireWoodStackC" onslopes="false" prob=".0001" rotatemax="7"/>
 	</append>
 	
 	<!-- DESERT -->
@@ -107,7 +113,8 @@
 			<decoration type="prefab" name="deco_desertsmallcamp_02"  onslopes="false" prob=".0015" rotatemax="3"/>
 			<decoration type="prefab" name="deco_desertoasis_01"  onslopes="false" prob=".001" rotatemax="3"/>
 			<decoration type="prefab" name="deco_desertoasis_02"  onslopes="false" prob=".001" rotatemax="3"/>
-			<decoration type="prefab" name="deco_desertoasis_03"  onslopes="false" prob=".001" rotatemax="3"/>			
+			<decoration type="prefab" name="deco_desertoasis_03"  onslopes="false" prob=".001" rotatemax="3"/>
+			<decoration type="block" blockname="treeStump" prob=".0001" rotatemax="7"/>			
 	</append>
 	<!-- *** Desert: Sub Biome: Thick Grass and Shrubs-->
 	<append xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.24']/decorations">
@@ -115,7 +122,8 @@
 			<decoration type="prefab" name="deco_desertsmallcamp_02"  onslopes="false" prob=".0015" rotatemax="3"/>
 			<decoration type="prefab" name="deco_desertoasis_01"  onslopes="false" prob=".001" rotatemax="3"/>
 			<decoration type="prefab" name="deco_desertoasis_02"  onslopes="false" prob=".001" rotatemax="3"/>
-			<decoration type="prefab" name="deco_desertoasis_03"  onslopes="false" prob=".001" rotatemax="3"/>			
+			<decoration type="prefab" name="deco_desertoasis_03"  onslopes="false" prob=".001" rotatemax="3"/>
+			<decoration type="block" blockname="treeStump" prob=".0001" rotatemax="7"/>			
 	</append>
 	<!-- *** Desert: Ore Sub Biome: oilDeposit -->
 	<append xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.402']/decorations">
@@ -123,7 +131,8 @@
 			<decoration type="prefab" name="deco_desertsmallcamp_02"  onslopes="false" prob=".0015" rotatemax="3"/>
 			<decoration type="prefab" name="deco_desertoasis_01"  onslopes="false" prob=".001" rotatemax="3"/>
 			<decoration type="prefab" name="deco_desertoasis_02"  onslopes="false" prob=".001" rotatemax="3"/>
-			<decoration type="prefab" name="deco_desertoasis_03"  onslopes="false" prob=".001" rotatemax="3"/>			
+			<decoration type="prefab" name="deco_desertoasis_03"  onslopes="false" prob=".001" rotatemax="3"/>
+			<decoration type="block" blockname="treeStump" prob=".0001" rotatemax="7"/>			
 	</append>
 	<!-- *** Desert: Ore Sub Biome: potassiumNitrate -->
 	<append xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.412']/decorations">
@@ -131,7 +140,8 @@
 			<decoration type="prefab" name="deco_desertsmallcamp_02"  onslopes="false" prob=".0015" rotatemax="3"/>
 			<decoration type="prefab" name="deco_desertoasis_01"  onslopes="false" prob=".001" rotatemax="3"/>
 			<decoration type="prefab" name="deco_desertoasis_02"  onslopes="false" prob=".001" rotatemax="3"/>
-			<decoration type="prefab" name="deco_desertoasis_03"  onslopes="false" prob=".001" rotatemax="3"/>			
+			<decoration type="prefab" name="deco_desertoasis_03"  onslopes="false" prob=".001" rotatemax="3"/>
+			<decoration type="block" blockname="treeStump" prob=".0001" rotatemax="7"/>			
 	</append>
 	<!-- *** Desert: Ore Sub Biome: leadOre -->
 	<append xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.442']/decorations">
@@ -139,7 +149,8 @@
 			<decoration type="prefab" name="deco_desertsmallcamp_02"  onslopes="false" prob=".0015" rotatemax="3"/>
 			<decoration type="prefab" name="deco_desertoasis_01"  onslopes="false" prob=".001" rotatemax="3"/>
 			<decoration type="prefab" name="deco_desertoasis_02"  onslopes="false" prob=".001" rotatemax="3"/>
-			<decoration type="prefab" name="deco_desertoasis_03"  onslopes="false" prob=".001" rotatemax="3"/>			
+			<decoration type="prefab" name="deco_desertoasis_03"  onslopes="false" prob=".001" rotatemax="3"/>
+			<decoration type="block" blockname="treeStump" prob=".0001" rotatemax="7"/>			
 	</append>
 	<!-- Decorations Main: Desert -->	
 	<append xpath="/worldgeneration/biomes/biome[@name='desert']/decorations">
@@ -147,7 +158,8 @@
 			<decoration type="prefab" name="deco_desertsmallcamp_02"  onslopes="false" prob=".0015" rotatemax="3"/>
 			<decoration type="prefab" name="deco_desertoasis_01"  onslopes="false" prob=".001" rotatemax="3"/>
 			<decoration type="prefab" name="deco_desertoasis_02"  onslopes="false" prob=".001" rotatemax="3"/>
-			<decoration type="prefab" name="deco_desertoasis_03"  onslopes="false" prob=".001" rotatemax="3"/>			
+			<decoration type="prefab" name="deco_desertoasis_03"  onslopes="false" prob=".001" rotatemax="3"/>
+			<decoration type="block" blockname="treeStump" prob=".0001" rotatemax="7"/>			
 	</append>
 	
 </Preppocalypse>

@@ -290,6 +290,8 @@ chainLinkFencePOIVariantHelper,blocks,Block,,,Chain Link Fence,,Maschendraht –
 barbedWireSpindleVariantHelper,blocks,Block,,,Barbed Wire Spindle,,Stacheldrahtspindel,,,,,,,,,
 chainlinkDoorGateVariantHelper,blocks,Block,,,Chain Link Doors,,Türen mit Kettengliedern,,,,,,,,,
 
+resourceSeasonedWoodLogs,items,Item,,,Wood Logs (Seasoned),,Holzscheite (Abgelagerte ),,,,,,,,,,,
+resourceSeasonedWoodLogsDesc,items,Item,,,"Seasoned Wood Logs have a longer burn time than regular Wood Logs.",,"Abgelagerte Holzscheite haben eine längere Brenndauer als normale Holzscheite.",,,,,,,,,,,
 resourceSteelNail,items,Item,,,Steel Nails,,Stahlnägel,,,,,,,,,,,
 resourceSteelNailDesc,items,Item,,,"Steel nails are used for... shooting at zombies. Steel nails are stronger than regular nails and cause more entity damage.",,"Stahlnägel werden verwendet, um ... auf Zombies zu schießen. Stahlnägel sind stärker als normale Nägel und verursachen mehr Körperschaden.",,,,,,,,,,,
 meleeWpnClubT1Pot,items,Melee,,,Simple Cooking Pot,,Einfacher Kochtopf,,,,,,,,,,,

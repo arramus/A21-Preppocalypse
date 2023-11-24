@@ -169,6 +169,10 @@
 		<ingredient name="unit_glass" count="1"/>
 	</recipe>
 	
+	<recipe name="resourceSeasonedWoodLogs" count="1">
+		<ingredient name="resourceWood" count="30"/>
+	</recipe>
+	
 	<recipe name="playerWoodBurningPrepperStove" count="1" craft_area="workbench" craft_time="180" tags="workbenchCrafting">
 		<ingredient name="resourceScrapIron" count="100"/>
 		<ingredient name="resourceClayLump" count="100"/>
