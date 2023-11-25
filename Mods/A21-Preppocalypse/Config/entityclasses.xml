@@ -914,10 +914,14 @@
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
 	</append>
-<!-- Bear with Catfish Harvest -->
+<!-- Bears with Catfish Harvest -->
 	<append xpath="/entity_classes/entity_class[@name='animalBear']">
 		<drop event="Harvest" name="resourceCatfish" tag="butcherHarvest" count="1"/>
 	</append>
+	<append xpath="/entity_classes/entity_class[@name='animalZombieBear']">
+		<drop event="Harvest" name="resourceCatfish" tag="butcherHarvest" count="1"/>
+	</append>
+<!-- Bears with Catfish in mouth extends to ZombieBear -->
 	<append xpath="/entity_classes/entity_class[@name='animalBear']/effect_group">
 			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="animalBearDeco"/>
 	</append>
