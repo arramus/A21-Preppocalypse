@@ -914,6 +914,7 @@
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
 	</append>
+	
 <!-- Bears with Catfish Harvest -->
 	<append xpath="/entity_classes/entity_class[@name='animalBear']">
 		<drop event="Harvest" name="resourceCatfish" tag="butcherHarvest" count="1"/>
