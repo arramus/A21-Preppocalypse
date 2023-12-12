@@ -306,6 +306,14 @@ CactusTrapDesc,blocks,Block,,,"This Cactus Trap can be placed on a surface. It w
 TarTrap,blocks,Block,,,Trap - Tar,,Falle - Teer,,,,,,,,,,,
 TarTrapDesc,blocks,Block,,,"This Tar Trap can be placed on a surface. It will slow both zombies and players. Can be repaired and picked up.",,"Diese Teerfalle kann auf einer Oberfläche platziert werden. Es wird sowohl Zombies als auch Spieler verlangsamen. Kann repariert und abgeholt werden.",,,,,,,,,,,
 
+AmmoPress,blocks,Workstation,,,Prepper Ammo Press,,Prepper Munitionspresse,,,,,,,,,,,
+AmmoPressDesc,blocks,Block,,,"The Prepper Ammo Press allows players to craft ammunition in a compact standalone device. Bulk ammo crafts in half the time of the Workbench.",,"Mit der Prepper Munitionspresse können Spieler Munition in einem kompakten, eigenständigen Gerät herstellen. Massenmunition wird in der Hälfte der Zeit hergestellt, die man an der Werkbank benötigt.",,,,,,,,,,,
+workstationsT3-2AP,progression,Attribute,,,Tier 2: Oakraven Ammo Press,,,,,,,,,,,,,
+lblCategoryAmmoPress,UI,Tooltip,,,Ammo,,Munition,Munición,Munitions,Munizioni,弾薬,탄약,Amunicja,Munição,Боеприпасы,Mühimmat,弹药
+lblCategoryAmmoPressRegularAmmo,UI,Tooltip,,,Regular Ammo,,,,,,,,,,,,,
+lblCategoryAmmoPressHPAmmo,UI,Tooltip,,,HP Ammo,,,,,,,,,,,,,
+lblCategoryAmmoPressAPAmmo,UI,Tooltip,,,AP Ammo,,,,,,,,,,,,,
+
 animalZombieBunnyPREPPER,entityclasses,Entity,,,Bad Bunny,,,,,,,,,,,,,
 animalZombieSnakePREPPER,entityclasses,Entity,,,Slithery Mutant Snake,,,,,,,,,,,,,
 animalZombieChickenPREPPER,entityclasses,Entity,,,Battle Chicken,,,,,,,,,,,,,
