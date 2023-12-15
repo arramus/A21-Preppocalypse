@@ -54,4 +54,62 @@
 	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='49']/spawn[@group='FwanderingHordeStageGS64' 	and @num='08']/@num">23</set>
 	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='50']/spawn[@group='ZombieBearsGroup' 			and @num='02']/@num">03</set>
 
+	<append xpath="/gamestages">
+	
+	<!-- Prepper Mixed Entities -->
+	<group name="Prepper_Mixed_Entities" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="PrepperMixedEntities" count="5,6" />
+	</group>
+	
+	<!-- Prepper Flyer Entities -->
+	<group name="Prepper_Flyer_Entities" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="PrepperFlyerEntities" count="5,6" />
+	</group>
+	
+	<!-- Prepper Mixed Entities for GS -->
+	<spawner name="PrepperMixedEntities">
+		<gamestage stage="1">
+			<spawn group="PrepperMixedEntitiesGroupGS01" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="PrepperMixedEntitiesGroupGS50" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="PrepperMixedEntitiesGroupGS100" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="PrepperMixedEntitiesGroupGS200" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="PrepperMixedEntitiesGroupGS400" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="PrepperMixedEntitiesGroupGS800" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+	</spawner>
+	
+	<!-- Prepper Flyer Entities for GS -->
+	<spawner name="PrepperFlyerEntities">
+		<gamestage stage="1">
+			<spawn group="PrepperFlyerEntitiesGroupGS01" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="50">
+			<spawn group="PrepperFlyerEntitiesGroupGS50" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="100">
+			<spawn group="PrepperFlyerEntitiesGroupGS100" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="200">
+			<spawn group="PrepperFlyerEntitiesGroupGS200" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="400">
+			<spawn group="PrepperFlyerEntitiesGroupGS400" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+		<gamestage stage="800">
+			<spawn group="PrepperFlyerEntitiesGroupGS800" num="1" maxAlive="1" duration="1" />
+		</gamestage>
+	</spawner>
+	
+	</append>
+
 </Preppocalypse>

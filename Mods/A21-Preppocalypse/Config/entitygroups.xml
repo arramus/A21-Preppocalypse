@@ -396,6 +396,272 @@
 		zombieRocketPREPPER, .005		
 	</csv>
 	
+	<append xpath="/entitygroups">
+	
+	<!-- Prepper Mixed Entities for GS -->
+	
+	<entitygroup name="PrepperMixedEntitiesGroupGS01">
+		animalZombieBunnyPREPPER
+		animalZombieSnakePREPPER
+		animalZombieChickenPREPPER
+		zombieBatonHazmatPREPPER
+		zombieSteelAxeLumberjackPREPPER
+		zombieMachetePartyGirlPREPPER
+		zombieChainsawMoePREPPER
+		zombieBatonFatCopPREPPER
+		zombieSteelClubFemaleFatPREPPER
+		zombieSteelSledgehammerFatHawaiianPREPPER
+	</entitygroup>
+	<entitygroup name="PrepperMixedEntitiesGroupGS50">
+		animalZombieBunnyPREPPER
+		animalZombieSnakePREPPER
+		animalZombieChickenPREPPER
+		zombieSMGArlenePREPPER, .25
+		zombieTARifleSoldierPREPPER, .25
+		zombieBatonHazmatPREPPER
+		zombieSteelAxeLumberjackPREPPER
+		zombieMachetePartyGirlPREPPER
+		zombiePistolBusinessManPREPPER, .25
+		zombieNailgunUtilityWorkerPREPPER, .25
+		zombieSwissVetterliBoePREPPER, .25
+		zombieChainsawMoePREPPER
+		zombieDesertVultureTomClarkPREPPER, .25
+		zombiePumpShotgunBikerPREPPER, .25
+		zombieBatonFatCopPREPPER
+		zombieSteelClubFemaleFatPREPPER
+		zombieBoltNursePREPPER, .25
+		zombieSteelSledgehammerFatHawaiianPREPPER
+		zombieM60DemolitionPREPPER, .25
+		animalZombieLargePlasmaVulturePREPPER, .25		
+		zombieSpiderFeralBomberPREPPER, .25
+		zombieSpiderFeralGliderPREPPER, .25
+	</entitygroup>
+	<entitygroup name="PrepperMixedEntitiesGroupGS100">
+		animalZombieBunnyPREPPER
+		animalZombieSnakePREPPER
+		animalZombieChickenPREPPER
+		zombieSMGArlenePREPPER, .5
+		zombieTARifleSoldierPREPPER, .5
+		zombieBatonHazmatPREPPER
+		zombieSteelAxeLumberjackPREPPER
+		zombieMachetePartyGirlPREPPER
+		zombiePistolBusinessManPREPPER, .5
+		zombieNailgunUtilityWorkerPREPPER, .5
+		zombieSwissVetterliBoePREPPER, .5
+		zombieChainsawMoePREPPER
+		zombieDesertVultureTomClarkPREPPER, .5
+		zombiePumpShotgunBikerPREPPER, .5
+		zombieBatonFatCopPREPPER
+		zombieSteelClubFemaleFatPREPPER
+		zombieBoltNursePREPPER, .5
+		zombieSteelSledgehammerFatHawaiianPREPPER
+		zombieM60DemolitionPREPPER, .5
+		animalZombieLargePlasmaVulturePREPPER, .5		
+		zombieSpiderFeralBomberPREPPER, .5
+		zombieSpiderFeralGliderPREPPER, .5
+		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
+		zombieWightRadiationShowerPREPPER, .25
+		zombieBogeymanPREPPER, .25
+		zombieCrispyPREPPER, .25
+		zombieScorcherPREPPER, .25
+		zombieSMGArleneRadiatedPREPPER, .25
+		zombieTARifleSoldierRadiatedPREPPER, .25
+		zombieBatonHazmatRadiatedPREPPER, .25
+		zombieSteelAxeLumberjackRadiatedPREPPER, .25
+		zombieMachetePartyGirlRadiatedPREPPER, .25
+		zombiePistolBusinessManRadiatedPREPPER, .25
+		zombieNailgunUtilityWorkerRadiatedPREPPER, .25
+		zombieSwissVetterliBoeRadiatedPREPPER, .25
+		zombieChainsawMoeRadiatedPREPPER, .25
+		zombieDesertVultureTomClarkRadiatedPREPPER, .25
+		zombiePumpShotgunBikerRadiatedPREPPER, .25
+		zombieBatonFatCopRadiatedPREPPER, .25
+		zombieSteelClubFemaleFatRadiatedPREPPER, .25
+		zombieBoltNurseRadiatedPREPPER, .25
+		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
+		zombieRocketPREPPER, .25
+	</entitygroup>
+	<entitygroup name="PrepperMixedEntitiesGroupGS200">
+		animalZombieBunnyPREPPER
+		animalZombieSnakePREPPER
+		animalZombieChickenPREPPER
+		zombieSMGArlenePREPPER, .75
+		zombieTARifleSoldierPREPPER, .75
+		zombieBatonHazmatPREPPER
+		zombieSteelAxeLumberjackPREPPER
+		zombieMachetePartyGirlPREPPER
+		zombiePistolBusinessManPREPPER, .75
+		zombieNailgunUtilityWorkerPREPPER, .75
+		zombieSwissVetterliBoePREPPER, .75
+		zombieChainsawMoePREPPER
+		zombieDesertVultureTomClarkPREPPER, .75
+		zombiePumpShotgunBikerPREPPER, .75
+		zombieBatonFatCopPREPPER
+		zombieSteelClubFemaleFatPREPPER
+		zombieBoltNursePREPPER, .75
+		zombieSteelSledgehammerFatHawaiianPREPPER
+		zombieM60DemolitionPREPPER, .75
+		animalZombieLargePlasmaVulturePREPPER, .75		
+		zombieSpiderFeralBomberPREPPER, .75
+		zombieSpiderFeralGliderPREPPER, .75
+		animalBossZombieGracePREPPER, .25
+		animalPaindeerPREPPER, .25
+		zombieWightRadiationShowerPREPPER, .25
+		zombieBogeymanPREPPER, .25
+		zombieCrispyPREPPER, .25
+		zombieScorcherPREPPER, .25
+		zombieSMGArleneRadiatedPREPPER, .25
+		zombieTARifleSoldierRadiatedPREPPER, .25
+		zombieBatonHazmatRadiatedPREPPER, .25
+		zombieSteelAxeLumberjackRadiatedPREPPER, .25
+		zombieMachetePartyGirlRadiatedPREPPER, .25
+		zombiePistolBusinessManRadiatedPREPPER, .25
+		zombieNailgunUtilityWorkerRadiatedPREPPER, .25
+		zombieSwissVetterliBoeRadiatedPREPPER, .25
+		zombieChainsawMoeRadiatedPREPPER, .25
+		zombieDesertVultureTomClarkRadiatedPREPPER, .25
+		zombiePumpShotgunBikerRadiatedPREPPER, .25
+		zombieBatonFatCopRadiatedPREPPER, .25
+		zombieSteelClubFemaleFatRadiatedPREPPER, .25
+		zombieBoltNurseRadiatedPREPPER, .25
+		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .25
+		zombieRocketPREPPER, .25
+	</entitygroup>
+	<entitygroup name="PrepperMixedEntitiesGroupGS400">
+		animalZombieBunnyPREPPER
+		animalZombieSnakePREPPER
+		animalZombieChickenPREPPER
+		zombieSMGArlenePREPPER, .75
+		zombieTARifleSoldierPREPPER, .75
+		zombieBatonHazmatPREPPER
+		zombieSteelAxeLumberjackPREPPER
+		zombieMachetePartyGirlPREPPER
+		zombiePistolBusinessManPREPPER, .75
+		zombieNailgunUtilityWorkerPREPPER, .75
+		zombieSwissVetterliBoePREPPER, .75
+		zombieChainsawMoePREPPER
+		zombieDesertVultureTomClarkPREPPER, .75
+		zombiePumpShotgunBikerPREPPER, .75
+		zombieBatonFatCopPREPPER
+		zombieSteelClubFemaleFatPREPPER
+		zombieBoltNursePREPPER, .75
+		zombieSteelSledgehammerFatHawaiianPREPPER
+		zombieM60DemolitionPREPPER, .75
+		animalZombieLargePlasmaVulturePREPPER, .75		
+		zombieSpiderFeralBomberPREPPER, .75
+		zombieSpiderFeralGliderPREPPER, .75
+		animalBossZombieGracePREPPER, .5
+		animalPaindeerPREPPER, .5
+		zombieWightRadiationShowerPREPPER, .5
+		zombieBogeymanPREPPER, .5
+		zombieCrispyPREPPER, .5
+		zombieScorcherPREPPER, .5
+		zombieSMGArleneRadiatedPREPPER, .5
+		zombieTARifleSoldierRadiatedPREPPER, .5
+		zombieBatonHazmatRadiatedPREPPER, .5
+		zombieSteelAxeLumberjackRadiatedPREPPER, .5
+		zombieMachetePartyGirlRadiatedPREPPER, .5
+		zombiePistolBusinessManRadiatedPREPPER, .5
+		zombieNailgunUtilityWorkerRadiatedPREPPER, .5
+		zombieSwissVetterliBoeRadiatedPREPPER, .5
+		zombieChainsawMoeRadiatedPREPPER, .5
+		zombieDesertVultureTomClarkRadiatedPREPPER, .5
+		zombiePumpShotgunBikerRadiatedPREPPER, .5
+		zombieBatonFatCopRadiatedPREPPER, .5
+		zombieSteelClubFemaleFatRadiatedPREPPER, .5
+		zombieBoltNurseRadiatedPREPPER, .5
+		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .5
+		zombieRocketPREPPER, .5
+	</entitygroup>
+	<entitygroup name="PrepperMixedEntitiesGroupGS800">
+		animalZombieBunnyPREPPER
+		animalZombieSnakePREPPER
+		animalZombieChickenPREPPER
+		zombieSMGArlenePREPPER, .75
+		zombieTARifleSoldierPREPPER, .75
+		zombieBatonHazmatPREPPER
+		zombieSteelAxeLumberjackPREPPER
+		zombieMachetePartyGirlPREPPER
+		zombiePistolBusinessManPREPPER, .75
+		zombieNailgunUtilityWorkerPREPPER, .75
+		zombieSwissVetterliBoePREPPER, .75
+		zombieChainsawMoePREPPER
+		zombieDesertVultureTomClarkPREPPER, .75
+		zombiePumpShotgunBikerPREPPER, .75
+		zombieBatonFatCopPREPPER
+		zombieSteelClubFemaleFatPREPPER
+		zombieBoltNursePREPPER, .75
+		zombieSteelSledgehammerFatHawaiianPREPPER
+		zombieM60DemolitionPREPPER, .75
+		animalZombieLargePlasmaVulturePREPPER, .75		
+		zombieSpiderFeralBomberPREPPER, .75
+		zombieSpiderFeralGliderPREPPER, .75
+		animalBossZombieGracePREPPER, .75
+		animalPaindeerPREPPER, .75
+		zombieWightRadiationShowerPREPPER, .75
+		zombieBogeymanPREPPER, .75
+		zombieCrispyPREPPER, .75
+		zombieScorcherPREPPER, .75
+		zombieSMGArleneRadiatedPREPPER, .75
+		zombieTARifleSoldierRadiatedPREPPER, .75
+		zombieBatonHazmatRadiatedPREPPER, .75
+		zombieSteelAxeLumberjackRadiatedPREPPER, .75
+		zombieMachetePartyGirlRadiatedPREPPER, .75
+		zombiePistolBusinessManRadiatedPREPPER, .75
+		zombieNailgunUtilityWorkerRadiatedPREPPER, .75
+		zombieSwissVetterliBoeRadiatedPREPPER, .75
+		zombieChainsawMoeRadiatedPREPPER, .75
+		zombieDesertVultureTomClarkRadiatedPREPPER, .75
+		zombiePumpShotgunBikerRadiatedPREPPER, .75
+		zombieBatonFatCopRadiatedPREPPER, .75
+		zombieSteelClubFemaleFatRadiatedPREPPER, .75
+		zombieBoltNurseRadiatedPREPPER, .75
+		zombieSteelSledgehammerFatHawaiianRadiatedPREPPER, .75
+		zombieRocketPREPPER, .75
+	</entitygroup>
+	
+	<!-- Prepper Flyer Entities for GS -->
+	
+	<entitygroup name="PrepperFlyerEntitiesGroupGS01">
+		animalZombieVultureRadiated
+		animalZombieLargePlasmaVulturePREPPER, .25		
+		zombieSpiderFeralBomberPREPPER, .25
+		zombieSpiderFeralGliderPREPPER, .25
+	</entitygroup>
+	<entitygroup name="PrepperFlyerEntitiesGroupGS50">
+		animalZombieVultureRadiated
+		animalZombieLargePlasmaVulturePREPPER, .25		
+		zombieSpiderFeralBomberPREPPER, .25
+		zombieSpiderFeralGliderPREPPER, .25
+	</entitygroup>
+	<entitygroup name="PrepperFlyerEntitiesGroupGS100">
+		animalZombieVultureRadiated
+		animalZombieLargePlasmaVulturePREPPER, .5		
+		zombieSpiderFeralBomberPREPPER, .5
+		zombieSpiderFeralGliderPREPPER, .5
+	</entitygroup>
+	<entitygroup name="PrepperFlyerEntitiesGroupGS200">
+		animalZombieVultureRadiated
+		animalZombieLargePlasmaVulturePREPPER, .5		
+		zombieSpiderFeralBomberPREPPER, .5
+		zombieSpiderFeralGliderPREPPER, .5
+	</entitygroup>
+	<entitygroup name="PrepperFlyerEntitiesGroupGS400">
+		animalZombieVultureRadiated
+		animalZombieLargePlasmaVulturePREPPER, .75		
+		zombieSpiderFeralBomberPREPPER, .75
+		zombieSpiderFeralGliderPREPPER, .75
+	</entitygroup>
+	<entitygroup name="PrepperFlyerEntitiesGroupGS800">
+		animalZombieVultureRadiated
+		animalZombieLargePlasmaVulturePREPPER		
+		zombieSpiderFeralBomberPREPPER
+		zombieSpiderFeralGliderPREPPER
+	</entitygroup>
+	
+	</append>
+	
 <!-- *** INTEGRATION FOR ANIMALS -->
 	
 <!-- *** SNOW ANIMALS -->
