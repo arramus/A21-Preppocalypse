@@ -8,7 +8,7 @@
   <property name="QuestTags" value="clear, fetch, restore_power, infested" />
   <property name="DifficultyTier" value="4" />
   <property name="ShowQuestClearCount" value="2" />
-  <property name="Tags" value="oldwest,downtown" />
+  <property name="Tags" value="oldwest" />
   <property name="TraderArea" value="False" />
   <property name="PrefabSize" value="25, 41, 25" />
   <property name="RotationToFaceNorth" value="2" />
@@ -17,17 +17,17 @@
   <property name="SleeperVolumeSize" value="7, 3, 13#8, 3, 11#18, 4, 17#7, 5, 7#7, 3, 5#7, 4, 10#7, 4, 7#7, 3, 5#4, 4, 4#4, 3, 6#5, 3, 11#3, 3, 10#7, 3, 5#8, 2, 12" />
   <property name="SleeperVolumeStart" value="13, 32, 7#5, 32, 7#3, 36, 5#12, 27, 14#5, 27, 16#5, 27, 6#12, 27, 6#8, 22, 14#15, 22, 15#15, 22, 9#20, 19, 4#17, 19, 5#8, 22, 9#8, 18, 9" />
   <property name="SleeperVolumeGroupId" value="0,0,0,0,0,1,1,0,0,0,0,0,0,0" />
-  <property name="SleeperVolumeGroup" value="S_-_Group_Zom_Badass,3,6,S_-_Group_Biker_Bar,3,6,S_-Group_Generic_Zombie,5,8,S_-Group_Generic_Zombie,2,3,S_-_Group_Zom_Badass_Only,2,3,S_-Group_Generic_Zombie,2,3,S_-_Group_Zom_Badass,2,3,S_-_Group_Lab_Worker,2,3,S_-_Group_Zom_Soldier,1,2,S_-Group_Generic_Zombie,2,4,S_-_Group_Hospital,2,4,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,2,3,S_-_Group_Zom_Badass_Only,5,7" />
+  <property name="SleeperVolumeGroup" value="S_-_Group_Zom_Badass,3,6,S_-_Group_Biker_Bar,3,6,S_-_Group_Ghost_Town,5,8,S_-_Group_Ghost_Town,2,3,S_-_Group_Zom_Badass_Only,2,3,S_-_Group_Ghost_Town,2,3,S_-_Group_Zom_Badass,2,3,S_-_Group_Lab_Worker,2,3,S_-_Group_Zom_Soldier,1,2,S_-_Group_Ghost_Town,2,4,S_-_Group_Hospital,2,4,S_-_Group_Ghost_Town,2,3,S_-_Group_Ghost_Town,2,3,S_-_Group_Zom_Badass_Only,5,7" />
   <property name="SleeperIsLootVolume" value="False,False,False,False,False,True,False,False,False,False,False,False,False,False" />
   <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
   <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,2,0,0,0,0,2,0,0" />
   <property name="SleeperVolumeTriggeredBy" value=" # # # # # # # # # # # # # " />
   <property class="Stats">
-    <property name="TotalVertices" value="1203426" />
-    <property name="TotalTriangles" value="469454" />
+    <property name="TotalVertices" value="1202522" />
+    <property name="TotalTriangles" value="467468" />
     <property class="BlockEntities">
-      <property name="Vertices" value="1083250" />
-      <property name="Triangles" value="372408" />
+      <property name="Vertices" value="1082346" />
+      <property name="Triangles" value="370422" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="114404" />
