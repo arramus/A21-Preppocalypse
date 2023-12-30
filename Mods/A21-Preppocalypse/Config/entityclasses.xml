@@ -1091,7 +1091,7 @@
 			<property name="ExperienceGain" value="1000"/>
 			<property name="MapIcon" value="ui_game_symbol_tracking_chicken"/>
 			<property name="TrackerIcon" value="ui_game_symbol_tracking_chicken"/>
-			<property name="SizeScale" value="1.6"/>	
+			<property name="SizeScale" value="1.1"/>
 			<property name="Prefab" value="/Entities/Animals/CHICKEN/chickenPrefab"/>		
 			<property name="Class" value="EntityEnemyAnimal"/>
 			<property name="Parent" value="Animals"/>
