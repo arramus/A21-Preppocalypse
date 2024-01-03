@@ -5,7 +5,7 @@
   <property name="YOffset" value="-3" />
   <property name="RotationToFaceNorth" value="2" />
   <property name="Zoning" value="downtown" />
-  <property name="Tags" value="downtown" />
+  <property name="Tags" value="downtown,commercial" />
   <property name="DuplicateRepeatDistance" value="2000" />
   <property name="AllowedTownships" value="city,town" />
   <property name="TraderArea" value="False" />
