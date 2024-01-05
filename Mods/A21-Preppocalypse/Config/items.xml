@@ -266,8 +266,11 @@
 	<set xpath="/items/item[@name='apparelCoatLeatherPoncho']/effect_group/passive_effect[@name='HypothermalResist']/@value">10.8,13.2</set><!-- 2.8,5.2 -->
 	<set xpath="/items/item[@name='apparelCoatLeatherPoncho']/effect_group/passive_effect[@name='HyperthermalResist']/@value">14.5,18.3</set><!-- 10.5,14.3 -->
 	
-	<!-- Bicycle Tags -->
+	<!-- Vehicle Tags and Hookups -->
 	<append xpath="/items/item[@name='vehicleBicyclePlaceable']/property[@name='Tags']/@value">,vseat</append><!-- Adding the seat tag -->
+	<set xpath="/items/item[@name='vehicleMinibikeChassis']/property[@name='TraderStageTemplate']/@value">vehicleTier0</set><!-- vehicleTier1 default -->
+	<set xpath="/items/item[@name='vehicleMinibikeHandlebars']/property[@name='TraderStageTemplate']/@value">vehicleTier0</set><!-- vehicleTier1 default -->
+	<set xpath="/items/item[@name='vehicleMinibikePlaceable']/property[@name='TraderStageTemplate']/@value">vehicleTier1</set><!-- vehicleTier2 default -->
 	
 	<!-- Magazine Reward Bundle Colour -->
 	<set xpath="/items/item[@name='questRewardT1SkillMagazineBundle']/property[@name='CustomIconTint']/@value">FFFFFF</set><!-- FFFF00 yellow default -->
