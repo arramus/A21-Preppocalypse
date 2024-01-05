@@ -7,7 +7,7 @@
   <property name="AllowTopSoilDecorations" value="True" />
   <property name="DifficultyTier" value="3" />
   <property name="ShowQuestClearCount" value="2" />
-  <property name="QuestTags" value="clear,fetch" />
+  <property name="QuestTags" value="clear, fetch, restore_power, infested" />
   <property name="Tags" value="oldwest" />
   <property name="TraderArea" value="False" />
   <property name="YOffset" value="-6" />
@@ -21,16 +21,17 @@
   <property name="SleeperIsLootVolume" value="False,False,False" />
   <property name="SleeperIsQuestExclude" value="False,False,False" />
   <property name="SleeperVolumeFlags" value="0,0,0" />
+  <property name="SleeperVolumeTriggeredBy" value=" # # " />
   <property class="Stats">
-    <property name="TotalVertices" value="421680" />
-    <property name="TotalTriangles" value="452778" />
+    <property name="TotalVertices" value="467205" />
+    <property name="TotalTriangles" value="206295" />
     <property class="BlockEntities">
-      <property name="Vertices" value="355216" />
-      <property name="Triangles" value="405968" />
+      <property name="Vertices" value="397151" />
+      <property name="Triangles" value="157586" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="60307" />
-      <property name="Triangles" value="40270" />
+      <property name="Vertices" value="65972" />
+      <property name="Triangles" value="43659" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="640" />
@@ -41,46 +42,53 @@
       <property name="Triangles" value="76" />
     </property>
     <property class="ChunkMeshes3">
-      <property name="Vertices" value="0" />
-      <property name="Triangles" value="0" />
+      <property name="Vertices" value="1112" />
+      <property name="Triangles" value="802" />
     </property>
     <property class="ChunkMeshes4">
-      <property name="Vertices" value="3173" />
-      <property name="Triangles" value="2288" />
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes5">
       <property name="Vertices" value="0" />
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes6">
-      <property name="Vertices" value="0" />
-      <property name="Triangles" value="0" />
-    </property>
-    <property class="ChunkMeshes7">
-      <property name="Vertices" value="2176" />
-      <property name="Triangles" value="3848" />
-    </property>
-    <property class="ChunkMeshes8">
-      <property name="Vertices" value="0" />
-      <property name="Triangles" value="0" />
-    </property>
-    <property class="ChunkMeshes9">
-      <property name="Vertices" value="16" />
-      <property name="Triangles" value="8" />
+      <property name="Vertices" value="2178" />
+      <property name="Triangles" value="3852" />
     </property>
   </property>
   <property class="IndexedBlockOffsets">
+    <property class="QuestRestorePower">
+      <property name="0" value="20, 6, 14" />
+      <property name="1" value="20, 12, 16" />
+    </property>
     <property class="POILight">
       <property name="0" value="20, 7, 10" />
-    </property>
-    <property class="TraderOnOff">
-      <property name="0" value="12, 6, 12" />
-      <property name="1" value="17, 12, 21" />
     </property>
     <property class="FetchContainer">
       <property name="0" value="16, 12, 2" />
       <property name="1" value="15, 15, 4" />
-      <property name="2" value="16, 11, 9" />
+      <property name="2" value="16, 12, 9" />
+    </property>
+    <property class="TraderOnOff">
+      <property name="0" value="12, 6, 12" />
+      <property name="1" value="13, 13, 12" />
+      <property name="2" value="20, 13, 12" />
+      <property name="3" value="13, 13, 13" />
+      <property name="4" value="20, 13, 13" />
+      <property name="5" value="13, 13, 14" />
+      <property name="6" value="20, 13, 14" />
+      <property name="7" value="13, 13, 18" />
+      <property name="8" value="20, 13, 18" />
+      <property name="9" value="13, 13, 19" />
+      <property name="10" value="20, 13, 19" />
+      <property name="11" value="13, 13, 20" />
+      <property name="12" value="14, 13, 20" />
+      <property name="13" value="15, 13, 20" />
+      <property name="14" value="19, 13, 20" />
+      <property name="15" value="20, 13, 20" />
+      <property name="16" value="17, 12, 21" />
     </property>
     <property class="Rally">
       <property name="0" value="17, 7, 1" />
