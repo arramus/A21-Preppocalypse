@@ -8,7 +8,7 @@
   <property name="Tags" value="oldwest" />
   <property name="DifficultyTier" value="2" />
   <property name="ShowQuestClearCount" value="1" />
-  <property name="QuestTags" value="clear, fetch, infested" />
+  <property name="QuestTags" value="clear, fetch, restore_power, infested" />
   <property name="TraderArea" value="False" />
   <property name="PrefabSize" value="25, 20, 25" />
   <property name="RotationToFaceNorth" value="2" />
@@ -23,15 +23,15 @@
   <property name="YOffset" value="-5" />
   <property name="SleeperVolumeTriggeredBy" value=" # # " />
   <property class="Stats">
-    <property name="TotalVertices" value="595924" />
-    <property name="TotalTriangles" value="212135" />
+    <property name="TotalVertices" value="662057" />
+    <property name="TotalTriangles" value="237054" />
     <property class="BlockEntities">
-      <property name="Vertices" value="562478" />
-      <property name="Triangles" value="189003" />
+      <property name="Vertices" value="628575" />
+      <property name="Triangles" value="213890" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="29324" />
-      <property name="Triangles" value="18298" />
+      <property name="Vertices" value="29360" />
+      <property name="Triangles" value="18330" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="1344" />
@@ -74,6 +74,10 @@
     </property>
     <property class="Rally">
       <property name="0" value="12, 6, 1" />
+    </property>
+    <property class="QuestRestorePower">
+      <property name="0" value="15, 5, 12" />
+      <property name="1" value="12, 14, 14" />
     </property>
   </property>
 </prefab>
