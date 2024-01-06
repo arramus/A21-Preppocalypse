@@ -1,6 +1,6 @@
 ﻿<Preppocalypse>
 
-	<!-- Oakraven's T1 POT and T3 PAN -->	
+<!-- Oakraven's T1 POT and T3 PAN -->	
    <append xpath="/item_modifiers/item_modifier[@name='modMeleeClubMetalSpikes']">
         <item_property_overrides name="meleeWpnClubT3Pan">
             <property name="HandMeshfile" value="#@modfolder:Resources/ArramusPans.unity3d?OakPanSpike"/>
@@ -40,7 +40,42 @@
 	   <item_property_overrides name="meleeWpnClubT1Pot">
 			<property name="FlameEffect" value="#@modfolder:Resources/ArramusPans.unity3d?OakPotFire"/>
 	   </item_property_overrides>	   	                
-    </append> 
+    </append>	
+	
+<!-- Vertteli Mod Attachments -->	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunScopeSmall']">	
+		<!-- visible attachment: scope x2 -->
+			<effect_group tiered="false" name="internal attachment prefab (A19)">
+				<requirement name="HoldingItemHasTags" tags="SwissVertteli"/>
+				<requirement name="HoldingItemHasTags" tags="attachmentsIncluded"/>
+					<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="@:Other/Items/Mods/Scopes/scope_2xPrefab.prefab" parent_transform="Handle/Scope" local_offset="0,-0.012,0"/>
+			</effect_group>
+    </append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunScopeMedium']">	
+		<!-- visible attachment: scope x2 -->
+			<effect_group tiered="false" name="internal attachment prefab (A19)">
+				<requirement name="HoldingItemHasTags" tags="SwissVertteli"/>
+				<requirement name="HoldingItemHasTags" tags="attachmentsIncluded"/>
+					<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="@:Other/Items/Mods/Scopes/scope_4xPrefab.prefab" parent_transform="Handle/Scope" local_offset="0,-0.018,0.018"/>
+			</effect_group>
+    </append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunScopeLarge']">	
+		<!-- visible attachment: scope x2 -->
+			<effect_group tiered="false" name="internal attachment prefab (A19)">
+				<requirement name="HoldingItemHasTags" tags="SwissVertteli"/>
+					<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="@:Other/Items/Mods/Scopes/scope_8xPrefab.prefab" parent_transform="Handle/Scope" local_offset="0,-0.085,0.1"/>
+			</effect_group>
+    </append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">	
+		<!-- visible attachment: scope x2 -->
+			<effect_group tiered="false" name="internal attachment prefab (A19)">
+				<requirement name="HoldingItemHasTags" tags="SwissVertteli"/>
+					<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="@:Other/Items/Mods/Barrels/SilencerPrefab.prefab" parent_transform="Handle/Muzzle" local_offset="0.0025,-0.0558,0.1075"/>
+			</effect_group>
+    </append>
 	
 <append xpath="/item_modifiers">
 
