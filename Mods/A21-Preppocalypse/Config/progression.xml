@@ -331,4 +331,11 @@
 	</crafting_skill>
 	</insertAfter>
 	
+	<!-- Preppocalyptic Car -->
+
+	<append xpath="//crafting_skill[@name='craftingVehicles']/display_entry[@icon='vehicle4x4TruckPlaceable']/unlock_entry/@item">,vehiclePreppocalypticCarChassis,vehiclePreppocalypticCarAccessories</append>
+	<append xpath="//crafting_skill[@name='craftingVehicles']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,100" value="1" tags=",vehiclePreppocalypticCarChassis,vehiclePreppocalypticCarAccessories"/>
+	</append>
+	
 </configs>

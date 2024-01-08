@@ -11,7 +11,7 @@
 	<!-- *** Trader_Bob_Magazines -->
 	<set xpath="/traders/trader_item_groups/trader_item_group[@name='skillMagazinesTraderBob']/item[@name='vehiclesSkillMagazine']/@count">2,6</set>
 
-	<!-- farmingCookingRecipes -->
+	<!-- farmingCookingRecipes A20 phased out -->
 	
 	<!--append xpath="/traders/trader_item_groups/trader_item_group[@name='farmingCookingRecipes']">
 		<item name="foodBaconAndEggsAndAcornBiscuitsSchematic"/>
@@ -69,6 +69,14 @@
 	<!-- *** Ranged_Weapons -->
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupRangedAll']">
 		<item name="gunRifleT2LeverActionRifleSwissVetterli" quality="3,6"/>		
+	</append>
+	
+	<!-- *** Vehicles -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupVehicles']">
+		<!-- *** Preppocalyptic Car -->
+			<item name="vehiclePreppocalypticCarChassis"/>
+			<item name="vehiclePreppocalypticCarAccessories"/>
+			<item name="vehiclePreppocalypticCarPlaceable"/>		
 	</append>
 
 </Preppocalypse>

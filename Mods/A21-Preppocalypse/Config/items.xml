@@ -3350,6 +3350,58 @@
 		<property name="QuestGiven" value="quest_2Skill"/>
 		</property>
 	</item>
+	
+<!-- Vehicles -->
+
+<item name="vehiclePreppocalypticCarChassis">
+	<property name="Extends" value="vehicleWheels"/>
+	<property name="Tags" value="vehiclesSkill"/>
+	<property name="EconomicValue" value="9000"/>
+	<property name="TraderStageTemplate" value="vehicleTier2"/>
+	<property name="UnlockedBy" value="craftingVehicles"/><!-- perkGreaseMonkey,vehicle4x4TruckChassisSchematic, -->
+</item>
+
+<item name="vehiclePreppocalypticCarAccessories">
+	<property name="Extends" value="vehicleBicycleHandlebars"/>
+	<property name="Tags" value="vehiclesSkill"/>
+	<property name="EconomicValue" value="9000"/>
+	<property name="TraderStageTemplate" value="vehicleTier2"/>
+	<property name="UnlockedBy" value="craftingVehicles"/><!-- perkGreaseMonkey,vehicle4x4TruckAccessoriesSchematic, -->
+</item>
+
+<item name="vehiclePreppocalypticCarPlaceable">
+	<property name="Extends" value="vehicleMinibikePlaceable"/>
+	<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/>
+	<property name="Meshfile" value="#@modfolder:/Resources/PreppocalypticCar.unity3d?ApocCar.prefab"/>
+	<property name="EconomicValue" value="30000"/>
+	<property name="TraderStageTemplate" value="vehicleTier3"/>
+	<property class="Action1">
+		<property name="Vehicle" value="vehiclePreppocalypticCar"/>
+		<property name="VehicleSize" value="2.5, 2.1, 5"/>
+	</property>
+	<effect_group name="vehiclePreppocalypticCarPlaceable" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="5"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="15000"/>
+	</effect_group>
+</item>
+
+<item name="questRewardPreppocalypticCarPartsBundle">
+	<property name="Extends" value="questRewardBundleMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="bundleVehiclePreppocalypticCar"/>
+	<property name="CustomIconTint" value="FFFFFF"/>
+	<property name="ItemTypeIcon" value="bundle"/>
+	<property name="DescriptionKey" value="questRewardVehicleBundleDesc"/>
+	<property class="Action0">
+		<property name="Create_item" value="vehiclesSkillMagazine,vehicleWheels,questRewardVehiclePartsBundle"/>
+		<property name="Create_item_count" value="3,4,1"/>
+		<property name="Random_item" value="vehiclePreppocalypticCarChassis,vehiclePreppocalypticCarAccessories"/>
+		<property name="Random_item_count" value="1,1"/>
+		<property name="Random_count" value="1"/>
+		<property name="Unique_random_only" value="true"/>
+	</property>
+</item>
 
 	<!-- ADMIN TOOLS -->
 	

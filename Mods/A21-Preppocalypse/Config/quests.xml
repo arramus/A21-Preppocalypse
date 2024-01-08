@@ -60,6 +60,12 @@
 		<reward type="SkillPoints" value="7" chainreward="true"/>
 	</set>
 	
+<!-- Vehicles -->
+
+	<append xpath="/quests/quest[@id='quest_tier3complete']">
+		<reward type="LootItem" id="groupQuestPreppocalypticCarParts" ischosen="true" value="4"/>
+	</append>
+	
  	<append xpath="/quests">
 	
 	<!-- CUSTOM QUESTS -->

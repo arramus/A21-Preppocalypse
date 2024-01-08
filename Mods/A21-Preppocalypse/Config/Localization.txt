@@ -450,4 +450,11 @@ qc_1SkillDesc,items,Quest - Challenge,,,"Bingo! Give yourself 1 Skill Point, Pre
 qc_2Skill,items,Quest - Challenge,,,"2 Skill Points",,,,,,,,,,,,,
 qc_2SkillDesc,items,Quest - Challenge,,,"Jackpot! Give yourself 2 Skill Points, Prepper.",,,,,,,,,,,,,
 
+questRewardPreppocalypticCarPartsBundle,items,item,,,Preppocalyptic Car Parts Bundle,,Preppocalyptic-Autoteilepaket,,,,,,,,,,,,
+vehiclePreppocalypticCarAccessories,vehicles,item,,,Preppocalyptic Car Accessories,,Preppocalyptic-Auto-Zubehör,,,,,,,,,,,,
+vehiclePreppocalypticCarChassis,vehicles,item,,,Preppocalyptic Car Chassis,,Preppocalyptic-Auto-Fahrwerk,,,,,,,,,,,,
+vehiclePreppocalypticCar,entityclasses,Entity,,,Preppocalyptic Car,,Preppocalyptic Auto,,,,,,,,,,,
+vehiclePreppocalypticCarPlaceable,vehicles,vehicle,,,Preppocalyptic Car,,Preppocalyptic Auto,,,,,,,,,,,
+vehiclesT4,progression,Attribute,,,Tier 4: 4x4 & Preppocalyptic Car,,Stufe 4: 4x4 und Preppocalyptic Auto,,,,,,,,,,,
+
 jetBootsAdmin,items,Item,,,Jet Boots (Admin),,,,,,,,,,,,,

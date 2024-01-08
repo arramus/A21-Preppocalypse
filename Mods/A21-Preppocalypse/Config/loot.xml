@@ -235,4 +235,26 @@
 		<item name="gunRifleT2LeverActionRifleSwissVetterli"/>	
 	</append>
 	
+<!-- Vehicles -->
+
+	<insertBefore xpath="/lootcontainers/lootgroup[@name='groupQuest4x4Parts']">
+	<lootgroup name="groupQuestPreppocalypticCarParts" count="all">
+		<item name="questRewardPreppocalypticCarPartsBundle"/>
+	</lootgroup>
+	</insertBefore>
+	
+	<insertBefore xpath="/lootcontainers/lootgroup[@name='vehiclePartsTiered']">
+	<lootgroup name="PreppocalypticCarParts">
+		<item name="vehiclePreppocalypticCarChassis"/>
+		<item name="vehiclePreppocalypticCarAccessories"/>
+		<item name="vehicleWheels"/>
+		<item name="smallEngine"/>
+		<item name="carBattery"/>
+	</lootgroup>	
+	</insertBefore>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='vehiclePartsTiered']">
+		<item group="PreppocalypticCarParts" loot_prob_template="ProbT2Cap"/> <!-- With motorcycle tier -->	
+	</append>
+	
 </Preppocalypse>

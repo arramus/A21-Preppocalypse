@@ -50,9 +50,9 @@
 					<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="@:Other/Items/Mods/Sides/side_attachment_laserPrefab.prefab" parent_transform="Handle/Muzzle" local_offset="0,-0.065,0.075"/>
 					<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="true" parent_transform="#HeldItemRoot" transform_path="gunlaser"/>
 					
-					<triggered_effect trigger="onSelfItemActivate" action="SetTransformActive" active="true" parent_transform="gunlaser" transform_path="gunlaser"/>
-					<triggered_effect trigger="onSelfItemDeactivate" action="SetTransformActive" active="false" parent_transform="gunlaser" transform_path="gunlaser"/>
-					<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="false" parent_transform="gunlaser" transform_path="gunlaser"/>
+					<triggered_effect trigger="onSelfItemActivate" action="SetTransformActive" active="true" parent_transform="Muzzle" transform_path="gunlaser"/>
+					<triggered_effect trigger="onSelfItemDeactivate" action="SetTransformActive" active="false" parent_transform="Muzzle" transform_path="gunlaser"/>
+					<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="false" parent_transform="Muzzle" transform_path="gunlaser"/>
 			</effect_group>
     </append>
 	
@@ -62,9 +62,9 @@
 					<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="@:Other/Items/Mods/Sides/side_attachment_flashlightPrefab.prefab" parent_transform="Handle/Muzzle" local_offset="0,-0.065,0.075"/>
 					<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="true" parent_transform="#HeldItemRoot" transform_path="flashlight"/>
 
-					<triggered_effect trigger="onSelfItemActivate" action="SetTransformActive" active="true" parent_transform="Gunjoint" transform_path="flashlight_lightSource"/>
-					<triggered_effect trigger="onSelfItemDeactivate" action="SetTransformActive" active="false" parent_transform="Gunjoint" transform_path="flashlight_lightSource"/>
-					<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="false" parent_transform="Gunjoint" transform_path="flashlight_lightSource"/>
+					<triggered_effect trigger="onSelfItemActivate" action="SetTransformActive" active="true" parent_transform="Muzzle" transform_path="lightSource"/>
+					<triggered_effect trigger="onSelfItemDeactivate" action="SetTransformActive" active="false" parent_transform="Muzzle" transform_path="lightSource"/>
+					<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="false" parent_transform="Muzzle" transform_path="lightSource"/>
 			</effect_group>
     </append>
 
