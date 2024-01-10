@@ -7,7 +7,7 @@
   <property name="AllowTopSoilDecorations" value="True" />
   <property name="DifficultyTier" value="3" />
   <property name="ShowQuestClearCount" value="2" />
-  <property name="QuestTags" value="clear, fetch, infested" />
+  <property name="QuestTags" value="clear, fetch, restore_power, infested" />
   <property name="Tags" value="oldwest" />
   <property name="TraderArea" value="False" />
   <property name="PrefabSize" value="50, 21, 25" />
@@ -23,11 +23,11 @@
   <property name="SleeperVolumeFlags" value="0,0,0,0,0,0" />
   <property name="SleeperVolumeTriggeredBy" value=" # # # # # " />
   <property class="Stats">
-    <property name="TotalVertices" value="421352" />
-    <property name="TotalTriangles" value="192532" />
+    <property name="TotalVertices" value="503759" />
+    <property name="TotalTriangles" value="222698" />
     <property class="BlockEntities">
-      <property name="Vertices" value="340195" />
-      <property name="Triangles" value="143657" />
+      <property name="Vertices" value="422602" />
+      <property name="Triangles" value="173823" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="75635" />
@@ -76,6 +76,10 @@
     </property>
     <property class="POILight">
       <property name="0" value="23, 8, 9" />
+    </property>
+    <property class="QuestRestorePower">
+      <property name="0" value="37, 17, 13" />
+      <property name="1" value="27, 6, 16" />
     </property>
     <property class="FetchContainer">
       <property name="0" value="36, 17, 14" />
