@@ -389,8 +389,8 @@
 	<block name="birdnestEmpty">
 		<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey"/>
 		<property name="CreativeMode" value="Player"/>
-		<property name="Material" value="Mwood_weak"/>
-		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+		<property name="Material" value="MclothStable"/>
+		<property name="Collide" value="melee,bullet,arrow,rocket"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#@modfolder:Resources/birdnest.unity3d?birdnestPrefab" />
 		<property name="ModelOffset" value="0,0.5,0"/>
@@ -411,8 +411,8 @@
 	<block name="cntBirdnest">
 		<property name="Extends" value="cntAmmoPileSmall"/>
 		<property name="CreativeMode" value="Player"/>
-		<property name="Material" value="Mwood_weak"/>
-		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+		<property name="Material" value="MclothStable"/>
+		<property name="Collide" value="melee,bullet,arrow,rocket"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#@modfolder:Resources/birdnest.unity3d?birdnestEggs" />
 		<property name="LootList" value="birdNest"/>
@@ -633,6 +633,9 @@
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="FallDamage" value=".9"/>
+	<property name="Stacknumber" value="250"/> <!-- STK resource -->
+	<property name="EconomicValue" value="60"/>
+	<property name="SellableToTrader" value="true"/>
 	<property name="ImposterExclude" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>	
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
@@ -645,6 +648,7 @@
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" count="0"/>	
 	<property name="FilterTags" value="fdecor,fother"/>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 </block>
 
 <block name="TinCoopEmpty">

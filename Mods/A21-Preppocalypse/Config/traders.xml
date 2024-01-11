@@ -24,7 +24,14 @@
 		<item name="foodGritsAndBitsSchematic"/>		
 	</append-->
 	
-	<!-- preparedFood -->
+	<!-- *** Raw_Ingredients -->
+	
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='foodSupplies']">
+			<item name="GrownChicken" count="1"/>
+			<item name="resourceCatfish" count="1"/>		
+	</append>
+	
+	<!-- *** Prepared_Food -->
 	
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='preparedFood']">
 		<item name="foodBaconAndEggsAndAcornBiscuits" count="1,2"/>
