@@ -8,7 +8,7 @@
   <property name="Tags" value="oldwest" />
   <property name="DifficultyTier" value="2" />
   <property name="ShowQuestClearCount" value="1" />
-  <property name="QuestTags" value="clear, fetch" />
+  <property name="QuestTags" value="clear, fetch, restore_power, infested" />
   <property name="TraderArea" value="False" />
   <property name="YOffset" value="-9" />
   <property name="PrefabSize" value="25, 19, 25" />
@@ -17,21 +17,21 @@
   <property name="SleeperVolumeSize" value="5, 5, 10#8, 3, 10#8, 2, 6#7, 6, 7#5, 6, 7" />
   <property name="SleeperVolumeStart" value="5, 10, 8#5, 6, 8#13, 6, 9#14, 6, 15#15, 10, 8" />
   <property name="SleeperVolumeGroupId" value="0,0,0,0,0" />
-  <property name="SleeperVolumeGroup" value="S_-_Group_Ghost_Town,4,5,S_-_Group_Ghost_Town,2,3,S_-_Group_Ghost_Town,2,4,S_-_Group_Ghost_Town,1,2,S_-_Group_Ghost_Town,4,5" />
+  <property name="SleeperVolumeGroup" value="S_-_Group_Ghost_Town,4,7,S_-_Group_Ghost_Town,3,4,S_-_Group_Ghost_Town,3,4,S_-_Group_Ghost_Town,2,3,S_-_Group_Ghost_Town,4,7" />
   <property name="SleeperIsLootVolume" value="False,False,False,False,False" />
   <property name="SleeperIsQuestExclude" value="False,False,False,False,False" />
   <property name="SleeperVolumeFlags" value="0,0,0,0,0" />
   <property name="SleeperVolumeTriggeredBy" value=" # # # # " />
   <property class="Stats">
-    <property name="TotalVertices" value="239094" />
-    <property name="TotalTriangles" value="110046" />
+    <property name="TotalVertices" value="284748" />
+    <property name="TotalTriangles" value="126427" />
     <property class="BlockEntities">
-      <property name="Vertices" value="196307" />
-      <property name="Triangles" value="83275" />
+      <property name="Vertices" value="242237" />
+      <property name="Triangles" value="99802" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="39233" />
-      <property name="Triangles" value="21137" />
+      <property name="Vertices" value="38957" />
+      <property name="Triangles" value="20991" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="128" />
@@ -64,6 +64,9 @@
     </property>
     <property class="TraderOnOff">
       <property name="0" value="16, 10, 15" />
+    </property>
+    <property class="QuestRestorePower">
+      <property name="0" value="15, 13, 14" />
     </property>
     <property class="POILight">
       <property name="0" value="7, 13, 13" />
