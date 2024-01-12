@@ -1,6 +1,11 @@
 <Preppocalypse>
 
 	<!-- Vanilla Updates -->
+	<!-- Pickup time -->
+	<set xpath="/blocks/block[@name='forge']/property[@name='TakeDelay']/@value">5</set> <!-- Default 15 -->
+	<set xpath="/blocks/block[@name='workbench']/property[@name='TakeDelay']/@value">5</set> <!-- Default 15 -->
+	<set xpath="/blocks/block[@name='cementMixer']/property[@name='TakeDelay']/@value">5</set> <!-- Default 15 -->
+	<set xpath="/blocks/block[@name='chemistryStation']/property[@name='TakeDelay']/@value">5</set> <!-- Default 15 -->
 	<!-- Military Carton Pallets -->
 	<append xpath="/blocks/block[@name='palletCartonMilitaryCap']">
 		<property name="Class" value="Loot"/>
@@ -1027,6 +1032,7 @@
 	<property name="Group" value="Basics,Food/Cooking,Building,advBuilding"/>
 	<!--property name="UnlockedBy" value="perkLivingOffTheLand"/--> <!-- No longer used -->
 	<property name="Material" value="Mwood_weak"/>
+	<property name="EconomicValue" value="60"/>
 	<property name="MaxDamage" value="250"/>
 	<property name="WaterFlow" value="permitted"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
@@ -1333,7 +1339,7 @@
 	<drop event="Harvest" name="resourceWood" count="20" tag="salvageHarvest"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
-	<property name="TakeDelay" value="15"/>
+	<property name="TakeDelay" value="5"/>
 	<property name="EconomicValue" value="2000"/>
 	<property name="Group" value="Building,advBuilding"/>
 	<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
