@@ -2,6 +2,177 @@
 
 	<append xpath="/Sounds">
 	
+	<!-- Mini Zombie dogs -->
+
+<SoundDataNode name="minizombiedogalert"> <AudioSource name="Sounds/AudioSource_CreatureSenseAlert"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogalert1"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogalert2"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogalert3"/>
+	<Channel name="Mouth"/>
+	<Priority name="3"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="1.15"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1"/> </SoundDataNode>
+
+<SoundDataNode name="minizombiedogattack"> <AudioSource name="Sounds/AudioSource_Pain"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogattack1"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogattack2"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogattack3"/>
+	<Channel name="Mouth"/>
+	<Priority name="2"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="1.15"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.8"/> </SoundDataNode>
+
+<SoundDataNode name="minizombiedogdeath"> <AudioSource name="Sounds/AudioSource_Pain"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogdeath1"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogdeath2"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogdeath3"/>
+	<Channel name="Mouth"/>
+	<Priority name="0"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="1.15"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="minizombiedoggiveup"> <AudioSource name="Sounds/AudioSource_CreatureSenseAlert"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedoggiveup1"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedoggiveup2"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedoggiveup3"/>
+	<Channel name="Mouth"/>
+	<Priority name="5"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="1.15"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="minizombiedogpain"> <AudioSource name="Sounds/AudioSource_Pain"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogpain1"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogpain2"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogpain3"/>
+	<Channel name="Mouth"/>
+	<Priority name="1"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="1.15"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.8"/> </SoundDataNode>
+
+<SoundDataNode name="minizombiedogroam"> <AudioSource name="Sounds/AudioSource_Pain"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogroam1"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogroam2"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogroam3"/>
+	<Channel name="Mouth"/>
+	<Priority name="6"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="1.15"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="minizombiedogsense"> <AudioSource name="Sounds/AudioSource_CreatureSenseAlert"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogsense1"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogsense2"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogsense3"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogsense4"/>
+	<AudioClip ClipName="Sounds/Enemies/Zombie_Dogs/zombiedogsense5"/>
+	<Channel name="Mouth"/>
+	<Priority name="4"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="1.15"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+	<!-- Mini Vulture -->
+
+<SoundDataNode name="minivulturealert"> <AudioSource name="Sounds/AudioSource_Creatures100Meter"/>
+	<Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturealert1"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturealert2"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturealert3"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturealert4"/>
+	<Channel name="Mouth"/>
+	<Priority name="3"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="1.15"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.9"/> </SoundDataNode>
+
+<SoundDataNode name="minivultureattack"> <AudioSource name="Sounds/AudioSource_Creatures100Meter"/>
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vultureattack1"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vultureattack2"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vultureattack3"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vultureattack4"/>
+	<Channel name="Mouth"/>
+	<Priority name="2"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="1.15"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.9"/> </SoundDataNode>
+
+<SoundDataNode name="minivulturedeath"> <AudioSource name="Sounds/AudioSource_Pain"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturedeath1"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturedeath2"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturedeath3"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturedeath4"/>
+	<Channel name="Mouth"/>
+	<Priority name="0"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="1.15"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.9"/> </SoundDataNode>
+
+<SoundDataNode name="minivulturegiveup"> <AudioSource name="Sounds/AudioSource_Creatures100Meter"/>
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturegiveup1"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturegiveup2"/>
+	<Channel name="Mouth"/>
+	<Priority name="5"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="1.15"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.9"/> </SoundDataNode>
+
+<SoundDataNode name="minivulturepain"> <AudioSource name="Sounds/AudioSource_Pain"/>
+	<Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturepain1"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturepain2"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturepain3"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturepain4"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturepain5"/>
+	<Channel name="Mouth"/>
+	<Priority name="1"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="1.15"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.9"/> </SoundDataNode>
+
+<SoundDataNode name="minivultureroam"> <AudioSource name="Sounds/AudioSource_Creatures"/>
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vultureroam1"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vultureroam2"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vultureroam3"/>
+	<Channel name="Mouth"/>
+	<Priority name="6"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="1.15"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.9"/> </SoundDataNode>
+
+<SoundDataNode name="minivulturesense"> <AudioSource name="Sounds/AudioSource_CreatureSenseAlert"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturesense1"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturesense2"/>
+	<AudioClip ClipName="Sounds/Animals/Vulture/vulturesense3"/>
+	<Channel name="Mouth"/>
+	<Priority name="4"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="1.15"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.9"/> </SoundDataNode>
+	
 	<!-- Preppo Sound -->
 	
 	<SoundDataNode name="preppo_bicycle_horn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
