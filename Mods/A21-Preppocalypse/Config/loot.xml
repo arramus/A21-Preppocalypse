@@ -30,7 +30,7 @@
 	</append>
 
 	<!-- PREPPER BOSS QUEST NOTES -->
-	<!-- 3:4 ratio for Quest Notes with resource fillers -->	
+	<!-- 4:9 ratio for Quest Notes with resource fillers -->	
 	<!-- *** Reinforced_Chest_T1 to T5 Additions-->
 	<insertBefore xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT1_01']">
 	<lootgroup name="group_prepperquestnotes_groupHardenedChest">
@@ -57,7 +57,9 @@
 		<item name="resourceGlue" count="1,5"/>
 		<item name="resourceScrapLead" count="25,50"/>
 		<item name="resourceAcid" count="1"/>
-		<item name="resourceDuctTape" count="1,4"/>		
+		<item name="resourceDuctTape" count="1,4"/>
+		<item name="resourceScrapBrass" count="25,50"/>
+		<item name="resourceGunPowder" count="25,50"/>		
 	</lootgroup>
 	</insertBefore>
 	
