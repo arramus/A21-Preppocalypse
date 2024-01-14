@@ -28,9 +28,57 @@
 		<item name="qc_1Skill" prob=".15"/>
 		<item name="qc_2Skill" prob=".075"/>
 	</append>
+
+	<!-- PREPPER BOSS QUEST NOTES -->
+	<!-- Additions are not Tier weapon specific to allow for future weapon planning based on need -->	
+	<!-- *** Reinforced_Chest_T1 to T5 Additions-->
+	<insertBefore xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT1_01']">
+	<lootgroup name="group_prepperquestnotes_groupHardenedChest">
+		<item name="quest_nailgunutilityworkers"/>
+		<item name="quest_stunbatonhazmat"/>
+		<item name="quest_smgarlene"/>
+		<item name="quest_m60demolition"/>		
+		<item name="quest_tariflesoldier"/>
+		<item name="quest_steelaxelumberjack"/>
+		<item name="quest_machetepartygirl"/>		
+		<item name="quest_pistolbusinessman"/>
+		<item name="quest_compoundspider"/>
+		<item name="quest_swissvetterliboe"/>
+		<item name="quest_chainsawmoe"/>
+		<item name="quest_desertvulturetomclark"/>
+		<item name="quest_pumpshotgunbiker"/>
+		<item name="quest_batonfatcop"/>
+		<item name="quest_steelclubfemalefat"/>
+		<item name="quest_boltnurse"/>
+		<item name="quest_steelsledgehammerfathawaiian"/>
+		<item name="quest_radiatedpreppers"/>
+	</lootgroup>
+	</insertBefore>
+	
+	<!-- Hardened Quest Chest Notes from T1 to T5 -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT1']">
+		<item group="group_prepperquestnotes_groupHardenedChest" count="1"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT2']">
+		<item group="group_prepperquestnotes_groupHardenedChest" count="1"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT3']">
+		<item group="group_prepperquestnotes_groupHardenedChest" count="1"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT4']">
+		<item group="group_prepperquestnotes_groupHardenedChest" count="1,2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT5']">
+		<item group="group_prepperquestnotes_groupHardenedChest" count="1,2"/>
+	</append>
 	
 	<!-- Safes for Quest Notes -->
-	<append xpath="/lootcontainers/lootgroup[@name='groupSafeBooks']"> <!-- groupSafeBooks for gun and wall/desk -->
+	<!-- groupSafeBooks for gun and wall/desk -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupSafeBooks']">
 		<item name="quest_nailgunutilityworkers"/>
 		<item name="quest_stunbatonhazmat"/>
 		<item name="quest_smgarlene"/>
@@ -51,7 +99,8 @@
 		<item name="quest_radiatedpreppers"/>
 	</append>
 	
-	<append xpath="/lootcontainers/lootgroup[@name='groupGunSafeSecure']"> <!-- Gun Safe drops three possible passes for books/quests notes -->
+	<!-- Gun Safe drops three possible passes for books/quests notes to offset potential loot percentage bug for custom content and decline in regular books -->	
+	<append xpath="/lootcontainers/lootgroup[@name='groupGunSafeSecure']">
 		<item group="groupSafeBooks" count="1"/>
 		<item group="groupSafeBooks" loot_prob_template="med" force_prob="true"/>
 	</append>
