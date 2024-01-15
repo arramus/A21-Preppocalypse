@@ -333,12 +333,17 @@
 	
 	<!-- Oak Melee Pots and Pans -->
 
-	<SoundDataNode name="pot_pan_metalhitorganic"> <AudioSource name="Sounds/AudioSource_Impact"/>
+	<SoundDataNode name="pot_metalhitorganic"> <AudioSource name="Sounds/AudioSource_Impact"/>
 	<Noise ID="2" noise="20" time="3" muffled_when_crouched="0.5"/>
-	<AudioClip ClipName="Sounds/ImpactSurface/metalhitmetal1"/>
-	<AudioClip ClipName="Sounds/ImpactSurface/metalhitmetal2"/>
-	<AudioClip ClipName="Sounds/ImpactSurface/metalhitmetal3"/>
+	<AudioClip ClipName="#@modfolder:Resources/PreppoSound.unity3d?PanClang"/>
 	<LowestPitch name="0.65"/>
+	<HighestPitch name="0.95"/>
+	<LocalCrouchVolumeScale value="0.3"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+	
+	<SoundDataNode name="pan_metalhitorganic"> <AudioSource name="Sounds/AudioSource_Impact"/>
+	<Noise ID="2" noise="20" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#@modfolder:Resources/PreppoSound.unity3d?PanClang"/>
+	<LowestPitch name="0.95"/>
 	<HighestPitch name="1.25"/>
 	<LocalCrouchVolumeScale value="0.3"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
 
