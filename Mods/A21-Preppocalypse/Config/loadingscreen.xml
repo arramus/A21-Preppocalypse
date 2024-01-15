@@ -1,5 +1,12 @@
 ﻿<Preppocalypse>
 
+	<set xpath="/doc/backgrounds">
+		<tex file="@modfolder(A21-Preppocalypse):Textures/loadingimage01.png"/>
+		<tex file="@modfolder(A21-Preppocalypse):Textures/loadingimage02.png"/>
+		<tex file="@modfolder(A21-Preppocalypse):Textures/loadingimage03.png"/>
+		<tex file="@modfolder(A21-Preppocalypse):Textures/loadingimage04.png"/>
+	</set>
+
 	<append xpath="/doc/tips">
 		<tip key="loadingTipPrepperVehicles"/>	
 		<tip key="loadingTipPrepperPOIs"/>
