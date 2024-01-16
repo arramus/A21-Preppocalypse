@@ -5,6 +5,8 @@
 		<tex file="@modfolder(A21-Preppocalypse):Textures/loadingimage02.png"/>
 		<tex file="@modfolder(A21-Preppocalypse):Textures/loadingimage03.png"/>
 		<tex file="@modfolder(A21-Preppocalypse):Textures/loadingimage04.png"/>
+		<tex file="@modfolder(A21-Preppocalypse):Textures/loadingimage05.png"/>
+		<tex file="@modfolder(A21-Preppocalypse):Textures/loadingimage06.png"/>
 	</set>
 
 	<append xpath="/doc/tips">
