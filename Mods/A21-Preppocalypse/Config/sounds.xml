@@ -224,62 +224,62 @@
 	<AudioClip ClipName="Sounds/Vehicles/Suv/suv_startup1"/>
 	<AudioClip ClipName="Sounds/Vehicles/Suv/suv_startup2"/>
 	<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/truck_silly_start" AltSound="true" />
-	<LowestPitch name="0.7"/>
-	<HighestPitch name="0.7"/>
+	<LowestPitch name="0.6"/>
+	<HighestPitch name="0.6"/>
 	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
 
 <SoundDataNode name="preppo_suv_shutoff"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
 	<Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
 	<AudioClip ClipName="Sounds/Vehicles/Suv/suv_shutoff"/>
 	<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/truck_silly_off" AltSound="true" />
-	<LowestPitch name="0.7"/>
-	<HighestPitch name="0.7"/>
+	<LowestPitch name="0.6"/>
+	<HighestPitch name="0.6"/>
 	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
 
 <SoundDataNode name="preppo_suv_accel1"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
 	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
 	<AudioClip ClipName="Sounds/Vehicles/Suv/suv_accel1"/>
 	<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/truck_silly_accel" AltSound="true" />
-	<LowestPitch name="0.7"/>
-	<HighestPitch name="0.7"/>
+	<LowestPitch name="0.6"/>
+	<HighestPitch name="0.6"/>
 	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="2"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
 
 <SoundDataNode name="preppo_suv_accel2"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
 	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
 	<AudioClip ClipName="Sounds/Vehicles/Suv/suv_accel2"/>
 	<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/truck_silly_accel" AltSound="true" />
-	<LowestPitch name="0.65"/>
-	<HighestPitch name="0.65"/>
+	<LowestPitch name="0.6"/>
+	<HighestPitch name="0.6"/>
 	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="2"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
 
 <SoundDataNode name="preppo_suv_accel3"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
 	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
 	<AudioClip ClipName="Sounds/Vehicles/Suv/suv_accel3"/>
 	<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/truck_silly_accel" AltSound="true" />
-	<LowestPitch name="0.7"/>
-	<HighestPitch name="0.7"/>
+	<LowestPitch name="0.6"/>
+	<HighestPitch name="0.6"/>
 	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="2"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
 
 <SoundDataNode name="preppo_suv_turbo"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
 	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
 	<AudioClip ClipName="Sounds/Vehicles/Suv/suv_turbo"/>
 	<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/truck_silly_accel" AltSound="true" />
-	<LowestPitch name="0.7"/>
-	<HighestPitch name="0.7"/>
+	<LowestPitch name="0.6"/>
+	<HighestPitch name="0.6"/>
 	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="2"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
 
 <SoundDataNode name="preppo_suv_decel1"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
 	<AudioClip ClipName="Sounds/Vehicles/Suv/suv_decel1"/>
 	<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/truck_silly_decel" AltSound="true" />
-	<LowestPitch name="0.7"/>
-	<HighestPitch name="0.7"/>
+	<LowestPitch name="0.6"/>
+	<HighestPitch name="0.6"/>
 	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="2"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
 
 <SoundDataNode name="preppo_suv_decel2"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
 	<AudioClip ClipName="Sounds/Vehicles/Suv/suv_decel2"/>
 	<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/truck_silly_decel" AltSound="true" />
-	<LowestPitch name="0.7"/>
-	<HighestPitch name="0.7"/>
+	<LowestPitch name="0.6"/>
+	<HighestPitch name="0.6"/>
 	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="2"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
 
 <SoundDataNode name="preppo_suv_empty"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
@@ -287,22 +287,22 @@
 	<AudioClip ClipName="Sounds/Vehicles/Motorbike/motorbike_empty_1"/>
 	<AudioClip ClipName="Sounds/Vehicles/Motorbike/motorbike_empty_2"/>
 	<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/truck_silly_no_gas" AltSound="true" />
-	<LowestPitch name="0.7"/>
-	<HighestPitch name="0.7"/>
+	<LowestPitch name="0.6"/>
+	<HighestPitch name="0.6"/>
 	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
 
 <SoundDataNode name="preppo_suv_idle_lp"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
 	<AudioClip ClipName="Sounds/Vehicles/Suv/suv_idle_lp" Loop="true"/>
 	<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/truck_silly_idle_lp" AltSound="true" Loop="true" />
-	<LowestPitch name="0.7"/>
-	<HighestPitch name="0.7"/>
+	<LowestPitch name="0.6"/>
+	<HighestPitch name="0.6"/>
 	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
 
 <SoundDataNode name="preppo_suv_max_speed_lp"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
 	<AudioClip ClipName="Sounds/Vehicles/Suv/suv_max_speed_lp" Loop="true"/>
 	<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/truck_silly_run_lp" AltSound="true" Loop="true" />
-	<LowestPitch name="0.7"/>
-	<HighestPitch name="0.7"/>
+	<LowestPitch name="0.6"/>
+	<HighestPitch name="0.6"/>
 	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
 
 	<!-- Oak Chicken Coops -->
