@@ -3318,6 +3318,18 @@
 			</property>
 		</item>
 		
+	<!-- Steel Pan - Marlene -->
+		<item name="quest_steelpanmarlene">
+			<property name="Extends" value="challengeQuestMaster"/>
+			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>
+			<property name="DescriptionKey" value="quest_steelpanmarleneDesc"/>
+			<property name="CustomIcon" value="quest_steelpanmarlene"/>
+			<property class="Action0">
+				<property name="UseAnimation" value="false"/>
+				<property name="QuestGiven" value="quest_steelpanmarlene"/>
+			</property>
+		</item>
+		
 	<!-- Radiated Wasteland/Burnt Preppers as a group -->
 		<item name="quest_radiatedpreppers">
 			<property name="Extends" value="challengeQuestMaster"/>

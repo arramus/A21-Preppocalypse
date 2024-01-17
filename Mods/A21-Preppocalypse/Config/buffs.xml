@@ -247,6 +247,12 @@
 			</effect_group>
 		</buff>
 		
+		<buff name="zombieSteelPanMarlenePREPPERDeco" hidden="true">
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/ArramusPans.unity3d?OakPan" local_offset="0.08,0.04,0" local_rotation="270,180,-180" parent_transform="RightHand"/> <!-- Local Offset Up-Down/Front-Back/Left-Right -->				
+			</effect_group>
+		</buff>
+		
 		<buff name="zombieWightRadiationShowerPREPPERAOE" hidden="true">
 			<damage_type value="radiation"/>
 			<stack_type value="replace"/>
