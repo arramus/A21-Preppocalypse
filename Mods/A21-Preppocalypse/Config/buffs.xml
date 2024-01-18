@@ -354,7 +354,15 @@
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/Axe/steelAxePrefab.prefab" local_offset="0.1,0.02,-0.09" local_rotation="255,10,0" parent_transform="RightHand"/> <!--1st local Height/Rotation horizontal spin / -->
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/ClubIron/clubIronPrefab.prefab" local_offset="-0.13,-0.07,0" local_rotation="60,10,0" parent_transform="LeftHand"/>				
 			</effect_group>
-		</buff>		
+		</buff>
+
+		<buff name="zombieBigWightsDeco" hidden="true">
+			<effect_group>			
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/Axe/steelAxePrefab.prefab" local_offset="0.1,0.02,-0.09" local_rotation="255,10,0" parent_transform="RightHand"/> <!--1st local Height/Rotation horizontal spin / -->
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Tools/flashlight02Prefab.prefab" local_offset="-0.1,-0.025,0.05" local_rotation="-5,0,0" parent_transform="LeftHand"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="true"  parent_transform="LeftHand" transform_path="lightSource"/>				
+			</effect_group>
+		</buff>			
 		
 	</append>
 	
