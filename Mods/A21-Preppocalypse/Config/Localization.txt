@@ -374,7 +374,7 @@ zombieMiniSoldierRadiated,entityclasses,Entity,,,Mini Radiated Soldier,,,,,,,,,,
 zombieMiniDemolition,entityclasses,Entity,,,Mini Demolition,,,,,,,,,,,,,
 zombieMiniTARifleSoldierPREPPER,entityclasses,Entity,,,Tactical Assault Rifle Mini Soldier,,,,,,,,,,,,,
 zombieMiniTARifleSoldierRadiatedPREPPER,entityclasses,Entity,,,Tactical Assault Rifle Mini Radiated Soldier,,,,,,,,,,,,,
-zombieBigNightBikerRadiated,entityclasses,Entity,,,Big Radiated Night Biker,,,,,,,,,,,,,
+zombieBigNightBikerRadiated,entityclasses,Entity,,,Big Night Biker,,,,,,,,,,,,,
 zombieBigNightWightRadiated,entityclasses,Entity,,,Big Night Wight,,,,,,,,,,,,,
 zombieArlene,entityclasses,Entity,,,Zombies,,,,,,,,,,,,,
 

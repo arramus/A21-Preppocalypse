@@ -3232,7 +3232,7 @@
 	<property name="UserSpawnType" value="Menu"/>
 	<property name="SizeScale" value="1.5"/>
 	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
-	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBikerRadiated.prefab"/>
+	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBikerFeral.prefab"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 	
 	<!-- Gameplay zombieBikerRadiated -->
