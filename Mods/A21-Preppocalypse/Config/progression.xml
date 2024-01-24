@@ -4,7 +4,7 @@
 	<set xpath="/progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity'][@value='3,6,10,14,18']/@value">4,8,12,16,20</set>
 
 	<!-- Max player level -->
-	<set xpath="/progression/level/@max_level">1000</set> <!-- Default max level is 300 -->
+	<set xpath="/progression/level/@max_level">400</set> <!-- Default max level is 300 and 400 more than covers extras -->
 	<!-- Rifle reload speed -->
 	<set xpath="/progression/perks/perk[@name='perkDeadEye']/effect_group/passive_effect[@name='ReloadSpeedMultiplier'][@value='0.1,0.3']/@value">0.12,0.4</set>	
 	<!-- Shotgun reload speed -->
