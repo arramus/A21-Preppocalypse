@@ -1231,6 +1231,13 @@
 		zombieSteelPanMarlenePREPPER, .9
 	</csv> <!-- GS 117 -->
 	
+	<!-- Night Biker and Night Wight -->
+	
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieDemolition')]/text()" delim="\n" op="add">
+		zombieBigNightBikerRadiated, .5
+		zombieBigNightWightRadiated, .5
+	</csv> <!-- GS 147 -->
+	
 <!-- *** FERAL_HORDE_STAGES -->
 <!-- A gentle vanguard -->
 	<csv xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1']/text()" delim="\n" op="add" >
