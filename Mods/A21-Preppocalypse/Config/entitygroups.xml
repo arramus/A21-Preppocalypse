@@ -39,6 +39,7 @@
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesNight']/text()" delim="\n" op="add" >
 		zombieBigNightBikerRadiated, .12
 		zombieBigNightWightRadiated, .12
+		zombieBigNightScreamerRadiated, .12
 		animalZombieBunnyPREPPER, .06
 		animalZombieSnakePREPPER, .06
 		animalZombieChickenPREPPER, .06
@@ -107,8 +108,9 @@
 
 	<!-- *** BIOME_ZOMBIES_FOREST_DOWNTOWN_NIGHT_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesForestDowntownNight']/text()" delim="\n" op="add" >
-		zombieBigNightBikerRadiated, .6
-		zombieBigNightWightRadiated, .6
+		zombieBigNightBikerRadiated, .06
+		zombieBigNightWightRadiated, .06
+		zombieBigNightScreamerRadiated, .06
 		animalZombieBunnyPREPPER, .03
 		animalZombieSnakePREPPER, .03
 		animalZombieChickenPREPPER, .03
@@ -229,6 +231,7 @@
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']/text()" delim="\n" op="add" >
 		zombieBigNightBikerRadiated, 1.25
 		zombieBigNightWightRadiated, 1.25
+		zombieBigNightScreamerRadiated, 1.25
 		animalZombieBunnyPREPPER, 1.25
 		animalZombieSnakePREPPER, 1.25
 		animalZombieChickenPREPPER, 1.25
@@ -413,6 +416,10 @@
 		zombieCrispyPREPPER, .0125
 		zombieScorcherPREPPER, .0125
 		zombieRocketPREPPER, .005		
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='ZombieScouts']/text()" delim="\n" op="add" >
+		zombieBigNightScreamerRadiated
 	</csv>
 	
 	<append xpath="/entitygroups">
@@ -1236,6 +1243,7 @@
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieDemolition')]/text()" delim="\n" op="add">
 		zombieBigNightBikerRadiated, .5
 		zombieBigNightWightRadiated, .5
+		zombieBigNightScreamerRadiated, .5
 	</csv> <!-- GS 147 -->
 	
 <!-- *** FERAL_HORDE_STAGES -->

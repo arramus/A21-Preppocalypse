@@ -363,7 +363,14 @@
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Tools/flashlight02Prefab.prefab" local_offset="-0.1,-0.025,0.05" local_rotation="-5,0,0" parent_transform="LeftHand"/>
 				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="true"  parent_transform="LeftHand" transform_path="lightSource"/>				
 			</effect_group>
-		</buff>			
+		</buff>
+
+		<buff name="zombieBigScreamersDeco" hidden="true">
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_electric_shock_small" local_offset="-0.04,-0.38,0" local_rotation="0,0,0" parent_transform="LeftHand"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_electric_shock_small" local_offset="0.08,-0.18,0" local_rotation="0,0,0" parent_transform="RightHand"/>
+			</effect_group>
+		</buff>		
 		
 	</append>
 	
