@@ -288,7 +288,7 @@ crushedCars01WhiteVariantHelper,blocks,Block,,,Prepper Crushed Car Defences,,Pre
 playerWoodBurningPrepperStove,blocks,Block,,,Wood Burning Prepper Stove,,Holzbefeuerter Prepper-Ofen,,,,,,,,,,,
 playerWoodBurningPrepperStoveDesc,blocks,Block,,,"This Wood Burning Prepper Stove provides an alternative cooking source to the campfire.",,"Dieser holzbefeuerte Prepper-Ofen bietet eine alternative Kochquelle zum Lagerfeuer.",,,,,,,,,,,
 resourceCementMixerConcreteBundle,items,Item,,,Stack of Concrete Mix (1000),,Stapel Betonmischung (1000),,,,,,,,,,,
-resourceCementMixerConcreteBundleDesc,items,Item,,,"This is a compact stack of concrete mix. 'Open' this item to open and unpack it. This stack of concrete uses 20% less resources than the same amount in single units.",,"Dies ist ein kompakter Stapel Betonmischung. „Öffnen“ Sie diesen Artikel, um ihn zu öffnen und auszupacken. Dieser Betonstapel verbraucht 20 % weniger Ressourcen als die gleiche Menge in einzelnen Einheiten.",,,,,,,,,,,
+resourceCementMixerConcreteBundleDesc,items,Item,,,"This is a compact stack of concrete mix. 'Open' this item to open and unpack it. This stack of concrete uses 20% less resources than the same amount in single units.",,"Dies ist ein kompakter Stapel Betonmischung. 'Öffnen' Sie diesen Artikel, um ihn zu öffnen und auszupacken. Dieser Betonstapel verbraucht 20 % weniger Ressourcen als die gleiche Menge in einzelnen Einheiten.",,,,,,,,,,,
 LogWallsVariantHelper,blocks,block,,,Large Wood Walls,,Große Holzwände,,,,,,,,,,,
 banditWallCorrugatedVariantHelper,blocks,Block,,,Bandit - Corrugated Wall,,Bandit - Wellwand,,,,,,,,,
 banditPlatformVariantHelper,blocks,Block,,,Bandit - Ramps and Platforms,,Bandit – Rampen und Plattformen,,,,,,,,,
