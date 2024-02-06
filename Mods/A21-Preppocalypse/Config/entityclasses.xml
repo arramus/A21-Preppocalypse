@@ -12,9 +12,9 @@
 	<set xpath="/entity_classes/entity_class[@name='sc_General']/property[@name='Mesh']/@value">#@modfolder:Resources/prepposupplycrate.unity3d?SupplyCrateEntityPrefab</set>
 
 	<!-- Zombie Loot Bag Time Stay Extensions -->
-	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerRegular']/property[@name='TimeStayAfterDeath']/@value">1800</set> <!-- Default is 1200 secs (20 mins) and good for 60 min cycle at (15 min BM) but not 90 (22 min 30 sec BM) -->
-	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerStrong']/property[@name='TimeStayAfterDeath']/@value">1800</set>
-	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerBoss']/property[@name='TimeStayAfterDeath']/@value">1800</set>
+	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerRegular']/property[@name='TimeStayAfterDeath']/@value">2000</set> <!-- Default is 1200 secs (20 mins) and good for 60 min cycle at (15 min BM) but not 90 (22 min 30 sec BM) -->
+	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerStrong']/property[@name='TimeStayAfterDeath']/@value">2000</set> <!-- Provides a 3 min 20 sec buffer for 120 min cycle -->
+	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerBoss']/property[@name='TimeStayAfterDeath']/@value">2000</set>
 
 	<!-- Gyrocopter Tags -->
 	<append xpath="/entity_classes/entity_class[@name='vehicleGyrocopter']/property[@name='Tags']/@value">,vehiclepreppergyro</append><!-- Adding the buff deco tag -->
@@ -3346,6 +3346,35 @@
 		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="2.5"/>
 		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
 	</effect_group>
+</entity_class>
+
+		<!-- *** ZOMBIE_BIG_NIGHT_FAT_COP_RADIATED -->
+<entity_class name="zombieBigNightFatCopRadiated" extends="zombieFatCopRadiated">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="SizeScale" value="1.4"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated,zombieCop"/>
+	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZCopFeral.prefab"/>
+	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
+
+	<!-- Gameplay zombieFatCopRadiated -->
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="MoveSpeedAggro" value="0.55, 1.35"/>
+	<property name="HandItem" value="meleeHandZombieCopRadiated"/>
+	<property name="ExperienceGain" value="1850"/><!-- XP strong radiated -->
+	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
+	<property name="LootDropProb" value=".3"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="1650"/>
+		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBigCopsDeco"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="9"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+		<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
+	</effect_group>
+
+	<property name="Explosion.BlockDamage" value="750"/>
+	<property name="Explosion.EntityDamage" value="250"/>
 </entity_class>
 
 <!-- Vehicles -->

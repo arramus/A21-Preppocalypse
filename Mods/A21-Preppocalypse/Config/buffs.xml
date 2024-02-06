@@ -370,6 +370,12 @@
 				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_electric_shock_small" local_offset="-0.04,-0.38,0" local_rotation="0,0,0" parent_transform="LeftHand"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_electric_shock_small" local_offset="0.08,-0.18,0" local_rotation="0,0,0" parent_transform="RightHand"/>
 			</effect_group>
+		</buff>
+
+		<buff name="zombieBigCopsDeco" hidden="true">
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Lighting/lantern_02PlayerPrefab" local_offset="0,0.25,0" local_rotation="0,0,0" parent_transform="Head"/>				
+			</effect_group>
 		</buff>		
 		
 	</append>

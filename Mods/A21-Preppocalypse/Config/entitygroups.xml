@@ -40,6 +40,7 @@
 		zombieBigNightBikerRadiated, .12
 		zombieBigNightWightRadiated, .12
 		zombieBigNightScreamerRadiated, .12
+		zombieBigNightFatCopRadiated, .12
 		animalZombieBunnyPREPPER, .06
 		animalZombieSnakePREPPER, .06
 		animalZombieChickenPREPPER, .06
@@ -111,6 +112,7 @@
 		zombieBigNightBikerRadiated, .06
 		zombieBigNightWightRadiated, .06
 		zombieBigNightScreamerRadiated, .06
+		zombieBigNightFatCopRadiated, .06
 		animalZombieBunnyPREPPER, .03
 		animalZombieSnakePREPPER, .03
 		animalZombieChickenPREPPER, .03
@@ -232,6 +234,7 @@
 		zombieBigNightBikerRadiated, 1.25
 		zombieBigNightWightRadiated, 1.25
 		zombieBigNightScreamerRadiated, 1.25
+		zombieBigNightFatCopRadiated, 1.25
 		animalZombieBunnyPREPPER, 1.25
 		animalZombieSnakePREPPER, 1.25
 		animalZombieChickenPREPPER, 1.25
@@ -1244,6 +1247,7 @@
 		zombieBigNightBikerRadiated, .5
 		zombieBigNightWightRadiated, .5
 		zombieBigNightScreamerRadiated, .5
+		zombieBigNightFatCopRadiated, .5
 	</csv> <!-- GS 147 -->
 	
 <!-- *** FERAL_HORDE_STAGES -->

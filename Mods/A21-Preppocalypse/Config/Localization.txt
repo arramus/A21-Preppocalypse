@@ -377,6 +377,7 @@ zombieMiniTARifleSoldierRadiatedPREPPER,entityclasses,Entity,,,Tactical Assault 
 zombieBigNightBikerRadiated,entityclasses,Entity,,,Big Night Biker,,,,,,,,,,,,,
 zombieBigNightWightRadiated,entityclasses,Entity,,,Big Night Wight,,,,,,,,,,,,,
 zombieBigNightScreamerRadiated,entityclasses,Entity,,,Big Night Plasma Screamer,,,,,,,,,,,,,
+zombieBigNightFatCopRadiated,entityclasses,Entity,,,Big Night Cop,,,,,,,,,,,,,
 zombieArlene,entityclasses,Entity,,,Zombies,,,,,,,,,,,,,
 
 loadingTipPrepperVehicles,UI,Loading Screen,x,,"The vehicles in Preppocalypse are slightly enhanced, with a little extra speed and better passage through water.",,"Die Fahrzeuge in Preppocalypse sind leicht verbessert, mit etwas mehr Geschwindigkeit und besserer Wasserdurchfahrt.",,,,,,,,,,,
