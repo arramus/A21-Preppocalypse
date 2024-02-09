@@ -701,20 +701,31 @@
 	
 	</append>
 	
-<!-- *** INTEGRATION FOR ANIMALS -->
+	<!-- *** INTEGRATION FOR ANIMALS -->
 
 	<!-- *** BIOME_ANIMAL_INDIVIDUAL_GROUPS -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombieDogGroup']/text()" delim="\n" op="add" >
 		animalZombieMiniDogPrepper, .25
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='VultureGroup']/text()" delim="\n" op="add" >
+		animalZombieMiniVulturePrepper, .25
 	</csv>
 	
 	<!-- *** POI_INDIVIDUAL_ENTITY_GROUPS -->
 	<csv xpath="/entitygroups/entitygroup[@name='animalZombieDog']/text()" delim="\n" op="add" >
 		animalZombieMiniDogPrepper, .25
 	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='animalZombieVulture']/text()" delim="\n" op="add" >
+		animalZombieMiniVulturePrepper, .25
+	</csv>
+
+	<!-- *** BIOME_ENEMY_ANIMAL_DESERT_GROUP -->
+	<!-- NONE must not be the first entry since first name determines if enemy group -->
+	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']/text()" delim="\n" op="add" >
+		animalZombieMiniVulturePrepper, 5
+	</csv>
 	
-<!-- *** SNOW ANIMALS -->
-	
+	<!-- *** SNOW ANIMALS -->	
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']/text()" delim="\n" op="add" >
 		animalWolf, 11
 	</csv>
