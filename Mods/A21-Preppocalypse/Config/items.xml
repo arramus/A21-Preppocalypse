@@ -3160,6 +3160,46 @@
 			</property>
 		</item>
 		
+		<item name="quest_prepperstockpile02">
+			<property name="Extends" value="challengeQuestMaster"/>
+			<property name="DescriptionKey" value="quest_prepperstockpile02Desc"/>
+			<property name="CustomIcon" value="quest_prepperstockpile01"/>
+			<property class="Action0">
+				<property name="UseAnimation" value="false"/>
+				<property name="QuestGiven" value="quest_prepperstockpile06"/>
+			</property>
+		</item>
+		
+		<item name="quest_prepperstockpile03">
+			<property name="Extends" value="challengeQuestMaster"/>
+			<property name="DescriptionKey" value="quest_prepperstockpile03Desc"/>
+			<property name="CustomIcon" value="quest_prepperstockpile01"/>
+			<property class="Action0">
+				<property name="UseAnimation" value="false"/>
+				<property name="QuestGiven" value="quest_prepperstockpile11"/>
+			</property>
+		</item>
+		
+		<item name="quest_prepperstockpile04">
+			<property name="Extends" value="challengeQuestMaster"/>
+			<property name="DescriptionKey" value="quest_prepperstockpile04Desc"/>
+			<property name="CustomIcon" value="quest_prepperstockpile01"/>
+			<property class="Action0">
+				<property name="UseAnimation" value="false"/>
+				<property name="QuestGiven" value="quest_prepperstockpile16"/>
+			</property>
+		</item>
+		
+		<item name="quest_prepperstockpile05">
+			<property name="Extends" value="challengeQuestMaster"/>
+			<property name="DescriptionKey" value="quest_prepperstockpile05Desc"/>
+			<property name="CustomIcon" value="quest_prepperstockpile01"/>
+			<property class="Action0">
+				<property name="UseAnimation" value="false"/>
+				<property name="QuestGiven" value="quest_prepperstockpile21"/>
+			</property>
+		</item>
+		
 	<!-- Looping Zombie Elimination Quest -->
 		<item name="quest_eliminatezombies10">
 			<property name="Extends" value="challengeQuestMaster"/>

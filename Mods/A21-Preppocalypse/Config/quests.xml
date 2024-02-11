@@ -472,7 +472,7 @@
 		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 4. Mine for Oil Shale, and convert to Gas Cans and Drill Gas Cans on the Chemistry Station. Craft, place, and power up a Prepper Rock Drill to collect additional mining resources." />
 		<property name="name_key" value="Mining"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 4"/>
-		<property name="description_key" value="Drill for the requested resources. Receive XP, 2 Skill Points, and a Diamond Blade Tip Mod as a reward. This concludes the Prepper Stockpile Challenges."/>
+		<property name="description_key" value="Drill for the requested resources. Receive XP, 2 Skill Points, and a Diamond Blade Tip Mod as a reward. Continue to Part 5."/>
 		<property name="icon" value="ui_game_symbol_gas"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="easy"/>
@@ -487,6 +487,118 @@
 		<reward type="SkillPoints" value="2" chainreward="false"/>
 		<reward type="Item" id="modMeleeDiamondTip" value="1"/>
 		<reward type="Exp" value="2500"/>
+		<reward type="Quest" id="quest_prepperstockpile21"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 5 -->
+	<!-- Defences 1 -->
+	<quest id="quest_prepperstockpile21">
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 5. Acquire, or craft ammo on the Prepper Ammo Press or Workbench, get some defences in place to take ownership, and increase your physical ability to face adversity." />
+		<property name="name_key" value="Ammo"/>
+		<property name="subtitle_key" value="Prepper Stockpile Part 5"/>
+		<property name="description_key" value="Acquire, or craft some standard ammo in preparation for times of need."/>
+		<property name="icon" value="ui_game_symbol_ammopress"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="ammo9mmBulletBall" value="500" phase="1"/>
+		<objective type="FetchKeep" id="ammo762mmBulletBall" value="350" phase="1"/>
+		<objective type="FetchKeep" id="ammoShotgunShell" value="250" phase="1"/>
+		<objective type="FetchKeep" id="ammo44MagnumBulletBall" value="200" phase="1"/>
+		<objective type="FetchKeep" id="ammoJunkTurretRegular" value="500" phase="1"/>
+
+		<reward type="Exp" value="1500"/>
+		<reward type="Quest" id="quest_prepperstockpile22"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 5 -->
+	<!-- Defences 2 -->
+	<quest id="quest_prepperstockpile22">
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 5. Acquire, or craft ammo on the Prepper Ammo Press or Workbench, get some defences in place to take ownership, and increase your physical ability to face adversity." />
+		<property name="name_key" value="Defensive Barricades"/>
+		<property name="subtitle_key" value="Prepper Stockpile Part 5"/>
+		<property name="description_key" value="Craft some defensive barricades. Place appropriately when required."/>
+		<property name="icon" value="ui_game_symbol_ammopress"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="doorWoodLargeGate" value="1" phase="1"/>
+		<objective type="FetchKeep" id="LogWallsVariantHelper" value="10" phase="1"/>
+		<objective type="FetchKeep" id="banditPlatformVariantHelper" value="10" phase="1"/>
+		<objective type="FetchKeep" id="banditWallCorrugatedVariantHelper" value="10" phase="1"/>
+		<objective type="FetchKeep" id="crushedCars01WhiteVariantHelper" value="4" phase="1"/>
+
+		<reward type="Exp" value="1500"/>
+		<reward type="Quest" id="quest_prepperstockpile23"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 5 -->
+	<!-- Defences 3 -->
+	<quest id="quest_prepperstockpile23">
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 5. Acquire, or craft ammo on the Prepper Ammo Press or Workbench, get some defences in place to take ownership, and increase your physical ability to face adversity." />
+		<property name="name_key" value="Improvised Weapons"/>
+		<property name="subtitle_key" value="Prepper Stockpile Part 5"/>
+		<property name="description_key" value="Acquire, or craft some improvised weapons for greater area of effect."/>
+		<property name="icon" value="ui_game_symbol_ammopress"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="thrownAmmoMolotovCocktail" value="20" phase="1"/>
+		<objective type="FetchKeep" id="thrownAmmoPipeBomb" value="20" phase="1"/>
+		<objective type="FetchKeep" id="mineCandyTin" value="20" phase="1"/>
+		<objective type="FetchKeep" id="trapSpikesIronDmg0" value="20" phase="1"/>
+		<objective type="FetchKeep" id="barbedWireSpindleVariantHelper" value="10" phase="1"/>
+
+		<reward type="Exp" value="1500"/>
+		<reward type="Quest" id="quest_prepperstockpile24"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 5 -->
+	<!-- Defences 4 -->
+	<quest id="quest_prepperstockpile24">
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 5. Acquire, or craft ammo on the Prepper Ammo Press or Workbench, get some defences in place to take ownership, and increase your physical ability to face adversity." />
+		<property name="name_key" value="Ownership"/>
+		<property name="subtitle_key" value="Prepper Stockpile Part 5"/>
+		<property name="description_key" value="Craft and place some decorative items to take ownership."/>
+		<property name="icon" value="ui_game_symbol_ammopress"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="BlockPlace" id="decoCowSkull" value="1" phase="1"/>
+		<objective type="BlockPlace" id="woodenBear" value="1" phase="1"/>
+		<objective type="BlockPlace" id="rugBear" value="1" phase="1"/>
+		<objective type="BlockPlace" id="flagPoleWhiteRiver" value="1" phase="1"/>
+		<objective type="BlockPlace" id="helipad" value="1" phase="1"/>
+		
+		<reward type="Exp" value="1500"/>
+		<reward type="Quest" id="quest_prepperstockpile25"/>
+	</quest>
+	
+	<!-- Prepper Stockpile Part 5 -->
+	<!-- Defences 5 -->
+	<quest id="quest_prepperstockpile25">
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 5. Acquire, or craft ammo on the Prepper Ammo Press or Workbench, get some defences in place to take ownership, and increase your physical ability to face adversity." />
+		<property name="name_key" value="Meds"/>
+		<property name="subtitle_key" value="Prepper Stockpile Part 5"/>
+		<property name="description_key" value="Collect meds to assist with fortitude. This completes the Prepper Stockpile Quests."/>
+		<property name="icon" value="ui_game_symbol_ammopress"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="drugVitamins" value="5" phase="1"/>
+		<objective type="FetchKeep" id="medicalFirstAidKit" value="4" phase="1"/>
+		<objective type="FetchKeep" id="drinkJarPureMineralWater" value="3" phase="1"/>
+		<objective type="FetchKeep" id="medicalPlasterCast" value="2" phase="1"/>
+		<objective type="FetchKeep" id="drugHealthBar" value="1" phase="1"/>
+		
+		<reward type="SkillPoints" value="2" chainreward="false"/>
+		<reward type="Item" id="questRewardPreppocalypticCarPartsBundle" value="1"/>
+		<reward type="Exp" value="3000"/>
 	</quest>
 	
 	<!-- Looping Zombie Elimination Quest -->
