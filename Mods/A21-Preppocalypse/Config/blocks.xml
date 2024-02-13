@@ -89,6 +89,8 @@
 	<append xpath="/blocks/block[@name='banditPlatform2x2A']">
 		<property name="MaxDamage" value="750"/>
 	</append>
+<!-- Decorative Pictures -->
+ 	<append xpath="/blocks/block[@name='pictureVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,pictureFrameCarrier,pictureFrameTank,pictureFrameGunSchematic,pictureFrameJetGirls,calendar2034,posterCalendarWorkingStiff,posterBlueprintPistol,posterBlueprintRifle,pictureFramedMedalsLrg,pictureFramedMedalsMed,pictureFramedMedalsSml,paintingBen,paintingLorien,paintingDerek,paintingNoah,paintingDuke,paintingKen,signBulletinBoard01,signBulletinBoard02,signBookSaleAd,signBread01,signBread02,signCigaretteAd,signDinersMenu,signDinersMenu2m,signDinersMenu2mCentered,signLaborDaySaleAd,signMegaCrushAd,signNotice01,signNotice02,signNotice03,signNotice04,signSafetyWorkProtection,signSale01,signSale02,signShamwaySale,signSnackPosterAtom,signSnackPosterBretzels,signSnackPosterEyeCandy,signSnackPosterFortBites,signSnackPosterGoblinO,signSnackPosterHackers,signSnackPosterHealth,signSnackPosterJailBreakers,signSnackPosterJerky,signSnackPosterNachos,signSnackPosterNachosRanch,signSnackPosterNerd,signSnackPosterOopsClassic,signSnackPosterOops,signSnackPosterPrime,signSnackPosterRamen,signSnackPosterSkullCrusher,signPosterMovie2159,signPosterMovieLoneWolf,signPosterMovieMammasJustice,signPosterMovieSexualTension,signPosterMovieTheater2159,signPosterMovieTheaterLoneWolf,signPosterMovieTheaterMammasJustice,signPosterMovieTheaterSexualTension</append>
 	<!-- Deco Block Harvesting -->
  	<append xpath="/blocks/block[@name='decoWildWestWagon']">
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>	
