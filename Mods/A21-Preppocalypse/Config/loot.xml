@@ -167,6 +167,11 @@
 		<item name="modArmorPrepperPlatingReinforced"/>
 	</append>
 	
+	<!-- *** T1_Melee_Mods -->
+	<append xpath="/lootcontainers/lootgroup[@name='modMeleeT1']">
+		<item name="modMeleeSpartanSledgeStamina"/>
+	</append>
+	
 	<!-- *** T1_Ranged_Mods -->
 	<append xpath="/lootcontainers/lootgroup[@name='modGunT1']">
 		<item name="modWeaponMaintenance"/>
@@ -175,6 +180,7 @@
 	<!-- *** T0_Schematics -->
 	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT0']">
 		<item name="modWeaponMaintenanceSchematic"/>
+		<item name="modMeleeSpartanSledgeStaminaSchematic"/>
 	</append>
 	
 	<!-- *** T3_Ranged_Mods -->

@@ -232,6 +232,23 @@
 		</effect_group>
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
+	
+<!-- Spartan Sledge Stamina Mod -->
+
+	<item_modifier name="modMeleeSpartanSledgeStamina" installable_tags="sledge" modifier_tags="health" blocked_tags="noMods" type="attachment">
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DescriptionKey" value="modMeleeSpartanSledgeStaminaDesc"/>
+		<property name="UnlockedBy" value="modMeleeSpartanSledgeStaminaSchematic"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="CustomIcon" value="modMeleeSpartanSledgeStamina"/>
+
+		<!-- Reduces Stamina usage on all sledge melee attacks -->
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkSkullCrusher"/>
+			<passive_effect name="StaminaLoss" operation="perc_add" value="-.15" tags="primary,secondary"/>
+		</effect_group>
+	</item_modifier>
 
 <!-- Haidr'Gna - Invisible Dye -->
 
