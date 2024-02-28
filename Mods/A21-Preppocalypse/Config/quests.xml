@@ -358,13 +358,13 @@
 		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 3. Place a Workbench, followed by Farm Plots, a Coop and Hive, and then Traps." />
 		<property name="name_key" value="Traps"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 3"/>
-		<property name="description_key" value="Craft and place 2 Tar Traps and 1 Cactus Trap with the Workbench."/>
+		<property name="description_key" value="Craft and place 1 Tar Trap and 1 Cactus Trap from the Workbench. You can pick them up again after placing."/>
 		<property name="icon" value="ui_game_symbol_workbench"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="easy"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="BlockPlace" id="TarTrap" value="2" phase="1"/>
+		<objective type="BlockPlace" id="TarTrap" value="1" phase="1"/>
 		<objective type="BlockPlace" id="CactusTrap" value="1" phase="1"/>
 
 		<reward type="Exp" value="1000"/>
