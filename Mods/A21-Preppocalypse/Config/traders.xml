@@ -55,7 +55,8 @@
 		<item name="modWeaponMaintenance"/>
 	<!-- *** T2_Ranged_Mods -->
 		<item name="modGunBowArrowGrip"/>
-		<item name="modArcheryReloadSpeed"/>		
+		<item name="modArcheryReloadSpeed"/>
+		<item name="modGunMagnumMagazineExtender"/>		
 	</append>
 	
 	<!-- Group Armor Mods -->

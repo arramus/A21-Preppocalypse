@@ -177,16 +177,17 @@
 		<item name="modWeaponMaintenance"/>
 	</append>
 	
+	<!-- *** T2_Ranged_Mods -->
+	<append xpath="/lootcontainers/lootgroup[@name='modGunT2']">
+		<item name="modGunMagnumMagazineExtender"/>
+		<item name="modGunBowArrowGrip"/>
+		<item name="modArcheryReloadSpeed"/>
+	</append>
+	
 	<!-- *** T0_Schematics -->
 	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT0']">
 		<item name="modWeaponMaintenanceSchematic"/>
 		<item name="modMeleeSpartanSledgeStaminaSchematic"/>
-	</append>
-	
-	<!-- *** T3_Ranged_Mods -->
-	<append xpath="/lootcontainers/lootgroup[@name='modGunT3']">
-		<item name="modGunBowArrowGrip"/>
-		<item name="modArcheryReloadSpeed"/>
 	</append>
 	
 	<!-- *** T2_Schematics -->
@@ -196,6 +197,7 @@
 		<item name="modArmorRunningShoesHPSchematic"/>
 		<item name="modArmorPrepperFittingsSchematic"/>
 		<item name="modArmorPrepperPlatingReinforcedSchematic"/>
+		<item name="modGunMagnumMagazineExtenderSchematic"/>
 	</append>
 	
 	<append xpath="/lootcontainers">

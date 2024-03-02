@@ -291,6 +291,9 @@
 	
 	<!-- Magazine Reward Bundle Colour -->
 	<set xpath="/items/item[@name='questRewardT1SkillMagazineBundle']/property[@name='CustomIconTint']/@value">FFFFFF</set><!-- FFFF00 yellow default -->
+	
+	<!-- Magnum Tag for Mod Magazine Extender -->
+	<append xpath="/items/item[@name='gunHandgunT2Magnum44']/property[@name='Tags']/@value">,magnummagazine</append>
 
 	<append xpath="/items">
 	
@@ -1509,6 +1512,18 @@
 			<property name="Unlocks" value="modMeleeSpartanSledgeStamina"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeSpartanSledgeStamina" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+
+<!-- Magnum Magazine Extender Mod Schematic -->		
+		<item name="modGunMagnumMagazineExtenderSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="modGunMagnumMagazineExtender"/>
+			<property name="Unlocks" value="modGunMagnumMagazineExtender"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunMagnumMagazineExtender" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 			</effect_group>
 		</item>

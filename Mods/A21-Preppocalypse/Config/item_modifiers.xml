@@ -249,6 +249,18 @@
 			<passive_effect name="StaminaLoss" operation="perc_add" value="-.15" tags="primary,secondary"/>
 		</effect_group>
 	</item_modifier>
+	
+<!-- Magnum Magazine Extender Mod -->
+	
+	<item_modifier name="modGunMagnumMagazineExtender" installable_tags="magnummagazine" modifier_tags="magazine" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="UnlockedBy" value="modGunMagnumMagazineExtenderSchematic"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		
+		<effect_group tiered="false">
+			<passive_effect name="MagazineSize" operation="perc_add" value="1"/>
+		</effect_group>
+	</item_modifier>
 
 <!-- Haidr'Gna - Invisible Dye -->
 
