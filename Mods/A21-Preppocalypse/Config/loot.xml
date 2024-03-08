@@ -25,26 +25,26 @@
 	
 	<!-- Bringing in mid/late range vehicle mod schematics earlier and keeping them later to remove scripted drops which are far too predictable -->	
 	<!-- T0_Vehicle_Mod_Schematics -->	
-	<append xpath="/lootcontainers/lootcontainer[@name='vehicleModSchematics01']">
+	<append xpath="/lootcontainers/lootgroup[@name='vehicleModSchematics01']">
 	<item name="modVehicleFuelSaverSchematic"/>
 	<item name="modVehicleReserveFuelTankSchematic"/>
 	</append>
 	
 	<!-- T1_Vehicle_Mod_Schematics -->	
-	<append xpath="/lootcontainers/lootcontainer[@name='vehicleModSchematics02']">
+	<append xpath="/lootcontainers/lootgroup[@name='vehicleModSchematics02']">
 	<item name="modVehicleOffRoadHeadlightsSchematic"/>
 	<item name="modVehicleExpandedSeatSchematic"/>
 	<item name="modVehicleSuperChargerSchematic"/>
 	</append>
 	
 	<!-- T2_Vehicle_Mod_Schematics -->	
-	<append xpath="/lootcontainers/lootcontainer[@name='vehicleModSchematics03']">
+	<append xpath="/lootcontainers/lootgroup[@name='vehicleModSchematics03']">
 	<item name="modVehicleFuelSaverSchematic"/>
 	<item name="modVehicleReserveFuelTankSchematic"/>
 	</append>
 	
 	<!-- *** Vehicle_Parts_Scaled but bringing in mid/late range vehicle parts earlier and keeping them later to remove scripted drops as with vehicle mod schematics -->	
-	<append xpath="/lootcontainers/lootcontainer[@name='vehiclePartsTiered']">
+	<append xpath="/lootcontainers/lootgroup[@name='vehiclePartsTiered']">
 	<item group="minibikeParts"  loot_prob_template="ProbT0"/> <!-- Default ProbT1Cap -->
 	<item group="motorcycleParts" loot_prob_template="ProbT1Cap"/> <!-- Default ProbT2Cap -->
 	<item group="PreppocalypticCarParts" loot_prob_template="ProbT2Cap"/> <!-- Default ProbT3 -->
