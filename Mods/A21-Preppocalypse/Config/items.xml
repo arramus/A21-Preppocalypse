@@ -280,14 +280,23 @@
 	</append><!-- extends drugPainkillers but 25 is sufficient -->
 	
 	<!-- Weather Durable Poncho -->
-	<set xpath="/items/item[@name='apparelCoatLeatherPoncho']/effect_group/passive_effect[@name='HypothermalResist']/@value">10.8,13.2</set><!-- 2.8,5.2 -->
-	<set xpath="/items/item[@name='apparelCoatLeatherPoncho']/effect_group/passive_effect[@name='HyperthermalResist']/@value">14.5,18.3</set><!-- 10.5,14.3 -->
+	<set xpath="/items/item[@name='apparelCoatLeatherPoncho']/effect_group/passive_effect[@name='HypothermalResist']/@value">12.8,14.2</set><!-- 2.8,5.2 -->
+	<set xpath="/items/item[@name='apparelCoatLeatherPoncho']/effect_group/passive_effect[@name='HyperthermalResist']/@value">16.5,20.3</set><!-- 10.5,14.3 -->
 	
 	<!-- Vehicle Tags and Hookups -->
 	<append xpath="/items/item[@name='vehicleBicyclePlaceable']/property[@name='Tags']/@value">,vseat</append><!-- Adding the seat tag -->
 	<set xpath="/items/item[@name='vehicleMinibikeChassis']/property[@name='TraderStageTemplate']/@value">vehicleTier0</set><!-- vehicleTier1 default -->
 	<set xpath="/items/item[@name='vehicleMinibikeHandlebars']/property[@name='TraderStageTemplate']/@value">vehicleTier0</set><!-- vehicleTier1 default -->
 	<set xpath="/items/item[@name='vehicleMinibikePlaceable']/property[@name='TraderStageTemplate']/@value">vehicleTier1</set><!-- vehicleTier2 default -->
+	<set xpath="/items/item[@name='vehicleMotorcycleChassis']/property[@name='TraderStageTemplate']/@value">vehicleTier1</set><!-- vehicleTier2 default -->
+	<set xpath="/items/item[@name='vehicleMotorcycleHandlebars']/property[@name='TraderStageTemplate']/@value">vehicleTier1</set><!-- vehicleTier2 default -->
+	<set xpath="/items/item[@name='vehicleMotorcyclePlaceable']/property[@name='TraderStageTemplate']/@value">vehicleTier2</set><!-- vehicleTier3 default -->
+	<set xpath="/items/item[@name='vehicle4x4TruckChassis']/property[@name='TraderStageTemplate']/@value">vehicleTier2</set><!-- vehicleTier3 default -->
+	<set xpath="/items/item[@name='vehicle4x4TruckAccessories']/property[@name='TraderStageTemplate']/@value">vehicleTier2</set><!-- vehicleTier3 default -->
+	<set xpath="/items/item[@name='vehicle4x4TruckPlaceable']/property[@name='TraderStageTemplate']/@value">vehicleTier3</set><!-- vehicleTier4 default -->
+	<set xpath="/items/item[@name='vehicleGyroCopterChassis']/property[@name='TraderStageTemplate']/@value">vehicleTier3</set><!-- vehicleTier4 default -->
+	<set xpath="/items/item[@name='vehicleGyroCopterAccessories']/property[@name='TraderStageTemplate']/@value">vehicleTier3</set><!-- vehicleTier4 default -->
+	<set xpath="/items/item[@name='vehicleGyrocopterPlaceable']/property[@name='TraderStageTemplate']/@value">vehicleTier4</set><!-- vehicleTier5 default -->
 	
 	<!-- Magazine Reward Bundle Colour -->
 	<set xpath="/items/item[@name='questRewardT1SkillMagazineBundle']/property[@name='CustomIconTint']/@value">FFFFFF</set><!-- FFFF00 yellow default -->

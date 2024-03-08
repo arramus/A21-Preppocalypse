@@ -950,7 +950,7 @@
 	<property name="Prefab" value="/Entities/Animals/Rabbit/RABBIT"/>
 	<property name="ReplaceMaterial0" value="Entities/Animals/Bear/Materials/zBear"/>
 	<property name="ReplaceMaterial1" value="Materials/UMAFur_ZombieBear"/>
-	<property name="SizeScale" value="3.0"/>
+	<property name="SizeScale" value="2.5"/>
 
 	<property name="SoundRandom" value="mlionroam"/>
 	<property name="SoundAlert" value="mlionalert"/>
@@ -1027,7 +1027,7 @@
 	<property name="LookAtAngle" value="0"/>
 	<property name="ReplaceMaterial0" value="Entities/Animals/Bear/Materials/zBear"/>
 	<property name="ReplaceMaterial1" value="Materials/UMAFur_ZombieBear"/>
-	<property name="SizeScale" value="2.2"/>
+	<property name="SizeScale" value="2.0"/>
 
 	<property name="Faction" value="undead"/>
 
@@ -2948,7 +2948,7 @@
 		</entity_class>
 		
 		<entity_class name="zombieRocketRadiatedPREPPER" extends="zombieDemolition">
-			<property name="SizeScale" value="1.5"/>
+			<property name="SizeScale" value="1.35"/>
 			<property name="Tags" value="entity,zombie,walker,boss,rocketPREPPER,radiated"/>
 			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZDemolition.prefab"/>
 			<property name="Class" value="EntityZombieCop"/>
@@ -3065,7 +3065,7 @@
 		</entity_class>
 		
 		<entity_class name="zombieScorcherRadiatedPREPPER" extends="zombieDemolition">
-			<property name="SizeScale" value="1.5"/>
+			<property name="SizeScale" value="1.35"/>
 			<property name="Tags" value="entity,zombie,walker,boss,scorcherPREPPER"/>
 			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZDemolition.prefab"/>
 			<property name="Class" value="EntityZombieCop"/>
