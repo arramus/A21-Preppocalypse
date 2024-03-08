@@ -23,6 +23,36 @@
 	
 	<remove xpath="/lootcontainers/lootcontainer[@name='birdNest']" />
 	
+	<!-- Bringing in mid/late range vehicle mod schematics earlier and keeping them later to remove scripted drops which are far too predictable -->	
+	<!-- T0_Vehicle_Mod_Schematics -->	
+	<append xpath="/lootcontainers/lootcontainer[@name='vehicleModSchematics01']">
+	<item name="modVehicleFuelSaverSchematic"/>
+	<item name="modVehicleReserveFuelTankSchematic"/>
+	</append>
+	
+	<!-- T1_Vehicle_Mod_Schematics -->	
+	<append xpath="/lootcontainers/lootcontainer[@name='vehicleModSchematics02']">
+	<item name="modVehicleOffRoadHeadlightsSchematic"/>
+	<item name="modVehicleExpandedSeatSchematic"/>
+	<item name="modVehicleSuperChargerSchematic"/>
+	</append>
+	
+	<!-- T2_Vehicle_Mod_Schematics -->	
+	<append xpath="/lootcontainers/lootcontainer[@name='vehicleModSchematics03']">
+	<item name="modVehicleFuelSaverSchematic"/>
+	<item name="modVehicleReserveFuelTankSchematic"/>
+	</append>
+	
+	<!-- *** Vehicle_Parts_Scaled but bringing in mid/late range vehicle parts earlier and keeping them later to remove scripted drops as with vehicle mod schematics -->	
+	<append xpath="/lootcontainers/lootcontainer[@name='vehiclePartsTiered']">
+	<item group="minibikeParts"  loot_prob_template="ProbT0"/> <!-- Default ProbT1Cap -->
+	<item group="motorcycleParts" loot_prob_template="ProbT1Cap"/> <!-- Default ProbT2Cap -->
+	<item group="PreppocalypticCarParts" loot_prob_template="ProbT2Cap"/> <!-- Default ProbT3 -->
+	<item group="4x4Parts" loot_prob_template="ProbT2Cap"/> <!-- Default ProbT3 -->
+	<item group="gyroCopterParts" loot_prob_template="ProbT2Cap"/> <!-- Default ProbT3 -->
+	<item group="PreppocalypticCarParts" loot_prob_template="ProbT3"/> <!-- Default ProbT3 with 4x4 -->
+	</append>
+	
 	<!-- ATM Skill Chance Drop -->	
 	<append xpath="/lootcontainers/lootcontainer[@name='atmLoot']"> <!-- ATM -->
 		<item name="qc_1Skill" prob=".15"/>
@@ -323,9 +353,5 @@
 		<item name="carBattery"/>
 	</lootgroup>	
 	</insertBefore>
-	
-	<append xpath="/lootcontainers/lootgroup[@name='vehiclePartsTiered']">
-		<item group="PreppocalypticCarParts" loot_prob_template="ProbT2Cap"/> <!-- With motorcycle tier -->	
-	</append>
 	
 </Preppocalypse>
