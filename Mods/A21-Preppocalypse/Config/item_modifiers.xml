@@ -1,6 +1,31 @@
 ﻿<Preppocalypse>
 
-<!-- Oakraven's T1 POT and T3 PAN -->	
+<!-- Oakraven Can Can Bat -->
+   <append xpath="/item_modifiers/item_modifier[@name='modMeleeClubMetalSpikes']">
+        <item_property_overrides name="meleeWpnClubT1CanCanBat">
+            <property name="HandMeshfile" value="#@modfolder:Resources/BeanBat.unity3d?BeanBatbarbspike"/>
+        </item_property_overrides>        
+    </append>
+    
+    <append xpath="/item_modifiers/item_modifier[@name='modMeleeClubBarbedWire']">
+        <item_property_overrides name="meleeWpnClubT1CanCanBat">
+            <property name="HandMeshfile" value="#@modfolder:Resources/BeanBat.unity3d?BeanBatbarbwire"/>
+        </item_property_overrides>       
+    </append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubMetalChain']">
+        <item_property_overrides name="meleeWpnClubT1CanCanBat">
+            <property name="HandMeshfile" value="#@modfolder:Resources/BeanBat.unity3d?BeanBatChain"/>
+        </item_property_overrides>     
+    </append>
+
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubBurningShaft']">
+       <item_property_overrides name="meleeWpnClubT1CanCanBat">
+            <property name="FlameEffect" value="#@modfolder:Resources/BeanBat.unity3d?flameoak"/>
+       </item_property_overrides>
+    </append>
+
+<!-- Oakraven's T1 POT and T3 PAN -->
    <append xpath="/item_modifiers/item_modifier[@name='modMeleeClubMetalSpikes']">
         <item_property_overrides name="meleeWpnClubT3Pan">
             <property name="HandMeshfile" value="#@modfolder:Resources/ArramusPans.unity3d?OakPanSpike"/>
@@ -18,8 +43,7 @@
         
         <item_property_overrides name="meleeWpnClubT1Pot">
             <property name="HandMeshfile" value="#@modfolder:Resources/ArramusPans.unity3d?OakPotWire"/>
-        </item_property_overrides>
-               
+        </item_property_overrides>               
     </append>
 	
 	<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubMetalChain']">

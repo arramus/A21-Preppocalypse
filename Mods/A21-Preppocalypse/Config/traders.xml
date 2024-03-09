@@ -77,6 +77,7 @@
 	
 	<!-- *** Melee_Weapons -->
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupMeleeAll']">
+		<item name="meleeWpnClubT1CanCanBat" quality="3,6"/>
 		<item name="meleeWpnClubT1Pot" quality="3,6"/>
 		<item name="meleeWpnClubT3Pan" quality="3,6"/>			
 	</append>

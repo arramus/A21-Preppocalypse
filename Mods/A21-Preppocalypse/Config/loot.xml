@@ -304,17 +304,33 @@
 	
 	</append>
 	
-	<!-- Oaks T1 Pot and T3 Pan -->
+	<!-- Oaks T1 Pot, T3 Pan, and Can Can -->
 	
+<!-- *** T0_Weapons_All -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_All']">
+		<item name="meleeWpnClubT1CanCanBat"/>
+	</append>
+	
+<!-- *** T0_Melee_Weapons -->	
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_Melee']">
+		<item name="meleeWpnClubT1CanCanBat"/>
+	</append>
+	
+<!-- *** T1_Melee_Weapons -->	
 	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Melee']">
-		<item name="meleeWpnClubT1Pot"/>	
+		<item name="meleeWpnClubT1CanCanBat"/>
+		<item name="meleeWpnClubT1Pot"/>
 	</append>
-	
+
+<!-- *** Quest_Rewards -->	
 	<append xpath="/lootcontainers/lootgroup[@name='groupQuestWeaponsMeleeT1']">
+		<item name="meleeWpnClubT1CanCanBat"/>
 		<item name="meleeWpnClubT1Pot"/>	
 	</append>
-	
+
+<!-- *** T2&T3_Melee_Weapons -->	
 	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_Melee']">
+		<item name="meleeWpnClubT1CanCanBat"/>
 		<item name="meleeWpnClubT3Pan"/>	
 	</append>
 	
