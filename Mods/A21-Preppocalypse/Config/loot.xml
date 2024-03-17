@@ -23,6 +23,11 @@
 	
 	<remove xpath="/lootcontainers/lootcontainer[@name='birdNest']" />
 	
+	<!-- *** Rocket Ammo -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoRocket']">
+	<item name="ammoRocketFire" count="1"/>
+	</append>
+	
 	<!-- Bringing in mid/late range vehicle mod schematics earlier and keeping them later to remove scripted drops which are far too predictable -->	
 	<!-- T0_Vehicle_Mod_Schematics -->	
 	<append xpath="/lootcontainers/lootgroup[@name='vehicleModSchematics01']">

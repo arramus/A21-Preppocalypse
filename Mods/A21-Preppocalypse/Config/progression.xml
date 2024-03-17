@@ -14,6 +14,10 @@
 	<!-- Lockpick time and break chance -->
 	<set xpath="/progression/perks/perk[@name='perkLockPicking']/effect_group/passive_effect[@name='LockPickTime'][@value='.17,.375']/@value">.25,.5</set>
 	<set xpath="/progression/perks/perk[@name='perkLockPicking']/effect_group/passive_effect[@name='LockPickBreakChance'][@value='.1,.3']/@value">.25,.75</set>
+	
+	<!-- Adding Rocket Fire variant for Rocket Launcher -->
+	<append xpath="//crafting_skill[@name='craftingExplosives']/display_entry[@icon='ammoRocketFrag']/unlock_entry/@item">,ammoRocketFire</append>
+	<append xpath="//crafting_skill[@name='craftingExplosives']/effect_group/passive_effect[@level='45,100']/@tags">,ammoRocketFire</append>
 
 	<remove xpath="/progression/perks/perk[@name='perkTreasureHunter']"/>
 	<remove xpath="/progression/perks/perk[@name='perkRuleOneCardio']"/>
