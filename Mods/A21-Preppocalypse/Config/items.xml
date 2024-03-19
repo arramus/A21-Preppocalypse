@@ -442,6 +442,55 @@
 		<property name="Group" value="Resources"/>
 		<property name="CraftingIngredientTime" value=".2"/>
 	</item>
+	
+<!-- Swiss Vertteli Silver Magnum -->
+
+<item name="ammo44MagnumBulletSilver">
+	<property name="Extends" value="ammo44MagnumBulletBall"/>
+	<property name="Tags" value="ammo44Mag"/>
+	<property name="DisplayType" value="ammoBulletAP"/>
+	<property name="EconomicValue" value="15"/>
+	<!-- property name="TraderStageTemplate" value="ammoTier3"/ -->
+	<property name="DescriptionKey" value="ammo44MagnumBulletSilverDesc"/>
+	<property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+	
+	<effect_group name="ammo44MagnumBulletSilver" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="100" tags="perkDeadEye,revolver"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="20" tags="perkDeadEye"/>
+		<passive_effect name="BlockDamage" operation="base_add" value="20" tags="barrelExplosive"/>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.75" tags="perkDeadEye"/><display_value name="dTargetArmor" value="-.75"/>
+		<passive_effect name="EntityPenetrationCount" operation="base_set" value="1"/><display_value name="dTargetPenetration" value="1"/>
+		<!-- <passive_effect name="DegradationPerUse" operation="perc_add" value=".3" tags="perkDeadEye,perkMachineGunner"/><display_value name="dDegradationPerUse" value=".3"/> -->
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+	</effect_group>
+
+	<effect_group name="perkPenetrator" tiered="false">
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.1" tags="perkDeadEye">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="1"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.15" tags="perkDeadEye">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="2"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.2" tags="perkDeadEye">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="3"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.3" tags="perkDeadEye">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="4"/></passive_effect>
+	</effect_group>
+</item>
+
+<item name="ammoBundle44MagnumBulletSilver">
+	<property name="Extends" value="ammoBundle44MagnumBulletBall"/>
+	<property name="CustomIcon" value="ammo44MagnumBulletSilver"/>
+	<property name="DescriptionKey" value="ammoBundle44MagnumBulletSilverDesc"/>	
+	<property name="Stacknumber" value="10"/> <!-- STK ammobundle high -->
+	<property name="EconomicValue" value="200"/>
+	<!--property name="TraderStageTemplate" value="ammoTier3"/-->
+	<property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+	
+	<property class="Action0">
+		<property name="Create_item" value="ammo44MagnumBulletSilver"/>
+		<property name="Create_item_count" value="13"/>
+	</property>
+</item>
 
 <!-- CUSTOM CONTENT -->
 
@@ -1717,7 +1766,7 @@
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".5"/> <!-- obsolete if rounds per minute exists -->
-		<property name="Magazine_items" value="ammo44MagnumBulletBall,ammo44MagnumBulletHP,ammo44MagnumBulletAP"/>
+		<property name="Magazine_items" value="ammo44MagnumBulletBall,ammo44MagnumBulletHP,ammo44MagnumBulletAP,ammo44MagnumBulletSilver"/>
 		<property name="Reload_time" value="2.25"/><!-- Default is 2.5 -->
 		<property name="Sound_start" value="lever_action_rifle_fire"/>
 		<property name="Sound_loop" value=""/>
@@ -1760,7 +1809,7 @@
 
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkDeadEye"/> <!-- random DegMax -->
 		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05" tags="perkDeadEye"/> <!-- random APM -->
-		<passive_effect name="MagazineSize" operation="base_add" value="-.5,1.6"/> <!-- random MagazineSize -->
+		<!--passive_effect name="MagazineSize" operation="base_add" value="-.5,1.6"/--> <!-- random MagazineSize --> <!-- Locked at 13 -->
 		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkDeadEye"/> <!-- random WeaponHandling -->
 
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="4" tags="perkDeadEye"/>

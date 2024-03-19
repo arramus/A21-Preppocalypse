@@ -2948,7 +2948,7 @@
 		</entity_class>
 		
 		<entity_class name="zombieRocketRadiatedPREPPER" extends="zombieDemolition">
-			<property name="SizeScale" value="1.25"/>
+			<property name="SizeScale" value="1.2"/>
 			<property name="Tags" value="entity,zombie,walker,boss,rocketPREPPER,radiated"/>
 			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZDemolition.prefab"/>
 			<property name="Class" value="EntityZombieCop"/>
@@ -3065,7 +3065,7 @@
 		</entity_class>
 		
 		<entity_class name="zombieScorcherRadiatedPREPPER" extends="zombieDemolition">
-			<property name="SizeScale" value="1.25"/>
+			<property name="SizeScale" value="1.2"/>
 			<property name="Tags" value="entity,zombie,walker,boss,scorcherPREPPER"/>
 			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZDemolition.prefab"/>
 			<property name="Class" value="EntityZombieCop"/>

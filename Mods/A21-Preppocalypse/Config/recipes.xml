@@ -793,6 +793,12 @@
 	<ingredient name="resourceScrapIron" count="2400"/>
 </recipe>
 
+	<!-- Swiss Vertteli Silver Magnum -->	
+	<recipe name="ammoBundle44MagnumBulletSilver" count="1" craft_time="60" craft_area="AmmoPress">
+		<ingredient name="resourceSilverNugget" count="1"/>
+		<ingredient name="resourceGunPowder" count="65"/>
+	</recipe>
+
 <!-- Vehicles -->
 
 <recipe name="vehiclePreppocalypticCarAccessories" count="1" craft_time="210" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
