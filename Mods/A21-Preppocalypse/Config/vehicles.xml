@@ -147,7 +147,7 @@
 				<property name="trigger" value="motor0"/>
 				<property name="type" value="relative"/>
 				<property name="force" value="0, .195, 0"/>
-				<property name="ceiling" value="200, 280"/>
+				<property name="ceiling" value="260, 280"/>
 			</property>
 
 			<property class="force1">
