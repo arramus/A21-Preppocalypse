@@ -10,6 +10,16 @@
 		<variable name="zombiename" value="zombieSpiderFeralGliderPREPPER,zombieSpiderFeralBomberPREPPER,zombieM60DemolitionPREPPER,zombieSMGArlenePREPPER,zombieTARifleSoldierPREPPER,zombiePistolBusinessManPREPPER,zombieNailgunUtilityWorkerPREPPER,zombieSwissVetterliBoePREPPER,zombieDesertVultureTomClarkPREPPER,zombiePumpShotgunBikerPREPPER,zombieBoltNursePREPPER" />
 		<variable name="alertsound" value="zombiemalealert" />
 	</action_sequence>
+	
+	<action_sequence name="spawn_preppoflyersZombie" template="spawn_single">
+		<variable name="zombiename" value="animalZombieLargePlasmaVulturePREPPER,zombieSpiderFeralGliderPREPPER,zombieSpiderFeralBomberPREPPER" />
+		<variable name="alertsound" value="zombiemalealert" />
+	</action_sequence>
+	
+	<action_sequence name="spawn_preppobossyZombie" template="spawn_single">
+		<variable name="zombiename" value="zombieWightRadiationShowerPREPPER,zombieBogeymanPREPPER,zombieCrispyPREPPER,zombieRocketPREPPER,zombieRocketRadiatedPREPPER,zombieScorcherPREPPER,zombieScorcherRadiatedPREPPER,zombieBigNightBikerRadiated,zombieBigNightWightRadiated,zombieBigNightScreamerRadiated,zombieBigNightFatCopRadiated" />
+		<variable name="alertsound" value="zombiemalealert" />
+	</action_sequence>
 
 	</append>
 </configs>

@@ -499,5 +499,11 @@ TwitchAction_SpawnPreppoMeleeDesc,twitch,Actions,,,Spawns a Preppocalypse Melee 
 TwitchAction_SpawnPreppoRanged,twitch,Actions,,,Preppo Ranged Zombie,,,,,,,,,,,
 TwitchAction_SpawnPreppoRangedCommand,twitch,Actions,,,#spawn_prepporanged,,,,,,,,,,,,
 TwitchAction_SpawnPreppoRangedDesc,twitch,Actions,,,Spawns a Preppocalypse Ranged Zombie.,,,,,,,,,,,,,
+TwitchAction_SpawnPreppoFlyers,twitch,Actions,,,Preppo Flyers,,,,,,,,,,,
+TwitchAction_SpawnPreppoFlyersCommand,twitch,Actions,,,#spawn_preppoflyers,,,,,,,,,,,,
+TwitchAction_SpawnPreppoFlyersDesc,twitch,Actions,,,Spawns a Preppocalypse Flying Entity.,,,,,,,,,,,,,
+TwitchAction_SpawnPreppoBossy,twitch,Actions,,,Preppo Bossy Zombie,,,,,,,,,,,
+TwitchAction_SpawnPreppoBossyCommand,twitch,Actions,,,#spawn_preppobossy,,,,,,,,,,,,
+TwitchAction_SpawnPreppoBossyDesc,twitch,Actions,,,Spawns a Preppocalypse Bossy Zombie.,,,,,,,,,,,,,
 
 jetBootsAdmin,items,Item,,,Jet Boots (Admin),,,,,,,,,,,,,

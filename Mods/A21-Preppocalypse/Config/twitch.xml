@@ -33,6 +33,38 @@
 		<property name="presets" value="casual,standard,hardcore" />
 	</action>
 	
+	<action name="twitch_preppoflyersZombie">
+		<property name="start_gamestage" value="30" />
+		<property name="command" value="#spawn_preppoflyers" />
+		<property name="command_key" value="TwitchAction_SpawnPreppoFlyersCommand" />
+		<property name="title_key" value="TwitchAction_SpawnPreppoFlyers" />
+		<property name="category" value="Spawns" />
+		<property name="event_name" value="spawn_preppoflyersZombie" />
+		<property name="default_cost" value="50" />
+		<property name="description_key" value="TwitchAction_SpawnPreppoFlyersDesc" />
+		<property name="add_cooldown" value="true" />
+		<property name="cooldown" value="10" />
+		<property name="cooldown_blocked" value="true" />
+		<property name="waiting_blocked" value="true" />
+		<property name="presets" value="casual,standard,hardcore" />
+	</action>
+	
+	<action name="twitch_preppobossyZombie">
+		<property name="start_gamestage" value="50" />
+		<property name="command" value="#spawn_preppobossy" />
+		<property name="command_key" value="TwitchAction_SpawnPreppoBossyCommand" />
+		<property name="title_key" value="TwitchAction_SpawnPreppoBossy" />
+		<property name="category" value="Spawns" />
+		<property name="event_name" value="spawn_preppobossyZombie" />
+		<property name="default_cost" value="150" />
+		<property name="description_key" value="TwitchAction_SpawnPreppoBossyDesc" />
+		<property name="add_cooldown" value="true" />
+		<property name="cooldown" value="15" />
+		<property name="cooldown_blocked" value="true" />
+		<property name="waiting_blocked" value="true" />
+		<property name="presets" value="casual,standard,hardcore" />
+	</action>
+	
 	</append>
 		
 </configs>
