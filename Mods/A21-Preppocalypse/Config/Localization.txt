@@ -493,4 +493,11 @@ vehiclePreppocalypticCar,entityclasses,Entity,,,Preppocalyptic Car,,Preppocalypt
 vehiclePreppocalypticCarPlaceable,vehicles,vehicle,,,Preppocalyptic Car,,Preppocalyptic Auto,,,,,,,,,,,
 vehiclesT4,progression,Attribute,,,Tier 4: 4x4 & Preppocalyptic Car,,Stufe 4: 4x4 und Preppocalyptic Auto,,,,,,,,,,,
 
+TwitchAction_SpawnPreppoMelee,twitch,Actions,,,Preppo Melee Zombie,,,,,,,,,,,
+TwitchAction_SpawnPreppoMeleeCommand,twitch,Actions,,,#spawn_preppomelee,,,,,,,,,,,,
+TwitchAction_SpawnPreppoMeleeDesc,twitch,Actions,,,Spawns a Preppocalypse Melee Zombie.,,,,,,,,,,,,,
+TwitchAction_SpawnPreppoRanged,twitch,Actions,,,Preppo Ranged Zombie,,,,,,,,,,,
+TwitchAction_SpawnPreppoRangedCommand,twitch,Actions,,,#spawn_prepporanged,,,,,,,,,,,,
+TwitchAction_SpawnPreppoRangedDesc,twitch,Actions,,,Spawns a Preppocalypse Ranged Zombie.,,,,,,,,,,,,,
+
 jetBootsAdmin,items,Item,,,Jet Boots (Admin),,,,,,,,,,,,,

@@ -1,0 +1,38 @@
+<configs>
+	<append xpath="/twitch">
+	
+	<action name="twitch_preppomeleeZombie">
+		<property name="start_gamestage" value="10" />
+		<property name="command" value="#spawn_preppomelee" />
+		<property name="command_key" value="TwitchAction_SpawnPreppoMeleeCommand" />
+		<property name="title_key" value="TwitchAction_SpawnPreppoMelee" />
+		<property name="category" value="Spawns" />
+		<property name="event_name" value="spawn_preppomeleeZombie" />
+		<property name="default_cost" value="50" />
+		<property name="description_key" value="TwitchAction_SpawnPreppoMeleeDesc" />
+		<property name="add_cooldown" value="true" />
+		<property name="cooldown" value="10" />
+		<property name="cooldown_blocked" value="true" />
+		<property name="waiting_blocked" value="true" />
+		<property name="presets" value="casual,standard,hardcore" />
+	</action>
+	
+	<action name="twitch_prepporangedZombie">
+		<property name="start_gamestage" value="20" />
+		<property name="command" value="#spawn_prepporanged" />
+		<property name="command_key" value="TwitchAction_SpawnPreppoRangedCommand" />
+		<property name="title_key" value="TwitchAction_SpawnPreppoRanged" />
+		<property name="category" value="Spawns" />
+		<property name="event_name" value="spawn_prepporangedZombie" />
+		<property name="default_cost" value="50" />
+		<property name="description_key" value="TwitchAction_SpawnPreppoRangedDesc" />
+		<property name="add_cooldown" value="true" />
+		<property name="cooldown" value="10" />
+		<property name="cooldown_blocked" value="true" />
+		<property name="waiting_blocked" value="true" />
+		<property name="presets" value="casual,standard,hardcore" />
+	</action>
+	
+	</append>
+		
+</configs>
