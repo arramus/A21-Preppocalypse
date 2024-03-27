@@ -381,7 +381,6 @@
 	
 	<lootgroup name="twitch_preppoammoall" count="1">
 		<item name="resourceSteelNail" count="20,50"/>
-		<item name="resourceSteelNail" count="20,50"/>
 		<item name="ammoRocketFire" count="7,14"/>
 		<item name="ammoBundle44MagnumBulletSilver" count="2,5"/>
 		<item name="resourceGunPowder" count="50,100"/>
