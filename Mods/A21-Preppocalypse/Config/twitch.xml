@@ -8,7 +8,7 @@
 		<property name="title_key" value="TwitchAction_SpawnPreppoMelee" />
 		<property name="category" value="Spawns" />
 		<property name="event_name" value="spawn_preppomeleeZombie" />
-		<property name="default_cost" value="50" />
+		<property name="default_cost" value="75" />
 		<property name="description_key" value="TwitchAction_SpawnPreppoMeleeDesc" />
 		<property name="add_cooldown" value="true" />
 		<property name="cooldown" value="10" />
@@ -24,7 +24,7 @@
 		<property name="title_key" value="TwitchAction_SpawnPreppoRanged" />
 		<property name="category" value="Spawns" />
 		<property name="event_name" value="spawn_prepporangedZombie" />
-		<property name="default_cost" value="50" />
+		<property name="default_cost" value="75" />
 		<property name="description_key" value="TwitchAction_SpawnPreppoRangedDesc" />
 		<property name="add_cooldown" value="true" />
 		<property name="cooldown" value="10" />
@@ -40,7 +40,7 @@
 		<property name="title_key" value="TwitchAction_SpawnPreppoFlyers" />
 		<property name="category" value="Spawns" />
 		<property name="event_name" value="spawn_preppoflyersZombie" />
-		<property name="default_cost" value="50" />
+		<property name="default_cost" value="75" />
 		<property name="description_key" value="TwitchAction_SpawnPreppoFlyersDesc" />
 		<property name="add_cooldown" value="true" />
 		<property name="cooldown" value="10" />

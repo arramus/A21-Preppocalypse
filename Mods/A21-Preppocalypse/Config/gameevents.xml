@@ -7,7 +7,7 @@
 	</action_sequence>
 	
 	<action_sequence name="spawn_prepporangedZombie" template="spawn_single">
-		<variable name="zombiename" value="zombieSpiderFeralGliderPREPPER,zombieSpiderFeralBomberPREPPER,zombieM60DemolitionPREPPER,zombieSMGArlenePREPPER,zombieTARifleSoldierPREPPER,zombiePistolBusinessManPREPPER,zombieNailgunUtilityWorkerPREPPER,zombieSwissVetterliBoePREPPER,zombieDesertVultureTomClarkPREPPER,zombiePumpShotgunBikerPREPPER,zombieBoltNursePREPPER" />
+		<variable name="zombiename" value="zombieM60DemolitionPREPPER,zombieSMGArlenePREPPER,zombieTARifleSoldierPREPPER,zombiePistolBusinessManPREPPER,zombieNailgunUtilityWorkerPREPPER,zombieSwissVetterliBoePREPPER,zombieDesertVultureTomClarkPREPPER,zombiePumpShotgunBikerPREPPER,zombieBoltNursePREPPER" />
 		<variable name="alertsound" value="zombiemalealert" />
 	</action_sequence>
 	
