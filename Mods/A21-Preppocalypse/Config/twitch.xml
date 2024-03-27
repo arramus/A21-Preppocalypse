@@ -1,6 +1,8 @@
 <configs>
 	<append xpath="/twitch">
 	
+	<!-- Zombies -->
+	
 	<action name="twitch_preppomeleeZombie">
 		<property name="start_gamestage" value="10" />
 		<property name="command" value="#spawn_preppomelee" />
@@ -62,6 +64,20 @@
 		<property name="cooldown" value="15" />
 		<property name="cooldown_blocked" value="true" />
 		<property name="waiting_blocked" value="true" />
+		<property name="presets" value="casual,standard,hardcore" />
+	</action>
+
+	<!-- Preppo Ammo -->
+	
+	<action name="twitch_PreppoAmmoCrate" extends="twitch_spawnWeapon1">
+		<property name="command" value="#supply_preppoammo" />
+		<property name="command_key" value="TwitchAction_SupplyPreppoAmmoCommand" />
+		<property name="title_key" value="TwitchAction_SupplyPreppoAmmo" />
+		<property name="description_key" value="TwitchAction_SupplyPreppoAmmoDesc" />
+		<property name="event_name" value="spawn_preppoammo" />
+		<property name="start_gamestage" value="10" />
+		<property name="default_cost" value="200" />
+		<property name="cooldown" value="600" />
 		<property name="presets" value="casual,standard,hardcore" />
 	</action>
 	

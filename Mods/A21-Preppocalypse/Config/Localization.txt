@@ -506,4 +506,8 @@ TwitchAction_SpawnPreppoBossy,twitch,Actions,,,Preppo Bossy Zombie,,,,,,,,,,,
 TwitchAction_SpawnPreppoBossyCommand,twitch,Actions,,,#spawn_preppobossy,,,,,,,,,,,,
 TwitchAction_SpawnPreppoBossyDesc,twitch,Actions,,,Spawns a Preppocalypse Bossy Zombie.,,,,,,,,,,,,,
 
+TwitchAction_SupplyPreppoAmmo,twitch,Actions,,,Preppocalypse Ammo Crate,,,,,,,,,,,,
+TwitchAction_SupplyPreppoAmmoDesc,twitch,Actions,,,Spawns a single Preppocalypse Ammo Crate.,,,,,,,,,,,,,
+TwitchAction_SupplyPreppoAmmoCommand,twitch,Actions,,,#supply_preppoammo,,,,,,,,,,,,,
+
 jetBootsAdmin,items,Item,,,Jet Boots (Admin),,,,,,,,,,,,,

@@ -3526,6 +3526,14 @@
 	<property name="MapIcon" value="ui_game_symbol_preppocalypticcar"/>
 	<property name="NavObject" value="preppocalypticcar" />
 </entity_class>
+
+<!-- Twitch -->
+
+<entity_class name="TwitchAction_SupplyPreppoAmmo" extends="twitch_crate_template">
+	<property name="UserSpawnType" value="Console"/>
+	<property name="Mesh" value="@:Entities/LootContainers/crate_store_ShotgunPrefab.prefab"/>
+	<property name="LootListOnDeath" value="twitch_preppoammo"/>
+</entity_class>
 		
 </append>
 

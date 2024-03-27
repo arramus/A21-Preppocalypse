@@ -1,5 +1,7 @@
 <configs>
 	<append xpath="/gameevents">
+	
+	<!-- Zombies -->
 
 	<action_sequence name="spawn_preppomeleeZombie" template="spawn_single">
 		<variable name="zombiename" value="zombieBatonHazmatPREPPER,zombieSteelAxeLumberjackPREPPER,zombieMachetePartyGirlPREPPER,zombieChainsawMoePREPPER,zombieBatonFatCopPREPPER,zombieSteelClubFemaleFatPREPPER,zombieSteelSledgehammerFatHawaiianPREPPER,zombieSteelPanMarlenePREPPERzombieArlene" />
@@ -20,6 +22,12 @@
 		<variable name="zombiename" value="zombieWightRadiationShowerPREPPER,zombieBogeymanPREPPER,zombieCrispyPREPPER,zombieRocketPREPPER,zombieRocketRadiatedPREPPER,zombieScorcherPREPPER,zombieScorcherRadiatedPREPPER,zombieBigNightBikerRadiated,zombieBigNightWightRadiated,zombieBigNightScreamerRadiated,zombieBigNightFatCopRadiated" />
 		<variable name="alertsound" value="zombiemalealert" />
 	</action_sequence>
+	
+	<!-- Ammo Crate -->
+	
+	<action_sequence name="spawn_preppoammo" template="spawn_crate_template">
+		<variable name="cratename" value="TwitchAction_SupplyPreppoAmmo" />
+	</action_sequence>	
 
 	</append>
 </configs>
