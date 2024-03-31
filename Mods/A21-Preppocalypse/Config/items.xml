@@ -1733,6 +1733,79 @@
 		<passive_effect name="StaminaLoss" operation="base_set" value="32" tags="secondary"/> <!-- Default 35.6 -->
 	</effect_group>
 </item>
+
+<!-- Doctor Prepper  -->
+<item name="meleeWpnKnucklesT3SteelOakravenBristonKnuckles">
+	<property name="Extends" value="meleeWpnKnucklesT1IronKnuckles"/>
+	<property name="Tags" value="blunt,melee,grunting,light,perkFlurryOfFortitude,weapon,attFortitude,perkBrawler,canHaveCosmetic,knuckleSkill,corpseRemoval"/>
+	<property name="Material" value="MmeleeWpnKnucklesParts"/>
+	<property name="TintColor" value="210, 220, 255"/>
+	<property name="Meshfile" value="#@modfolder:Resources/knucklesLeftRightBlade.unity3d?KnuckleBladesRight"/>
+	<property name="HoldType" value="61"/>
+	<property name="EconomicValue" value="400"/>
+	<property name="TraderStageTemplate" value="baseTier1"/>
+	<!--property name="UnlockedBy" value="craftingKnuckles"/--><!-- meleeWpnKnucklesT3SteelKnucklesSchematic, -->
+	<property name="SoundUnholster" value="weapon_unholster"/>
+	<property name="SoundHolster" value="weapon_holster"/>
+
+	<property class="Action0">
+		<property name="ToolCategory.Butcher" value="5" param1="1.5"/>
+		<property name="Sound_start" value="knuckles_steel_swinglight"/>
+		<property class="HitSounds">
+		<property name="Override0" value="organic" param1="metalstaborganic"/></property>
+		<property class="GrazeSounds">
+		<property name="Override0" value="organic" param1="metalgrazeorganic"/></property>
+	</property>
+
+	<property class="Action1">
+		<property name="ToolCategory.Butcher" value="0" param1="1.5"/>
+		<property name="Sound_start" value="knuckles_steel_swingheavy"/>
+		<property class="HitSounds">
+		<property name="Override0" value="organic" param1="metalstaborganic"/></property>
+		<property class="GrazeSounds">
+		<property name="Override0" value="organic" param1="metalgrazeorganic"/></property>
+	</property>
+
+	<effect_group name="meleeWpnKnucklesT3SteelOakravenBristonKnuckles">
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="110" tags="perkBrawler,perkFlurryOfFortitude"/> <!-- Default 100 -->
+		<passive_effect name="StaminaLoss" operation="base_set" value="9.2" tags="primary"/> <!-- Default 10.2 -->
+		<passive_effect name="DegradationMax" operation="base_set" value="770,1540" tier="1,6" tags="perkBrawler"/> <!-- Default 700,1400 -->
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkBrawler"/>
+		<passive_effect name="MaxRange" operation="base_set" value="2.0" tags="perkBrawler"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3" tags="perkBrawler"/>
+		<passive_effect name="DismemberChance" operation="base_add" value=".15" tags="primary"/>
+		<passive_effect name="ModSlots" operation="base_set" value="3,3,3,4,4,5" tier="1,2,3,4,5,6"/> <!-- Default 3,3,3,4,4,4 -->
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="20.9" tags="perkBrawler"/> <!-- Default 19 -->
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.04,.04" tags="perkBrawler"/> <!-- random EntityDmg -->
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkBrawler"/> <!-- tier bonus -->
+		<passive_effect name="BlockDamage" operation="base_set" value="6" tags="perkBrawler"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.04,.04" tags="perkBrawler"/> <!-- random BlockDmg -->
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkBrawler"/> <!-- tier bonus -->
+
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="1.7" tags="organic"/>
+		<passive_effect name="HarvestCount" operation="base_set" value="1" tags="butcherHarvest"/>
+
+		<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="LeftKnuckles" prefab="#@modfolder:Resources/knucklesLeftRightBlade.unity3d?KnuckleBladesLeft" parentTransform="Propjoint" localPos="0,0,0" localRot="0,0,0">
+			<requirement name="IsFPV"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="LeftKnuckles" prefab="#@modfolder:Resources/knucklesLeftRightBlade.unity3d?KnuckleBladesLeft" parentTransform="LeftHand" localPos="-0.1171,0.004,-0.0187" localRot="-30.53241,-11.3179,135.1055">
+			<requirement name="!IsFPV"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="LeftKnuckles"/>
+	</effect_group>
+	<effect_group name="Power Attack">
+		<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
+		<!-- <passive_effect name="AttacksPerMinute" operation="perc_add" value="-.3" tags="secondary"/> -->
+		<passive_effect name="StaminaLoss" operation="base_set" value="15.6" tags="secondary"/> <!-- Default 17.3 -->
+		<passive_effect name="DismemberChance" operation="base_add" value=".3" tags="secondary"/>
+	</effect_group>
+</item>
 	
 <!-- Swiss Vetterli Rifle -->
 <item name="gunRifleT2LeverActionRifleSwissVetterli">

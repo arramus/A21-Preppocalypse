@@ -324,27 +324,32 @@
 <!-- *** T1_Melee_Weapons -->	
 	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Melee']">
 		<item name="meleeWpnClubT1CanCanBat"/>
+		<item name="meleeWpnKnucklesT3SteelOakravenBristonKnuckles"/>
 		<item name="meleeWpnClubT1Pot"/>
 	</append>
 
 <!-- *** Quest_Rewards -->	
 	<append xpath="/lootcontainers/lootgroup[@name='groupQuestWeaponsMeleeT1']">
 		<item name="meleeWpnClubT1CanCanBat"/>
+		<item name="meleeWpnKnucklesT3SteelOakravenBristonKnuckles"/>
 		<item name="meleeWpnClubT1Pot"/>	
 	</append>
 
 <!-- *** T2&T3_Melee_Weapons -->	
 	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_Melee']">
 		<item name="meleeWpnClubT1CanCanBat"/>
+		<item name="meleeWpnKnucklesT3SteelOakravenBristonKnuckles"/>
 		<item name="meleeWpnClubT3Pan"/>	
 	</append>
 	
 	<append xpath="/lootcontainers/lootgroup[@name='groupQuestWeaponsMeleeT2']">
-		<item name="meleeWpnClubT3Pan"/>	
+		<item name="meleeWpnClubT3Pan"/>
+		<item name="meleeWpnKnucklesT3SteelOakravenBristonKnuckles"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootgroup[@name='groupInfestedT5MeleeRanged']">
-		<item name="meleeWpnClubT3Pan"/>	
+		<item name="meleeWpnClubT3Pan"/>
+		<item name="meleeWpnKnucklesT3SteelOakravenBristonKnuckles"/>		
 	</append>
 	
 	<!-- Swiss Vetterli Rifle -->
