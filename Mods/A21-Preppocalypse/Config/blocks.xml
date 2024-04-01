@@ -6,6 +6,8 @@
 	<set xpath="/blocks/block[@name='ConfigFeatureBlock']/property[@class='AdvancedPlayerFeatures']/property[@name='OneBlockCrouch']/@value">false</set>
 
 	<!-- Vanilla Updates -->
+	<!-- Removing movement collision from Drift wood as it can stop a custom vehicle instantly -->
+	<set xpath="/blocks/block[@name='driftwood']/property[@name='Collide']/@value">melee,bullet,arrow,rocket</set>
 	<!-- Pickup time -->
 	<set xpath="/blocks/block[@name='forge']/property[@name='TakeDelay']/@value">5</set> <!-- Default 15 -->
 	<set xpath="/blocks/block[@name='workbench']/property[@name='TakeDelay']/@value">5</set> <!-- Default 15 -->
