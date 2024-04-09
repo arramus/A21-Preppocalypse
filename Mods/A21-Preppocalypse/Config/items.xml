@@ -705,7 +705,7 @@
 <item name="foodEggQuiche">
 	<property name="Tags" value="food"/>
 	<property name="HoldType" value="31"/>
-	<property name="DisplayType" value="foodPumpkinCheesecake"/>
+	<property name="DisplayType" value="food"/>
 	<property name="CustomIcon" value="eggquiche"/>
 	<property name="DescriptionKey" value="foodEggQuicheDesc"/>	
 	<property name="Meshfile" value="@:Other/Items/Misc/parcelPrefab.prefab"/>
