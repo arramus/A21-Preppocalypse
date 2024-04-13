@@ -1725,6 +1725,50 @@
 	</effect_group>
 </item>
 
+<item name="drinkCanPreppoSoda">
+	<property name="Tags" value="drinks,foodSkill"/>
+	<property name="HoldType" value="3"/>
+	<property name="DisplayType" value="waterPreppoSoda"/>
+	<property name="Meshfile" value="@:Other/Items/Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mglass"/>
+	<!-- <property name="Weight" value="10"/> -->
+	<property name="Stacknumber" value="250"/> <!-- STK drink -->
+	<property name="EconomicValue" value="200"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Sound_start" value="player_drinking"/>
+		<!-- <property name="Create_item" value="drinkJarEmpty"/> -->
+	</property>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+	
+	<effect_group tiered="false" name="Speed">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="50"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="10"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="10"/>
+			<display_value name="dStaminaRegen" value=".15"/>
+			<display_value name="dEfficientDigestion" value=".2"/>
+			<display_value name="dRunSpeed" value=".5"/>
+			<display_value name="dDuration" value="360"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffMegaCrushDuration" operation="add" value="363"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffMegaCrushDuration" operation="set" value="1083">
+				<requirement name="CVarCompare" cvar="$buffMegaCrushDuration" operation="GT" value="1083"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,buffMegaCrush"/>
+
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffRedTeaDuration" operation="add" value="363"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffRedTeaDuration" operation="set" value="1083">
+				<requirement name="CVarCompare" cvar="$buffRedTeaDuration" operation="GT" value="1083"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,buffRedTea"/>
+	</effect_group>
+
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
 <!-- CUSTOM MODS -->
 
 <!-- High Performance Running Shoes Mod Schematic -->		

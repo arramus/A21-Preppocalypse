@@ -154,6 +154,18 @@
 		<item group="groupSafeBooks" loot_prob_template="med" force_prob="true"/>
 	</append>
 	
+	<append xpath="/lootcontainers/lootgroup[@name='rareFoodDrink']">
+		<item name="drinkCanPreppoSoda"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupDrinksRare']">
+		<item name="drinkCanPreppoSoda"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupSodaFountain01']">
+		<item name="drinkCanPreppoSoda" loot_prob_template="med"/>
+	</append>
+	
 	<append xpath="/lootcontainers/lootgroup[@name='groupFoodRare']">
 		<item name="foodChickenStew"/>
 		<item name="foodMushroomRice"/>
@@ -187,6 +199,11 @@
 		<item name="foodGritsAndBits" count="2,4"/>
 		<item name="foodHoneyPumpkinPie" count="2,4"/>
 		<item name="foodBlueberryBreadPudding" count="2,4"/>
+	</append>
+	
+	<!-- *** twitch_drink -->
+	<append xpath="/lootcontainers/lootgroup[@name='twitch_drinkspecial1']">
+		<item name="drinkCanPreppoSoda" count="1,2"/>
 	</append>
 	
 	<!-- Mod Schematics and Mod Appendages -->
@@ -385,12 +402,11 @@
 	<append xpath="/lootcontainers">
 	
 	<lootgroup name="twitch_preppoammoall" count="1">
-		<item name="resourceSteelNail" count="20,50"/>
-		<item name="ammoRocketFire" count="7,14"/>
+		<item name="ammoRocketFire" count="10,15"/>
 		<item name="ammoBundle44MagnumBulletSilver" count="2,5"/>
-		<item name="resourceGunPowder" count="50,100"/>
-		<item name="explosivesSkillMagazine" count="1,2"/>
-		<item name="riflesSkillMagazine" count="1,2"/>
+		<item name="ammo762mmBulletBall" count="75,100"/>
+		<item name="ammoShotgunShell" count="30,45"/>
+		<item name="ammo44MagnumBulletBall" count="50,75"/>
 	</lootgroup>
 	
 	<lootgroup name="twitch_preppoammo" count="all">
