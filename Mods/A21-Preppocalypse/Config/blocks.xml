@@ -225,7 +225,7 @@
 	<!-- Wild Rice in Grass -->
 	
 	<append xpath="/blocks/block[@name='treeGrassMaster']">
-		<drop event="Harvest" name="foodWildRice" count="1,4" prob="0.15" tag="allHarvest"/>
+		<drop event="Harvest" name="foodWildRice" count="1,4" prob="0.15" tag="wildCropsHarvest"/>
 	</append>
 
 	<!-- Oakraven Coops and Hives Vanilla Updates -->
