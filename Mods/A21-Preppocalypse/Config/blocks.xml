@@ -365,14 +365,14 @@
 	<property name="CustomIcon" value="playerWoodBurningPrepperStove"/>
 	<property name="Material" value="Mmetal"/>
 	<property name="MaxDamage" value="250"/>
-	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+	<!--property name="StabilitySupport" value="false"/--> <!-- build restriction -->
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Furniture/woodBurningStovePrefab"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="ParticleName" value="campfire"/>
-	<property name="ParticleOffset" value="0.5,0,0.5"/>
+	<property name="ParticleOffset" value="0.5,0.5,0.5"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="HeatMapStrength" value="5"/>
 	<property name="HeatMapTime" value="5000"/>
