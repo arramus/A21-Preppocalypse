@@ -1234,10 +1234,10 @@
 	
 	<!-- Radiated Wasteland/Burnt Preppers as a group -->
 	<quest id="quest_radiatedpreppers">
-		<property name="offer_key" value="Accept this quest to eliminate 100 Radiated Zombies with Weapons. Find them in the Wasteland and during Horde Night. There is no restriction on your weapon. XP, Dukes, and 2 Skill Points for your troubles."/>
+		<property name="offer_key" value="Accept this quest to eliminate 100 Radiated Zombies with Weapons. Find them in the Wasteland, Boss POIs, and during Horde Night. There is no restriction on your weapon. XP, Dukes, and 2 Skill Points for your troubles."/>
 		<property name="name_key" value="100 Radiated Weapon Zombies"/>
 		<property name="subtitle_key" value="100 Radiated Weapon Zombies"/>
-		<property name="description_key" value="Accept this quest to eliminate 100 Radiated Zombies with Weapons. Find them in the Wasteland and during Horde Night. There is no restriction on your weapon. XP, Dukes, and 2 Skill Points for your troubles."/>
+		<property name="description_key" value="Accept this quest to eliminate 100 Radiated Zombies with Weapons. Find them in the Wasteland, Boss POIs, and during Horde Night. There is no restriction on your weapon. XP, Dukes, and 2 Skill Points for your troubles."/>
 		<property name="icon" value="ui_game_symbol_zombie"/>
 		<property name="repeatable" value="true"/>
 		<property name="category_key" value="Quest"/>
