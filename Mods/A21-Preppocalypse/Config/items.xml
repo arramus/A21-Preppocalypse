@@ -1690,7 +1690,7 @@
 <item name="drinkJarBoneBroth">
 	<property name="Tags" value="drinks,foodSkill"/>
 	<property name="HoldType" value="3"/>
-	<property name="DisplayType" value="waterCoffee"/>	
+	<property name="DisplayType" value="waterBoneBroth"/>	
 	<property name="Meshfile" value="@:Other/Items/Food/bottled_waterPrefab.prefab"/>
 	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mglass"/>
