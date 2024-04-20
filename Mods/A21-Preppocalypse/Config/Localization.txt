@@ -152,7 +152,7 @@ modInvisibleDesc,item_modifiers,mod,,,"Haidr'Gna dye makes a piece of armor or c
 modDyeForestGreen,item_modifiers,mod,,,Dye: Forest Green,,Färben: Waldgrün,,,,,,,,,,,
 modDyeMediumJungleGreen,item_modifiers,mod,,,Dye: Jungle Green,,Färben: Dschungel Grün,,,,,,,,,,,
 modWeaponMaintenance,item_modifiers,mod,,,Weapon Maintenance Mod,,Waffenwartung Mod,,,,,,,,,,,
-modWeaponMaintenanceDesc,item_modifiers,mod,,,"The Weapon Maintenance Mod lowers degradation in weapons by 50% by reducing wear and tear.",,"Der Waffenwartungsmod senkt die Degradation von Waffen um 50 %, indem er die Abnutzung und den Verschleiß reduziert.",,,,,,,,,,,
+modWeaponMaintenanceDesc,item_modifiers,mod,,,"The Weapon Maintenance Mod lowers degradation in weapons by 50% by reducing wear and tear. It can be added to all ranged and melee type weapons. It cannot be added to tools.",,"Der Waffenwartungsmod senkt die Degradation von Waffen um 50 %, indem er die Abnutzung und den Verschleiß reduziert. Es kann zu allen Fern- und Nahkampfwaffen hinzugefügt werden. Es kann nicht zu Tools hinzugefügt werden.",,,,,,,,,,,
 modWeaponMaintenanceSchematic,item_modifiers,Mod,,,Weapon Maintenance Mod Schematic,,Bauplan – Waffenwartung Mod,,,,,,,,,,,
 modMeleeSpartanSledgeStamina,item_modifiers,mod,,,Spartan Sledge Stamina Mod,,Spartan Sledge Stamina Mod,,,,,,,,,,,
 modMeleeSpartanSledgeStaminaDesc,item_modifiers,mod,,,"The Spartan Sledge Stamina Mod decreases stamina use for sledge weapons by 15%.",,"Der Spartan Sledge Stamina Mod verringert den Ausdauerverbrauch für Schlittenwaffen um 15 %.",,,,,,,,,,,
