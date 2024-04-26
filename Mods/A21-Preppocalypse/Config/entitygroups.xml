@@ -709,6 +709,7 @@
 	</csv>
 	<csv xpath="/entitygroups/entitygroup[@name='VultureGroup']/text()" delim="\n" op="add" >
 		animalZombieMiniVulturePrepper, .25
+		animalZombieEagle, .1
 	</csv>
 	
 	<!-- *** POI_INDIVIDUAL_ENTITY_GROUPS -->
@@ -717,17 +718,20 @@
 	</csv>
 	<csv xpath="/entitygroups/entitygroup[@name='animalZombieVulture']/text()" delim="\n" op="add" >
 		animalZombieMiniVulturePrepper, .25
+		animalZombieEagle, .1
 	</csv>
 
 	<!-- *** BIOME_ENEMY_ANIMAL_DESERT_GROUP -->
 	<!-- NONE must not be the first entry since first name determines if enemy group -->
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']/text()" delim="\n" op="add" >
 		animalZombieMiniVulturePrepper, 5
+		animalZombieEagle, 5
 	</csv>
 	
 	<!-- *** SNOW ANIMALS -->	
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']/text()" delim="\n" op="add" >
 		animalWolf, 11
+		animalZombieEagle, 5
 	</csv>
 
 	<!-- *** BIOME_ANIMAL_WILD_GAME_FOREST_GROUP -->
@@ -757,6 +761,7 @@
 	<set xpath="/entitygroups/entitygroup[@name='EnemyAnimalsForest']">
 		animalSnake, 10
 		animalZombieMiniVulturePrepper, 5
+		animalZombieEagle, 3
 		animalWolf, 2
 		animalBear, 1
 		animalDireWolf, .05

@@ -280,7 +280,7 @@
 	
 	<recipe name="foodEggQuiche" count="1" craft_time="90" craft_area="campfire" craft_tool="toolCookingPot">
 	<ingredient name="foodEgg" count="3"/>
-	<ingredient name="foodCornMeal" count="5"/>
+	<ingredient name="foodWheatFlour" count="1"/>
 	<ingredient name="foodRawMeat" count="1"/>
 	<ingredient name="foodCropPotato" count="1"/>
 	<ingredient name="foodCropMushrooms" count="1"/>		
@@ -288,7 +288,9 @@
 	
 	<recipe name="foodEggSandwich" count="1" craft_time="60" craft_area="campfire" craft_tool="toolCookingPot">
 	<ingredient name="foodEggBoiled" count="2"/>
-	<ingredient name="foodPumpkinBread" count="1"/>	
+	<ingredient name="foodWheatFlour" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>	
 	</recipe>
 	
 	<recipe name="foodChickenStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
@@ -318,6 +320,10 @@
 	<ingredient name="foodAcornFlour" count="1"/>
 	<ingredient name="foodEgg" count="1"/>
 	<ingredient name="resourceWood" count="1"/>
+	</recipe>
+	
+	<recipe name="foodWheatFlour" count="1" craft_time="60">
+		<ingredient name="foodWildWheat" count="30"/>
 	</recipe>
 	
 	<!-- Oakraven Bee Hives -->
