@@ -181,6 +181,7 @@
 		<item name="foodFriedCatfish" count="2,4"/>
 		<item name="foodCatfishNuggetsOnRice" count="2,4"/>
 		<item name="foodMisoYakiOnigiri" count="2,4"/>
+		<item name="foodHoneyGlazedDonuts" count="2,4"/>
 	</append>
 	
 	<!-- *** twitch_foodT2 -->

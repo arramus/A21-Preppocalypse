@@ -365,6 +365,14 @@
 	<ingredient name="resourceAnimalFat" count="2"/>	
 	<ingredient name="foodShamSandwich" count="1"/>
 	</recipe>
+	
+	<recipe name="foodHoneyGlazedDonuts" count="1" craft_time="60" craft_area="campfire" craft_tool="toolCookingPot">
+	<ingredient name="foodHoneyComb" count="5"/>
+	<ingredient name="foodWheatFlour" count="1"/>
+	<ingredient name="foodEgg" count="1"/>
+	<ingredient name="resourceAnimalFat" count="2"/>	
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	</recipe>
 
 	<recipe name="drinkHoneyBeer" count="1" craft_area="campfire" craft_tool="toolCookingPot">
 	<ingredient name="resourceCropHopsFlower" count="4"/>

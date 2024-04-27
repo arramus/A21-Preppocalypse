@@ -265,6 +265,8 @@ foodHoneyPumpkinPie,items,Food,,,Honey Pumpkin Pie,,Honig-Kürbiskuchen,,,,,,,,,
 foodHoneyPumpkinPieDesc,items,Food,,,"A tasty treat with healing properties. Cures 5% infection.",,"Ein Leckerbissen mit heilenden Eigenschaften. Heilt 5% Infektion",,,,,,,,,,,
 foodBlueberryBreadPudding,items,Food,,,Blueberry Bread Pudding,,Blaubeerbrotpudding,,,,,,,,,,,
 foodBlueberryBreadPuddingDesc,items,Food,,,"A tasty treat with healing properties. Cures 5% infection.",,"Ein Leckerbissen mit heilenden Eigenschaften. Heilt 5% Infektion",,,,,,,,,,,
+foodHoneyGlazedDonuts,items,Food,,,Honey Glazed Donuts,,Mit Honig glasierte Donuts,,,,,,,,,,,
+foodHoneyGlazedDonutsDesc,items,Food,,,"Gets you buzzing. Cures 5% infection.",,"Bringt Sie in Schwung. Heilt 5% Infektion",,,,,,,,,,,
 drinkHoneyBeer,items,Food,,,Honey Beer,,Honigbier,,,,,,,,,,,
 drinkHoneyBeerDesc,items,Food,,,"Puts a spring in your step, power in your punch, and provides healing properties. Cures 5% infection.",,"Gibt dir Schwung, Kraft und heilende Eigenschaften. Heilt 5% Infektionen.",,,,,,,,,,,
 
