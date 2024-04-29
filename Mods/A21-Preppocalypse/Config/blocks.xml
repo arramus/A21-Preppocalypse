@@ -84,9 +84,13 @@
 	</append>
 <!-- Decorative Logs, Walls, Door, Ramps, and Supports -->
 	<set xpath="/blocks/block[@name='doorWoodLargeGate']/property[@name='MaxDamage']/@value">2500</set>
+	<append xpath="/blocks/block[@name='doorwoodlargegate']" >
+		<property name="EconomicValue" value="100"/>	
+	</append>
  	<append xpath="/blocks/block[@name='doorWoodLargeGate']/property[@name='Group']/@value">,Decor/Miscellaneous</append>
 	<append xpath="/blocks/block[@name='logWallLeft']">
 		<property name="MaxDamage" value="1500"/>
+		<property name="EconomicValue" value="100"/>
 		<property name="Group" value="Building,advBuilding,Decor/Miscellaneous"/>
 	</append>
 	<set xpath="/blocks/block[@name='chainlinkGateDoubleWide']/property[@name='MaxDamage']/@value">2500</set>
@@ -461,6 +465,7 @@
 	<property name="CustomIcon" value="woodcoop"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="Material" value="Mwood_weak"/>
+	<property name="EconomicValue" value="300"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/ChickenCoop.unity3d?ChickenShed1A"/>	
@@ -562,6 +567,7 @@
 	<property name="CustomIcon" value="chickencoop"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="Material" value="Mwood_weak"/>
+	<property name="EconomicValue" value="300"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/ChickenCoop.unity3d?OaksChickenCoop"/>	
@@ -680,6 +686,7 @@
 	<property name="CustomIcon" value="tincoop"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="Material" value="Mwood_weak"/>
+	<property name="EconomicValue" value="300"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/ChickenCoop.unity3d?Chicken_CoopA"/>	
@@ -768,6 +775,7 @@
 	<property name="CustomIcon" value="housecoop"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="Material" value="Mwood_weak"/>
+	<property name="EconomicValue" value="300"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/ChickenCoop.unity3d?AChickenHouse"/>	
@@ -857,6 +865,7 @@
 	<property name="CustomIcon" value="squarebeehive3Gold"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="Material" value="Mwood_weak"/>
+	<property name="EconomicValue" value="300"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/BeeHivesA20.unity3d?squareBeeHiveGold1"/>	
@@ -929,6 +938,7 @@
 	<property name="CustomIcon" value="beehive3gold"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="Material" value="Mwood_weak"/>
+	<property name="EconomicValue" value="300"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/BeeHivesA20.unity3d?OaksBeeHiveGOLD1"/>	
@@ -988,6 +998,7 @@
 	<property name="CustomIcon" value="beehivewood"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="Material" value="Mwood_weak"/>
+	<property name="EconomicValue" value="300"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/BeeHivesA20.unity3d?BeeHiveWood_A"/>	
