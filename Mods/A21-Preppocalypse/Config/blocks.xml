@@ -84,7 +84,7 @@
 	</append>
 <!-- Decorative Logs, Walls, Door, Ramps, and Supports -->
 	<set xpath="/blocks/block[@name='doorWoodLargeGate']/property[@name='MaxDamage']/@value">2500</set>
-	<append xpath="/blocks/block[@name='doorwoodlargegate']" >
+	<append xpath="/blocks/block[@name='doorWoodLargeGate']" >
 		<property name="EconomicValue" value="100"/>	
 	</append>
  	<append xpath="/blocks/block[@name='doorWoodLargeGate']/property[@name='Group']/@value">,Decor/Miscellaneous</append>
