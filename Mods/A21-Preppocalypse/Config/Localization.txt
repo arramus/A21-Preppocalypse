@@ -268,7 +268,7 @@ foodBlueberryBreadPuddingDesc,items,Food,,,"A tasty treat with healing propertie
 foodHoneyGlazedDonuts,items,Food,,,Honey Glazed Donuts,,Mit Honig glasierte Donuts,,,,,,,,,,,
 foodHoneyGlazedDonutsDesc,items,Food,,,"Gets you buzzing. Cures 5% infection.",,"Bringt Sie in Schwung. Heilt 5% Infektion",,,,,,,,,,,
 drinkHoneyBeer,items,Food,,,Honey Beer,,Honigbier,,,,,,,,,,,
-drinkHoneyBeerDesc,items,Food,,,"Puts a spring in your step, power in your punch, and provides healing properties. Cures 5% infection.",,"Gibt dir Schwung, Kraft und heilende Eigenschaften. Heilt 5% Infektionen.",,,,,,,,,,,
+drinkHoneyBeerDesc,items,Food,,,"Unleash your inner berserker to put power in your punch for longer, and cure 5% infection.",,"Entfessle deinen inneren Berserker, um deinem Schlag länger Kraft zu verleihen und 5 % der Infektion zu heilen.",,,,,,,,,,,
 
 foodFriedCatfish,items,Food,,,Fried Catfish,,Gebratener Wels,,,,,,,,,,,
 foodFriedCatfishDesc,items,Food,,,"Catch a Catfish in the Fish Trap. Make 2 meals from 1 fish.",,"Fange einen Wels in der Fischfalle. Mache 2 Mahlzeiten aus 1 Fisch.",,,,,,,,,,,
