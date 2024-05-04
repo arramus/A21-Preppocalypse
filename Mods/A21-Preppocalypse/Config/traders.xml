@@ -10,19 +10,6 @@
 	
 	<!-- *** Trader_Bob_Magazines -->
 	<set xpath="/traders/trader_item_groups/trader_item_group[@name='skillMagazinesTraderBob']/item[@name='vehiclesSkillMagazine']/@count">2,6</set>
-
-	<!-- farmingCookingRecipes A20 phased out -->
-	
-	<!--append xpath="/traders/trader_item_groups/trader_item_group[@name='farmingCookingRecipes']">
-		<item name="foodBaconAndEggsAndAcornBiscuitsSchematic"/>
-		<item name="foodPineConeJamGriddleCakesSchematic"/>
-		<item name="foodFriedCatfishSchematic"/>
-		<item name="foodCatfishNuggetsOnRiceSchematic"/>
-		<item name="foodMisoYakiOnigiriSchematic"/>
-		<item name="foodChickenStewSchematic"/>
-		<item name="foodMushroomRiceSchematic"/>
-		<item name="foodGritsAndBitsSchematic"/>		
-	</append-->
 	
 	<!-- *** Ammo -->
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='ammoAll']">
@@ -36,8 +23,7 @@
 			<item name="resourceCatfish" count="1"/>		
 	</append>
 	
-	<!-- *** Prepared_Food -->
-	
+	<!-- *** Prepared_Food -->	
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='preparedFood']">
 		<item name="foodBaconAndEggsAndAcornBiscuits" count="1,2"/>
 		<item name="foodPineConeJamGriddleCakes" count="1,2"/>
@@ -48,6 +34,11 @@
 		<item name="foodMushroomRice" count="1,2"/>
 		<item name="foodGritsAndBits" count="1,2"/>
 		<item name="foodBlueberryBreadPudding" count="1,2"/>		
+	</append>
+	
+	<!-- *** Canned_Food -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='cannedfood']">
+		<item name="foodNavezganeHDR"/>
 	</append>
 	
 	<!-- *** T1_Melee_Mods -->

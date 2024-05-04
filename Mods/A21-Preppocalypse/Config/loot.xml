@@ -99,7 +99,8 @@
 		<item name="resourceRepairKit" count="1,2"/>
 		<item name="thrownAmmoMolotovCocktail" count="2,4"/>
 		<item name="thrownAmmoPipeBomb" count="2,4"/>
-		<item name="medicalFirstAidBandage" count="1,2"/>		
+		<item name="medicalFirstAidBandage" count="1,2"/>
+		<item name="foodNavezganeHDR" count="1"/>		
 	</lootgroup>
 	</insertBefore>
 	
@@ -173,6 +174,11 @@
 		<item name="foodHoneyPumpkinPie"/>		
 		<item name="foodBlueberryBreadPudding"/>
 	</append>
+
+	<!-- *** Airdrop_Food -->	
+	<append xpath="/lootcontainers/lootgroup[@name='airdropfood']">
+		<item name="foodNavezganeHDR"/>
+	</append>
 	
 	<!-- *** twitch_foodT1 -->
 	<append xpath="/lootcontainers/lootgroup[@name='twitch_foodT1']">
@@ -191,6 +197,7 @@
 		<item name="foodGritsAndBits" count="2,4"/>
 		<item name="foodHoneyPumpkinPie" count="2,4"/>
 		<item name="foodBlueberryBreadPudding" count="2,4"/>
+		<item name="foodNavezganeHDR" count="2,4"/>
 	</append>
 	
 	<!-- *** twitch_foodT3 -->
@@ -200,6 +207,7 @@
 		<item name="foodGritsAndBits" count="2,4"/>
 		<item name="foodHoneyPumpkinPie" count="2,4"/>
 		<item name="foodBlueberryBreadPudding" count="2,4"/>
+		<item name="foodNavezganeHDR" count="2,4"/>
 	</append>
 	
 	<!-- *** twitch_drink -->
@@ -262,7 +270,7 @@
 	
 	<!-- Oakraven Fish Trap Loot -->
 	
-	<lootcontainer name="cntFishTrap" count="2,5" size="7,2" destroy_on_close="true" sound_open="bucketplace_water" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
+	<lootcontainer name="cntFishTrap" count="3,6" size="7,2" destroy_on_close="true" sound_open="bucketplace_water" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
 		<item name="resourceYuccaFibers" count="10,30" prob="0.3"/>
 		<item name="resourceCloth" count="2,6" prob="0.3"/>		
 		<item name="foodRottingFlesh" count="2,6" prob="0.3"/>
@@ -278,9 +286,8 @@
 		<item name="foodCanSalmon" count="1" prob="0.1"/>
 		<item name="foodCanPeas" count="1" prob="0.1"/>
 		<item name="foodCanStock" count="1" prob="0.1"/>		
-		<item name="apparelCowboyBoots" count="1" prob="0.05"/>
-		<item name="apparelWornBoots" count="1" prob="0.05"/>
-		<item name="apparelGothBoots" count="1" prob="0.05"/>		
+		<item name="foodNavezganeHDR" count="1" prob="0.05"/>
+		<item name="apparelWornBoots" count="1" prob="0.025"/>
 	</lootcontainer>
 	
 	<!-- Oakraven Chicken Coops -->
