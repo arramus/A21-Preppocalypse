@@ -396,10 +396,10 @@
 	<!-- Prepper Stockpile Part 4 -->
 	<!-- Fuel 1 -->
 	<quest id="quest_prepperstockpile16">
-		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 4. Mine for Oil Shale, and convert to Gas Cans and Drill Gas Cans on the Chemistry Station. Craft, place, and power up a Prepper Rock Drill to collect additional mining resources." />
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 4. Mine for Oil Shale, to craft Gas Cans and Drill Gas Cans on a Chemistry Station where necessary. Craft, place, and power up a Prepper Rock Drill to collect additional mining resources." />
 		<property name="name_key" value="Oil Shale"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 4"/>
-		<property name="description_key" value="Mine 2000 Oil Shale from the Desert Biome in preparation for converting to fuel."/>
+		<property name="description_key" value="Collect 2000 Oil Shale in preparation for converting to fuel. Mine in the desert, purchase, or loot."/>
 		<property name="icon" value="ui_game_symbol_gas"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="easy"/>
@@ -414,7 +414,7 @@
 	<!-- Prepper Stockpile Part 4 -->
 	<!-- Fuel 2 -->	
 	<quest id="quest_prepperstockpile17">
-		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 4. Mine for Oil Shale, and convert to Gas Cans and Drill Gas Cans on the Chemistry Station. Craft, place, and power up a Prepper Rock Drill to collect additional mining resources." />
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 4. Mine for Oil Shale, to craft Gas Cans and Drill Gas Cans on a Chemistry Station where necessary. Craft, place, and power up a Prepper Rock Drill to collect additional mining resources." />
 		<property name="name_key" value="Chemistry Table"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 4"/>
 		<property name="description_key" value="Unlock, procure, or be rewarded a Chemistry Station and place it for the next stage."/>
@@ -432,16 +432,16 @@
 	<!-- Prepper Stockpile Part 4 -->
 	<!-- Fuel 3 -->
 	<quest id="quest_prepperstockpile18">
-		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 4. Mine for Oil Shale, and convert to Gas Cans and Drill Gas Cans on the Chemistry Station. Craft, place, and power up a Prepper Rock Drill to collect additional mining resources." />
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 4. Mine for Oil Shale, to craft Gas Cans and Drill Gas Cans on a Chemistry Station where necessary. Craft, place, and power up a Prepper Rock Drill to collect additional mining resources." />
 		<property name="name_key" value="Gas"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 4"/>
-		<property name="description_key" value="Craft 8888 Gas Cans and 5 Drill Gas Cans from Shale Oil on the Chemistry Station. If you have already looted some Gas Cans, they will add to the total."/>
+		<property name="description_key" value="Craft, purchase, salvage, or loot 2800 Gas Cans and 5 Drill Gas Cans. The 2000 Oil Shale can be put to good use on the Chemistry Station, if required."/>
 		<property name="icon" value="ui_game_symbol_gas"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="easy"/>
 		<property name="shareable" value="false"/>
 
-		<objective type="FetchKeep" id="ammoGasCan" value="8888" phase="1"/>
+		<objective type="FetchKeep" id="ammoGasCan" value="2800" phase="1"/>
 		<objective type="FetchKeep" id="DrillGasCan" value="5" phase="1"/>
 
 		<reward type="Exp" value="1250"/>
@@ -451,7 +451,7 @@
 	<!-- Prepper Stockpile Part 4 -->
 	<!-- Fuel 4 -->
 	<quest id="quest_prepperstockpile19">
-		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 4. Mine for Oil Shale, and convert to Gas Cans and Drill Gas Cans on the Chemistry Station. Craft, place, and power up a Prepper Rock Drill to collect additional mining resources." />
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 4. Mine for Oil Shale, to craft Gas Cans and Drill Gas Cans on a Chemistry Station where necessary. Craft, place, and power up a Prepper Rock Drill to collect additional mining resources." />
 		<property name="name_key" value="Rock Drill"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 4"/>
 		<property name="description_key" value="Unlock and craft a Prepper Rock Drill on the Workbench and place it. Use a Drill Gas Can to power it."/>
@@ -469,10 +469,10 @@
 	<!-- Prepper Stockpile Part 4 -->
 	<!-- Fuel 5 -->
 	<quest id="quest_prepperstockpile20">
-		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 4. Mine for Oil Shale, and convert to Gas Cans and Drill Gas Cans on the Chemistry Station. Craft, place, and power up a Prepper Rock Drill to collect additional mining resources." />
+		<property name="offer_key" value="Accept this Quest to begin the Prepper Stockpile Challenge Part 4. Mine for Oil Shale, to craft Gas Cans and Drill Gas Cans on a Chemistry Station where necessary. Craft, place, and power up a Prepper Rock Drill to collect additional mining resources." />
 		<property name="name_key" value="Mining"/>
 		<property name="subtitle_key" value="Prepper Stockpile Part 4"/>
-		<property name="description_key" value="Drill for the requested resources. Receive XP, 2 Skill Points, and a Diamond Blade Tip Mod as a reward. Continue to Part 5."/>
+		<property name="description_key" value="Drill for the requested resources, where appropriate. Receive XP, 2 Skill Points, and a Diamond Blade Tip Mod as a reward. Continue to Part 5."/>
 		<property name="icon" value="ui_game_symbol_gas"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="easy"/>
