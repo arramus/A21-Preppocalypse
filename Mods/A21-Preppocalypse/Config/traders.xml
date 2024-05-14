@@ -16,8 +16,7 @@
 		<item name="ammoRocketFire" count="1,4"/>		
 	</append>
 	
-	<!-- *** Raw_Ingredients -->
-	
+	<!-- *** Raw_Ingredients -->	
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='foodSupplies']">
 			<item name="GrownChicken" count="1"/>
 			<item name="resourceCatfish" count="1"/>		
@@ -33,7 +32,8 @@
 		<item name="foodChickenStew" count="1,2"/>
 		<item name="foodMushroomRice" count="1,2"/>
 		<item name="foodGritsAndBits" count="1,2"/>
-		<item name="foodBlueberryBreadPudding" count="1,2"/>		
+		<item name="foodBlueberryBreadPudding" count="1,2"/>
+		<item name="foodSuperMeatStew" count="1,2"/>
 	</append>
 	
 	<!-- *** Canned_Food -->

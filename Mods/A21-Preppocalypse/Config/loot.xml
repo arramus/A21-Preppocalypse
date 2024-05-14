@@ -173,6 +173,7 @@
 		<item name="foodGritsAndBits"/>
 		<item name="foodHoneyPumpkinPie"/>		
 		<item name="foodBlueberryBreadPudding"/>
+		<item name="foodSuperMeatStew"/>
 	</append>
 
 	<!-- *** Airdrop_Food -->	
@@ -198,6 +199,7 @@
 		<item name="foodHoneyPumpkinPie" count="2,4"/>
 		<item name="foodBlueberryBreadPudding" count="2,4"/>
 		<item name="foodNavezganeHDR" count="2,4"/>
+		<item name="foodSuperMeatStew" count="2,4"/>
 	</append>
 	
 	<!-- *** twitch_foodT3 -->
@@ -208,6 +210,7 @@
 		<item name="foodHoneyPumpkinPie" count="2,4"/>
 		<item name="foodBlueberryBreadPudding" count="2,4"/>
 		<item name="foodNavezganeHDR" count="2,4"/>
+		<item name="foodSuperMeatStew" count="2,4"/>
 	</append>
 	
 	<!-- *** twitch_drink -->

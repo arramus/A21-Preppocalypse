@@ -263,6 +263,17 @@
 		<ingredient name="drinkJarBoneBroth" count="1"/>
 	</recipe>
 	
+	<recipe name="foodSuperMeatStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+		<ingredient name="foodRawMeat" count="5"/>
+		<ingredient name="foodCropPotato" count="2"/>
+		<ingredient name="foodCropGraceCorn" count="2"/>
+		<ingredient name="resourceAnimalFat" count="1"/>
+		<ingredient name="drinkJarBoiledWater" count="1"/>
+		<effect_group>
+			<passive_effect name="CraftingIngredientCount" level="1,3" operation="base_add" value="-1,-2" tags="foodRawMeat"/>
+		</effect_group>
+	</recipe>
+	
 	<recipe name="drinkJarBoneBroth" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
 		<ingredient name="resourceBone" count="4"/>
 		<ingredient name="drinkJarBoiledWater" count="1"/>
