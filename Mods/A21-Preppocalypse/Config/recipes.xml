@@ -431,6 +431,14 @@
 		<ingredient name="foodEgg" count="2"/>	
 	</recipe>
 	
+	<recipe name="foodCrawfishBoil" count="1" craft_time="36" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+		<ingredient name="resourceCrawfish" count="30"/>
+		<ingredient name="foodCropPotato" count="2"/>
+		<ingredient name="foodCropCorn" count="2"/>
+		<ingredient name="foodCropMushrooms" count="3"/>
+	    <ingredient name="foodCanStock" count="2"/>
+	</recipe>
+	
 	<recipe name="cntFishTrapWaterCollector" count="1" tags="workbenchCrafting">
 		<ingredient name="resourceWaterFilter" count="1"/>
 		<ingredient name="resourceScrapPolymers" count="100"/>

@@ -703,7 +703,7 @@
 </item>
 
 <item name="foodEggQuiche">
-	<property name="Tags" value="food"/>
+	<property name="Tags" value="food,foodSkill"/>
 	<property name="HoldType" value="31"/>
 	<property name="DisplayType" value="food"/>
 	<property name="CustomIcon" value="eggquiche"/>
@@ -732,7 +732,7 @@
 </item>
 
 <item name="foodEggSandwich">
-	<property name="Tags" value="food"/>
+	<property name="Tags" value="food,foodSkill"/>
 	<property name="HoldType" value="31"/>
 	<property name="DisplayType" value="food"/>
 	<property name="CustomIcon" value="eggsandwich"/>
@@ -761,7 +761,7 @@
 </item>
 
 <item name="foodChickenStew">
-	<property name="Tags" value="food"/>
+	<property name="Tags" value="food,foodSkill"/>
 	<property name="HoldType" value="31"/>
 	<property name="DisplayType" value="foodWater"/>
 	<property name="CustomIcon" value="foodChickenStew"/>
@@ -791,7 +791,7 @@
 </item>
 
 <item name="foodMushroomRice">
-	<property name="Tags" value="food"/>
+	<property name="Tags" value="food,foodSkill"/>
 	<property name="HoldType" value="31"/>
 	<property name="DisplayType" value="foodWater"/>
 	<property name="CustomIcon" value="foodMushroomRice"/>
@@ -1245,8 +1245,23 @@
 	<property name="CraftingIngredientTime" value=".2"/>
 </item>
 
+<item name="resourceCrawfish"> <!-- scrap material -->
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<!--<property name="HoldType" value="2"/>
+	<property name="Meshfile" value="#Other/Items?Crafting/femur.fbx"/>-->
+	<property name="Material" value="MresourceBone"/>
+	<property name="Weight" value="1"/>
+	<property name="Stacknumber" value="1000"/> <!-- STK resource -->
+	<property name="EconomicValue" value="60"/>
+	<property name="SellableToTrader" value="true"/>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+	<property name="CraftingIngredientTime" value=".1"/>
+</item>
+
 <item name="foodFriedCatfish">
-	<property name="Tags" value="food"/>
+	<property name="Tags" value="food,foodSkill"/>
 	<property name="HoldType" value="31"/>
 	<property name="DisplayType" value="food"/>
 	<property name="Meshfile" value="@:Other/Items/Misc/parcelPrefab.prefab"/>
@@ -1275,7 +1290,7 @@
 </item>
 
 <item name="foodCatfishNuggetsOnRice">
-	<property name="Tags" value="food"/>
+	<property name="Tags" value="food,foodSkill"/>
 	<property name="HoldType" value="31"/>
 	<property name="DisplayType" value="food"/>
 	<property name="Meshfile" value="@:Other/Items/Misc/parcelPrefab.prefab"/>
@@ -1299,6 +1314,33 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="50"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="25"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+
+<item name="foodCrawfishBoil">
+	<property name="Tags" value="food,foodSkill"/>
+	<property name="HoldType" value="31"/>
+	<property name="DisplayType" value="foodWater"/>
+	<property name="Meshfile" value="@:Other/Items/Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="250"/> <!-- STK food -->
+	<property name="EconomicValue" value="140"/>
+	<property name="UnlockedBy" value="craftingFood"/><!-- perkMasterChef,foodHoboStewSchematic, -->
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Sound_start" value="player_drinking"/>
+		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+	</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+	<effect_group tiered="false" name="Food Tier 3">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="70"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="32"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="25"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="30"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
 	</effect_group>
 </item>
