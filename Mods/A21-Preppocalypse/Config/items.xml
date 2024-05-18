@@ -1254,7 +1254,8 @@
 	<property name="Material" value="MresourceBone"/>
 	<property name="Weight" value="1"/>
 	<property name="Stacknumber" value="1000"/> <!-- STK resource -->
-	<property name="EconomicValue" value="60"/>
+	<property name="EconomicValue" value="6"/>
+	<property name="EconomicBundleSize" value="10"/>
 	<property name="SellableToTrader" value="true"/>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<property name="CraftingIngredientTime" value=".1"/>
