@@ -48,23 +48,24 @@
 		<property name="maxdensity" value="120"/>
 	</streettile>
 	
-	<prefab_spawn_adjust partial_name="carlot_02_prepper" min_count="5" max_count="10" bias="5"/>
-	<prefab_spawn_adjust partial_name="evildeadcabin01_prepper" min_count="8" max_count="12" bias="5"/>
+	<prefab_spawn_adjust partial_name="carlot_02_prepper" min_count="5" max_count="10" bias="4"/>
+	<prefab_spawn_adjust partial_name="evildeadcabin01_prepper" min_count="8" max_count="12" bias="4"/>
 	<prefab_spawn_adjust partial_name="prepper_bunker80_01" min_count="8" max_count="12" bias="5"/>
-	<prefab_spawn_adjust partial_name="prepper_countryresidentialbunker01" min_count="5" max_count="10" bias="5"/>
-	<prefab_spawn_adjust partial_name="prepper_Floppy_Games_Workshop_Medusa" min_count="5" max_count="10" bias="5"/>
-	<prefab_spawn_adjust partial_name="prepper_mine80_01" min_count="8" max_count="12" bias="5"/>
-	<prefab_spawn_adjust partial_name="prepper_preppo_bunker42_01" min_count="5" max_count="10" bias="5"/>
-	<prefab_spawn_adjust partial_name="prepper_stonecave_01_arramus" min_count="5" max_count="10" bias="5"/>
-	<prefab_spawn_adjust partial_name="prepper_wildernesscabin01" min_count="8" max_count="12" bias="5"/>
-	<prefab_spawn_adjust partial_name="preppo_gas_station_09" min_count="5" max_count="10" bias="5"/>	
-	<prefab_spawn_adjust partial_name="preppo_gas_station_10" min_count="5" max_count="10" bias="5"/>
-	<prefab_spawn_adjust partial_name="preppo_skyscraper_04" min_count="5" max_count="10" bias="5"/>
-	<prefab_spawn_adjust partial_name="preppo_TheCompound" min_count="8" max_count="12" bias="5"/>
-	<prefab_spawn_adjust partial_name="preppo_store_hardware_02" min_count="5" max_count="10" bias="5"/>
-	<prefab_spawn_adjust partial_name="store_book_01_prepper" min_count="5" max_count="10" bias="5"/>
-	<prefab_spawn_adjust partial_name="store_clothing_02_prepper" min_count="5" max_count="10" bias="5"/>	
-	<prefab_spawn_adjust partial_name="store_clothing_02_prepper" min_count="5" max_count="10" bias="5"/>
+	<prefab_spawn_adjust partial_name="prepper_countryresidentialbunker01" min_count="5" max_count="10" bias="4"/>
+	<prefab_spawn_adjust partial_name="prepper_Floppy_Games_Workshop_Medusa" min_count="5" max_count="10" bias="4"/>
+	<prefab_spawn_adjust partial_name="prepper_mine80_01" min_count="8" max_count="12" bias="4"/>
+	<prefab_spawn_adjust partial_name="prepper_preppo_bunker42_01" min_count="5" max_count="10" bias="4"/>
+	<prefab_spawn_adjust partial_name="prepper_stonecave_01_arramus" min_count="5" max_count="10" bias="4"/>
+	<prefab_spawn_adjust partial_name="prepper_wildernesscabin01" min_count="8" max_count="12" bias="4"/>
+	<prefab_spawn_adjust partial_name="preppo_gas_station_09" min_count="5" max_count="10" bias="4"/>	
+	<prefab_spawn_adjust partial_name="preppo_gas_station_10" min_count="5" max_count="10" bias="4"/>
+	<prefab_spawn_adjust partial_name="preppo_remnant_gas_station_01" min_count="5" max_count="10" bias="4"/>
+	<prefab_spawn_adjust partial_name="preppo_skyscraper_04" min_count="5" max_count="10" bias="4"/>
+	<prefab_spawn_adjust partial_name="preppo_store_hardware_02" min_count="5" max_count="10" bias="4"/>
+	<prefab_spawn_adjust partial_name="preppo_TheCompound" min_count="8" max_count="12" bias="4"/>
+	<prefab_spawn_adjust partial_name="store_book_01_prepper" min_count="5" max_count="10" bias="4"/>
+	<prefab_spawn_adjust partial_name="store_clothing_02_prepper" min_count="5" max_count="10" bias="4"/>	
+	<prefab_spawn_adjust partial_name="store_clothing_02_prepper" min_count="5" max_count="10" bias="4"/>
 	<prefab_spawn_adjust partial_name="trader_jen_hugh_joel_tech" min_count="3" bias="15"/>
 
 	</append>
