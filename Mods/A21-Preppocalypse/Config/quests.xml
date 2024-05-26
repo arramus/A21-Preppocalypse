@@ -592,7 +592,7 @@
 
 		<objective type="FetchKeep" id="drugVitamins" value="5" phase="1"/>
 		<objective type="FetchKeep" id="medicalFirstAidKit" value="4" phase="1"/>
-		<objective type="FetchKeep" id="drinkJarPureMineralWater" value="3" phase="1"/>
+		<objective type="FetchKeep" id="drugHerbalAntibiotics" value="3" phase="1"/>
 		<objective type="FetchKeep" id="medicalPlasterCast" value="2" phase="1"/>
 		<objective type="FetchKeep" id="drugHealthBar" value="1" phase="1"/>
 		
