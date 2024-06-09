@@ -48,6 +48,12 @@
 	<item name="modVehicleReserveFuelTankSchematic"/>
 	</append>
 	
+	<!-- *** Car_Loot -->	
+	<append xpath="/lootcontainers/lootgroup[@name='groupCars02']">
+	<item group="vehicleMods" loot_prob_template="veryLow"/>
+	<item group="vehicleModSchematics" loot_prob_template="veryLow"/>
+	</append>
+	
 	<!-- *** Vehicle_Parts_Scaled but bringing in mid/late range vehicle parts earlier and keeping them later to remove scripted drops as with vehicle mod schematics -->	
 	<append xpath="/lootcontainers/lootgroup[@name='vehiclePartsTiered']">
 	<item group="minibikeParts"  loot_prob_template="ProbT0"/> <!-- Default ProbT1Cap -->
@@ -171,6 +177,7 @@
 	<append xpath="/lootcontainers/lootgroup[@name='groupFoodRare']">
 		<item name="foodChickenStew"/>
 		<item name="foodMushroomRice"/>
+		<item name="foodPrepperPotPie"/>
 		<item name="foodGritsAndBits"/>
 		<item name="foodHoneyPumpkinPie"/>		
 		<item name="foodBlueberryBreadPudding"/>
@@ -196,6 +203,7 @@
 	<append xpath="/lootcontainers/lootgroup[@name='twitch_foodT2']">
 		<item name="foodChickenStew" count="2,4"/>
 		<item name="foodMushroomRice" count="2,4"/>
+		<item name="foodPrepperPotPie" count="2,4"/>
 		<item name="foodGritsAndBits" count="2,4"/>
 		<item name="foodHoneyPumpkinPie" count="2,4"/>
 		<item name="foodBlueberryBreadPudding" count="2,4"/>
@@ -207,6 +215,7 @@
 	<append xpath="/lootcontainers/lootgroup[@name='twitch_foodT3']">
 		<item name="foodChickenStew" count="2,4"/>
 		<item name="foodMushroomRice" count="2,4"/>
+		<item name="foodPrepperPotPie" count="2,4"/>
 		<item name="foodGritsAndBits" count="2,4"/>
 		<item name="foodHoneyPumpkinPie" count="2,4"/>
 		<item name="foodBlueberryBreadPudding" count="2,4"/>
