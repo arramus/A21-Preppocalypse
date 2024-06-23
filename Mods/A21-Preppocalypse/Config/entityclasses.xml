@@ -1201,6 +1201,8 @@
 	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="20"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="50"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="10"/>
+	<drop event="Harvest" name="foodCropGraceCorn" tag="butcherHarvest" count="2,3"/>
+	<drop event="Harvest" name="plantedGraceCorn1" tag="butcherHarvest" count="1" prob="0.25" />
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" count="5,10" tag="butcherHarvest"/>
 	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
