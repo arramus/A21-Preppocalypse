@@ -366,7 +366,7 @@
 	<ingredient name="resourceWood" count="1"/>
 	</recipe>
 	
-	<recipe name="foodWheatFlour" count="1" craft_time="60">
+	<recipe name="foodWheatFlour" count="1" craft_time="30">
 		<ingredient name="foodWildWheat" count="30"/>
 	</recipe>
 	
@@ -434,7 +434,7 @@
 		<ingredient name="unit_clay" count="3"/>
 	</recipe>
 
-	<recipe name="FishTrapEmpty" count="1" craft_time="180" craft_area="workbench" tags="workbenchCrafting">
+	<recipe name="FishTrapEmpty" count="1" craft_time="120" craft_area="workbench" tags="workbenchCrafting">
 		<ingredient name="resourceWood" count="100"/>
 		<ingredient name="resourceRockSmall" count="5"/>
 		<ingredient name="resourceScrapIron" count="25"/>
@@ -505,7 +505,7 @@
 	
 	<!-- Oakraven Rock Drill -->
 	
-	<recipe name="DrillGasCan" count="1" craft_area="chemistryStation">
+	<recipe name="DrillGasCan" count="1" craft_time="60" craft_area="chemistryStation">
 		<ingredient name="resourceOilShale" count="120"/>
 	</recipe>
 
